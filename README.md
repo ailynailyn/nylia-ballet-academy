@@ -1,3 +1,20 @@
+# Notes
+
+## Tutorial to create AWS front end app.
+
+https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/module-two/?e=gs2020&p=build-a-react-app-one
+Stopped at initialize Amplify App for Backend portion. Site will be front end.
+
+## Dependencies
+
+### Add react router
+
+npm install --save react-router-dom
+
+### Bootstrap
+
+npm install --save react-bootstrap bootstrap
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
