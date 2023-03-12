@@ -1,0 +1,32 @@
+.navbar-container {
+  width: 100%;
+
+  height: 14vh;
+  min-height: 150px;
+}
+
+.navbar > .container-fluid {
+  justify-content: start;
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#nylia-navbar {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-brand {
+  height: 100%;
+  /* width: 100%; */
+}
+
+.offcanvas.offcanvas-start {
+  width: 35%;
+  min-width: 480px;
+}
