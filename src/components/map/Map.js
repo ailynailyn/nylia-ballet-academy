@@ -1,0 +1,39 @@
+import React from "react";
+import GoogleMapReact from "google-map-react";
+import { Icon } from "@iconify/react";
+import "./Map.css";
+
+const LocationPin = ({ text }) => (
+  <div className="pin">
+    <Icon
+      icon="mdi:map-marker-outline"
+      color="#7daa8e"
+      width="7rem"
+      height="7rem"
+      className="pin-icon"
+    />
+    <p className="pin-text">{text}</p>
+  </div>
+);
+
+const Map = ({ location, zoomLevel }) => (
+  <div className="map">
+    <h2 className="map-h2">Come Try a Class Today!</h2>
+
+    <div className="google-map">
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: "AIzaSyAyFwcxJZdAJ7TzHT2ubTQs4v4y-_53wn0" }}
+        defaultCenter={location}
+        defaultZoom={zoomLevel}
+      >
+        <LocationPin
+          lat={location.lat}
+          lng={location.lng}
+          text={location.address}
+        />
+      </GoogleMapReact>
+    </div>
+  </div>
+);
+
+export default Map;

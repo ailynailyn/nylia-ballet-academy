@@ -1,11 +1,21 @@
 import { React } from "react";
 import { ReactSmartScroller } from "react-smart-scroller";
 import { VerticalGallery } from "./VerticalGallery.js";
+import Map from "./map/Map.js";
 import tempImg from "../assets/temp-contact.jpg";
 import logo from "../assets/nylia-logo.png";
+import ContactForm from "./contact/ContactForm.js";
+import { SocialIcon } from "react-social-icons";
+
 import "./Contact.css";
 
 function Contact() {
+  const location = {
+    address: "13350 Soleen, El Paso, Texas, 79938.",
+    lat: 31.823562,
+    lng: -106.223031,
+  };
+
   const renderImages = () => {
     const images = [tempImg, logo, tempImg, logo];
 
@@ -28,7 +38,38 @@ function Contact() {
         <div id="contact-gallery">{renderImages()}</div>
       </div>
       <div className="contact-info">
-        <p>HELLO AILYN info</p>
+        <div className="contact-message">
+          <div className="contact-title">
+            <h1>CONTACT</h1>
+          </div>
+          <div className="form-container">
+            <ContactForm></ContactForm>
+          </div>
+        </div>
+        <div className="contact-map">
+          <Map location={location} zoomLevel={17} /> {/* include it here */}
+        </div>
+        <div className="contact-address">
+          <h2>SCHOOL ADDRESS</h2>
+          <p>
+            13350 Soleen Rd.
+            <br></br>
+            El Paso, Texas 79938
+            <br></br>
+            (915) 555 - 555
+            <br></br>
+            info@nyliaballetacademy.com
+          </p>
+          <SocialIcon
+            url="https://www.facebook.com/people/Nylia-Ballet-Academy/100090503081625/"
+            network="facebook"
+            style={{ marginRight: "1rem" }}
+          />
+          <SocialIcon
+            url="https://www.instagram.com/nyliaballetacademy/"
+            network="instagram"
+          />
+        </div>
       </div>
     </div>
   );

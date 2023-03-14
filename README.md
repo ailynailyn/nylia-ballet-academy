@@ -7,17 +7,14 @@ Stopped at initialize Amplify App for Backend portion. Site will be front end.
 
 ## Dependencies
 
-### Add react router
-
-npm install --save react-router-dom
-
-### Bootstrap
-
-npm install --save react-bootstrap bootstrap
-
-### react-smart-scroller
-
-npm install --save react-smart-scroller
+npm i --save react-router-dom
+npm i --save react-bootstrap bootstrap
+npm i --save react-smart-scroller
+npm i --save google-map-react
+npm i --save @iconify/react
+npm i --save emailjs-com semantic-ui-react semantic-ui-css sweetalert2
+npm i --save react-toastify react-hook-form
+npm i --save react-social-icons
 
 ### Google fonts
 
