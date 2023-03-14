@@ -15,6 +15,16 @@ npm install --save react-router-dom
 
 npm install --save react-bootstrap bootstrap
 
+### react-smart-scroller
+
+npm install --save react-smart-scroller
+
+### Google fonts
+
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Michroma', sans-serif;
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

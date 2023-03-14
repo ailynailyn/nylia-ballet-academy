@@ -37,20 +37,18 @@ function NavBar() {
                 className="justify-content-end flex-grow-1 pe-3"
                 style={{ height: "100%" }}
               >
-                <Nav.Link href="/team">Team</Nav.Link>
-                <Nav.Link href="/schedule">Schedule</Nav.Link>
-                <NavDropdown
-                  title="Enroll"
-                  id={`offcanvasNavbarDropdown-expand-${expand}`}
-                >
-                  <NavDropdown.Item href="/enroll">Enroll</NavDropdown.Item>
-                  <NavDropdown.Item href="/tuition">Tuition</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    Something else here
-                  </NavDropdown.Item>
-                </NavDropdown>
-                <Nav.Link href="/contact">Contact</Nav.Link>
+                <Nav.Link href="/team" style={{ height: "20%" }}>
+                  THE TEAM
+                </Nav.Link>
+                <Nav.Link href="/schedule" style={{ height: "20%" }}>
+                  SCHEDULE
+                </Nav.Link>
+                <Nav.Link href="/enroll" style={{ height: "20%" }}>
+                  ENROLL
+                </Nav.Link>
+                <Nav.Link href="/contact" style={{ height: "40%" }}>
+                  CONTACT
+                </Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

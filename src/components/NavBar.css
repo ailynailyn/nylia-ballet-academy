@@ -1,8 +1,9 @@
 .navbar-container {
   width: 100%;
-
   height: 14vh;
   min-height: 150px;
+  position: fixed;
+  z-index: 5;
 }
 
 .navbar > .container-fluid {
@@ -26,7 +27,21 @@ img {
   /* width: 100%; */
 }
 
+.offcanvas-header {
+  margin-right: 1.5rem;
+}
+
 .offcanvas.offcanvas-start {
   width: 35%;
   min-width: 480px;
+  border-right: 1rem;
+  border-right-color: #7daa8e;
+  border-style: solid;
+}
+
+.nav-link {
+  font-size: 2.7rem;
+  font-family: "Michroma", sans-serif;
+  padding-left: 3.5rem;
+  letter-spacing: 0.3rem;
 }
