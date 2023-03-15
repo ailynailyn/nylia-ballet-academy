@@ -63,11 +63,15 @@ function Contact() {
           <SocialIcon
             url="https://www.facebook.com/people/Nylia-Ballet-Academy/100090503081625/"
             network="facebook"
+            bgColor="#7D83AA"
+            fgColor="white"
             style={{ marginRight: "1rem" }}
           />
           <SocialIcon
             url="https://www.instagram.com/nyliaballetacademy/"
             network="instagram"
+            bgColor="#7DAAA4"
+            fgColor="white"
           />
         </div>
       </div>
