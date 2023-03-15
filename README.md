@@ -9,7 +9,6 @@ Stopped at initialize Amplify App for Backend portion. Site will be front end.
 
 npm i --save react-router-dom
 npm i --save react-bootstrap bootstrap
-npm i --save react-smart-scroller
 npm i --save google-map-react
 npm i --save @iconify/react
 npm i --save emailjs-com semantic-ui-react semantic-ui-css sweetalert2

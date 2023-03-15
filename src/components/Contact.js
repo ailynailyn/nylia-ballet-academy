@@ -1,6 +1,4 @@
 import { React } from "react";
-import { ReactSmartScroller } from "react-smart-scroller";
-import { VerticalGallery } from "./VerticalGallery.js";
 import Map from "./map/Map.js";
 import tempImg from "../assets/temp-contact.jpg";
 import logo from "../assets/nylia-logo.png";
