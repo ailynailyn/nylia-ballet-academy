@@ -43,3 +43,8 @@
 .errorMessage {
   color: red;
 }
+
+.nyliabutton-container {
+  position: relative;
+  z-index: 6;
+}

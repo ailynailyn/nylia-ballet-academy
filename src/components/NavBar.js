@@ -12,6 +12,8 @@ import "./NavBar.css";
 import logo from "../assets/nylia-logo.png";
 import logoShort from "../assets/nylia-logo-short.png";
 
+// TODO AILYN: Navbar exit button https://codepen.io/ilkeryilmaz/pen/obEMNo
+
 function NavBar() {
   var expand = false;
   return (

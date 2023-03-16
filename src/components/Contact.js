@@ -3,6 +3,7 @@ import Map from "./map/Map.js";
 import tempImg from "../assets/temp-contact.jpg";
 import logo from "../assets/nylia-logo.png";
 import ContactForm from "./contact/ContactForm.js";
+import NyliaButton from "./nyliaButton/NyliaButton.js";
 import { SocialIcon } from "react-social-icons";
 
 import "./Contact.css";

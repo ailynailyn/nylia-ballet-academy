@@ -2,6 +2,8 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
+import NyliaButton from "../nyliaButton/NyliaButton.js";
+
 import "react-toastify/dist/ReactToastify.min.css";
 
 import "./ContactForm.css";
@@ -138,9 +140,16 @@ function ContactForm() {
                     )}
                   </div>
                 </div>
-                <button className="submit-btn" type="submit">
+                {/* TODO SUBMIT BUTTON https://speckyboy.com/curtain-effect-web-design/ */}
+                {/* <button className="submit-btn" type="submit">
                   Submit
-                </button>
+                </button> */}
+                <NyliaButton
+                  // className="submit-btn"
+                  // type="submit"
+                  label={"Send"}
+                  handleClick={handleSubmit(onSubmit)}
+                ></NyliaButton>
               </form>
             </div>
             <ToastContainer />
