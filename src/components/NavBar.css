@@ -1,6 +1,6 @@
 .navbar-container {
   width: 35%;
-  height: 14vh;
+  height: 16vh;
   min-height: 150px;
   position: fixed;
   z-index: 5;
@@ -10,6 +10,15 @@
   justify-content: start;
   height: 100%;
   width: 100%;
+}
+
+#nylia-navbar,
+img {
+  height: 100%;
+  width: auto;
+}
+.nylia-logo {
+  aspect-ratio: 1 / 1;
 }
 
 img {

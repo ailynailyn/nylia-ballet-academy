@@ -31,7 +31,7 @@ function NavBar() {
       <Navbar key={expand} expand={expand} className="mb-3" id="nylia-navbar">
         <Container fluid>
           <Navbar.Brand href="/">
-            <img src={logoShort}></img>
+            <img className="nylia-logo" src={logo}></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
@@ -41,7 +41,12 @@ function NavBar() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img src={logo}></img>
+                <img
+                  className="nylia-logo"
+                  src={logo}
+                  width="400px"
+                  height="400px"
+                ></img>
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
