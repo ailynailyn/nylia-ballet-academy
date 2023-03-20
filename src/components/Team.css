@@ -1,0 +1,71 @@
+.team-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 5%;
+  display: inline-flex;
+}
+
+.left-content {
+  height: 100%;
+  width: 33.33%;
+  display: inline-block;
+  position: relative;
+}
+
+.left-member {
+  align-content: flex-start;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 2rem;
+}
+
+.left-member img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.middle {
+  height: 100%;
+  width: 33.33%;
+  display: inline-block;
+  background-image: url("../assets/temp-contact-middle.jpeg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+}
+
+#team-label {
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.right-content {
+  height: 100%;
+  width: 33.33%;
+  display: inline-block;
+  position: relative;
+}
+
+.right-member {
+  align-content: flex-end;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  padding-left: 2rem;
+}
+
+.right-member img {
+  max-width: 300px;
+  max-height: 300px;
+}
