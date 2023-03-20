@@ -46,7 +46,7 @@ img {
   letter-spacing: 0.3rem;
 }
 
-.nyliabutton-container {
+.nav-link .nyliabutton-container {
   position: relative;
   z-index: 6;
   --def: #96b7c4;
