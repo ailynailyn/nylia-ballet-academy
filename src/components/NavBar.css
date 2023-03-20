@@ -45,3 +45,10 @@ img {
   padding-left: 3.5rem;
   letter-spacing: 0.3rem;
 }
+
+.nyliabutton-container {
+  position: relative;
+  z-index: 6;
+  --def: #96b7c4;
+  --inv: black;
+}

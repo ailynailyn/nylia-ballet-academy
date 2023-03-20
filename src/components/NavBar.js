@@ -1,4 +1,6 @@
 import { React } from "react";
+import { useNavigate } from "react-router-dom";
+
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
@@ -6,16 +8,24 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import NyliaButton from "./nyliaButton/NyliaButton";
 
 import "./NavBar.css";
 
-import logo from "../assets/nylia-logo.png";
-import logoShort from "../assets/nylia-logo-short.png";
+import logo from "../assets/NYLIA.png";
+import logoShort from "../assets/NYLIA.png";
 
 // TODO AILYN: Navbar exit button https://codepen.io/ilkeryilmaz/pen/obEMNo
 
 function NavBar() {
+  let navigate = useNavigate();
+  const routeChange = (path) => {
+    // let path = newPath;
+    navigate(path);
+  };
+
   var expand = false;
+
   return (
     <div class="navbar-container">
       <Navbar key={expand} expand={expand} className="mb-3" id="nylia-navbar">
@@ -39,17 +49,17 @@ function NavBar() {
                 className="justify-content-end flex-grow-1 pe-3"
                 style={{ height: "100%" }}
               >
-                <Nav.Link href="/team" style={{ height: "20%" }}>
-                  THE TEAM
+                <Nav.Link href="/team" style={{ height: "25%" }}>
+                  <NyliaButton label={"THE TEAM"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/classes" style={{ height: "20%" }}>
-                  CLASSES
+                <Nav.Link href="/classes" style={{ height: "25%" }}>
+                  <NyliaButton label={"CLASSES"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/enroll" style={{ height: "20%" }}>
-                  ENROLL
+                <Nav.Link href="/enroll" style={{ height: "25%" }}>
+                  <NyliaButton label={"ENROLL"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/contact" style={{ height: "40%" }}>
-                  CONTACT
+                <Nav.Link href="/contact" style={{ height: "25%" }}>
+                  <NyliaButton label={"CONTACT"}></NyliaButton>
                 </Nav.Link>
               </Nav>
             </Offcanvas.Body>

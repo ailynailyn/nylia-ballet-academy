@@ -63,8 +63,45 @@
 .class-schedule {
   width: 40%;
 }
+
+#cur-class-sched1 {
+  font-weight: 900;
+  font-family: "Michroma", serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+#cur-class-sched2 {
+  /* font-weight: 700; */
+  /* font-family: "Michroma", serif; */
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+#cur-class-sched3 {
+  font-weight: 900;
+  font-family: "Michroma", serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+#cur-class-sched4 {
+  /* font-weight: 700; */
+  /* font-family: "Alegreya Sans SC", serif; */
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+#cur-class-rgstr {
+  font-style: oblique;
+}
+
 .class-description {
   width: 50%;
+}
+
+.class-schedule-button {
+  color: black;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -189,28 +226,28 @@
 
 @media only screen and (min-width: 1920px) {
   .class-spacer {
-    height: 16%;
+    height: 17%;
   }
 
   .class-image {
-    height: 68%;
+    height: 66%;
   }
 
   .class-info {
-    height: 16%;
+    height: 17%;
   }
 }
 
 @media only screen and (min-width: 2050px) {
   .class-spacer {
-    height: 15%;
+    height: 14%;
   }
 
   .class-image {
-    height: 70%;
+    height: 72%;
   }
 
   .class-info {
-    height: 15%;
+    height: 14%;
   }
 }
