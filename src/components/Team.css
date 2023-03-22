@@ -5,6 +5,18 @@
   display: inline-flex;
 }
 
+.team-container h1 {
+  font-size: 1.6em;
+}
+
+.team-container h2 {
+  font-size: 1.2em;
+}
+
+.team-container p {
+  font-size: 1.2em;
+}
+
 .left-content {
   height: 100%;
   width: 33.33%;
@@ -14,7 +26,7 @@
 
 .left-member {
   align-content: flex-start;
-  height: 50%;
+  height: auto;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -23,7 +35,7 @@
 
 .left-member img {
   max-width: 300px;
-  max-height: 300px;
+  /* max-height: 300px; */
 }
 
 .middle {
@@ -67,5 +79,5 @@
 
 .right-member img {
   max-width: 300px;
-  max-height: 300px;
+  /* max-height: 300px; */
 }

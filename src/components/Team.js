@@ -1,6 +1,8 @@
 import { React } from "react";
 import middleImage from "../assets/temp-contact-middle.jpeg";
 import tempPic from "../assets/NYLIA.png";
+import ailyn from "../assets/ailyn.jpg";
+import luisa from "../assets/luisa.jpg";
 import "./Team.css";
 
 function Team() {
@@ -9,12 +11,17 @@ function Team() {
     <div class="team-container">
       <div className="left-content">
         <div className="left-member">
-          <img src={tempPic}></img>
-          <h1>Ailyn Aguirre</h1>
-          <h2>Instructor</h2>
+          <img src={ailyn}></img>
+          <h1>AILYN AGUIRRE</h1>
+          <h2>Director</h2>
           <p>
-            Enter the description for what it is. This is a sentence that I am
-            writing. Seven plus seven is not five.
+            Ailyn began her ballet training at eleven years old under Andrée
+            Harper and Ouisa Davis. After graduating from the University of
+            Texas in Austin, Ailyn became a Software Engineer. After teaching
+            and creating choreography at multiple studios throughout Texas, she
+            returned to her native El Paso roots and founded Nylia Ballet
+            Academy to provide an equal opportunity for anyone in the community
+            to pursue their dreams in dance.
           </p>
         </div>
       </div>
@@ -23,12 +30,15 @@ function Team() {
       </div>
       <div className="right-content">
         <div className="right-member">
-          <img src={tempPic}></img>
-          <h1>Luisa Cuellar</h1>
-          <h2>Executive Assistant</h2>
+          <img src={luisa}></img>
+          <h1>LUISA CUELLAR</h1>
+          <h2>Operations Manager</h2>
           <p>
-            Enter the description for what it is. This is a sentence that I am
-            writing. Seven plus seven is not five.
+            A native El Pasoan, Luisa is an accomplished individual and is
+            currently studying towards her degree in Computer Science. She
+            recently reconnected with her passion for dance and is training in
+            ballet as an adult. Luisa is of radiant and friendly energy who is
+            excited to grow along Nylia Ballet Academy.
           </p>
         </div>
       </div>
