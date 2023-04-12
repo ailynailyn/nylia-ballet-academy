@@ -28,21 +28,25 @@
   color: white;
 }
 
-.class-spacer {
-  height: 20%;
+.class-schedule-button {
+  height: 15%;
   width: 100%;
 }
 
+.class-schedule-button .btn {
+  color: black;
+}
+
 .class-image {
-  height: 60%;
+  height: 45%;
   position: relative;
   /* display: flex;
   flex-direction: column; */
 }
 
 .class-image img {
-  height: auto;
-  width: 100%;
+  height: 100%;
+  width: auto;
   /* position: absolute;
   bottom: 0; */
   position: absolute;
@@ -52,7 +56,7 @@
 }
 
 .class-info {
-  height: 20%;
+  height: 25%;
   width: 100%;
   margin-left: 1rem;
   display: flex;
@@ -61,7 +65,7 @@
 }
 
 .class-schedule {
-  width: 40%;
+  width: 35%;
 }
 
 #cur-class-sched1 {
@@ -97,17 +101,22 @@
 }
 
 .class-description {
-  width: 50%;
+  width: 60%;
 }
 
-.class-schedule-button {
+.class-descriptions-button {
+  height: 15%;
+  width: 100%;
+}
+
+.class-descriptions-button .btn {
   color: black;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* TODO AILYN */
-  .class-spacer {
+/* @media only screen and (max-width: 600px) { */
+/* TODO AILYN */
+/* .class-schedule-button {
     height: 10%;
   }
 
@@ -118,12 +127,16 @@
   .class-info {
     height: 10%;
   }
-}
+
+  .class-descriptions-button {
+    height: 14%;
+  }
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  /* TODO AILYN */
-  .class-spacer {
+/* @media only screen and (min-width: 600px) { */
+/* TODO AILYN */
+/* .class-schedule-button {
     height: 36%;
   }
 
@@ -134,12 +147,16 @@
   .class-info {
     height: 36%;
   }
-}
+
+  .class-descriptions-button {
+    height: 14%;
+  }
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  /* TODO AILYN */
-  .class-spacer {
+/* @media only screen and (min-width: 768px) { */
+/* TODO AILYN */
+/* .class-schedule-button {
     height: 33%;
   }
 
@@ -150,11 +167,15 @@
   .class-info {
     height: 33%;
   }
-}
+
+  .class-descriptions-button {
+    height: 14%;
+  }
+} */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .class-spacer {
+/* @media only screen and (min-width: 992px) {
+  .class-schedule-button {
     height: 30%;
   }
 
@@ -165,11 +186,15 @@
   .class-info {
     height: 30%;
   }
-}
+
+  .class-descriptions-button {
+    height: 14%;
+  }
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .class-spacer {
+/* @media only screen and (min-width: 1200px) {
+  .class-schedule-button {
     height: 26%;
   }
 
@@ -180,24 +205,35 @@
   .class-info {
     height: 26%;
   }
-}
 
-@media only screen and (min-width: 1440px) {
-  .class-spacer {
-    height: 24%;
+  .class-descriptions-button {
+    height: 14%;
   }
+}*/
 
+@media only screen and (min-width: 1300px) {
   .class-image {
-    height: 52%;
+    height: 40%;
   }
 
   .class-info {
-    height: 24%;
+    height: 30%;
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .class-image {
+    height: 45%;
+  }
+
+  .class-info {
+    height: 25%;
+  }
+}
+
+/*
 @media only screen and (min-width: 1680px) {
-  .class-spacer {
+  .class-schedule-button {
     height: 20%;
   }
 
@@ -208,46 +244,62 @@
   .class-info {
     height: 20%;
   }
+
+  .class-descriptions-button {
+    height: 20%;
+  }
 }
 
 @media only screen and (min-width: 1820px) {
-  .class-spacer {
+  .class-schedule-button {
     height: 18%;
   }
 
   .class-image {
-    height: 64%;
+    height: 46%;
   }
 
   .class-info {
     height: 18%;
+  }
+
+  .class-descriptions-button {
+    height: 14%;
   }
 }
 
 @media only screen and (min-width: 1920px) {
-  .class-spacer {
+  .class-schedule-button {
     height: 17%;
   }
 
   .class-image {
-    height: 66%;
+    height: 49%;
   }
 
   .class-info {
+    height: 17%;
+  }
+
+  .class-descriptions-button {
     height: 17%;
   }
 }
 
 @media only screen and (min-width: 2050px) {
-  .class-spacer {
+  .class-schedule-button {
     height: 14%;
   }
 
   .class-image {
-    height: 72%;
+    height: 58%;
   }
 
   .class-info {
     height: 14%;
   }
-}
+
+  .class-descriptions-button {
+    height: 14%;
+  }
+} */

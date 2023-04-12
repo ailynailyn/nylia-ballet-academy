@@ -3,6 +3,12 @@ import Map from "./map/Map.js";
 import tempImg from "../assets/temp-contact.jpg";
 import logo from "../assets/nylia-logo.png";
 import logo2 from "../assets/NYLIA.png";
+import anahidFourthPose from "../assets/anahidFourthPose.jpeg";
+import luisaPose from "../assets/luisaPose.JPG";
+import keinaPose from "../assets/keinaPose.JPG";
+import zoePose from "../assets/zoePose.jpeg";
+import firstPositionPose from "../assets/firstPositionPose.jpeg";
+
 import ContactForm from "./contact/ContactForm.js";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 import { SocialIcon } from "react-social-icons";
@@ -17,7 +23,13 @@ function Contact() {
   };
 
   const renderImages = () => {
-    const images = [tempImg, logo, tempImg, logo2];
+    const images = [
+      anahidFourthPose,
+      keinaPose,
+      luisaPose,
+      firstPositionPose,
+      zoePose,
+    ];
 
     return images.map((image, index) => (
       <img

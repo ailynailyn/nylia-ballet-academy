@@ -13,6 +13,7 @@ import NyliaButton from "./nyliaButton/NyliaButton";
 import "./NavBar.css";
 
 import logo from "../assets/NYLIA.png";
+import logoTransparent from "../assets/Nylia_Logo_500px.png";
 import logoShort from "../assets/NYLIA.png";
 
 // TODO AILYN: Navbar exit button https://codepen.io/ilkeryilmaz/pen/obEMNo
@@ -31,7 +32,7 @@ function NavBar() {
       <Navbar key={expand} expand={expand} className="mb-3" id="nylia-navbar">
         <Container fluid>
           <Navbar.Brand href="/">
-            <img className="nylia-logo" src={logo}></img>
+            <img className="nylia-logo" src={logoTransparent}></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
@@ -43,7 +44,7 @@ function NavBar() {
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                 <img
                   className="nylia-logo"
-                  src={logo}
+                  src={logoTransparent}
                   width="400px"
                   height="400px"
                 ></img>
