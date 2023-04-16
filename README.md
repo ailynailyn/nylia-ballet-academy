@@ -91,3 +91,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Media Query template
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1201px) {
+}

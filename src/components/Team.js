@@ -1,6 +1,6 @@
 import { React } from "react";
 import middleImage from "../assets/temp-contact-middle.jpeg";
-import tempPic from "../assets/NYLIA.png";
+import nyliaOutdoorSign from "../assets/nyliaOutdoorSign.jpeg";
 import ailyn from "../assets/ailyn.jpg";
 import luisa from "../assets/luisa.jpg";
 import "./Team.css";
@@ -26,7 +26,7 @@ function Team() {
         </div>
       </div>
       <div className="middle">
-        <h1 id="team-label">TEAM</h1>
+        <h1 id="team-label">THE TEAM</h1>
       </div>
       <div className="right-content">
         <div className="right-member">

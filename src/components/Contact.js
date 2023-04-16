@@ -34,7 +34,7 @@ function Contact() {
     return images.map((image, index) => (
       <img
         key={index}
-        src={require(`../assets/keinaPose.JPG`)}
+        src={image}
         style={{
           // width: "100%",
           height: "90%",
