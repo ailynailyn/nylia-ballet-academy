@@ -50,6 +50,7 @@ function Classes() {
     ballet1: {
       classTitle: "☰ Ballet I",
       classImg: ballet1Img,
+      classSched1: "MONDAY & WEDNESDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
       classSched4: "",
