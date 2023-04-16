@@ -45,8 +45,8 @@
 }
 
 .class-image img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   /* position: absolute;
   bottom: 0; */
   position: absolute;

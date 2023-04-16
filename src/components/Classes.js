@@ -10,10 +10,12 @@ import ballet1Img from "../assets/ballet1Img.JPG";
 import ballet2Img from "../assets/ballet2Img.JPG";
 import ballet3Img from "../assets/ballet3Img.JPG";
 import ballet4Img from "../assets/ballet4Img.jpeg";
-// import pointe1Img from "../assets/pointe1Img.JPG";
+import pointe1Img from "../assets/pointe1Img.jpeg";
 import pointe2Img from "../assets/pointe2Img.JPG";
 import adultBalletImg from "../assets/adultBalletImg.jpeg";
 import flexibilityImg from "../assets/flexibilityImg.JPG";
+import ClassSchedule from "../assets/NyliaSchedule.pdf";
+import ClassDescriptionBrochure from "../assets/Class Descriptions Brochure.pdf";
 
 function Classes() {
   const rgstrRqd = "Registration Required";
@@ -81,7 +83,7 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     pointe1: {
-      classImg: tempClass5,
+      classImg: pointe1Img,
       classSched1: "FRIDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
@@ -188,11 +190,18 @@ function Classes() {
 
       <div className="right-info">
         <div className="class-schedule-button">
-          <NyliaButton
-            addtClassName="class-schedule-button"
-            handleClick={() => setClassInfo("Download Class Schedule")}
-            label={"Download Class Schedule"}
-          ></NyliaButton>
+          <a
+            href={ClassSchedule}
+            without
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <NyliaButton
+              addtClassName="class-schedule-button"
+              handleClick={() => setClassInfo("Download Class Schedule")}
+              label={"Download Class Schedule"}
+            ></NyliaButton>
+          </a>
         </div>
         <div className="class-image">
           <img id="cur-class-image" src={classInfo.preBallet1.classImg}></img>
@@ -210,11 +219,18 @@ function Classes() {
           </div>
         </div>
         <div className="class-descriptions-button">
-          <NyliaButton
-            addtClassName="class-descriptions-button"
-            handleClick={() => setClassInfo("Download Class Descriptions")}
-            label={"Download Class Descriptions"}
-          ></NyliaButton>
+          <a
+            href={ClassDescriptionBrochure}
+            without
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <NyliaButton
+              addtClassName="class-descriptions-button"
+              handleClick={() => setClassInfo("Download Class Descriptions")}
+              label={"Download Class Descriptions"}
+            ></NyliaButton>
+          </a>
         </div>
       </div>
     </div>

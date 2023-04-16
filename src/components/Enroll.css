@@ -1,0 +1,27 @@
+.enroll-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 5%;
+  /* margin-top: 16vh; */
+}
+
+.registration-section {
+  margin: 5rem;
+  text-align: center;
+}
+
+.enroll-container img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.tuition-section {
+  margin: 5rem;
+  text-align: center;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
