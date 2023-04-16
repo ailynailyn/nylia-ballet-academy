@@ -42,16 +42,19 @@ function NavBar() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img
-                  className="nylia-logo"
-                  src={logoTransparent}
-                  width="400px"
-                  height="400px"
-                ></img>
+                <a href="/">
+                  <img
+                    className="nylia-logo"
+                    src={logoTransparent}
+                    width="400px"
+                    height="400px"
+                  ></img>
+                </a>
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav
+                id="navigation-body"
                 className="justify-content-end flex-grow-1 pe-3"
                 style={{ height: "100%" }}
               >

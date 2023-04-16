@@ -80,12 +80,38 @@ img {
   }
 
   #offcanvasNavbar-expand-false .nylia-logo {
-    width: 45%;
+    width: 55%;
     max-height: 30%;
   }
 
   .offcanvas-header {
     width: 95vw;
+  }
+
+  .offcanvas-body {
+    width: 95vw;
+  }
+
+  .offcanvas.offcanvas-start {
+    width: 35%;
+    min-width: 150px;
+  }
+
+  #navigation-body {
+    width: 85%;
+  }
+
+  .nyliabutton-container {
+    padding: 1rem;
+  }
+
+  .nyliabutton-container .btn {
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0rem;
+    padding-left: 01rem;
+    letter-spacing: 0.8rem;
   }
 }
 
