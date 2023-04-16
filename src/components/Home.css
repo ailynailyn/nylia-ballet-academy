@@ -1,8 +1,47 @@
 .home-container {
-  height: 86vh;
+  height: 100vh;
+  width: 100vw;
   text-align: center;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  background-image: url("../assets/zoePose.jpeg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  position: relative;
+}
+
+@media only screen and (max-width: 320px) {
+  .description {
+    padding: 1rem;
+  }
+
+  .description p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+}
+
+/* Extra big screen devices (1201px and above) */
+@media only screen and (min-width: 1201px) {
 }

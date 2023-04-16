@@ -61,3 +61,48 @@ img {
   --def: #96b7c4;
   --inv: black;
 }
+
+@media only screen and (max-width: 320px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  button.navbar-toggler {
+    margin-left: auto;
+  }
+
+  #offcanvasNavbar-expand-false {
+    width: 98%;
+  }
+  .modal-open {
+    width: 100%;
+    height: 100%;
+  }
+
+  #offcanvasNavbar-expand-false .nylia-logo {
+    width: 45%;
+    max-height: 30%;
+  }
+
+  .offcanvas-header {
+    width: 95vw;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1201px) {
+}

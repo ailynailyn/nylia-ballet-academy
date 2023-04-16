@@ -14,7 +14,7 @@ function Enroll() {
         <h1>Registration</h1>
         <p>
           New students are accepted throughout the year. All new students are
-          given a trial classes to determine proper class placement.
+          given a trial class to determine proper class placement.
           <br />
           <br />
           Stop by today to complete your registration! Download our registration
