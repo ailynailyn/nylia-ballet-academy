@@ -25,21 +25,56 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
+  .description {
+    padding: 1.7rem;
+  }
+
+  .description p {
+    font-size: 1.2em;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
+  .description {
+    padding: 2.3rem;
+  }
+
+  .description p {
+    font-size: 1.55em;
+  }
 }
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+  .description {
+    padding: 2.3rem;
+  }
+
+  .description p {
+    font-size: 1.55em;
+  }
 }
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) and (max-width: 888px) {
+  .description {
+    padding: 2.3rem;
+  }
+
+  .description p {
+    font-size: 1.55em;
+  }
 }
 
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .description {
+    padding: 1.2rem;
+  }
+
+  .description p {
+    font-size: 1.5em;
+  }
 }
 
 /* Extra big screen devices (1201px and above) */
