@@ -17,12 +17,16 @@ import flexibilityImg from "../assets/flexibilityImg.JPG";
 import ClassSchedule from "../assets/NyliaSchedule.pdf";
 import ClassDescriptionBrochure from "../assets/Class Descriptions Brochure.pdf";
 
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
+
 function Classes() {
   const rgstrRqd = "Registration Required";
   const dropInWlcm = "Drop-Ins Welcome";
 
   var classInfo = {
     preBallet1: {
+      classTitle: "☰ Pre-Ballet I",
       classImg: preBallet1Img,
       classSched1: "SATURDAY",
       classSched2: "9:00 - 10:00 AM",
@@ -33,6 +37,7 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     preBallet2: {
+      classTitle: "☰ Pre-Ballet II",
       classImg: preBallet2Img,
       classSched1: "SATURDAY",
       classSched2: "10:00 - 11:00 AM",
@@ -43,8 +48,8 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     ballet1: {
+      classTitle: "☰ Ballet I",
       classImg: ballet1Img,
-      classSched1: "MONDAY & WEDNESDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
       classSched4: "",
@@ -53,6 +58,7 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     ballet2: {
+      classTitle: "☰ Ballet II",
       classImg: ballet2Img,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "4:30 - 5:30 PM",
@@ -63,6 +69,7 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     ballet3: {
+      classTitle: "☰ Ballet III",
       classImg: ballet3Img,
       classSched1: "MONDAY & WEDNESDAY",
       classSched2: "5:30 - 7:00 PM",
@@ -73,6 +80,7 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     ballet4: {
+      classTitle: "☰ Ballet IV",
       classImg: ballet4Img,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "5:30 - 7:00 PM",
@@ -83,6 +91,7 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     pointe1: {
+      classTitle: "☰ Pointe I",
       classImg: pointe1Img,
       classSched1: "FRIDAY",
       classSched2: "4:30 - 5:30 PM",
@@ -93,6 +102,7 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     pointe2: {
+      classTitle: "☰ Pointe II",
       classImg: pointe2Img,
       classSched1: "FRIDAY",
       classSched2: "5:30 - 7:00 PM",
@@ -103,6 +113,7 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     adultBallet: {
+      classTitle: "☰ Adult Ballet",
       classImg: adultBalletImg,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "5:30 - 7:00 PM",
@@ -113,6 +124,7 @@ function Classes() {
       classRgstr: dropInWlcm,
     },
     flexibility: {
+      classTitle: "☰ Flexibility",
       classImg: flexibilityImg,
       classSched1: "MONDAY & WEDNESDAY",
       classSched2: "4:30 - 5:30 PM",
@@ -125,6 +137,8 @@ function Classes() {
   };
 
   const setClassInfo = (curClass) => {
+    document.getElementById("dropdown-item-button").innerHTML =
+      classInfo[curClass].classTitle;
     document.getElementById("cur-class-image").src =
       classInfo[curClass].classImg;
     document.getElementById("cur-class-sched1").innerHTML =
@@ -187,7 +201,53 @@ function Classes() {
           ></NyliaButton>
         </div>
       </div>
-
+      <div className="page-title">
+        <h1>CLASSES</h1>
+        <p>
+          We offer classes from Monday to Saturday for children and adults, ages
+          3+. Look through the classes we offer below for more information.
+        </p>
+      </div>
+      <div className="mobile-class-dropdown">
+        <DropdownButton id="dropdown-item-button" title="☰ Pre-Ballet I">
+          <Dropdown.Item as="button" onClick={() => setClassInfo("preBallet1")}>
+            Pre-Ballet I
+          </Dropdown.Item>
+          <Dropdown.Item as="button" onClick={() => setClassInfo("preBallet2")}>
+            Pre-Ballet II
+          </Dropdown.Item>
+          <Dropdown.Item as="button" onClick={() => setClassInfo("ballet1")}>
+            Ballet I
+          </Dropdown.Item>
+          <Dropdown.Item as="button" onClick={() => setClassInfo("ballet2")}>
+            Ballet II
+          </Dropdown.Item>
+          <Dropdown.Item as="button" onClick={() => setClassInfo("ballet3")}>
+            Ballet III
+          </Dropdown.Item>
+          <Dropdown.Item as="button" onClick={() => setClassInfo("ballet4")}>
+            Ballet IV
+          </Dropdown.Item>
+          <Dropdown.Item as="button" onClick={() => setClassInfo("pointe1")}>
+            Pointe I
+          </Dropdown.Item>
+          <Dropdown.Item as="button" onClick={() => setClassInfo("pointe2")}>
+            Pointe II
+          </Dropdown.Item>
+          <Dropdown.Item
+            as="button"
+            onClick={() => setClassInfo("adultBallet")}
+          >
+            Adult Ballet
+          </Dropdown.Item>
+          <Dropdown.Item
+            as="button"
+            onClick={() => setClassInfo("flexibility")}
+          >
+            Flexibility
+          </Dropdown.Item>
+        </DropdownButton>
+      </div>
       <div className="right-info">
         <div className="class-schedule-button">
           <a
@@ -203,10 +263,11 @@ function Classes() {
             ></NyliaButton>
           </a>
         </div>
-        <div className="class-image">
-          <img id="cur-class-image" src={classInfo.preBallet1.classImg}></img>
-        </div>
-        <div className="class-info">
+        <div className="class-desc-box">
+          <div className="class-image">
+            <img id="cur-class-image" src={classInfo.preBallet1.classImg}></img>
+          </div>
+          <div className="class-info"></div>
           <div className="class-schedule">
             <p id="cur-class-sched1">{classInfo.preBallet1.classSched1}</p>
             <p id="cur-class-sched2">{classInfo.preBallet1.classSched2}</p>

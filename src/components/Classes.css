@@ -1,305 +1,1019 @@
 .classes-container {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
   background-image: linear-gradient(-25deg, #616161 0%, #96b7c4 100%);
 }
 
-.left-listings {
-  height: 100vh;
-  width: 40%;
-  position: relative;
-}
-
-.class-buttons {
-  /* height: 100%;
-  width: 100%; */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.right-info {
-  height: 100vh;
-  width: 60%;
-  position: relative;
-  color: white;
-}
-
-.class-schedule-button {
-  height: 15%;
-  width: 100%;
-}
-
-.class-schedule-button .btn {
+/* .class-schedule-button .btn {
   color: black;
 }
 
-.class-image {
-  height: 45%;
-  position: relative;
-  /* display: flex;
-  flex-direction: column; */
-}
-
-.class-image img {
-  height: auto;
-  width: 100%;
-  /* position: absolute;
-  bottom: 0; */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.class-info {
-  height: 25%;
-  width: 100%;
-  margin-left: 1rem;
-  display: flex;
-  flex-direction: row;
-  padding-top: 1.6rem;
-}
-
-.class-schedule {
-  width: 35%;
-}
-
-#cur-class-sched1 {
-  font-weight: 900;
-  font-family: "Michroma", serif;
-  font-size: 1rem;
-  margin: 0;
-}
-
-#cur-class-sched2 {
-  /* font-weight: 700; */
-  /* font-family: "Michroma", serif; */
-  font-size: 1.1rem;
-  margin: 0;
-}
-
-#cur-class-sched3 {
-  font-weight: 900;
-  font-family: "Michroma", serif;
-  font-size: 1rem;
-  margin: 0;
-}
-
-#cur-class-sched4 {
-  /* font-weight: 700; */
-  /* font-family: "Alegreya Sans SC", serif; */
-  font-size: 1.1rem;
-  margin: 0;
-}
+.class-descriptions-button .btn {
+  color: black;
+} */
 
 #cur-class-rgstr {
   font-style: oblique;
 }
 
-.class-description {
-  width: 60%;
-}
+@media only screen and (max-width: 320px) {
+  .classes-container {
+    height: 100%;
+    width: 100vw;
+  }
 
-.class-descriptions-button {
-  height: 15%;
-  width: 100%;
-}
+  .left-listings {
+    display: none;
+  }
 
-.class-descriptions-button .btn {
-  color: black;
-}
+  .mobile-class-dropdown {
+    width: 100%;
+  }
 
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) { */
-/* TODO AILYN */
-/* .class-schedule-button {
-    height: 10%;
+  .dropdown {
+    width: 100%;
+    padding: 1rem;
+    font-family: "Michroma", serif;
+    text-align: center;
+  }
+
+  .dropdown button {
+    width: 100%;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-weight: 900;
+  }
+
+  .btn.show {
+    background-color: transparent;
+    border-color: white;
+  }
+
+  .dropdown .btn:hover {
+    background-color: white;
+    border-color: white;
+  }
+
+  button.dropdown-item {
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    padding-right: 0;
+    padding-left: 0;
+    color: black;
+    font-size: 0.75em;
+  }
+  .dropdown button.dropdown-item {
+    font-weight: normal;
+  }
+
+  .right-info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .class-desc-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+  }
+
+  .page-title {
+    order: 1;
+    padding-top: 130px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+
+  .page-title h1 {
+    font-size: 1.7em;
+    font-weight: 900;
+    color: white;
+  }
+
+  .page-title p {
+    font-size: 1em;
   }
 
   .class-image {
-    height: 80%;
+    order: 2;
+  }
+
+  .class-image img {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    padding-top: 0;
   }
 
   .class-info {
-    height: 10%;
+    order: 3;
+    text-align: center;
   }
 
-  .class-descriptions-button {
-    height: 14%;
-  }
-} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) { */
-/* TODO AILYN */
-/* .class-schedule-button {
-    height: 36%;
-  }
-
-  .class-image {
-    height: 28%;
-  }
-
-  .class-info {
-    height: 36%;
-  }
-
-  .class-descriptions-button {
-    height: 14%;
-  }
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) { */
-/* TODO AILYN */
-/* .class-schedule-button {
-    height: 33%;
-  }
-
-  .class-image {
-    height: 34%;
-  }
-
-  .class-info {
-    height: 33%;
-  }
-
-  .class-descriptions-button {
-    height: 14%;
-  }
-} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
   .class-schedule-button {
-    height: 30%;
-  }
-
-  .class-image {
-    height: 40%;
-  }
-
-  .class-info {
-    height: 30%;
+    order: 4;
   }
 
   .class-descriptions-button {
-    height: 14%;
-  }
-} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-  .class-schedule-button {
-    height: 26%;
+    order: 5;
   }
 
-  .class-image {
-    height: 48%;
+  #cur-class-sched1,
+  #cur-class-sched3 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 0.7rem;
+    margin: 0;
+    color: white;
   }
 
-  .class-info {
-    height: 26%;
+  #cur-class-sched2,
+  #cur-class-sched4 {
+    font-size: 0.86rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
   }
 
-  .class-descriptions-button {
-    height: 14%;
-  }
-}*/
-
-@media only screen and (min-width: 1300px) {
-  .class-image {
-    height: 40%;
+  #cur-class-rgstr {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.5);
   }
 
-  .class-info {
-    height: 30%;
+  #cur-class-description {
+    font-size: 0.8em;
+    color: white;
+  }
+
+  .class-schedule-button .btn {
+    font-size: 0.7em;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.4rem;
+    padding-left: 01rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .class-descriptions-button .btn {
+    font-size: 0.7em;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.4rem;
+    padding-left: 01rem;
+    letter-spacing: 0.3rem;
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .classes-container {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .left-listings {
+    display: none;
+  }
+
+  .mobile-class-dropdown {
+    width: 100%;
+  }
+
+  .dropdown {
+    width: 100%;
+    padding: 1rem;
+    font-family: "Michroma", serif;
+    text-align: center;
+  }
+
+  .dropdown button {
+    width: 100%;
+    font-size: 0.94em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-weight: 900;
+  }
+
+  .btn.show {
+    background-color: transparent;
+    border-color: white;
+  }
+
+  .dropdown .btn:hover {
+    background-color: white;
+    border-color: white;
+  }
+
+  button.dropdown-item {
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    padding-right: 0;
+    padding-left: 0;
+    color: black;
+    font-size: 0.8em;
+  }
+  .dropdown button.dropdown-item {
+    font-weight: normal;
+  }
+
+  .right-info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .class-desc-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.4em;
+  }
+
+  .page-title {
+    order: 1;
+    padding-top: 130px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+
+  .page-title h1 {
+    font-size: 1.7em;
+    font-weight: 900;
+    color: white;
+  }
+
+  .page-title p {
+    font-size: 1em;
+  }
+
+  .class-image {
+    order: 2;
+  }
+
+  .class-image img {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .class-info {
+    order: 3;
+    text-align: center;
+  }
+
+  .class-schedule-button {
+    order: 4;
+  }
+
+  .class-descriptions-button {
+    order: 5;
+  }
+
+  #cur-class-sched1,
+  #cur-class-sched3 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 0.75rem;
+    margin: 0;
+    color: white;
+  }
+
+  #cur-class-sched2,
+  #cur-class-sched4 {
+    font-size: 0.9rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  #cur-class-rgstr {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  #cur-class-description {
+    font-size: 0.9em;
+    color: white;
+  }
+
+  .class-schedule-button .btn {
+    font-size: 0.8em;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.4rem;
+    padding-left: 01rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .class-descriptions-button .btn {
+    font-size: 0.8em;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.4rem;
+    padding-left: 01rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .classes-container {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .left-listings {
+    display: none;
+  }
+
+  .mobile-class-dropdown {
+    width: 100%;
+  }
+
+  .dropdown {
+    width: 100%;
+    padding: 1rem;
+    font-family: "Michroma", serif;
+    text-align: center;
+  }
+
+  .dropdown button {
+    width: 100%;
+    font-size: 0.94em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-weight: 900;
+  }
+
+  .btn.show {
+    background-color: transparent;
+    border-color: white;
+  }
+
+  .dropdown .btn:hover {
+    background-color: white;
+    border-color: white;
+  }
+
+  button.dropdown-item {
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    padding-right: 0;
+    padding-left: 0;
+    color: black;
+    font-size: 0.8em;
+  }
+  .dropdown button.dropdown-item {
+    font-weight: normal;
+  }
+
+  .right-info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .class-desc-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.4em;
+  }
+
+  .page-title {
+    order: 1;
+    padding-top: 160px;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    text-align: center;
+  }
+
+  .page-title h1 {
+    font-size: 1.9em;
+    font-weight: 900;
+    color: white;
+  }
+
+  .page-title p {
+    font-size: 1.08em;
+  }
+
+  .class-image {
+    order: 2;
+  }
+
+  .class-image img {
+    width: 100%;
+    height: auto;
+    padding: 1.1rem;
+    padding-top: 1rem;
+  }
+
+  .class-info {
+    order: 3;
+    text-align: center;
+  }
+
+  .class-schedule-button {
+    order: 4;
+  }
+
+  .class-descriptions-button {
+    order: 5;
+  }
+
+  #cur-class-sched1,
+  #cur-class-sched3 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 0.92rem;
+    margin: 0;
+    color: white;
+  }
+
+  #cur-class-sched2,
+  #cur-class-sched4 {
+    font-size: 0.92rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  #cur-class-rgstr {
+    font-size: 0.96em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  #cur-class-description {
+    font-size: 0.95em;
+    color: white;
+  }
+
+  .class-schedule-button .btn {
+    font-size: 01.25em;
+    margin-top: 1rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    padding-right: 0.4rem;
+    padding-left: 01rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .class-descriptions-button .btn {
+    margin-top: 0rem;
+    font-size: 1.25em;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    padding-right: 0.4rem;
+    padding-left: 01rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .classes-container {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .left-listings {
+    display: none;
+  }
+
+  .mobile-class-dropdown {
+    width: 100%;
+  }
+
+  .dropdown {
+    width: 100%;
+    padding: 1rem;
+    font-family: "Michroma", serif;
+    text-align: center;
+  }
+
+  .dropdown button {
+    width: 100%;
+    font-size: 0.94em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-weight: 900;
+  }
+
+  .btn.show {
+    background-color: transparent;
+    border-color: white;
+  }
+
+  .dropdown .btn:hover {
+    background-color: white;
+    border-color: white;
+  }
+
+  button.dropdown-item {
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    padding-right: 0;
+    padding-left: 0;
+    color: black;
+    font-size: 0.8em;
+  }
+  .dropdown button.dropdown-item {
+    font-weight: normal;
+  }
+
+  .right-info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .class-desc-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2.3em;
+  }
+
+  .page-title {
+    order: 1;
+    padding-top: 160px;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    text-align: center;
+  }
+
+  .page-title h1 {
+    font-size: 2.1em;
+    font-weight: 900;
+    color: white;
+  }
+
+  .page-title p {
+    font-size: 1.2em;
+  }
+
+  .class-image {
+    order: 2;
+  }
+
+  .class-image img {
+    width: 100%;
+    height: auto;
+    padding: 1.1rem;
+    padding-top: 1.2rem;
+  }
+
+  .class-info {
+    order: 3;
+    text-align: center;
+  }
+
+  .class-schedule-button {
+    order: 4;
+  }
+
+  .class-descriptions-button {
+    order: 5;
+  }
+
+  #cur-class-sched1,
+  #cur-class-sched3 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 1.15rem;
+    margin: 0;
+    color: white;
+  }
+
+  #cur-class-sched2,
+  #cur-class-sched4 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  #cur-class-rgstr {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  #cur-class-description {
+    font-size: 1.1em;
+    color: white;
+  }
+
+  .class-schedule-button .btn {
+    font-size: 01.5em;
+    margin-top: 1.1rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-right: 0.4rem;
+    padding-left: 1.1rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .class-descriptions-button .btn {
+    margin-top: 0rem;
+    font-size: 1.5em;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-right: 0.4rem;
+    padding-left: 1.1rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+  .classes-container {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .left-listings {
+    display: none;
+  }
+
+  .mobile-class-dropdown {
+    width: 100%;
+  }
+
+  .dropdown {
+    width: 100%;
+    padding: 1rem;
+    font-family: "Michroma", serif;
+    text-align: center;
+  }
+
+  .dropdown button {
+    width: 100%;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: 0.99rem;
+    padding-bottom: 0.99rem;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-weight: 900;
+  }
+
+  .btn.show {
+    background-color: transparent;
+    border-color: white;
+  }
+
+  .dropdown .btn:hover {
+    background-color: white;
+    border-color: white;
+  }
+
+  button.dropdown-item {
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    padding-right: 0;
+    padding-left: 0;
+    color: black;
+    font-size: 0.9em;
+  }
+  .dropdown button.dropdown-item {
+    font-weight: normal;
+  }
+
+  .right-info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .class-desc-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2.3em;
+  }
+
+  .page-title {
+    order: 1;
+    padding-top: 160px;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    text-align: center;
+  }
+
+  .page-title h1 {
+    font-size: 2.1em;
+    font-weight: 900;
+    color: white;
+  }
+
+  .page-title p {
+    font-size: 1.2em;
+  }
+
+  .class-image {
+    order: 2;
+  }
+
+  .class-image img {
+    width: 100%;
+    height: auto;
+    padding: 1.1rem;
+    padding-top: 1.2rem;
+  }
+
+  .class-info {
+    order: 3;
+    text-align: center;
+  }
+
+  .class-schedule-button {
+    order: 4;
+  }
+
+  .class-descriptions-button {
+    order: 5;
+  }
+
+  #cur-class-sched1,
+  #cur-class-sched3 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 1.15rem;
+    margin: 0;
+    color: white;
+  }
+
+  #cur-class-sched2,
+  #cur-class-sched4 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  #cur-class-rgstr {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  #cur-class-description {
+    font-size: 1.1em;
+    color: white;
+  }
+
+  .class-schedule-button .btn {
+    font-size: 01.5em;
+    margin-top: 1.1rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-right: 0.4rem;
+    padding-left: 1.1rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .class-descriptions-button .btn {
+    margin-top: 0rem;
+    font-size: 1.5em;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-right: 0.4rem;
+    padding-left: 1.1rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+/* TODO */
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .classes-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left-listings {
+    height: 100vh;
+    width: 40%;
+    position: relative;
+  }
+
+  .class-buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .right-info {
+    height: 100vh;
+    width: 60%;
+    position: relative;
+    color: white;
+  }
+
+  .class-schedule-button {
+    height: 15%;
+    width: 100%;
+  }
+
+  .class-schedule-button .btn {
+    color: black;
+  }
+
   .class-image {
     height: 45%;
+    position: relative;
+  }
+
+  .class-image img {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .class-info {
     height: 25%;
-  }
-}
-
-/*
-@media only screen and (min-width: 1680px) {
-  .class-schedule-button {
-    height: 20%;
+    width: 100%;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.6rem;
   }
 
-  .class-image {
-    height: 60%;
+  .class-schedule {
+    width: 35%;
   }
 
-  .class-info {
-    height: 20%;
+  #cur-class-sched1 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 1rem;
+    margin: 0;
   }
 
-  .class-descriptions-button {
-    height: 20%;
-  }
-}
-
-@media only screen and (min-width: 1820px) {
-  .class-schedule-button {
-    height: 18%;
+  #cur-class-sched2 {
+    font-size: 1.1rem;
+    margin: 0;
   }
 
-  .class-image {
-    height: 46%;
+  #cur-class-sched3 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 1rem;
+    margin: 0;
   }
 
-  .class-info {
-    height: 18%;
+  #cur-class-sched4 {
+    font-size: 1.1rem;
+    margin: 0;
   }
 
-  .class-descriptions-button {
-    height: 14%;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  .class-schedule-button {
-    height: 17%;
+  #cur-class-rgstr {
+    font-style: oblique;
   }
 
-  .class-image {
-    height: 49%;
-  }
-
-  .class-info {
-    height: 17%;
+  .class-description {
+    width: 60%;
   }
 
   .class-descriptions-button {
-    height: 17%;
+    height: 15%;
+    width: 100%;
   }
 }
 
-@media only screen and (min-width: 2050px) {
+@media only screen and (min-width: 1201px) {
+  .classes-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(-25deg, #616161 0%, #96b7c4 100%);
+  }
+
+  .left-listings {
+    height: 100vh;
+    width: 40%;
+    position: relative;
+  }
+
+  .class-buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .right-info {
+    height: 100vh;
+    width: 60%;
+    position: relative;
+    color: white;
+  }
+
   .class-schedule-button {
-    height: 14%;
+    height: 15%;
+    width: 100%;
   }
 
   .class-image {
-    height: 58%;
+    height: 45%;
+    position: relative;
+  }
+
+  .class-image img {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .class-info {
-    height: 14%;
+    height: 25%;
+    width: 100%;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.6rem;
+  }
+
+  .class-schedule {
+    width: 35%;
+  }
+
+  #cur-class-sched1 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  #cur-class-sched2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+  #cur-class-sched3 {
+    font-weight: 900;
+    font-family: "Michroma", serif;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  #cur-class-sched4 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+  .class-description {
+    width: 60%;
   }
 
   .class-descriptions-button {
-    height: 14%;
+    height: 15%;
+    width: 100%;
   }
-} */
+}
