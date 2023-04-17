@@ -156,6 +156,9 @@ function Classes() {
       classInfo[curClass].classDesc;
   };
 
+  const classPageDesc =
+    "We offer classes from Monday to Saturday for children and adults, ages 3+. Look through the classes we offer below for more information.";
+
   return (
     <div className="classes-container">
       <div className="left-listings">
@@ -204,10 +207,7 @@ function Classes() {
       </div>
       <div className="page-title">
         <h1>CLASSES</h1>
-        <p>
-          We offer classes from Monday to Saturday for children and adults, ages
-          3+. Look through the classes we offer below for more information.
-        </p>
+        <p>{classPageDesc}</p>
       </div>
       <div className="mobile-class-dropdown">
         <DropdownButton id="dropdown-item-button" title="☰ Pre-Ballet I">
@@ -250,6 +250,10 @@ function Classes() {
         </DropdownButton>
       </div>
       <div className="right-info">
+        <div className="desktop-page-title">
+          <h1>CLASSES</h1>
+          <p>{classPageDesc}</p>
+        </div>
         <div className="class-schedule-button">
           <a
             href={ClassSchedule}
