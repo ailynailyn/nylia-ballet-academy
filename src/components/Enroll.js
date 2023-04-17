@@ -11,7 +11,7 @@ function Enroll() {
   return (
     <div class="enroll-container">
       <div className="registration-section">
-        <h1>Registration</h1>
+        <h1>ENROLLMENT</h1>
         <p>
           New students are accepted throughout the year. All new students are
           given a trial class to determine proper class placement.
@@ -21,6 +21,7 @@ function Enroll() {
           packet below.
         </p>
         <a
+          id="enrollment-page-button"
           href={NyliaStudentRegistration}
           without
           rel="noopener noreferrer"
@@ -35,7 +36,7 @@ function Enroll() {
       <img src={enrollmentImg} />
 
       <div className="tuition-section">
-        <h1>Tuition</h1>
+        <h1>TUITION</h1>
         <p>
           Tuition is due on the 1st of each month. A late fee of $15 is charged
           for late tuition payments.
@@ -45,6 +46,7 @@ function Enroll() {
           and every January thereafter.
         </p>
         <a
+          id="enrollment-page-button"
           href={TuitionPackages}
           without
           rel="noopener noreferrer"

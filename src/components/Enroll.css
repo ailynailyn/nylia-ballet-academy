@@ -2,7 +2,8 @@
   height: 100vh;
   width: 100vw;
   padding: 5%;
-  /* margin-top: 16vh; */
+  position: relative;
+  text-align: center;
 }
 
 .registration-section {
@@ -24,4 +25,195 @@
 a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
+}
+
+@media only screen and (max-width: 320px) {
+  .registration-section {
+    margin: 1rem;
+    margin-top: 135px;
+  }
+
+  .enroll-container h1 {
+    font-size: 1em;
+    font-weight: 900;
+  }
+
+  .enroll-container p {
+    font-size: 0.9em;
+  }
+
+  #enrollment-page-button .btn {
+    font-size: 1em;
+    letter-spacing: 0.3em;
+  }
+
+  .tuition-section {
+    margin: 1rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .registration-section {
+    margin: 1rem;
+    margin-top: 135px;
+  }
+
+  .enroll-container h1 {
+    font-size: 1.1em;
+    font-weight: 900;
+  }
+
+  .enroll-container p {
+    font-size: 1em;
+  }
+
+  #enrollment-page-button .btn {
+    font-size: 1.1em;
+    letter-spacing: 0.3em;
+  }
+
+  .tuition-section {
+    margin: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .registration-section {
+    margin: 1rem;
+    margin-top: 145px;
+    margin-bottom: 0;
+  }
+
+  .enroll-container h1 {
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+
+  .enroll-container p {
+    font-size: 1.1em;
+  }
+
+  #enrollment-page-button .btn {
+    font-size: 1.4em;
+    letter-spacing: 0.3em;
+  }
+
+  .tuition-section {
+    margin: 1.2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .registration-section {
+    margin: 1rem;
+    margin-top: 145px;
+    margin-bottom: 0;
+  }
+
+  .enroll-container h1 {
+    font-size: 1.3em;
+    font-weight: 900;
+  }
+
+  .enroll-container p {
+    font-size: 1.2em;
+  }
+
+  #enrollment-page-button .btn {
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+  }
+
+  .tuition-section {
+    margin: 1.2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+  .registration-section {
+    margin: 1rem;
+    margin-top: 180px;
+    margin-bottom: 0;
+  }
+
+  .enroll-container h1 {
+    font-size: 1.4em;
+    font-weight: 900;
+  }
+
+  .enroll-container p {
+    font-size: 1.3em;
+  }
+
+  #enrollment-page-button .btn {
+    font-size: 1.7em;
+    letter-spacing: 0.3em;
+  }
+
+  .tuition-section {
+    margin: 1.2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .registration-section {
+    margin: 1.3rem;
+    margin-top: 145px;
+    margin-bottom: 0;
+  }
+
+  .enroll-container h1 {
+    font-size: 1.6em;
+    font-weight: 900;
+  }
+
+  .enroll-container p {
+    font-size: 1.3em;
+  }
+
+  #enrollment-page-button .btn {
+    font-size: 1.65em;
+    letter-spacing: 0.3em;
+  }
+
+  .tuition-section {
+    margin: 1.2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .registration-section {
+    margin: 1.3rem;
+    margin-top: 155px;
+    margin-bottom: 0;
+  }
+
+  .enroll-container h1 {
+    font-size: 2.2em;
+    font-weight: 900;
+    margin-bottom: 0.9em;
+  }
+
+  .enroll-container p {
+    font-size: 1.4em;
+  }
+
+  #enrollment-page-button .btn {
+    font-size: 1.75em;
+    letter-spacing: 0.3em;
+  }
+
+  .tuition-section {
+    margin: 1.2rem;
+    padding-bottom: 1rem;
+  }
+
+  .enroll-container img {
+    width: 55%;
+    height: auto;
+  }
 }
