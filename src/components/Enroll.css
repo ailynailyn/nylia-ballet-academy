@@ -8,6 +8,14 @@
   /* background-image: linear-gradient(-25deg, #616161 0%, #f2ce00 100%); */
 }
 
+.enroll-container .nyliabutton-container {
+  background-image: linear-gradient(-25deg, #2c6e7d 0%, #96b7c4 100%);
+}
+
+.enroll-container .nyliabutton-container .btn {
+  width: 100%;
+}
+
 .registration-section {
   margin: 5rem;
   text-align: center;
