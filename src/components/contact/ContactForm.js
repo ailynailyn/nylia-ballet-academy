@@ -104,7 +104,26 @@ function ContactForm() {
                       </span>
                     )}
                   </div>
-                  <div className="col-6">
+                  <div className="col-6" id="desktop-email-col">
+                    <input
+                      type="email"
+                      name="from_email"
+                      {...register("from_email", {
+                        required: true,
+                        pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                      })}
+                      className="form-control formInput"
+                      placeholder="Email address"
+                    ></input>
+                    {errors.email && (
+                      <span className="errorMessage">
+                        Please enter a valid email address
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <div className="row formRow">
+                  <div className="col-6" id="mobile-email-col">
                     <input
                       type="email"
                       name="from_email"
@@ -149,6 +168,7 @@ function ContactForm() {
                   // type="submit"
                   label={"Send"}
                   handleClick={handleSubmit(onSubmit)}
+                  // Position relative and zinde x8
                 ></NyliaButton>
               </form>
             </div>

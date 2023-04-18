@@ -11,6 +11,7 @@ import firstPositionPose from "../assets/firstPositionPose.jpeg";
 
 import ContactForm from "./contact/ContactForm.js";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
+import PhotoGallery from "./photoGallery/PhotoGallery.js";
 import { SocialIcon } from "react-social-icons";
 
 import "./Contact.css";
@@ -22,15 +23,15 @@ function Contact() {
     lng: -106.223031,
   };
 
-  const renderImages = () => {
-    const images = [
-      anahidFourthPose,
-      keinaPose,
-      luisaPose,
-      firstPositionPose,
-      zoePose,
-    ];
+  const images = [
+    anahidFourthPose,
+    keinaPose,
+    luisaPose,
+    firstPositionPose,
+    zoePose,
+  ];
 
+  const renderImages = () => {
     return images.map((image, index) => (
       <img
         key={index}
@@ -46,8 +47,14 @@ function Contact() {
 
   return (
     <div class="contact-container">
+      <div className="mobile-contact-title">
+        <h1>CONTACT</h1>
+      </div>
       <div className="contact-images">
         <div id="contact-gallery">{renderImages()}</div>
+        <div id="mobile-contact-gallery">
+          <PhotoGallery images={images}></PhotoGallery>
+        </div>
       </div>
       <div className="contact-info">
         <div className="contact-message">
@@ -64,11 +71,10 @@ function Contact() {
         <div className="contact-address">
           <h2>SCHOOL ADDRESS</h2>
           <p>
-            13350 Soleen Rd.
-            <br></br>
+            13340 Soleen Rd, Suite D<br></br>
             El Paso, Texas 79938
             <br></br>
-            (915) 555 - 555
+            (915) 328 - 0422
             <br></br>
             info@nyliaballetacademy.com
           </p>

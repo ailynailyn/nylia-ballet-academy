@@ -82,5 +82,770 @@ h2 {
 p {
   font-family: "Questrial", sans-serif;
   font-size: 25px;
-  /* font-size: 1.4vw; */
+}
+
+@media only screen and (max-width: 320px) {
+  .contact-container {
+    flex-direction: column;
+    padding-top: 140px;
+    height: 100%;
+  }
+
+  .mobile-contact-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mobile-contact-title h1 {
+    font-size: 1em;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+  }
+
+  .contact-images {
+    overflow: unset;
+    width: 100%;
+    height: 250px;
+  }
+
+  #contact-gallery {
+    display: none;
+  }
+
+  #mobile-contact-gallery {
+    height: 250px;
+  }
+
+  .contact-title {
+    display: none;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: fit-content;
+    overflow: unset;
+    text-align: center;
+  }
+
+  #desktop-email-col {
+    display: none;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .formInput {
+    padding: 10px 5px;
+    font-size: 0.8em;
+  }
+
+  .contact-form {
+    margin: 0;
+  }
+
+  .contact-message {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  .form-container {
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .nyliabutton-container {
+    padding: 0;
+  }
+
+  .contact-map {
+    margin: 0;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 275px;
+  }
+
+  .contact-map h2 {
+    font-size: 0.7em;
+  }
+
+  .contact-address {
+    margin: 0;
+    padding-bottom: 1.5rem;
+  }
+
+  .contact-address h2 {
+    font-size: 0.7em;
+    font-weight: 900;
+  }
+
+  .contact-address p {
+    font-size: 0.85em;
+  }
+
+  #contact-social-ico {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .contact-container {
+    flex-direction: column;
+    padding-top: 140px;
+    height: 100%;
+  }
+
+  .mobile-contact-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mobile-contact-title h1 {
+    font-size: 1em;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+  }
+
+  .contact-images {
+    overflow: unset;
+    width: 100%;
+    height: 250px;
+  }
+
+  #contact-gallery {
+    display: none;
+  }
+
+  #mobile-contact-gallery {
+    height: 250px;
+  }
+
+  .contact-title {
+    display: none;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: fit-content;
+    overflow: unset;
+    text-align: center;
+  }
+
+  #desktop-email-col {
+    display: none;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .formInput {
+    padding: 10px 5px;
+    font-size: 0.8em;
+  }
+
+  .contact-form {
+    margin: 0;
+  }
+
+  .contact-message {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  .form-container {
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .nyliabutton-container {
+    padding: 0;
+  }
+
+  .contact-map {
+    margin: 0;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 275px;
+  }
+
+  .contact-map h2 {
+    font-size: 0.7em;
+  }
+
+  .contact-address {
+    margin: 0;
+    padding-bottom: 1.5rem;
+  }
+
+  .contact-address h2 {
+    font-size: 0.7em;
+    font-weight: 900;
+  }
+
+  .contact-address p {
+    font-size: 0.85em;
+  }
+
+  #contact-social-ico {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .contact-container {
+    flex-direction: column;
+    padding-top: 165px;
+    height: 100%;
+  }
+
+  .mobile-contact-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mobile-contact-title h1 {
+    font-size: 1.3em;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+  }
+
+  .contact-images {
+    overflow: unset;
+    width: 100%;
+    height: 350px;
+  }
+
+  #contact-gallery {
+    display: none;
+  }
+
+  #mobile-contact-gallery {
+    height: 350px;
+  }
+
+  .contact-title {
+    display: none;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: fit-content;
+    overflow: unset;
+    text-align: center;
+  }
+
+  #desktop-email-col {
+    display: none;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .formInput {
+    padding: 15px 10px;
+    font-size: 1em;
+  }
+
+  .contact-form {
+    margin: 0;
+  }
+
+  .contact-message {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  .form-container {
+    width: 100%;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .nyliabutton-container {
+    padding: 0;
+  }
+
+  .contact-map {
+    margin: 0;
+    width: 100%;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    height: 300px;
+  }
+
+  .contact-map h2 {
+    font-size: 1em;
+  }
+
+  .contact-address {
+    margin: 0;
+    padding-bottom: 2.8rem;
+  }
+
+  .contact-address h2 {
+    font-size: 1em;
+    font-weight: 900;
+  }
+
+  .contact-address p {
+    font-size: 01em;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .contact-container {
+    flex-direction: column;
+    padding-top: 170px;
+    height: 100%;
+  }
+
+  .mobile-contact-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mobile-contact-title h1 {
+    font-size: 1.55em;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+  }
+
+  .contact-images {
+    overflow: unset;
+    width: 100%;
+    height: 450px;
+  }
+
+  #contact-gallery {
+    display: none;
+  }
+
+  #mobile-contact-gallery {
+    height: 450px;
+  }
+
+  .contact-title {
+    display: none;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: fit-content;
+    overflow: unset;
+    text-align: center;
+  }
+
+  #desktop-email-col {
+    display: none;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .formInput {
+    padding: 15px 10px;
+    font-size: 1em;
+  }
+
+  .contact-form {
+    margin: 0;
+  }
+
+  .contact-message {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  .form-container {
+    width: 100%;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .nyliabutton-container {
+    padding: 0;
+  }
+
+  .contact-map {
+    margin: 0;
+    width: 100%;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    height: 300px;
+  }
+
+  .contact-map h2 {
+    font-size: 1em;
+  }
+
+  .contact-address {
+    margin: 0;
+    padding-bottom: 2.8rem;
+  }
+
+  .contact-address h2 {
+    font-size: 1.3em;
+    font-weight: 900;
+  }
+
+  .contact-address p {
+    font-size: 1.15em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+  .contact-container {
+    flex-direction: column;
+    padding-top: 170px;
+    height: 100%;
+  }
+
+  .mobile-contact-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mobile-contact-title h1 {
+    font-size: 1.55em;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+  }
+
+  .contact-images {
+    overflow: unset;
+    width: 100%;
+    height: 450px;
+  }
+
+  #contact-gallery {
+    display: none;
+  }
+
+  #mobile-contact-gallery {
+    height: 450px;
+  }
+
+  .contact-title {
+    display: none;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: fit-content;
+    overflow: unset;
+    text-align: center;
+  }
+
+  #desktop-email-col {
+    display: none;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .formInput {
+    padding: 15px 10px;
+    font-size: 1em;
+  }
+
+  .contact-form {
+    margin: 0;
+  }
+
+  .contact-message {
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  .form-container {
+    width: 100%;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .nyliabutton-container {
+    padding: 0;
+  }
+
+  .contact-map {
+    margin: 0;
+    width: 100%;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    height: 300px;
+  }
+
+  .contact-map h2 {
+    font-size: 1em;
+  }
+
+  .contact-address {
+    margin: 0;
+    padding-bottom: 2.8rem;
+  }
+
+  .contact-address h2 {
+    font-size: 1.3em;
+    font-weight: 900;
+  }
+
+  .contact-address p {
+    font-size: 1.15em;
+  }
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .contact-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .contact-images {
+    flex-grow: 1;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 35%;
+    height: 100vh;
+    text-align: center;
+  }
+
+  #mobile-contact-gallery,
+  .mobile-contact-title,
+  #mobile-email-col {
+    display: none;
+  }
+
+  #contact-gallery {
+    height: 85%;
+    width: 85%;
+    padding-top: 150px;
+  }
+
+  #contact-gallery img {
+    padding: 1rem;
+  }
+
+  .contact-info {
+    flex-grow: 1;
+    position: relative;
+    height: 100%;
+    width: 60%;
+    background-color: #5e5242;
+    color: white;
+    height: 100%;
+    overflow: scroll;
+    padding-top: 100px;
+  }
+
+  .formInput {
+    padding: 15px 10px;
+    font-size: 1em;
+  }
+
+  .form-container {
+    width: 100%;
+    height: 100%;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .nyliabutton-container {
+    padding: 0;
+  }
+
+  .contact-message {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-right: auto;
+    margin-left: 2rem;
+    padding-top: 0;
+  }
+
+  .contact-title {
+    height: 20%;
+    padding-bottom: 0.5rem;
+  }
+
+  .form-container {
+    width: 90%;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+  }
+
+  .contact-map {
+    height: 350px;
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 0;
+  }
+
+  .contact-address {
+    height: auto;
+    padding-bottom: 2.5rem;
+  }
+
+  h1 {
+    font-family: "Michroma", sans-serif;
+    font-size: 2em;
+    /* font-size: 2.8vw; */
+    letter-spacing: 0.1vw;
+  }
+
+  .contact-address h2 {
+    font-family: "Michroma", sans-serif;
+    font-size: 1.2em;
+    /* font-size: 1.4vw; */
+    letter-spacing: 0.1vw;
+    font-weight: 900;
+  }
+
+  .contact-address p {
+    font-family: "Questrial", sans-serif;
+    font-size: 1.15em;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .contact-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .contact-images {
+    flex-grow: 1;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 35%;
+    height: 100vh;
+    text-align: center;
+  }
+
+  #mobile-contact-gallery,
+  .mobile-contact-title,
+  #mobile-email-col {
+    display: none;
+  }
+
+  #contact-gallery {
+    height: 85%;
+    width: 85%;
+    padding-top: 150px;
+  }
+
+  #contact-gallery img {
+    padding: 1rem;
+  }
+
+  .contact-info {
+    flex-grow: 1;
+    position: relative;
+    height: 100%;
+    width: 60%;
+    background-color: #5e5242;
+    color: white;
+    height: 100%;
+    overflow: scroll;
+    padding-top: 100px;
+  }
+
+  .formInput {
+    padding: 15px 10px;
+    font-size: 1em;
+  }
+
+  .form-container {
+    width: 100%;
+    height: 100%;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .nyliabutton-container {
+    padding: 0;
+  }
+
+  .contact-message {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-right: auto;
+    margin-left: 2rem;
+    padding-top: 0;
+  }
+
+  .contact-title {
+    height: 20%;
+    padding-bottom: 0.5rem;
+  }
+
+  .form-container {
+    width: 90%;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+  }
+
+  .contact-map {
+    height: 350px;
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 0;
+  }
+
+  .contact-address {
+    height: auto;
+    padding-bottom: 2.5rem;
+  }
+
+  h1 {
+    font-family: "Michroma", sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.1vw;
+  }
+
+  .contact-address h2 {
+    font-family: "Michroma", sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.1vw;
+    font-weight: 900;
+  }
+
+  .contact-address p {
+    font-family: "Questrial", sans-serif;
+    font-size: 1.15em;
+  }
 }

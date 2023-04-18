@@ -1,9 +1,11 @@
 .enroll-container {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   padding: 5%;
   position: relative;
   text-align: center;
+
+  /* background-image: linear-gradient(-25deg, #616161 0%, #f2ce00 100%); */
 }
 
 .registration-section {
