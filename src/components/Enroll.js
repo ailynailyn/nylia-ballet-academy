@@ -38,7 +38,7 @@ function Enroll() {
       <div className="tuition-section">
         <h1>TUITION</h1>
         <p>
-          Tuition is due on the 1st of each month. A late fee of $15 is charged
+          Tuition is due on the 1st of each month. A late fee of $10 is charged
           for late tuition payments.
           <br />
           <br />
