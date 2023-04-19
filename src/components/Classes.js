@@ -33,7 +33,7 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny ballerinas motivated and engaged in the art of ballet.",
+        "Designed for 3-4 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny ballerinas motivated and engaged in the art of ballet.",
       classRgstr: rgstrRqd,
     },
     preBallet2: {
@@ -44,7 +44,7 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Pre-Ballet II is a class designed to introduce the fundamentals of classical ballet technique. The class begins with conditioning, strengthening and stretching exercises to help students use, and isolate, certain muscle groups pertaining to dance. This class will enhance the student’s coordination, balance and flexibility, as well as musicality.",
+        "Designed for 5-6 year olds. Pre-Ballet II is a class designed to introduce the fundamentals of classical ballet technique. The class begins with conditioning, strengthening and stretching exercises to help students use, and isolate, certain muscle groups pertaining to dance. This class will enhance the student’s coordination, balance and flexibility, as well as musicality.",
       classRgstr: rgstrRqd,
     },
     ballet1: {
