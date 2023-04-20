@@ -14,6 +14,11 @@
   position: relative;
 }
 
+.description p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 900;
+}
+
 @media only screen and (max-width: 320px) {
   .description {
     padding: 1rem;
@@ -69,14 +74,24 @@
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) and (max-width: 1200px) {
   .description {
-    padding: 1.2rem;
+    padding: 1.6rem;
   }
 
   .description p {
-    font-size: 1.5em;
+    font-size: 1.6em;
+  }
+
+  .home-container {
+    background-position: center;
   }
 }
 
 /* Extra big screen devices (1201px and above) */
 @media only screen and (min-width: 1201px) {
+  .description {
+    padding: 1.6rem;
+  }
+  .home-container {
+    background-position: 25% 35%;
+  }
 }
