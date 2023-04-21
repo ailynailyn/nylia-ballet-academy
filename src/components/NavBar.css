@@ -33,7 +33,6 @@ img {
 
 .navbar-brand {
   height: 100%;
-  /* width: 100%; */
 }
 
 .offcanvas-header {
@@ -420,7 +419,6 @@ img {
   #offcanvasNavbar-expand-false .nylia-logo {
     width: 76%;
     height: auto;
-    /* max-height: 40%; */
   }
 
   .offcanvas-header {

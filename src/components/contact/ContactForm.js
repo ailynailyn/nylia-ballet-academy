@@ -66,7 +66,6 @@ function ContactForm() {
                 onSubmit={handleSubmit(onSubmit)}
                 noValidate
               >
-                {/* Row 1 of form */}
                 <div className="row formRow">
                   <div className="col">
                     <input

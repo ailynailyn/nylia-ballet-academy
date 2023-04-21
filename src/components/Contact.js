@@ -66,7 +66,7 @@ function Contact() {
           </div>
         </div>
         <div className="contact-map">
-          <Map location={location} zoomLevel={17} /> {/* include it here */}
+          <Map location={location} zoomLevel={17} />
         </div>
         <div className="contact-address">
           <h2>SCHOOL ADDRESS</h2>
