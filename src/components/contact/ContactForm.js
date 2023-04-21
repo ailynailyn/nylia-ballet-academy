@@ -50,17 +50,7 @@ function ContactForm() {
         from_email,
         message,
       };
-      await emailjs.send(
-        // todo: add to a env file for security
-        // process.env.REACT_APP_SERVICE_ID,
-        // process.env.REACT_APP_TEMPLATE_ID,
-        // templateParams,
-        // process.env.REACT_APP_USER_ID
-        SERVICE_ID,
-        TEMPLATE_ID,
-        templateParams,
-        USER_ID
-      );
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID);
       reset();
       toastifySuccess();
     } catch (e) {
