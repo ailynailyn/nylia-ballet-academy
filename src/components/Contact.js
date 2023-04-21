@@ -18,7 +18,7 @@ import "./Contact.css";
 
 function Contact() {
   const location = {
-    address: "13350 Soleen, El Paso, Texas, 79938.",
+    address: "13340 Soleen Rd. Suite D, El Paso, Texas, 79938",
     lat: 31.823562,
     lng: -106.223031,
   };
