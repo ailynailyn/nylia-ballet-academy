@@ -128,14 +128,6 @@ p {
     text-align: center;
   }
 
-  #desktop-email-col {
-    display: none;
-  }
-
-  .col-6 {
-    width: 100%;
-  }
-
   .formInput {
     padding: 10px 5px;
     font-size: 0.8em;
@@ -235,14 +227,6 @@ p {
     height: fit-content;
     overflow: unset;
     text-align: center;
-  }
-
-  #desktop-email-col {
-    display: none;
-  }
-
-  .col-6 {
-    width: 100%;
   }
 
   .formInput {
@@ -346,14 +330,6 @@ p {
     text-align: center;
   }
 
-  #desktop-email-col {
-    display: none;
-  }
-
-  .col-6 {
-    width: 100%;
-  }
-
   .formInput {
     padding: 15px 10px;
     font-size: 1em;
@@ -448,14 +424,6 @@ p {
     height: fit-content;
     overflow: unset;
     text-align: center;
-  }
-
-  #desktop-email-col {
-    display: none;
-  }
-
-  .col-6 {
-    width: 100%;
   }
 
   .formInput {
@@ -554,14 +522,6 @@ p {
     text-align: center;
   }
 
-  #desktop-email-col {
-    display: none;
-  }
-
-  .col-6 {
-    width: 100%;
-  }
-
   .formInput {
     padding: 15px 10px;
     font-size: 1em;
@@ -636,8 +596,7 @@ p {
   }
 
   #mobile-contact-gallery,
-  .mobile-contact-title,
-  #mobile-email-col {
+  .mobile-contact-title {
     display: none;
   }
 
@@ -755,8 +714,7 @@ p {
   }
 
   #mobile-contact-gallery,
-  .mobile-contact-title,
-  #mobile-email-col {
+  .mobile-contact-title {
     display: none;
   }
 

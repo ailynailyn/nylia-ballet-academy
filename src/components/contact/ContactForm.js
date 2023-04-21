@@ -8,8 +8,6 @@ import "react-toastify/dist/ReactToastify.min.css";
 
 import "./ContactForm.css";
 
-// TODO ALERT TODO
-// REPLACE AND USE SECURE VERSION
 const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
 const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
 const USER_ID = process.env.REACT_APP_USER_ID;
@@ -41,7 +39,6 @@ function ContactForm() {
 
     console.log("Name: ", from_name);
     console.log("Email: ", from_email);
-    // console.log('Subject: ', subject);
     console.log("Message: ", message);
 
     try {
@@ -71,7 +68,7 @@ function ContactForm() {
               >
                 {/* Row 1 of form */}
                 <div className="row formRow">
-                  <div className="col-6">
+                  <div className="col">
                     <input
                       type="text"
                       name="from_name"
@@ -94,26 +91,9 @@ function ContactForm() {
                       </span>
                     )}
                   </div>
-                  <div className="col-6" id="desktop-email-col">
-                    <input
-                      type="email"
-                      name="from_email"
-                      {...register("from_email", {
-                        required: true,
-                        pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-                      })}
-                      className="form-control formInput"
-                      placeholder="Email address"
-                    ></input>
-                    {errors.email && (
-                      <span className="errorMessage">
-                        Please enter a valid email address
-                      </span>
-                    )}
-                  </div>
                 </div>
                 <div className="row formRow">
-                  <div className="col-6" id="mobile-email-col">
+                  <div className="col">
                     <input
                       type="email"
                       name="from_email"
@@ -149,16 +129,9 @@ function ContactForm() {
                     )}
                   </div>
                 </div>
-                {/* TODO SUBMIT BUTTON https://speckyboy.com/curtain-effect-web-design/ */}
-                {/* <button className="submit-btn" type="submit">
-                  Submit
-                </button> */}
                 <NyliaButton
-                  // className="submit-btn"
-                  // type="submit"
                   label={"Send"}
                   handleClick={handleSubmit(onSubmit)}
-                  // Position relative and zinde x8
                 ></NyliaButton>
               </form>
             </div>
