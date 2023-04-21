@@ -7,6 +7,11 @@
   font-style: oblique;
 }
 
+.class-schedule-button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 @media only screen and (max-width: 320px) {
   .classes-container {
     height: 100%;
@@ -986,6 +991,7 @@
     height: 15%;
     width: 100%;
     order: 4;
+    padding-bottom: 3rem;
   }
 
   .class-descriptions-button .btn {
@@ -1307,6 +1313,7 @@
     height: 15%;
     width: 100%;
     order: 4;
+    padding-bottom: 3rem;
   }
 
   .class-descriptions-button .btn {
