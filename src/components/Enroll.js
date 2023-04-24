@@ -17,8 +17,12 @@ function Enroll() {
           given a trial class to determine proper class placement.
           <br />
           <br />
-          Stop by today to complete your registration! Download our registration
-          packet below.
+          Stop by today to complete and finalize your registration!
+          <br />
+          <br />
+          Download our registration packet below. Email your registration packet
+          to us at info@nyliaballetacademy.com to secure your spot at Nylia
+          Ballet Academy and schedule your trial class for class placement!
         </p>
         <a
           id="enrollment-page-button"
