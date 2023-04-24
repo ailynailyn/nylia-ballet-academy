@@ -74,7 +74,7 @@ function Contact() {
             13340 Soleen Rd, Suite D<br></br>
             El Paso, Texas 79938
             <br></br>
-            (915) 328 - 0422
+            (915) 478 - 7380
             <br></br>
             info@nyliaballetacademy.com
           </p>
