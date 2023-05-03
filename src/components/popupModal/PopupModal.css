@@ -9,9 +9,7 @@
 
 #trial-class-modal-footer {
   text-align: center;
-  /* background: #96b7c4; */
   background-image: linear-gradient(-35deg, #616161 0%, #96c49f 100%);
-
   align-content: center;
   justify-content: center;
   border: none;
@@ -19,7 +17,6 @@
 
 #trial-class-modal-footer .nyliabutton-container {
   width: 45%;
-  /* --def: black; */
 }
 
 #trial-class-modal-footer .nyliabutton-container .btn {
