@@ -41,12 +41,9 @@
 }
 
 #modalClickButton .nyliabutton-container .btn {
-  /* font-size: 0.8em;*/
   margin-right: 1rem;
   margin-left: 1rem;
-  /* background-color:  rgba(255, 255, 255, 0.2); */
   font-weight: 900;
-  /* letter-spacing: 1em; */
   border-radius: 0;
   color: white;
   border-top: 1px solid white;
