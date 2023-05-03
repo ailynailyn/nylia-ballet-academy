@@ -32,7 +32,7 @@ function Team() {
         <div className="right-member">
           <img src={luisa}></img>
           <h1>LUISA CUELLAR</h1>
-          <h2>Operations Manager</h2>
+          <h2>Manager</h2>
           <p>
             A native El Pasoan, Luisa is an accomplished individual and is
             currently studying towards her degree in Computer Science. She

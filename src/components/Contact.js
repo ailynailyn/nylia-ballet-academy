@@ -79,7 +79,7 @@ function Contact() {
             info@nyliaballetacademy.com
           </p>
           <SocialIcon
-            url="https://www.facebook.com/people/Nylia-Ballet-Academy/100090503081625/"
+            url="https://www.facebook.com/nyliaballetacademy/"
             network="facebook"
             bgColor="#7D83AA"
             fgColor="white"

@@ -1,0 +1,95 @@
+.modal-title {
+  font-family: "Michroma", sans-serif;
+  color: white;
+}
+
+.modal-content {
+  background-color: #485c4dd9;
+}
+
+#trial-class-modal-footer {
+  text-align: center;
+  /* background: #96b7c4; */
+  background-image: linear-gradient(-35deg, #616161 0%, #96c49f 100%);
+
+  align-content: center;
+  justify-content: center;
+  border: none;
+}
+
+#trial-class-modal-footer .nyliabutton-container {
+  width: 45%;
+  /* --def: black; */
+}
+
+#trial-class-modal-footer .nyliabutton-container .btn {
+  width: 100%;
+}
+
+.PopupModal .formInput,
+.PopupModal .formInput:focus {
+  color: white;
+  border-radius: 0;
+  font-family: "Questrial", sans-serif;
+}
+
+.PopupModal .formInput::placeholder {
+  color: white;
+  opacity: 0.4;
+}
+
+#modalClickButton .nyliabutton-container .btn:hover {
+  background-color: white;
+  color: #96b7c4;
+}
+
+#modalClickButton .nyliabutton-container .btn {
+  /* font-size: 0.8em;*/
+  margin-right: 1rem;
+  margin-left: 1rem;
+  /* background-color:  rgba(255, 255, 255, 0.2); */
+  font-weight: 900;
+  /* letter-spacing: 1em; */
+  border-radius: 0;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.errorMessage {
+  font-family: "Questrial", sans-serif;
+}
+
+@media only screen and (max-width: 320px) {
+  #trial-class-modal-footer {
+    padding: 0;
+  }
+  #trial-class-modal-footer .nyliabutton-container .btn {
+    /* padding: 0; */
+    margin-top: 0;
+    font-size: 0.9em;
+    letter-spacing: 1em;
+  }
+
+  .errorMessage {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1201px) {
+}

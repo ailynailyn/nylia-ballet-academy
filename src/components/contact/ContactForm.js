@@ -84,9 +84,9 @@ function ContactForm() {
                       className="form-control formInput"
                       placeholder="Name"
                     ></input>
-                    {errors.name && (
+                    {errors.from_name && (
                       <span className="errorMessage">
-                        {errors.name.message}
+                        {errors.from_name.message}
                       </span>
                     )}
                   </div>
@@ -103,7 +103,7 @@ function ContactForm() {
                       className="form-control formInput"
                       placeholder="Email address"
                     ></input>
-                    {errors.email && (
+                    {errors.from_email && (
                       <span className="errorMessage">
                         Please enter a valid email address
                       </span>

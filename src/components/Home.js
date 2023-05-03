@@ -1,4 +1,7 @@
 import { React } from "react";
+
+import PopupModal from "../components/popupModal/PopupModal";
+
 import "./Home.css";
 
 function Home() {
@@ -11,7 +14,12 @@ function Home() {
           <br />
           Visit us during our Grand Opening week May 15 - 20 for special deals
           and raffles!
+          <br />
+          <br />
         </p>
+        <div>
+          <PopupModal />
+        </div>
       </div>
     </div>
   );

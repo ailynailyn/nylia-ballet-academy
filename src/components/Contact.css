@@ -674,14 +674,12 @@ p {
   h1 {
     font-family: "Michroma", sans-serif;
     font-size: 2em;
-    /* font-size: 2.8vw; */
     letter-spacing: 0.1vw;
   }
 
   .contact-address h2 {
     font-family: "Michroma", sans-serif;
     font-size: 1.2em;
-    /* font-size: 1.4vw; */
     letter-spacing: 0.1vw;
     font-weight: 900;
   }
