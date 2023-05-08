@@ -1,19 +1,57 @@
 import { React, useState } from "react";
-import Curtain from "./curtain/Curtain.js";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 import "./Classes.css";
 
-import tempClass5 from "../assets/temp-classes5.jpeg";
-import preBallet1Img from "../assets/preBallet1Img.JPG";
-import preBallet2Img from "../assets/preBallet2Img.JPG";
-import ballet1Img from "../assets/ballet1Img.JPG";
-import ballet2Img from "../assets/ballet2Img.JPG";
-import ballet3Img from "../assets/ballet3Img.JPG";
-import ballet4Img from "../assets/ballet4Img.jpeg";
-import pointe1Img from "../assets/pointe1Img.jpeg";
-import pointe2Img from "../assets/pointe2Img.JPG";
-import adultBalletImg from "../assets/adultBalletImg.jpeg";
-import flexibilityImg from "../assets/flexibilityImg.JPG";
+import preBallet1Sm from "../assets/evanButterfly300.JPG";
+import preBallet1Md from "../assets/evanButterfly768.JPG";
+import preBallet1Lg from "../assets/evanButterfly1280.JPG";
+import preBallet1XL from "../assets/evanButterfly2000.JPG";
+
+import preBallet2Sm from "../assets/mabelAndAilyn300.JPG";
+import preBallet2Md from "../assets/mabelAndAilyn768.JPG";
+import preBallet2Lg from "../assets/mabelAndAilyn1280.JPG";
+import preBallet2XL from "../assets/mabelAndAilyn2000.JPG";
+
+import ballet1Sm from "../assets/keinaPose300.JPG";
+import ballet1Md from "../assets/keinaPose768.JPG";
+import ballet1Lg from "../assets/keinaPose1280.JPG";
+import ballet1XL from "../assets/keinaPose2000.JPG";
+
+import ballet2Sm from "../assets/barreStretch300.JPG";
+import ballet2Md from "../assets/barreStretch768.JPG";
+import ballet2Lg from "../assets/barreStretch1280.JPG";
+import ballet2XL from "../assets/barreStretch2000.JPG";
+
+import ballet3Sm from "../assets/zoePose300.JPG";
+import ballet3Md from "../assets/zoePose768.JPG";
+import ballet3Lg from "../assets/zoePose1280.JPG";
+import ballet3XL from "../assets/zoePose2000.JPG";
+
+import ballet4Sm from "../assets/terePose300.JPG";
+import ballet4Md from "../assets/terePose768.JPG";
+import ballet4Lg from "../assets/terePose1280.JPG";
+import ballet4XL from "../assets/terePose2000.JPG";
+
+import pointe1Sm from "../assets/pointeTendu300.JPG";
+import pointe1Md from "../assets/pointeTendu768.JPG";
+import pointe1Lg from "../assets/pointeTendu1280.JPG";
+import pointe1XL from "../assets/pointeTendu2000.JPG";
+
+import pointe2Sm from "../assets/pointeTrio300.JPG";
+import pointe2Md from "../assets/pointeTrio768.JPG";
+import pointe2Lg from "../assets/pointeTrio1280.JPG";
+import pointe2XL from "../assets/pointeTrio2000.JPG";
+
+import adultBalletSm from "../assets/marianaAdultBallet300.JPG";
+import adultBalletMd from "../assets/marianaAdultBallet768.JPG";
+import adultBalletLg from "../assets/marianaAdultBallet1280.JPG";
+import adultBalletXL from "../assets/marianaAdultBallet2000.JPG";
+
+import flexibilitySm from "../assets/ailynKeinaFold300.JPG";
+import flexibilityMd from "../assets/ailynKeinaFold768.JPG";
+import flexibilityLg from "../assets/ailynKeinaFold1280.JPG";
+import flexibilityXL from "../assets/ailynKeinaFold2000.JPG";
+
 import ClassSchedule from "../assets/NyliaSchedule.pdf";
 import ClassDescriptionBrochure from "../assets/Class Descriptions Brochure.pdf";
 
@@ -26,8 +64,10 @@ function Classes() {
 
   var classInfo = {
     preBallet1: {
-      classTitle: "☰ Pre-Ballet I",
-      classImg: preBallet1Img,
+      classTitle: "PRE-BALLET I",
+      classAges: "Ages 3 - 4",
+      classImg: preBallet1Sm,
+      imgSet: `${preBallet1Sm} 300w, ${preBallet1Md} 768w, ${preBallet1Lg} 1280w, ${preBallet1XL} 2000w`,
       classSched1: "SATURDAY",
       classSched2: "9:00 - 10:00 AM",
       classSched3: "",
@@ -37,8 +77,10 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     preBallet2: {
-      classTitle: "☰ Pre-Ballet II",
-      classImg: preBallet2Img,
+      classTitle: "PRE-BALLET II",
+      classAges: "Ages 5 - 6",
+      classImg: preBallet2Sm,
+      imgSet: `${preBallet2Sm} 300w, ${preBallet2Md} 768w, ${preBallet2Lg} 1280w, ${preBallet2XL} 2000w`,
       classSched1: "SATURDAY",
       classSched2: "10:00 - 11:00 AM",
       classSched3: "",
@@ -48,8 +90,10 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     ballet1: {
-      classTitle: "☰ Ballet I",
-      classImg: ballet1Img,
+      classTitle: "BALLET I",
+      classAges: "Placement by Evaluation",
+      classImg: ballet1Sm,
+      imgSet: `${ballet1Sm} 300w, ${ballet1Md} 768w, ${ballet1Lg} 1280w, ${ballet1XL} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
@@ -59,8 +103,10 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     ballet2: {
-      classTitle: "☰ Ballet II",
-      classImg: ballet2Img,
+      classTitle: "BALLET II",
+      classAges: "Placement by Evaluation",
+      classImg: ballet2Sm,
+      imgSet: `${ballet2Sm} 300w, ${ballet2Md} 768w, ${ballet2Lg} 1280w, ${ballet2XL} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
@@ -70,8 +116,10 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     ballet3: {
-      classTitle: "☰ Ballet III",
-      classImg: ballet3Img,
+      classTitle: "BALLET III",
+      classAges: "Placement by Evaluation",
+      classImg: ballet3Sm,
+      imgSet: `${ballet3Sm} 300w, ${ballet3Md} 768w, ${ballet3Lg} 1280w, ${ballet3XL} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
       classSched2: "5:30 - 7:00 PM",
       classSched3: "",
@@ -81,8 +129,10 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     ballet4: {
-      classTitle: "☰ Ballet IV",
-      classImg: ballet4Img,
+      classTitle: "BALLET IV",
+      classAges: "Placement by Evaluation",
+      classImg: ballet4Sm,
+      imgSet: `${ballet4Sm} 300w, ${ballet4Md} 768w, ${ballet4Lg} 1280w, ${ballet4XL} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "5:30 - 7:00 PM",
       classSched3: "",
@@ -92,8 +142,10 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     pointe1: {
-      classTitle: "☰ Pointe I",
-      classImg: pointe1Img,
+      classTitle: "POINTE I",
+      classAges: "Placement by Evaluation",
+      classImg: pointe1Sm,
+      imgSet: `${pointe1Sm} 300w, ${pointe1Md} 768w, ${pointe1Lg} 1280w, ${pointe1XL} 2000w`,
       classSched1: "FRIDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
@@ -103,8 +155,10 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     pointe2: {
-      classTitle: "☰ Pointe II",
-      classImg: pointe2Img,
+      classTitle: "POINTE II",
+      classAges: "Placement by Evaluation",
+      classImg: pointe2Sm,
+      imgSet: `${pointe2Sm} 300w, ${pointe2Md} 768w, ${pointe2Lg} 1280w, ${pointe2XL} 2000w`,
       classSched1: "FRIDAY",
       classSched2: "5:30 - 7:00 PM",
       classSched3: "SATURDAY",
@@ -114,8 +168,10 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
     adultBallet: {
-      classTitle: "☰ Adult Ballet",
-      classImg: adultBalletImg,
+      classTitle: "ADULT BALLET",
+      classAges: "- All Ages -",
+      classImg: adultBalletSm,
+      imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "5:30 - 7:00 PM",
       classSched3: "SATURDAY",
@@ -125,8 +181,10 @@ function Classes() {
       classRgstr: dropInWlcm,
     },
     flexibility: {
-      classTitle: "☰ Flexibility",
-      classImg: flexibilityImg,
+      classTitle: "FLEXIBILITY",
+      classAges: "- All Ages -",
+      classImg: flexibilitySm,
+      imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "SATURDAY",
@@ -139,9 +197,15 @@ function Classes() {
 
   const setClassInfo = (curClass) => {
     document.getElementById("dropdown-item-button").innerHTML =
-      classInfo[curClass].classTitle;
+      "☰ " + classInfo[curClass].classTitle;
     document.getElementById("cur-class-image").src =
       classInfo[curClass].classImg;
+    document.getElementById("cur-class-image").srcset =
+      classInfo[curClass].imgSet;
+    document.getElementById("class-title-header").innerHTML =
+      classInfo[curClass].classTitle;
+    document.getElementById("cur-class-ages").innerHTML =
+      classInfo[curClass].classAges;
     document.getElementById("cur-class-sched1").innerHTML =
       classInfo[curClass].classSched1;
     document.getElementById("cur-class-sched2").innerHTML =
@@ -269,8 +333,16 @@ function Classes() {
           </a>
         </div>
         <div className="class-desc-box">
+          <div className="class-title">
+            <h1 id="class-title-header">{classInfo.preBallet1.classTitle}</h1>
+            <p id="cur-class-ages">{classInfo.preBallet1.classAges}</p>
+          </div>
           <div className="class-image">
-            <img id="cur-class-image" src={classInfo.preBallet1.classImg}></img>
+            <img
+              id="cur-class-image"
+              src={classInfo.preBallet1.classImg}
+              srcSet={classInfo.preBallet1.imgSet}
+            ></img>
           </div>
           <div className="class-info"></div>
           <div className="class-schedule">

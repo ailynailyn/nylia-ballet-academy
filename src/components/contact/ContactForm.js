@@ -37,10 +37,6 @@ function ContactForm() {
   const onSubmit = async (data) => {
     const { from_name, from_email, message } = data;
 
-    console.log("Name: ", from_name);
-    console.log("Email: ", from_email);
-    console.log("Message: ", message);
-
     try {
       const templateParams = {
         from_name,

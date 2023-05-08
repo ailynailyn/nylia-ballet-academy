@@ -43,10 +43,6 @@ function PopupModal() {
   const onSend = async (data) => {
     const { from_name, from_phone, from_email } = data;
 
-    console.log("Name: ", from_name);
-    console.log("Phone: ", from_phone);
-    console.log("Email: ", from_email);
-
     try {
       const templateParams = {
         from_name,

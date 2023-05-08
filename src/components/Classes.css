@@ -12,13 +12,22 @@
   padding-bottom: 1rem;
 }
 
+.class-title {
+  text-align: center;
+}
+
+#cur-class-ages {
+  color: white;
+}
+
 @media only screen and (max-width: 320px) {
   .classes-container {
     height: 100%;
     width: 100vw;
   }
 
-  .left-listings {
+  .left-listings,
+  #class-title-header {
     display: none;
   }
 
@@ -83,6 +92,10 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1em;
+  }
+
+  #cur-class-ages {
+    font-size: 1em;
   }
 
   .page-title {
@@ -181,12 +194,17 @@
     width: 100vw;
   }
 
-  .left-listings {
+  .left-listings,
+  #class-title-header {
     display: none;
   }
 
   .mobile-class-dropdown {
     width: 100%;
+  }
+
+  #cur-class-ages {
+    font-size: 1.4em;
   }
 
   .dropdown {
@@ -347,7 +365,8 @@
     width: 100vw;
   }
 
-  .left-listings {
+  .left-listings,
+  #class-title-header {
     display: none;
   }
 
@@ -375,6 +394,10 @@
     border-color: white;
     color: white;
     font-weight: 900;
+  }
+
+  #cur-class-ages {
+    margin-bottom: 0;
   }
 
   .btn.show {
@@ -512,12 +535,18 @@
     width: 100vw;
   }
 
-  .left-listings {
+  .left-listings,
+  #class-title-header {
     display: none;
   }
 
   .mobile-class-dropdown {
     width: 100%;
+  }
+
+  #cur-class-ages {
+    font-size: 1.6em;
+    margin-bottom: 0;
   }
 
   .dropdown {
@@ -577,6 +606,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2.3em;
+    padding-top: 1.2em;
   }
 
   .page-title {
@@ -677,7 +707,8 @@
     width: 100vw;
   }
 
-  .left-listings {
+  .left-listings,
+  #class-title-header {
     display: none;
   }
 
@@ -742,6 +773,12 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2.3em;
+    padding-top: 1.7em;
+  }
+
+  #cur-class-ages {
+    font-size: 1.6em;
+    margin-bottom: 0;
   }
 
   .page-title {
