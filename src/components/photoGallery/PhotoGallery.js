@@ -3,9 +3,14 @@ import "./PhotoGallery.css";
 
 function PhotoGallery({ images }) {
   const renderItems = () => {
-    return images.map((image, index) => (
+    return images.map((imageInfo, index) => (
       <Carousel.Item>
-        <img key={index} src={image} alt="First slide" />
+        <img
+          key={index}
+          src={imageInfo.smImg}
+          srcSet={imageInfo.imgSet}
+          alt="First slide"
+        />
       </Carousel.Item>
     ));
   };
