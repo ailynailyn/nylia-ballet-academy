@@ -11,7 +11,10 @@ function Team() {
     <div class="team-container">
       <div className="left-content">
         <div className="left-member">
-          <img src={ailyn}></img>
+          <img
+            src={ailyn}
+            alt="Ailyn Aguirre posing for Nylia Ballet Academy"
+          ></img>
           <h1>AILYN AGUIRRE</h1>
           <h2>Director</h2>
           <p>
@@ -30,7 +33,10 @@ function Team() {
       </div>
       <div className="right-content">
         <div className="right-member">
-          <img src={luisa}></img>
+          <img
+            src={luisa}
+            alt="Luisa Cuellar posing for Nylia Ballet Academy"
+          ></img>
           <h1>LUISA CUELLAR</h1>
           <h2>Manager</h2>
           <p>

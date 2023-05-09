@@ -41,6 +41,7 @@ function Enroll() {
         </a>
       </div>
       <img
+        alt="Nylia Ballet Academy teacher helps adult student with posture."
         src={enrollmentSm}
         srcSet={`${enrollmentSm} 300w, ${enrollmentMd} 768w, ${enrollmentLg} 1280w, ${enrollmentXL} 2000w`}
       />

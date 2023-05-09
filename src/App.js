@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="Nylia Ballet Academy Logo" />
         <h1>Hello from V2</h1>
       </header>
     </div>

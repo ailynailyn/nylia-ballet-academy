@@ -9,7 +9,7 @@ function PhotoGallery({ images }) {
           key={index}
           src={imageInfo.smImg}
           srcSet={imageInfo.imgSet}
-          alt="First slide"
+          alt="Nylia Ballet Academy Photo Gallery image"
         />
       </Carousel.Item>
     ));

@@ -64,6 +64,7 @@ function Contact() {
         key={index}
         src={imageInfo.smImg}
         srcSet={imageInfo.imgSet}
+        alt="Nylia Ballet Academy Dancer from El Paso Texas"
         style={{
           // width: "100%",
           height: "90%",
