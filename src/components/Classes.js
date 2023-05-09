@@ -6,52 +6,42 @@ import preBallet1Sm from "../assets/evanButterfly300.JPG";
 import preBallet1Md from "../assets/evanButterfly768.JPG";
 import preBallet1Lg from "../assets/evanButterfly1280.JPG";
 import preBallet1XL from "../assets/evanButterfly2000.JPG";
-
 import preBallet2Sm from "../assets/mabelAndAilyn300.JPG";
 import preBallet2Md from "../assets/mabelAndAilyn768.JPG";
 import preBallet2Lg from "../assets/mabelAndAilyn1280.JPG";
 import preBallet2XL from "../assets/mabelAndAilyn2000.JPG";
-
 import ballet1Sm from "../assets/keinaPose300.JPG";
 import ballet1Md from "../assets/keinaPose768.JPG";
 import ballet1Lg from "../assets/keinaPose1280.JPG";
 import ballet1XL from "../assets/keinaPose2000.JPG";
-
 import ballet2Sm from "../assets/barreStretch300.JPG";
 import ballet2Md from "../assets/barreStretch768.JPG";
 import ballet2Lg from "../assets/barreStretch1280.JPG";
 import ballet2XL from "../assets/barreStretch2000.JPG";
-
 import ballet3Sm from "../assets/zoePose300.JPG";
 import ballet3Md from "../assets/zoePose768.JPG";
 import ballet3Lg from "../assets/zoePose1280.JPG";
 import ballet3XL from "../assets/zoePose2000.JPG";
-
 import ballet4Sm from "../assets/terePose300.JPG";
 import ballet4Md from "../assets/terePose768.JPG";
 import ballet4Lg from "../assets/terePose1280.JPG";
 import ballet4XL from "../assets/terePose2000.JPG";
-
 import pointe1Sm from "../assets/pointeTendu300.JPG";
 import pointe1Md from "../assets/pointeTendu768.JPG";
 import pointe1Lg from "../assets/pointeTendu1280.JPG";
 import pointe1XL from "../assets/pointeTendu2000.JPG";
-
 import pointe2Sm from "../assets/pointeTrio300.JPG";
 import pointe2Md from "../assets/pointeTrio768.JPG";
 import pointe2Lg from "../assets/pointeTrio1280.JPG";
 import pointe2XL from "../assets/pointeTrio2000.JPG";
-
 import adultBalletSm from "../assets/marianaAdultBallet300.JPG";
 import adultBalletMd from "../assets/marianaAdultBallet768.JPG";
 import adultBalletLg from "../assets/marianaAdultBallet1280.JPG";
 import adultBalletXL from "../assets/marianaAdultBallet2000.JPG";
-
 import flexibilitySm from "../assets/ailynKeinaFold300.JPG";
 import flexibilityMd from "../assets/ailynKeinaFold768.JPG";
 import flexibilityLg from "../assets/ailynKeinaFold1280.JPG";
 import flexibilityXL from "../assets/ailynKeinaFold2000.JPG";
-
 import ClassSchedule from "../assets/NyliaSchedule.pdf";
 import ClassDescriptionBrochure from "../assets/Class Descriptions Brochure.pdf";
 

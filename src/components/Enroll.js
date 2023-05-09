@@ -1,6 +1,9 @@
 import { React } from "react";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
-import enrollmentImg from "../assets/enrollmentImg.jpeg";
+import enrollmentSm from "../assets/luisaAilynBallet300.JPG";
+import enrollmentMd from "../assets/luisaAilynBallet768.JPG";
+import enrollmentLg from "../assets/luisaAilynBallet1280.JPG";
+import enrollmentXL from "../assets/luisaAilynBallet2000.JPG";
 
 import NyliaStudentRegistration from "../assets/NyliaStudentRegistration.pdf";
 import TuitionPackages from "../assets/TuitionPackages.pdf";
@@ -37,7 +40,10 @@ function Enroll() {
           ></NyliaButton>
         </a>
       </div>
-      <img src={enrollmentImg} />
+      <img
+        src={enrollmentSm}
+        srcSet={`${enrollmentSm} 300w, ${enrollmentMd} 768w, ${enrollmentLg} 1280w, ${enrollmentXL} 2000w`}
+      />
 
       <div className="tuition-section">
         <h1>TUITION</h1>
