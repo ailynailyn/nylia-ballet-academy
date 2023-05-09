@@ -15,7 +15,7 @@ function PhotoGallery({ images }) {
     ));
   };
 
-  return <Carousel>{renderItems()}</Carousel>;
+  return <Carousel variant="dark">{renderItems()}</Carousel>;
 }
 
 export default PhotoGallery;
