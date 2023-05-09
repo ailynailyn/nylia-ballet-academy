@@ -6,42 +6,83 @@ import preBallet1Sm from "../assets/evanButterfly300.JPG";
 import preBallet1Md from "../assets/evanButterfly768.JPG";
 import preBallet1Lg from "../assets/evanButterfly1280.JPG";
 import preBallet1XL from "../assets/evanButterfly2000.JPG";
+import preBallet1SmWebp from "../assets/evanButterfly300.webp";
+import preBallet1MdWebp from "../assets/evanButterfly768.webp";
+import preBallet1LgWebp from "../assets/evanButterfly1280.webp";
+import preBallet1XLWebp from "../assets/evanButterfly2000.webp";
 import preBallet2Sm from "../assets/mabelAndAilyn300.JPG";
 import preBallet2Md from "../assets/mabelAndAilyn768.JPG";
 import preBallet2Lg from "../assets/mabelAndAilyn1280.JPG";
 import preBallet2XL from "../assets/mabelAndAilyn2000.JPG";
+import preBallet2SmWebp from "../assets/mabelAndAilyn300.webp";
+import preBallet2MdWebp from "../assets/mabelAndAilyn768.webp";
+import preBallet2LgWebp from "../assets/mabelAndAilyn1280.webp";
+import preBallet2XLWebp from "../assets/mabelAndAilyn2000.webp";
 import ballet1Sm from "../assets/keinaPose300.JPG";
 import ballet1Md from "../assets/keinaPose768.JPG";
 import ballet1Lg from "../assets/keinaPose1280.JPG";
 import ballet1XL from "../assets/keinaPose2000.JPG";
+import ballet1SmWebp from "../assets/keinaPose300.webp";
+import ballet1MdWebp from "../assets/keinaPose768.webp";
+import ballet1LgWebp from "../assets/keinaPose1280.webp";
+import ballet1XLWebp from "../assets/keinaPose2000.webp";
 import ballet2Sm from "../assets/barreStretch300.JPG";
 import ballet2Md from "../assets/barreStretch768.JPG";
 import ballet2Lg from "../assets/barreStretch1280.JPG";
 import ballet2XL from "../assets/barreStretch2000.JPG";
+import ballet2SmWebp from "../assets/barreStretch300.webp";
+import ballet2MdWebp from "../assets/barreStretch768.webp";
+import ballet2LgWebp from "../assets/barreStretch1280.webp";
+import ballet2XLWebp from "../assets/barreStretch2000.webp";
 import ballet3Sm from "../assets/zoePose300.JPG";
 import ballet3Md from "../assets/zoePose768.JPG";
 import ballet3Lg from "../assets/zoePose1280.JPG";
 import ballet3XL from "../assets/zoePose2000.JPG";
+import ballet3SmWebp from "../assets/zoePose300.webp";
+import ballet3MdWebp from "../assets/zoePose768.webp";
+import ballet3LgWebp from "../assets/zoePose1280.webp";
+import ballet3XLWebp from "../assets/zoePose2000.webp";
 import ballet4Sm from "../assets/terePose300.JPG";
 import ballet4Md from "../assets/terePose768.JPG";
 import ballet4Lg from "../assets/terePose1280.JPG";
 import ballet4XL from "../assets/terePose2000.JPG";
+import ballet4SmWebp from "../assets/terePose300.webp";
+import ballet4MdWebp from "../assets/terePose768.webp";
+import ballet4LgWebp from "../assets/terePose1280.webp";
+import ballet4XLWebp from "../assets/terePose2000.webp";
 import pointe1Sm from "../assets/pointeTendu300.JPG";
 import pointe1Md from "../assets/pointeTendu768.JPG";
 import pointe1Lg from "../assets/pointeTendu1280.JPG";
 import pointe1XL from "../assets/pointeTendu2000.JPG";
+import pointe1SmWebp from "../assets/pointeTendu300.webp";
+import pointe1MdWebp from "../assets/pointeTendu768.webp";
+import pointe1LgWebp from "../assets/pointeTendu1280.webp";
+import pointe1XLWebp from "../assets/pointeTendu2000.webp";
 import pointe2Sm from "../assets/pointeTrio300.JPG";
 import pointe2Md from "../assets/pointeTrio768.JPG";
 import pointe2Lg from "../assets/pointeTrio1280.JPG";
 import pointe2XL from "../assets/pointeTrio2000.JPG";
+import pointe2SmWebp from "../assets/pointeTrio300.webp";
+import pointe2MdWebp from "../assets/pointeTrio768.webp";
+import pointe2LgWebp from "../assets/pointeTrio1280.webp";
+import pointe2XLWebp from "../assets/pointeTrio2000.webp";
 import adultBalletSm from "../assets/marianaAdultBallet300.JPG";
 import adultBalletMd from "../assets/marianaAdultBallet768.JPG";
 import adultBalletLg from "../assets/marianaAdultBallet1280.JPG";
 import adultBalletXL from "../assets/marianaAdultBallet2000.JPG";
+import adultBalletSmWebp from "../assets/marianaAdultBallet300.webp";
+import adultBalletMdWebp from "../assets/marianaAdultBallet768.webp";
+import adultBalletLgWebp from "../assets/marianaAdultBallet1280.webp";
+import adultBalletXLWebp from "../assets/marianaAdultBallet2000.webp";
 import flexibilitySm from "../assets/ailynKeinaFold300.JPG";
 import flexibilityMd from "../assets/ailynKeinaFold768.JPG";
 import flexibilityLg from "../assets/ailynKeinaFold1280.JPG";
 import flexibilityXL from "../assets/ailynKeinaFold2000.JPG";
+import flexibilitySmWebp from "../assets/ailynKeinaFold300.webp";
+import flexibilityMdWebp from "../assets/ailynKeinaFold768.webp";
+import flexibilityLgWebp from "../assets/ailynKeinaFold1280.webp";
+import flexibilityXLWebp from "../assets/ailynKeinaFold2000.webp";
+
 import ClassSchedule from "../assets/NyliaSchedule.pdf";
 import ClassDescriptionBrochure from "../assets/Class Descriptions Brochure.pdf";
 
@@ -58,6 +99,7 @@ function Classes() {
       classAges: "Ages 3 - 4",
       classImg: preBallet1Sm,
       imgSet: `${preBallet1Sm} 300w, ${preBallet1Md} 768w, ${preBallet1Lg} 1280w, ${preBallet1XL} 2000w`,
+      webpSet: `${preBallet1SmWebp} 300w, ${preBallet1MdWebp} 768w, ${preBallet1LgWebp} 1280w, ${preBallet1XLWebp} 2000w`,
       classSched1: "SATURDAY",
       classSched2: "9:00 - 10:00 AM",
       classSched3: "",
@@ -71,6 +113,7 @@ function Classes() {
       classAges: "Ages 5 - 6",
       classImg: preBallet2Sm,
       imgSet: `${preBallet2Sm} 300w, ${preBallet2Md} 768w, ${preBallet2Lg} 1280w, ${preBallet2XL} 2000w`,
+      webpSet: `${preBallet2SmWebp} 300w, ${preBallet2MdWebp} 768w, ${preBallet2LgWebp} 1280w, ${preBallet2XLWebp} 2000w`,
       classSched1: "SATURDAY",
       classSched2: "10:00 - 11:00 AM",
       classSched3: "",
@@ -84,6 +127,7 @@ function Classes() {
       classAges: "Placement by Evaluation",
       classImg: ballet1Sm,
       imgSet: `${ballet1Sm} 300w, ${ballet1Md} 768w, ${ballet1Lg} 1280w, ${ballet1XL} 2000w`,
+      webpSet: `${ballet1SmWebp} 300w, ${ballet1MdWebp} 768w, ${ballet1LgWebp} 1280w, ${ballet1XLWebp} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
@@ -97,6 +141,7 @@ function Classes() {
       classAges: "Placement by Evaluation",
       classImg: ballet2Sm,
       imgSet: `${ballet2Sm} 300w, ${ballet2Md} 768w, ${ballet2Lg} 1280w, ${ballet2XL} 2000w`,
+      webpSet: `${ballet2SmWebp} 300w, ${ballet2MdWebp} 768w, ${ballet2LgWebp} 1280w, ${ballet2XLWebp} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
@@ -110,6 +155,7 @@ function Classes() {
       classAges: "Placement by Evaluation",
       classImg: ballet3Sm,
       imgSet: `${ballet3Sm} 300w, ${ballet3Md} 768w, ${ballet3Lg} 1280w, ${ballet3XL} 2000w`,
+      webpSet: `${ballet3SmWebp} 300w, ${ballet3MdWebp} 768w, ${ballet3LgWebp} 1280w, ${ballet3XLWebp} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
       classSched2: "5:30 - 7:00 PM",
       classSched3: "",
@@ -123,6 +169,7 @@ function Classes() {
       classAges: "Placement by Evaluation",
       classImg: ballet4Sm,
       imgSet: `${ballet4Sm} 300w, ${ballet4Md} 768w, ${ballet4Lg} 1280w, ${ballet4XL} 2000w`,
+      webpSet: `${ballet4SmWebp} 300w, ${ballet4MdWebp} 768w, ${ballet4LgWebp} 1280w, ${ballet4XLWebp} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "5:30 - 7:00 PM",
       classSched3: "",
@@ -136,6 +183,7 @@ function Classes() {
       classAges: "Placement by Evaluation",
       classImg: pointe1Sm,
       imgSet: `${pointe1Sm} 300w, ${pointe1Md} 768w, ${pointe1Lg} 1280w, ${pointe1XL} 2000w`,
+      webpSet: `${pointe1SmWebp} 300w, ${pointe1MdWebp} 768w, ${pointe1LgWebp} 1280w, ${pointe1XLWebp} 2000w`,
       classSched1: "FRIDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "",
@@ -149,6 +197,7 @@ function Classes() {
       classAges: "Placement by Evaluation",
       classImg: pointe2Sm,
       imgSet: `${pointe2Sm} 300w, ${pointe2Md} 768w, ${pointe2Lg} 1280w, ${pointe2XL} 2000w`,
+      webpSet: `${pointe2SmWebp} 300w, ${pointe2MdWebp} 768w, ${pointe2LgWebp} 1280w, ${pointe2XLWebp} 2000w`,
       classSched1: "FRIDAY",
       classSched2: "5:30 - 7:00 PM",
       classSched3: "SATURDAY",
@@ -162,6 +211,7 @@ function Classes() {
       classAges: "- All Ages -",
       classImg: adultBalletSm,
       imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
+      webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "5:30 - 7:00 PM",
       classSched3: "SATURDAY",
@@ -175,6 +225,7 @@ function Classes() {
       classAges: "- All Ages -",
       classImg: flexibilitySm,
       imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
+      webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
       classSched2: "4:30 - 5:30 PM",
       classSched3: "SATURDAY",
@@ -190,8 +241,10 @@ function Classes() {
       "☰ " + classInfo[curClass].classTitle;
     document.getElementById("cur-class-image").src =
       classInfo[curClass].classImg;
-    document.getElementById("cur-class-image").srcset =
+    document.getElementById("cur-class-jpeg").srcset =
       classInfo[curClass].imgSet;
+    document.getElementById("cur-class-webp").srcset =
+      classInfo[curClass].webpSet; // todo
     document.getElementById("class-title-header").innerHTML =
       classInfo[curClass].classTitle;
     document.getElementById("cur-class-ages").innerHTML =
@@ -314,6 +367,7 @@ function Classes() {
             without
             rel="noopener noreferrer"
             target="_blank"
+            aria-label="Download Nylia Ballet Academy Class Schedule"
           >
             <NyliaButton
               addtClassName="class-schedule-button"
@@ -328,11 +382,23 @@ function Classes() {
             <p id="cur-class-ages">{classInfo.preBallet1.classAges}</p>
           </div>
           <div className="class-image">
-            <img
-              id="cur-class-image"
-              src={classInfo.preBallet1.classImg}
-              srcSet={classInfo.preBallet1.imgSet}
-            ></img>
+            <picture>
+              <source
+                id="cur-class-webp"
+                srcSet={classInfo.preBallet1.imgSet}
+                type="image/webp"
+              />
+              <source
+                id="cur-class-jpeg"
+                srcSet={classInfo.preBallet1.imgSet}
+                type="image/jpeg"
+              />
+              <img
+                id="cur-class-image"
+                src={classInfo.preBallet1.classImg}
+                alt="El Paso dancers in Ballet class."
+              ></img>
+            </picture>
           </div>
           <div className="class-info"></div>
           <div className="class-schedule">
@@ -352,6 +418,7 @@ function Classes() {
             without
             rel="noopener noreferrer"
             target="_blank"
+            aria-label="Download Nylia Ballet Academy Class Descriptions"
           >
             <NyliaButton
               addtClassName="class-descriptions-button"
