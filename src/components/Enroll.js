@@ -33,6 +33,7 @@ function Enroll() {
           without
           rel="noopener noreferrer"
           target="_blank"
+          aria-label="Download Nylia Ballet Academy Registration Form"
         >
           <NyliaButton
             // handleClick={() => setClassInfo("preBallet1")}
@@ -62,6 +63,7 @@ function Enroll() {
           without
           rel="noopener noreferrer"
           target="_blank"
+          aria-label="Download Nylia Ballet Academy Tuition Information"
         >
           <NyliaButton
             // handleClick={() => setClassInfo("preBallet1")}
