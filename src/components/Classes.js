@@ -105,7 +105,7 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Designed for 3-4 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny ballerinas motivated and engaged in the art of ballet.",
+        "Designed for 3-4 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
       classRgstr: rgstrRqd,
     },
     preBallet2: {
