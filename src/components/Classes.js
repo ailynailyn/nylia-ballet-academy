@@ -200,8 +200,8 @@ function Classes() {
       webpSet: `${pointe2SmWebp} 300w, ${pointe2MdWebp} 768w, ${pointe2LgWebp} 1280w, ${pointe2XLWebp} 2000w`,
       classSched1: "FRIDAY",
       classSched2: "5:30 - 7:00 PM",
-      classSched3: "SATURDAY",
-      classSched4: "11:00 - 12:30 PM",
+      classSched3: "",
+      classSched4: "",
       classDesc:
         "Pointe II students will be invited to participate on an individual basis when they have the necessary physical and technical development. These classes are perfect for the ballerina who is wanting to take their ballet technique to the next level. This class includes classical variations, the study of solo dances from historically established classical ballet repertoire.",
       classRgstr: rgstrRqd,
@@ -213,7 +213,7 @@ function Classes() {
       imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
       webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
-      classSched2: "5:30 - 7:00 PM",
+      classSched2: "7:00 - 8:30 PM",
       classSched3: "SATURDAY",
       classSched4: "12:00 - 1:30 PM",
       classDesc:
@@ -227,7 +227,7 @@ function Classes() {
       imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
       webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
-      classSched2: "4:30 - 5:30 PM",
+      classSched2: "7:00 - 8:00 PM",
       classSched3: "SATURDAY",
       classSched4: "11:00 AM - 12:00 PM",
       classDesc:
