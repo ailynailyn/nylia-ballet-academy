@@ -1,8 +1,8 @@
 import { React } from "react";
 import middleImage from "../assets/temp-contact-middle.jpeg";
 import nyliaOutdoorSign from "../assets/nyliaOutdoorSign.jpeg";
-import ailyn from "../assets/ailynTeam.jpeg";
-import luisa from "../assets/luisaTeam.jpeg";
+import ailyn from "../assets/ailynTeam.jpg";
+import luisa from "../assets/luisaTeam.jpg";
 import "./Team.css";
 
 function Team() {
