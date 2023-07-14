@@ -12,8 +12,8 @@ function Home() {
           East El Paso's Center for Classical Ballet Training
           <br />
           <br />
-          Visit us during our Grand Opening week May 15 - 20 for special deals
-          and raffles!
+          Nylia Ballet Academy is thrilled to present our Student Showcase,
+          "Terra", on September 10, 2023
           <br />
           <br />
         </p>
