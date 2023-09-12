@@ -12,8 +12,8 @@ function Home() {
           East El Paso's Center for Classical Ballet Training
           <br />
           <br />
-          Nylia Ballet Academy is thrilled to present our Student Showcase,
-          "Terra", on September 10, 2023
+          Now offering Beginner Adult Ballet classes on Tuesdays & Pre-Ballet
+          and Pilates classes on Thursdays!
           <br />
           <br />
         </p>
