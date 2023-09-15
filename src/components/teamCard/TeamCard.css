@@ -1,0 +1,21 @@
+.TeamCard {
+  /* max-width: 700px; */
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  --bs-card-border-color: #6f8564;
+}
+
+.card-title {
+  font-family: "Michroma", sans-serif;
+}
+
+.card-footer {
+  font-family: "Michroma", sans-serif;
+  background-color: #6f8564;
+  border-top: none;
+  color: white;
+}
