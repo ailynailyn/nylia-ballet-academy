@@ -1,6 +1,4 @@
 import { React } from "react";
-import middleImage from "../assets/temp-contact-middle.jpeg";
-import nyliaOutdoorSign from "../assets/nyliaOutdoorSign.jpeg";
 import TeamCard from "../components/teamCard/TeamCard";
 import ailyn from "../assets/ailynTeam.jpg";
 import clara from "../assets/clara.JPG";
@@ -8,8 +6,6 @@ import yocelyn from "../assets/yocelyn.JPG";
 import melanie from "../assets/melanie.JPG";
 import "./Team.css";
 import CardGroup from "react-bootstrap/CardGroup";
-
-import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 
 function Team() {
   // https://nicepage.com/ht/546181/successful-team-html-template
