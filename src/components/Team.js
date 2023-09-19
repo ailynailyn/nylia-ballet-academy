@@ -4,6 +4,7 @@ import ailyn from "../assets/ailynTeam.jpg";
 import clara from "../assets/clara.JPG";
 import yocelyn from "../assets/yocelyn.JPG";
 import melanie from "../assets/melanie.JPG";
+import katherine from "../assets/katherine.jpeg";
 import "./Team.css";
 import CardGroup from "react-bootstrap/CardGroup";
 
@@ -31,7 +32,7 @@ function Team() {
     },
     katherine: {
       name: "Katherine Quezada",
-      profileImg: "",
+      profileImg: katherine,
       position: "ADMINISTRATIVE ASSISTANT",
       description: `Katherine is a proud El Pasoan who was born and raised in the city. She is currently attending EPCC studying towards a chemistry degree with the determination of becoming a Forensic Science Technician.`,
     },
@@ -72,12 +73,12 @@ function Team() {
           description={memberInfo.clara.description}
         ></TeamCard>
 
-        {/* <TeamCard
+        <TeamCard
           profileImg={memberInfo.katherine.profileImg}
           name={memberInfo.katherine.name}
           position={memberInfo.katherine.position}
           description={memberInfo.katherine.description}
-        ></TeamCard> */}
+        ></TeamCard>
         <TeamCard
           profileImg={memberInfo.melanie.profileImg}
           name={memberInfo.melanie.name}
