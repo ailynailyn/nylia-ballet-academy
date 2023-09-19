@@ -404,8 +404,8 @@ function Classes() {
           <div className="class-schedule">
             <p id="cur-class-sched1">{classInfo.preBallet1.classSched1}</p>
             <p id="cur-class-sched2">{classInfo.preBallet1.classSched2}</p>
-            <p id="cur-class-sched3"></p>
-            <p id="cur-class-sched4"></p>
+            <p id="cur-class-sched3">{classInfo.preBallet1.classSched3}</p>
+            <p id="cur-class-sched4">{classInfo.preBallet1.classSched4}</p>
             <p id="cur-class-rgstr">{classInfo.preBallet1.classRgstr}</p>
           </div>
           <div className="class-description">
