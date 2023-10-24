@@ -24,6 +24,12 @@ function Team() {
       Academy to provide an equal opportunity for anyone in the community
       to pursue their dreams in dance. Ailyn is an ABT® Certified Teacher, who has successfully completed the ABT® Teacher Training Intensive in Pre-Primary through Level 3 of the ABT® National Training Curriculum.`,
     },
+    alani: {
+      name: "Alani Hatten",
+      profileImg: "",
+      position: "INSTRUCTOR",
+      description: `Alani is a dedicated individual with a 16-year journey in the world of dance. She has been trained in Classical Ballet under the instruction of Andrée Harper and Ouisa Davis. She is a former Eastwood Trooperette and an alumni from The Jillana School summer intensive where she studied Ballet, Contemporary and Character dance and has proven commitment in various other dance areas. Alani was a part of a 3X NDA Pom National Champion dance team, the DBU Patriettes. Currently pursuing a BFA in Dance with a focus on Dance Studies and Choreography, her dedication to the art form of dance shines through. Additionally, her role on the UTEP dance team, led by Leslie Lopez, demonstrates her ongoing commitment to excellence in dance. Her journey is a testament to her passion and talent in the world of dance.`,
+    },
     clara: {
       name: "Clara Neufeld",
       profileImg: clara,
@@ -33,8 +39,8 @@ function Team() {
     katherine: {
       name: "Katherine Quezada",
       profileImg: katherine,
-      position: "ADMINISTRATIVE ASSISTANT",
-      description: `Katherine is a proud El Pasoan who was born and raised in the city. She is currently attending EPCC studying towards a chemistry degree with the determination of becoming a Forensic Science Technician.`,
+      position: "STUDIO MANAGER",
+      description: `Katherine is a proud El Pasoan who was born and raised in the city. She is currently attending EPCC studying towards a chemistry degree in dreams of becoming a Forensic Science Technician. An experienced leader, Katherine is passionate about building an inviting and opportunistic environment for all kinds of dancers.`,
     },
     melanie: {
       name: "Melanie Roman Naciff",
@@ -65,7 +71,12 @@ function Team() {
           position={memberInfo.ailyn.position}
           description={memberInfo.ailyn.description}
         ></TeamCard>
-
+        <TeamCard
+          // profileImg={memberInfo.alani.profileImg}
+          name={memberInfo.alani.name}
+          position={memberInfo.alani.position}
+          description={memberInfo.alani.description}
+        ></TeamCard>
         <TeamCard
           profileImg={memberInfo.clara.profileImg}
           name={memberInfo.clara.name}
