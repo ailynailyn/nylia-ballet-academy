@@ -206,28 +206,42 @@ function Classes() {
         "Pointe II students will be invited to participate on an individual basis when they have the necessary physical and technical development. These classes are perfect for the ballerina who is wanting to take their ballet technique to the next level. This class includes classical variations, the study of solo dances from historically established classical ballet repertoire.",
       classRgstr: rgstrRqd,
     },
-    adultBallet: {
+    adultBegBallet: {
       classTitle: "ADULT BALLET",
-      classAges: "- All Ages -",
+      classAges: "- Beginner -",
       classImg: adultBalletSm,
       imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
       webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
-      classSched2: "7:00 - 8:30 PM",
-      classSched3: "SATURDAY",
-      classSched4: "12:00 - 1:30 PM",
+      classSched2: "7:00 - 8:00 PM",
+      classSched3: "",
+      classSched4: "",
       classDesc:
         "Adult Ballet class is designed for dancers of all abilities. Participants will strengthen their ballet technique aimed to improve alignment and balance, strengthen muscles, and increase flexibility. In this class, the teacher will make sure to accommodate to participants of all levels in order to create a comfortable environment for growth.",
       classRgstr: dropInWlcm,
     },
+    adultAdvBallet: {
+      classTitle: "ADULT BALLET",
+      classAges: "- Intermediate/Advanced -",
+      classImg: adultBalletSm,
+      imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
+      webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
+      classSched1: "TUESDAY, THURSDAY & FRIDAY",
+      classSched2: "7:00 - 8:30 PM",
+      classSched3: "SATURDAY",
+      classSched4: "12:00 - 1:30 PM",
+      classDesc:
+        "This class is designed for intermediate and advanced dancers. Participants will strengthen their ballet technique aimed to improve alignment and balance, strengthen muscles, and increase flexibility.",
+      classRgstr: dropInWlcm,
+    },
     flexibility: {
-      classTitle: "FLEXIBILITY",
+      classTitle: "FLEXIBILITY & CONDITIONING",
       classAges: "- All Ages -",
       classImg: flexibilitySm,
       imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
       webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
-      classSched2: "7:00 - 8:00 PM",
+      classSched2: "6:00 - 7:00 PM",
       classSched3: "SATURDAY",
       classSched4: "11:00 AM - 12:00 PM",
       classDesc:
@@ -303,8 +317,12 @@ function Classes() {
             label={"Pointe II"}
           ></NyliaButton>
           <NyliaButton
-            handleClick={() => setClassInfo("adultBallet")}
-            label={"Adult Ballet"}
+            handleClick={() => setClassInfo("adultBegBallet")}
+            label={"Adult Ballet - Beginner"}
+          ></NyliaButton>
+          <NyliaButton
+            handleClick={() => setClassInfo("adultAdvBallet")}
+            label={"Adult Ballet - Advanced"}
           ></NyliaButton>
           <NyliaButton
             handleClick={() => setClassInfo("flexibility")}
@@ -344,9 +362,15 @@ function Classes() {
           </Dropdown.Item>
           <Dropdown.Item
             as="button"
-            onClick={() => setClassInfo("adultBallet")}
+            onClick={() => setClassInfo("adultBegBallet")}
           >
-            Adult Ballet
+            Adult Ballet - Beginner
+          </Dropdown.Item>
+          <Dropdown.Item
+            as="button"
+            onClick={() => setClassInfo("adultAdvBallet")}
+          >
+            Adult Ballet - Advanced
           </Dropdown.Item>
           <Dropdown.Item
             as="button"

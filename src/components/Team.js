@@ -3,7 +3,6 @@ import TeamCard from "../components/teamCard/TeamCard";
 import ailyn from "../assets/ailynTeam.jpg";
 import clara from "../assets/clara.JPG";
 import yocelyn from "../assets/yocelyn.JPG";
-import melanie from "../assets/melanie.JPG";
 import katherine from "../assets/katherine.jpeg";
 import "./Team.css";
 import CardGroup from "react-bootstrap/CardGroup";
@@ -42,12 +41,6 @@ function Team() {
       position: "STUDIO MANAGER",
       description: `Katherine is a proud El Pasoan who was born and raised in the city. She is currently attending EPCC studying towards a chemistry degree in dreams of becoming a Forensic Science Technician. An experienced leader, Katherine is passionate about building an inviting and opportunistic environment for all kinds of dancers.`,
     },
-    melanie: {
-      name: "Melanie Roman Naciff",
-      profileImg: melanie,
-      position: "ADMINISTRATIVE ASSISTANT",
-      description: `Melanie is a current Junior in high school in the International Baccelaureate Program. She enjoys spending her time in book club, student council, playing soccer, being with animals, and running. She is constantly pursuing learning, and is striving to obtain her IB Diploma, along with getting into a rigorous university.`,
-    },
     yocelyn: {
       name: "Yocelyn Salcido",
       profileImg: yocelyn,
@@ -83,20 +76,12 @@ function Team() {
           position={memberInfo.clara.position}
           description={memberInfo.clara.description}
         ></TeamCard>
-
         <TeamCard
           profileImg={memberInfo.katherine.profileImg}
           name={memberInfo.katherine.name}
           position={memberInfo.katherine.position}
           description={memberInfo.katherine.description}
         ></TeamCard>
-        <TeamCard
-          profileImg={memberInfo.melanie.profileImg}
-          name={memberInfo.melanie.name}
-          position={memberInfo.melanie.position}
-          description={memberInfo.melanie.description}
-        ></TeamCard>
-
         <TeamCard
           profileImg={memberInfo.yocelyn.profileImg}
           name={memberInfo.yocelyn.name}
