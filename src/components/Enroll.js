@@ -95,7 +95,6 @@ function Enroll() {
       <div className="uniform-section">
         <h1>CLASS ATTIRE</h1>
         <p>
-          <br />
           The Academy uniform is an integral part of the Nylia Ballet Academy
           experience. The uniform indicates that students are in a special
           learning environment and allows teachers to clearly see the student’s
