@@ -12,8 +12,9 @@ function Home() {
           East El Paso's Center for Classical Ballet Training
           <br />
           <br />
-          Now offering Beginner Adult Ballet classes on Tuesdays & Pre-Ballet
-          and Pilates classes on Thursdays!
+          Nylia Ballet Academy is thrilled to announce our upcoming production
+          of "Una Notte Silenziosa", Ft. Excerpts from The Nutcracker, this
+          December 16th!
           <br />
           <br />
         </p>

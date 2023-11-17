@@ -7,6 +7,8 @@ import enrollmentXL from "../assets/luisaAilynBallet2000.JPG";
 
 import NyliaStudentRegistration from "../assets/NyliaStudentRegistration.pdf";
 import TuitionPackages from "../assets/TuitionPackages.pdf";
+import AcademyEtiquette from "../assets/AcademyEtiquette.pdf";
+import AcademyUniform from "../assets/AcademyUniform.pdf";
 
 import "./Enroll.css";
 
@@ -65,10 +67,50 @@ function Enroll() {
           target="_blank"
           aria-label="Download Nylia Ballet Academy Tuition Information"
         >
-          <NyliaButton
-            // handleClick={() => setClassInfo("preBallet1")}
-            label={"Tuition Information"}
-          ></NyliaButton>
+          <NyliaButton label={"Tuition Information"}></NyliaButton>
+        </a>
+      </div>
+      <div className="rules-section">
+        <h1>RULES AND ETIQUETTE</h1>
+        <p>
+          <br />
+          <p id="quote">
+            "Discipline is the bridge between goals and accomplishments."
+          </p>
+          <br />
+          All Nylia Ballet Academy dancers must adhere to the Academy etiquette
+          guidelines.
+        </p>
+        <a
+          id="etiquette-page-button"
+          href={AcademyEtiquette}
+          without
+          rel="noopener noreferrer"
+          target="_blank"
+          aria-label="Download Nylia Ballet Academy Etiquette"
+        >
+          <NyliaButton label={"Academy Etiquette"}></NyliaButton>
+        </a>
+      </div>
+      <div className="uniform-section">
+        <h1>CLASS ATTIRE</h1>
+        <p>
+          <br />
+          The Academy uniform is an integral part of the Nylia Ballet Academy
+          experience. The uniform indicates that students are in a special
+          learning environment and allows teachers to clearly see the student’s
+          body. This allows instructors to provide feedback on proper alignment
+          and correct positions.
+        </p>
+        <a
+          id="uniform-page-button"
+          href={AcademyUniform}
+          without
+          rel="noopener noreferrer"
+          target="_blank"
+          aria-label="Download Nylia Ballet Academy Uniform"
+        >
+          <NyliaButton label={"Academy Uniform"}></NyliaButton>
         </a>
       </div>
     </div>
