@@ -63,16 +63,19 @@ function NavBar() {
                 className="justify-content-end flex-grow-1 pe-3"
                 style={{ height: "100%" }}
               >
-                <Nav.Link href="/team" style={{ height: "25%" }}>
+                <Nav.Link href="/team" style={{ height: "20%" }}>
                   <NyliaButton label={"THE TEAM"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/classes" style={{ height: "25%" }}>
+                <Nav.Link href="/classes" style={{ height: "20%" }}>
                   <NyliaButton label={"CLASSES"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/enroll" style={{ height: "25%" }}>
+                <Nav.Link href="/enroll" style={{ height: "20%" }}>
                   <NyliaButton label={"ENROLL"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/contact" style={{ height: "25%" }}>
+                <Nav.Link href="/gallery" style={{ height: "20%" }}>
+                  <NyliaButton label={"GALLERY"}></NyliaButton>
+                </Nav.Link>
+                <Nav.Link href="/contact" style={{ height: "20%" }}>
                   <NyliaButton label={"CONTACT"}></NyliaButton>
                 </Nav.Link>
               </Nav>

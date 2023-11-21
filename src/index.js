@@ -8,6 +8,7 @@ import Enroll from "./components/Enroll";
 import Classes from "./components/Classes";
 import Tuition from "./components/Tuition";
 import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
 import Team from "./components/Team";
 import "./index.css";
 
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="classes" element={<Classes />} />
           <Route path="tuition" element={<Tuition />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="gallery" element={<Gallery />} />
           <Route path="team" element={<Team />} />
         </Route>
       </Routes>

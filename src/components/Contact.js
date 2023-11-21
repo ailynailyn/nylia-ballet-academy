@@ -1,22 +1,6 @@
 import { React } from "react";
 import Map from "./map/Map.js";
 
-import anahidFourthSm from "../assets/anahidFourth300.JPG";
-import anahidFourthMd from "../assets/anahidFourth768.JPG";
-import anahidFourthLg from "../assets/anahidFourth1280.JPG";
-import anahidFourthXL from "../assets/anahidFourth2000.JPG";
-import evanSittingSm from "../assets/evanSitting300.JPG";
-import evanSittingMd from "../assets/evanSitting768.JPG";
-import evanSittingLg from "../assets/evanSitting1280.JPG";
-import evanSittingXL from "../assets/evanSitting2000.JPG";
-import luisaPoseSm from "../assets/luisaPose300.JPG";
-import luisaPoseMd from "../assets/luisaPose768.JPG";
-import luisaPoseLg from "../assets/luisaPose1280.JPG";
-import luisaPoseXL from "../assets/luisaPose2000.JPG";
-import tereTenduSm from "../assets/tereTendu300.JPG";
-import tereTenduMd from "../assets/tereTendu768.JPG";
-import tereTenduLg from "../assets/tereTendu1280.JPG";
-import tereTenduXL from "../assets/tereTendu2000.JPG";
 import emmaBarreSm from "../assets/emmaBarre300.JPG";
 import emmaBarreMd from "../assets/emmaBarre768.JPG";
 import emmaBarreLg from "../assets/emmaBarre1280.JPG";
@@ -36,22 +20,22 @@ function Contact() {
   };
 
   const images = [
-    {
-      smImg: evanSittingSm,
-      imgSet: `${evanSittingSm} 300w, ${evanSittingMd} 768w, ${evanSittingLg} 1280w, ${evanSittingXL} 2000w`,
-    },
-    {
-      smImg: anahidFourthSm,
-      imgSet: `${anahidFourthSm} 300w, ${anahidFourthMd} 768w, ${anahidFourthLg} 1280w, ${anahidFourthXL} 2000w`,
-    },
-    {
-      smImg: luisaPoseSm,
-      imgSet: `${luisaPoseSm} 300w, ${luisaPoseMd} 768w, ${luisaPoseLg} 1280w, ${luisaPoseXL} 2000w`,
-    },
-    {
-      smImg: tereTenduSm,
-      imgSet: `${tereTenduSm} 300w, ${tereTenduMd} 768w, ${tereTenduLg} 1280w, ${tereTenduXL} 2000w`,
-    },
+    // {
+    //   smImg: evanSittingSm,
+    //   imgSet: `${evanSittingSm} 300w, ${evanSittingMd} 768w, ${evanSittingLg} 1280w, ${evanSittingXL} 2000w`,
+    // },
+    // {
+    //   smImg: anahidFourthSm,
+    //   imgSet: `${anahidFourthSm} 300w, ${anahidFourthMd} 768w, ${anahidFourthLg} 1280w, ${anahidFourthXL} 2000w`,
+    // },
+    // {
+    //   smImg: luisaPoseSm,
+    //   imgSet: `${luisaPoseSm} 300w, ${luisaPoseMd} 768w, ${luisaPoseLg} 1280w, ${luisaPoseXL} 2000w`,
+    // },
+    // {
+    //   smImg: tereTenduSm,
+    //   imgSet: `${tereTenduSm} 300w, ${tereTenduMd} 768w, ${tereTenduLg} 1280w, ${tereTenduXL} 2000w`,
+    // },
     {
       smImg: emmaBarreSm,
       imgSet: `${emmaBarreSm} 300w, ${emmaBarreMd} 768w, ${emmaBarreLg} 1280w, ${emmaBarreXL} 2000w`,
