@@ -12,9 +12,9 @@ function Home() {
           East El Paso's Center for Classical Ballet Training
           <br />
           <br />
-          Nylia Ballet Academy is thrilled to announce our upcoming production
-          of "Una Notte Silenziosa", Ft. Excerpts from The Nutcracker, this
-          December 16th!
+          We are currently on Winter break until January 2nd! Classes resume
+          Wednesday, January 3rd. Contact us to schedule your free trial class
+          for January. See you soon, dancers!
           <br />
           <br />
         </p>
