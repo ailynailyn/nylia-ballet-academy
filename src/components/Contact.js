@@ -1,10 +1,14 @@
 import { React } from "react";
 import Map from "./map/Map.js";
 
-import emmaBarreSm from "../assets/emmaBarre300.JPG";
-import emmaBarreMd from "../assets/emmaBarre768.JPG";
-import emmaBarreLg from "../assets/emmaBarre1280.JPG";
-import emmaBarreXL from "../assets/emmaBarre2000.JPG";
+// import emmaBarreSm from "../assets/emmaBarre300.JPG";
+// import emmaBarreMd from "../assets/emmaBarre768.JPG";
+// import emmaBarreLg from "../assets/emmaBarre1280.JPG";
+// import emmaBarreXL from "../assets/emmaBarre2000.JPG";
+import pSm from "../assets/galleryImages/kristina300.png";
+import pMd from "../assets/galleryImages/kristina-768.png";
+import pLg from "../assets/galleryImages/kristina-1280.png";
+import pXL from "../assets/galleryImages/kristina-2000.png";
 
 import ContactForm from "./contact/ContactForm.js";
 import PhotoGallery from "./photoGallery/PhotoGallery.js";
@@ -37,8 +41,8 @@ function Contact() {
     //   imgSet: `${tereTenduSm} 300w, ${tereTenduMd} 768w, ${tereTenduLg} 1280w, ${tereTenduXL} 2000w`,
     // },
     {
-      smImg: emmaBarreSm,
-      imgSet: `${emmaBarreSm} 300w, ${emmaBarreMd} 768w, ${emmaBarreLg} 1280w, ${emmaBarreXL} 2000w`,
+      smImg: pSm,
+      imgSet: `${pSm} 300w, ${pMd} 768w, ${pLg} 1280w, ${pXL} 2000w`,
     },
   ];
 
