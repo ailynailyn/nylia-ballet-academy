@@ -8,7 +8,6 @@ import assessmentsSm from "../assets/StudentAssessments2024-300.png";
 import assessmentsMd from "../assets/StudentAssessments2024-768.png";
 import assessmentsLg from "../assets/StudentAssessments2024-1280.png";
 import assessmentsXL from "../assets/StudentAssessments2024-2000.png";
-
 import auditionsSm from "../assets/CinderellaAuditions-300.png";
 import auditionsMd from "../assets/CinderellaAuditions-768.png";
 import auditionsLg from "../assets/CinderellaAuditions-1280.png";
@@ -17,7 +16,16 @@ import cinderellaScheduleSm from "../assets/CinderellaWeeklySchedule2024-300.png
 import cinderellaScheduleMd from "../assets/CinderellaWeeklySchedule2024-768.png";
 import cinderellaScheduleLg from "../assets/CinderellaWeeklySchedule2024-1280.png";
 import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
-
+import friendWeek2024Sm from "../assets/FriendWeek2024-300.png";
+import friendWeek2024Md from "../assets/FriendWeek2024-768.png";
+import friendWeek2024Lg from "../assets/FriendWeek2024-1280.png";
+import friendWeek2024XL from "../assets/FriendWeek2024-2000.png";
+import obsSm from "../assets/ObservationWeekFeb2024-300.png";
+import obsMd from "../assets/ObservationWeekFeb2024-768.png";
+import obsLg from "../assets/ObservationWeekFeb2024-1280.png";
+import obsXL from "../assets/ObservationWeekFeb2024-2000.png";
+// ObservationWeekFeb2024
+// FriendWeek2024
 import PhotoGallery from "./photoGallery/PhotoGallery.js";
 
 import "./UpcomingEvents.css";
@@ -25,8 +33,16 @@ import "./UpcomingEvents.css";
 function UpcomingEvents() {
   const images = [
     {
+      smImg: friendWeek2024Sm,
+      imgSet: `${friendWeek2024Sm} 300w, ${friendWeek2024Md} 768w, ${friendWeek2024Lg} 1280w, ${friendWeek2024XL} 2000w`,
+    },
+    {
       smImg: movieNightSm,
       imgSet: `${movieNightSm} 300w, ${movieNightMd} 768w, ${movieNightLg} 1280w, ${movieNightXL} 2000w`,
+    },
+    {
+      smImg: obsSm,
+      imgSet: `${obsSm} 300w, ${obsMd} 768w, ${obsLg} 1280w, ${obsXL} 2000w`,
     },
     {
       smImg: assessmentsSm,
