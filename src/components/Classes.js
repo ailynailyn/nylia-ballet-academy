@@ -185,7 +185,7 @@ function Classes() {
       imgSet: `${pointe1Sm} 300w, ${pointe1Md} 768w, ${pointe1Lg} 1280w, ${pointe1XL} 2000w`,
       webpSet: `${pointe1SmWebp} 300w, ${pointe1MdWebp} 768w, ${pointe1LgWebp} 1280w, ${pointe1XLWebp} 2000w`,
       classSched1: "FRIDAY",
-      classSched2: "4:30 - 5:30 PM",
+      classSched2: "5:00 - 6:00 PM",
       classSched3: "",
       classSched4: "",
       classDesc:
@@ -199,7 +199,7 @@ function Classes() {
       imgSet: `${pointe2Sm} 300w, ${pointe2Md} 768w, ${pointe2Lg} 1280w, ${pointe2XL} 2000w`,
       webpSet: `${pointe2SmWebp} 300w, ${pointe2MdWebp} 768w, ${pointe2LgWebp} 1280w, ${pointe2XLWebp} 2000w`,
       classSched1: "FRIDAY",
-      classSched2: "5:30 - 7:00 PM",
+      classSched2: "6:00 - 7:30 PM",
       classSched3: "",
       classSched4: "",
       classDesc:
@@ -226,7 +226,7 @@ function Classes() {
       classImg: adultBalletSm,
       imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
       webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
-      classSched1: "TUESDAY, THURSDAY & FRIDAY",
+      classSched1: "MONDAY, TUESDAY & THURSDAY",
       classSched2: "7:00 - 8:30 PM",
       classSched3: "SATURDAY",
       classSched4: "12:00 - 1:30 PM",
