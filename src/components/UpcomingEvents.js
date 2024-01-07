@@ -24,8 +24,12 @@ import obsSm from "../assets/ObservationWeekFeb2024-300.png";
 import obsMd from "../assets/ObservationWeekFeb2024-768.png";
 import obsLg from "../assets/ObservationWeekFeb2024-1280.png";
 import obsXL from "../assets/ObservationWeekFeb2024-2000.png";
+import MomWeek2024Sm from "../assets/MomWeek2024-300.png";
+import MomWeek2024Md from "../assets/MomWeek2024-768.png";
+import MomWeek2024Lg from "../assets/MomWeek2024-1280.png";
+import MomWeek2024XL from "../assets/MomWeek2024-2000.png";
 // ObservationWeekFeb2024
-// FriendWeek2024
+// MomWeek2024
 import PhotoGallery from "./photoGallery/PhotoGallery.js";
 
 import "./UpcomingEvents.css";
@@ -56,6 +60,10 @@ function UpcomingEvents() {
     {
       smImg: cinderellaScheduleSm,
       imgSet: `${cinderellaScheduleSm} 300w, ${cinderellaScheduleMd} 768w, ${cinderellaScheduleLg} 1280w, ${cinderellaScheduleXL} 2000w`,
+    },
+    {
+      smImg: MomWeek2024Sm,
+      imgSet: `${MomWeek2024Sm} 300w, ${MomWeek2024Md} 768w, ${MomWeek2024Lg} 1280w, ${MomWeek2024XL} 2000w`,
     },
   ];
 
