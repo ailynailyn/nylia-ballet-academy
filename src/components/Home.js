@@ -12,9 +12,8 @@ function Home() {
           East El Paso's Center for Classical Ballet Training
           <br />
           <br />
-          We are currently on Winter break until January 2nd! Classes resume
-          Wednesday, January 3rd. Contact us to schedule your free trial class
-          for January. See you soon, dancers!
+          At Nylia Ballet Academy we focus on high quality training, emphasizing
+          character building and personal growth. Call or visit us today!
           <br />
           <br />
         </p>
