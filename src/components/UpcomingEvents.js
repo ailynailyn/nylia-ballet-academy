@@ -32,6 +32,9 @@ import DadWeek2024Sm from "../assets/DadWeek2024-300.png";
 import DadWeek2024Md from "../assets/DadWeek2024-768.png";
 import DadWeek2024Lg from "../assets/DadWeek2024-1280.png";
 import DadWeek2024XL from "../assets/DadWeek2024-2000.png";
+import Valentines2024Sm from "../assets/Valentines2024-300.png";
+import Valentines2024Md from "../assets/Valentines2024-768.png";
+import Valentines2024Lg from "../assets/Valentines2024-1080.png";
 
 import PhotoGallery from "./photoGallery/PhotoGallery.js";
 
@@ -46,6 +49,10 @@ function UpcomingEvents() {
     {
       smImg: movieNightSm,
       imgSet: `${movieNightSm} 300w, ${movieNightMd} 768w, ${movieNightLg} 1280w, ${movieNightXL} 2000w`,
+    },
+    {
+      smImg: Valentines2024Sm,
+      imgSet: `${Valentines2024Sm} 300w, ${Valentines2024Md} 768w, ${Valentines2024Lg} 1280w, ${Valentines2024Lg} 2000w`,
     },
     {
       smImg: obsSm,
