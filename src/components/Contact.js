@@ -24,22 +24,6 @@ function Contact() {
   };
 
   const images = [
-    // {
-    //   smImg: evanSittingSm,
-    //   imgSet: `${evanSittingSm} 300w, ${evanSittingMd} 768w, ${evanSittingLg} 1280w, ${evanSittingXL} 2000w`,
-    // },
-    // {
-    //   smImg: anahidFourthSm,
-    //   imgSet: `${anahidFourthSm} 300w, ${anahidFourthMd} 768w, ${anahidFourthLg} 1280w, ${anahidFourthXL} 2000w`,
-    // },
-    // {
-    //   smImg: luisaPoseSm,
-    //   imgSet: `${luisaPoseSm} 300w, ${luisaPoseMd} 768w, ${luisaPoseLg} 1280w, ${luisaPoseXL} 2000w`,
-    // },
-    // {
-    //   smImg: tereTenduSm,
-    //   imgSet: `${tereTenduSm} 300w, ${tereTenduMd} 768w, ${tereTenduLg} 1280w, ${tereTenduXL} 2000w`,
-    // },
     {
       smImg: pSm,
       imgSet: `${pSm} 300w, ${pMd} 768w, ${pLg} 1280w, ${pXL} 2000w`,
