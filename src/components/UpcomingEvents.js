@@ -4,6 +4,10 @@ import movieNightSm from "../assets/CinderellaMovieNight2024-300.png";
 import movieNightMd from "../assets/CinderellaMovieNight2024-768.png";
 import movieNightLg from "../assets/CinderellaMovieNight2024-1280.png";
 import movieNightXL from "../assets/CinderellaMovieNight2024-2000.png";
+import FarmersMarketSm from "../assets/FarmersMarket-300.png";
+import FarmersMarketMd from "../assets/FarmersMarket-768.png";
+import FarmersMarketLg from "../assets/FarmersMarket-1280.png";
+import FarmersMarketXL from "../assets/Farmers Market-2000.png";
 import assessmentsSm from "../assets/StudentAssessments2024-300.png";
 import assessmentsMd from "../assets/StudentAssessments2024-768.png";
 import assessmentsLg from "../assets/StudentAssessments2024-1280.png";
@@ -43,17 +47,18 @@ import "./UpcomingEvents.css";
 function UpcomingEvents() {
   const images = [
     {
-      smImg: friendWeek2024Sm,
-      imgSet: `${friendWeek2024Sm} 300w, ${friendWeek2024Md} 768w, ${friendWeek2024Lg} 1280w, ${friendWeek2024XL} 2000w`,
-    },
-    {
       smImg: movieNightSm,
       imgSet: `${movieNightSm} 300w, ${movieNightMd} 768w, ${movieNightLg} 1280w, ${movieNightXL} 2000w`,
+    },
+    {
+      smImg: FarmersMarketSm,
+      imgSet: `${FarmersMarketSm} 300w, ${FarmersMarketMd} 768w, ${FarmersMarketLg} 1280w, ${FarmersMarketXL} 2000w`,
     },
     {
       smImg: Valentines2024Sm,
       imgSet: `${Valentines2024Sm} 300w, ${Valentines2024Md} 768w, ${Valentines2024Lg} 1280w, ${Valentines2024Lg} 2000w`,
     },
+
     {
       smImg: obsSm,
       imgSet: `${obsSm} 300w, ${obsMd} 768w, ${obsLg} 1280w, ${obsXL} 2000w`,
