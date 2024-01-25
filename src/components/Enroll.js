@@ -5,10 +5,16 @@ import enrollmentMd from "../assets/luisaAilynBallet768.JPG";
 import enrollmentLg from "../assets/luisaAilynBallet1280.JPG";
 import enrollmentXL from "../assets/luisaAilynBallet2000.JPG";
 
+import blueBallerinaSm from "../assets/blueBallerinaPoster-300.png";
+import blueBallerinaMd from "../assets/blueBallerinaPoster-768.png";
+import blueBallerinaLg from "../assets/blueBallerinaPoster-1280.png";
+import blueBallerinaXL from "../assets/blueBallerinaPoster-2000.png";
+
 import NyliaStudentRegistration from "../assets/NyliaStudentRegistration.pdf";
 import TuitionPackages from "../assets/TuitionPackages.pdf";
 import AcademyEtiquette from "../assets/AcademyEtiquette.pdf";
 import AcademyUniform from "../assets/AcademyUniform.pdf";
+import Handbook from "../assets/NyliaBalletAcademyHandbook2024.pdf";
 
 import "./Enroll.css";
 
@@ -110,6 +116,31 @@ function Enroll() {
           aria-label="Download Nylia Ballet Academy Uniform"
         >
           <NyliaButton label={"Academy Uniform"}></NyliaButton>
+        </a>
+      </div>
+      <div id="ballerinaImg">
+        <img
+          alt="Nylia Ballet Academy ballerina in blue."
+          src={blueBallerinaSm}
+          srcSet={`${blueBallerinaSm} 300w, ${blueBallerinaMd} 768w, ${blueBallerinaLg} 1280w, ${blueBallerinaXL} 2000w`}
+        />
+      </div>
+
+      <div className="handbook-section">
+        <h1>STUDENT HANDBOOK</h1>
+        <p>
+          Thanks for choosing Nylia Ballet Academy! A printable version of the
+          Student Handbook is available here.
+        </p>
+        <a
+          id="handbook-page-button"
+          href={Handbook}
+          without
+          rel="noopener noreferrer"
+          target="_blank"
+          aria-label="Download Nylia Ballet Academy Student Handbook"
+        >
+          <NyliaButton label={"Student Handbook"}></NyliaButton>
         </a>
       </div>
     </div>
