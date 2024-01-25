@@ -20,10 +20,6 @@ import cinderellaScheduleSm from "../assets/CinderellaWeeklySchedule2024-300.png
 import cinderellaScheduleMd from "../assets/CinderellaWeeklySchedule2024-768.png";
 import cinderellaScheduleLg from "../assets/CinderellaWeeklySchedule2024-1280.png";
 import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
-import friendWeek2024Sm from "../assets/FriendWeek2024-300.png";
-import friendWeek2024Md from "../assets/FriendWeek2024-768.png";
-import friendWeek2024Lg from "../assets/FriendWeek2024-1280.png";
-import friendWeek2024XL from "../assets/FriendWeek2024-2000.png";
 import obsSm from "../assets/ObservationWeekFeb2024-300.png";
 import obsMd from "../assets/ObservationWeekFeb2024-768.png";
 import obsLg from "../assets/ObservationWeekFeb2024-1280.png";
