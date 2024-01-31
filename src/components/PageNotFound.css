@@ -1,0 +1,132 @@
+.pagenotfound-container {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: -webkit-image-set(
+    url("../assets/zoeHome300.jpeg") 1x,
+    url("../assets/zoeHome2000.jpeg") 2x
+  );
+  background-image: image-set(
+    url("../assets/zoeHome300.jpeg") 1x,
+    url("../assets/zoeHome2000.jpeg") 2x
+  );
+  background-image: image-set(
+    url("../assets/zoeHome300.jpeg") 300w,
+    url("../assets/zoeHome768.jpeg") 768w,
+    url("../assets/zoeHome1280.jpeg") 1280w,
+    url("../assets/zoeHome2000.jpeg") 2000w
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.notfound-description {
+  width: auto;
+  background-color: rgb(0, 0, 0, 0.2);
+  margin: 2rem;
+  padding: 5rem;
+}
+
+.description p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 900;
+}
+
+.homeSocials {
+  padding: 1.2rem;
+}
+
+.pagenotfound-container .btn {
+  background: rgb(0, 0, 0, 0.5);
+  color: white;
+}
+
+.pagenotfound-container .nav-link {
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 320px) {
+  .notfound-description {
+    padding: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .notfound-description p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .notfound-description {
+    padding: 1.7rem;
+  }
+
+  .notfound-description p {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .notfound-description {
+    padding: 2.3rem;
+  }
+
+  .notfound-description p {
+    font-size: 1.55em;
+  }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .notfound-description {
+    padding: 2.3rem;
+  }
+
+  .notfound-description p {
+    font-size: 1.55em;
+  }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+  .notfound-description {
+    padding: 2.3rem;
+  }
+
+  .notfound-description p {
+    font-size: 1.55em;
+  }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .notfound-description {
+    padding: 1.6rem;
+  }
+
+  .notfound-description p {
+    font-size: 1.6em;
+  }
+
+  .pagenotfound-container {
+    background-position: center;
+  }
+}
+
+/* Extra big screen devices (1201px and above) */
+@media only screen and (min-width: 1201px) {
+  .notfound-description {
+    padding: 1.6rem;
+  }
+  .pagenotfound-container {
+    background-position: 25% 35%;
+  }
+}

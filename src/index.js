@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import Team from "./components/Team";
 import UpcomingEvents from "./components/UpcomingEvents";
+import NotFound from "./components/PageNotFound.js";
 import "./index.css";
 
 export default function App() {
@@ -18,7 +19,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index path="/" element={<Home />} />
           <Route path="enroll" element={<Enroll />} />
           <Route path="classes" element={<Classes />} />
           <Route path="tuition" element={<Tuition />} />
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="team" element={<Team />} />
           <Route path="upcomingevents" element={<UpcomingEvents />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
