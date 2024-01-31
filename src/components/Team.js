@@ -1,6 +1,7 @@
 import { React } from "react";
 import TeamCard from "../components/teamCard/TeamCard";
 import ailyn from "../assets/ailynTeam.jpg";
+import jazmine from "../assets/jazmine.png";
 import clara from "../assets/clara.JPG";
 import yocelyn from "../assets/yocelyn.JPG";
 import katherine from "../assets/katherine.jpeg";
@@ -12,9 +13,9 @@ function Team() {
 
   var memberInfo = {
     ailyn: {
-      name: "Ailyn Aguirre",
+      name: "AILYN AGUIRRE",
       profileImg: ailyn,
-      position: "DIRECTOR",
+      position: "ACADEMY DIRECTOR",
       description: `Ailyn began her ballet training at eleven years old under Andrée
       Harper and Ouisa Davis. After graduating from the University of
       Texas in Austin, Ailyn became a Software Engineer. After teaching
@@ -23,20 +24,27 @@ function Team() {
       Academy to provide an equal opportunity for anyone in the community
       to pursue their dreams in dance. Ailyn is an ABT® Certified Teacher, who has successfully completed the ABT® Teacher Training Intensive in Pre-Primary through Level 3 of the ABT® National Training Curriculum.`,
     },
+    jazmine: {
+      name: "JAZMINE CUEVAS",
+      profileImg: jazmine,
+      position: "MARKETING DIRECTOR",
+      description:
+        "Jazmine Janay Cuevas is an Educator and Contract Curator with specialized knowledge in Afro-Diasporic Cultures and Performance in Mexican and Mexican American spaces. She received her Masters from the University of Texas at El Paso where she worked as an Instructor of First Year Rhetoric and Writing teaching classes on Hip-hop, Nation-Buidling, and Blackness. She has since been a fellow for the Smithsonian’s Latino Museum Studies Program at the National Museum of African American History and Culture where she worked on curating accessible tours that center Latinidad in the Museum’s Afrofuturism exhibition. She is currently a fellow for the Borderlands Shakespeare Collectiva demonstrating how the art of adaption provides particular relevance and socio-political understanding for communities on the borderland. Jazmine’s background in Public Relations at the K-12 level and cultural programming in higher education and public institutions happily lead her to the Nylia Ballet Academy. She is excited to do her part in help building the academy’s relationship to community and learning the connotations of performance in the academy’s endeavors.",
+    },
     clara: {
-      name: "Clara Neufeld",
+      name: "CLARA NEUFELD",
       profileImg: clara,
       position: "INSTRUCTOR",
       description: `Clara is a dance teacher, choreographer, & Pilates instructor across the nation. She is a TCU graduate, where she received a BFA in Ballet & BA in English with Honors Laureate Distinction, in addition to a Pilates Teaching Certificate. While at TCU, she performed as "Silver" in Jewels Pas de Quatre in Sleeping Beauty (excerpts), Swan Lake (Act II), & in original works by Keith Saunders, Rubén Gerding, & Peter Pucci. Clara studied under the Dance Scholarship, TCU Scholarship, Fine Arts Academic Achievement Scholarship, & College of Liberal Arts English Scholarship. She was a Hispanic Scholarship Fund Scholar, part of the John V. Roach Honors College, & Co-Director of National Business for the Chi Tau Epsilon Dance Honor Society. Prior to TCU, she trained in classical ballet under Andrée Harper, as an Eastwood High School Trooperette, & attended summer intensives at Oklahoma City Ballet & Ballet Austin.`,
     },
     katherine: {
-      name: "Katherine Quezada",
+      name: "KATHERINE QUEZADA",
       profileImg: katherine,
       position: "STUDIO MANAGER",
       description: `Katherine is a proud El Pasoan who was born and raised in the city. She is currently attending EPCC studying towards a chemistry degree in dreams of becoming a Forensic Science Technician. An experienced leader, Katherine is passionate about building an inviting and opportunistic environment for all kinds of dancers.`,
     },
     yocelyn: {
-      name: "Yocelyn Salcido",
+      name: "YOCELYN SALCIDO",
       profileImg: yocelyn,
       position: "INSTRUCTOR",
       description: `From Bellflower, California, Yocelyn moved to El Paso and began
@@ -57,6 +65,12 @@ function Team() {
           name={memberInfo.ailyn.name}
           position={memberInfo.ailyn.position}
           description={memberInfo.ailyn.description}
+        ></TeamCard>
+        <TeamCard
+          profileImg={memberInfo.jazmine.profileImg}
+          name={memberInfo.jazmine.name}
+          position={memberInfo.jazmine.position}
+          description={memberInfo.jazmine.description}
         ></TeamCard>
         <TeamCard
           profileImg={memberInfo.clara.profileImg}
