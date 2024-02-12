@@ -42,14 +42,14 @@ import "./UpcomingEvents.css";
 
 function UpcomingEvents() {
   const images = [
-    {
-      smImg: movieNightSm,
-      imgSet: `${movieNightSm} 300w, ${movieNightMd} 768w, ${movieNightLg} 1280w, ${movieNightXL} 2000w`,
-    },
-    {
-      smImg: FarmersMarketSm,
-      imgSet: `${FarmersMarketSm} 300w, ${FarmersMarketMd} 768w, ${FarmersMarketLg} 1280w, ${FarmersMarketXL} 2000w`,
-    },
+    // {
+    //   smImg: movieNightSm,
+    //   imgSet: `${movieNightSm} 300w, ${movieNightMd} 768w, ${movieNightLg} 1280w, ${movieNightXL} 2000w`,
+    // },
+    // {
+    //   smImg: FarmersMarketSm,
+    //   imgSet: `${FarmersMarketSm} 300w, ${FarmersMarketMd} 768w, ${FarmersMarketLg} 1280w, ${FarmersMarketXL} 2000w`,
+    // },
     {
       smImg: Valentines2024Sm,
       imgSet: `${Valentines2024Sm} 300w, ${Valentines2024Md} 768w, ${Valentines2024Lg} 1280w, ${Valentines2024Lg} 2000w`,
