@@ -26,7 +26,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="team" element={<Team />} />
-          <Route path="upcomingevents" element={<UpcomingEvents />} />
+          <Route path="academyevents" element={<UpcomingEvents />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

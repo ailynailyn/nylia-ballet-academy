@@ -72,8 +72,8 @@ function NavBar() {
                 <Nav.Link href="/enroll" style={{ height: "16.66%" }}>
                   <NyliaButton label={"ENROLL"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/upcomingEvents" style={{ height: "16.66%" }}>
-                  <NyliaButton label={"UPCOMING EVENTS"}></NyliaButton>
+                <Nav.Link href="/academyevents" style={{ height: "16.66%" }}>
+                  <NyliaButton label={"ACADEMY EVENTS"}></NyliaButton>
                 </Nav.Link>
                 <Nav.Link href="/gallery" style={{ height: "16.66%" }}>
                   <NyliaButton label={"GALLERY"}></NyliaButton>

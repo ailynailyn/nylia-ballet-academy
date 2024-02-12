@@ -1,5 +1,11 @@
 import { React } from "react";
-
+import newYear2024Sm from "../assets/newYear2024-300.png";
+import newYear2024Md from "../assets/newYear2024-768.png";
+import newYear2024Lg from "../assets/newYear2024-2000.png";
+import friendWeek2024Sm from "../assets/FriendWeek2024-300.png";
+import friendWeek2024Md from "../assets/FriendWeek2024-768.png";
+import friendWeek2024Lg from "../assets/FriendWeek2024-1280.png";
+import friendWeek2024XL from "../assets/FriendWeek2024-2000.png";
 import movieNightSm from "../assets/CinderellaMovieNight2024-300.png";
 import movieNightMd from "../assets/CinderellaMovieNight2024-768.png";
 import movieNightLg from "../assets/CinderellaMovieNight2024-1280.png";
@@ -41,15 +47,24 @@ import PhotoGallery from "./photoGallery/PhotoGallery.js";
 import "./UpcomingEvents.css";
 
 function UpcomingEvents() {
+  const CUREVENTIDX = 5;
   const images = [
-    // {
-    //   smImg: movieNightSm,
-    //   imgSet: `${movieNightSm} 300w, ${movieNightMd} 768w, ${movieNightLg} 1280w, ${movieNightXL} 2000w`,
-    // },
-    // {
-    //   smImg: FarmersMarketSm,
-    //   imgSet: `${FarmersMarketSm} 300w, ${FarmersMarketMd} 768w, ${FarmersMarketLg} 1280w, ${FarmersMarketXL} 2000w`,
-    // },
+    {
+      smImg: newYear2024Sm,
+      imgSet: `${newYear2024Sm} 300w, ${newYear2024Md} 768w, ${newYear2024Lg} 1280w, ${newYear2024Lg} 2000w`,
+    },
+    {
+      smImg: friendWeek2024Sm,
+      imgSet: `${friendWeek2024Sm} 300w, ${friendWeek2024Md} 768w, ${friendWeek2024Lg} 1280w, ${friendWeek2024XL} 2000w`,
+    },
+    {
+      smImg: movieNightSm,
+      imgSet: `${movieNightSm} 300w, ${movieNightMd} 768w, ${movieNightLg} 1280w, ${movieNightXL} 2000w`,
+    },
+    {
+      smImg: FarmersMarketSm,
+      imgSet: `${FarmersMarketSm} 300w, ${FarmersMarketMd} 768w, ${FarmersMarketLg} 1280w, ${FarmersMarketXL} 2000w`,
+    },
     {
       smImg: Valentines2024Sm,
       imgSet: `${Valentines2024Sm} 300w, ${Valentines2024Md} 768w, ${Valentines2024Lg} 1280w, ${Valentines2024Lg} 2000w`,
@@ -101,11 +116,14 @@ function UpcomingEvents() {
   return (
     <div class="upcomingevents-container">
       <div className="upcomingevents-title">
-        <h1>UPCOMING EVENTS</h1>
+        <h1>ACADEMY EVENTS</h1>
       </div>
       <div className="upcomingevents-images">
         <div id="upcomingevents-gallery">
-          <PhotoGallery images={images}></PhotoGallery>
+          <PhotoGallery
+            images={images}
+            curEventIndex={CUREVENTIDX}
+          ></PhotoGallery>
         </div>
       </div>
     </div>
