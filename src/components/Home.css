@@ -27,15 +27,46 @@
   position: relative;
 }
 
+.description-event {
+  width: 50%;
+  background-color: rgb(0, 0, 0, 0.35);
+  margin-right: 10em;
+  margin-left: 10em;
+  padding: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.description-event p {
+  font-family: "Michroma", sans-serif;
+  font-weight: 900;
+}
+
+#description-event-button .nyliabutton-container {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  border: 0.4mm solid;
+}
+
+#description-event-button .nyliabutton-container,
+#description-event-button .nyliabutton-container:focus {
+  background-color: transparent;
+  color: transparent;
+  box-shadow: transparent;
+}
+
 .description {
   width: auto;
-  background-color: rgb(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0, 0.5);
   margin-right: 2rem;
   margin-left: 2rem;
   padding: 5rem;
+  margin-bottom: 2rem;
 }
 
-.description p {
+.description p,
+.description-event p {
   font-family: "Questrial", sans-serif;
   font-weight: 900;
 }
@@ -44,25 +75,46 @@
   padding: 1.2rem;
 }
 
+.description h1 {
+  font-family: "Michroma", sans-serif;
+}
+
+/* #NyliaMotto {
+  font-family: "Questrial", sans-serif;
+} */
+
 @media only screen and (max-width: 320px) {
-  .description {
+  .description,
+  .description-event {
     padding: 3rem;
     padding-right: 1rem;
     padding-left: 1rem;
   }
 
-  .description p {
+  .description-event {
+    width: auto;
+  }
+
+  .description p,
+  .description-event p {
     font-size: 0.9em;
   }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  .description {
+  .description,
+  .description-event {
     padding: 1.7rem;
   }
 
-  .description p {
+  .description p,
+  .description-event p {
     font-size: 1.2em;
+  }
+
+  .description-event {
+    width: auto;
+    margin-top: 10em;
   }
 }
 
@@ -71,54 +123,110 @@
     padding: 2.3rem;
   }
 
+  .description-event {
+    padding: 1.3rem;
+  }
+
   .description p {
-    font-size: 1.55em;
+    font-size: 1.1em;
+  }
+
+  .description-event p {
+    font-size: 1.1em;
+  }
+
+  .description-event {
+    width: auto;
+    margin-top: 10em;
   }
 }
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  .description {
+  .description,
+  .description-event {
     padding: 2.3rem;
   }
 
-  .description p {
-    font-size: 1.55em;
+  .description p,
+  .description-event p {
+    font-size: 1.2em;
+  }
+
+  .description-event {
+    width: auto;
+    margin-top: 10em;
   }
 }
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) and (max-width: 888px) {
-  .description {
-    padding: 2.3rem;
+  .description,
+  .description-event {
+    padding: 1.3rem;
   }
 
-  .description p {
-    font-size: 1.55em;
+  .description h1 {
+    font-size: 1.5em;
+  }
+
+  .description p,
+  .description-event p {
+    font-size: 1.2em;
+  }
+  .description-event {
+    width: auto;
+    margin-top: 10em;
   }
 }
 
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) and (max-width: 1200px) {
-  .description {
-    padding: 1.6rem;
+  .description,
+  .description-event {
+    padding: 1.3rem;
   }
 
-  .description p {
-    font-size: 1.6em;
+  .description p,
+  .description-event p {
+    font-size: 1.2em;
+  }
+
+  .description h1 {
+    font-size: 1.5em;
   }
 
   .home-container {
     background-position: center;
   }
+
+  .description-event {
+    width: auto;
+    margin-top: 10em;
+  }
 }
 
 /* Extra big screen devices (1201px and above) */
 @media only screen and (min-width: 1201px) {
-  .description {
+  .description,
+  .description-event {
     padding: 1.6rem;
   }
+
+  .description p,
+  .description-event p {
+    font-size: 1.3em;
+  }
+
   .home-container {
     background-position: 25% 35%;
+  }
+
+  .description-event {
+    /* width: auto; */
+    margin-top: 10em;
+  }
+  .description h1 {
+    font-size: 1.5em;
   }
 }

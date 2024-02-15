@@ -2,19 +2,32 @@ import { React } from "react";
 
 import PopupModal from "../components/popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
+import NyliaButton from "./nyliaButton/NyliaButton.js";
+import auditions from "../assets/CinderellaAuditions-2000.png";
 
 import "./Home.css";
 
 function Home() {
   return (
     <div class="home-container">
-      <div className="description">
+      <div className="description-event">
         <p>
-          East El Paso's Center for Classical Ballet Training
+          Auditions for our upcoming production of Cinderella will be held
+          Sunday, February 25, at the academy from 9:00 am to 2:30 pm.
+        </p>
+        <a id="description-event-button" href={auditions}>
+          <NyliaButton label={"Audition Details"}></NyliaButton>
+        </a>
+      </div>
+      <div className="description">
+        <h1>El Paso's Center for Classical Ballet Training</h1>
+        <p>
           <br />
-          <br />
-          At Nylia Ballet Academy we focus on high quality training, emphasizing
-          character building and personal growth. Call or visit us today!
+          <i id="NyliaMotto">
+            At Nylia Ballet Academy we focus on high quality training,
+            emphasizing character building and personal growth. Call or visit us
+            today!
+          </i>
           <br />
           <br />
         </p>
