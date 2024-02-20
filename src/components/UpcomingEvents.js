@@ -30,6 +30,10 @@ import obsSm from "../assets/ObservationWeekFeb2024-300.png";
 import obsMd from "../assets/ObservationWeekFeb2024-768.png";
 import obsLg from "../assets/ObservationWeekFeb2024-1280.png";
 import obsXL from "../assets/ObservationWeekFeb2024-2000.png";
+import PaintAndSipMarch2024Sm from "../assets/PaintAndSipMarch2024-300.png";
+import PaintAndSipMarch2024Md from "../assets/PaintAndSipMarch2024-768.png";
+import PaintAndSipMarch2024Lg from "../assets/PaintAndSipMarch2024-2000.png";
+
 import MomWeek2024Sm from "../assets/MomWeek2024-300.png";
 import MomWeek2024Md from "../assets/MomWeek2024-768.png";
 import MomWeek2024Lg from "../assets/MomWeek2024-1280.png";
@@ -86,6 +90,10 @@ function UpcomingEvents() {
     {
       smImg: cinderellaScheduleSm,
       imgSet: `${cinderellaScheduleSm} 300w, ${cinderellaScheduleMd} 768w, ${cinderellaScheduleLg} 1280w, ${cinderellaScheduleXL} 2000w`,
+    },
+    {
+      smImg: PaintAndSipMarch2024Sm,
+      imgSet: `${PaintAndSipMarch2024Sm} 300w, ${PaintAndSipMarch2024Md} 768w, ${PaintAndSipMarch2024Lg} 1280w, ${PaintAndSipMarch2024Lg} 2000w`,
     },
     {
       smImg: MomWeek2024Sm,
