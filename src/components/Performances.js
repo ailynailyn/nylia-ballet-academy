@@ -49,14 +49,16 @@ function Performances() {
             <Card.Img variant="top" src={cinderellaXL} />
             <Card.Body>
               <Card.Title>CINDERELLA</Card.Title>
-              {/* <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text> */}
+              <Card.Text>
+                Nylia Ballet Academy is thrilled to present our first public
+                production of Cinderella at UTEP's Magoffin Auditorium! This
+                ballet tells the classic story of Cinderella, taking us on a
+                journey of emotions as she discovers unexpected support,
+                friendships and, ultimately, her true love.
+              </Card.Text>
             </Card.Body>
             <Card.Footer className="performance-date">
-              <small className="text-muted">06.15.2024</small>
+              <small className="text-muted">June 15, 2024</small>
             </Card.Footer>
             <Card.Footer>
               <a id="performances-button" href={CinderellaHandbook}>
@@ -71,13 +73,17 @@ function Performances() {
               <Card.Title>
                 <small>Ft. Excerpts from "The Nutcracker"</small>
               </Card.Title>
-              {/* <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
-              </Card.Text> */}
+              <Card.Text>
+                Our special production of Una Notte Silenziosa had special class
+                pieces and solos with original choreography by Nylia Ballet
+                Academy instructors. Our Winter 2023 production also featured
+                excerpts from Tchaikovsky's "The Nutcracker", telling the
+                magical story of Clara's adventures with the Nutcracker Prince
+                through the Land of Snow and Sweets.
+              </Card.Text>
             </Card.Body>
             <Card.Footer className="performance-date">
-              <small className="text-muted">06.15.2023</small>
+              <small className="text-muted">December 16, 2023</small>
             </Card.Footer>
             <Card.Footer>
               <a id="performances-button" href={UNSHandbook}>
@@ -98,16 +104,16 @@ function Performances() {
             <Card.Img variant="top" src={terraXL} />
             <Card.Body>
               <Card.Title>TERRA</Card.Title>
-              {/* <Card.Text>
+              <Card.Text>
                 Nylia Ballet Academy proudly hosted our first Student Showcase
                 on September 10, 2023. Terra paid tribute to nature and the
                 Earth. The showcase featured different variations of Ballet
                 styles that demonstrated our dedicated students' hardwork and
                 progress.
-              </Card.Text> */}
+              </Card.Text>
             </Card.Body>
             <Card.Footer className="performance-date">
-              <small className="text-muted">09.10.2023</small>
+              <small className="text-muted">September 10, 2023</small>
             </Card.Footer>
             <Card.Footer>
               <a id="performances-button" href={TerraHandbook}>
