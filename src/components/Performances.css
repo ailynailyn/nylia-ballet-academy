@@ -1,0 +1,222 @@
+.performances-container {
+  height: 100%;
+  width: 100vw;
+  padding: 5%;
+  position: relative;
+  text-align: center;
+}
+
+.performance-date {
+  background-color: white;
+}
+
+.card-footer {
+  margin-top: 0.1em;
+}
+
+.card {
+  margin: 0.7em;
+}
+
+.performances-section {
+  margin: 1rem;
+  margin-top: 135px;
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 1em;
+  }
+
+  .performances-container h1 {
+    font-size: 1em;
+    font-weight: 900;
+  }
+
+  .performances-container p {
+    font-size: 0.8em;
+  }
+
+  .performance-cards {
+    margin-top: 2em;
+  }
+
+  #performances-button .btn {
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+    padding-left: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .performances-container h1 {
+    font-size: 1em;
+    font-weight: 900;
+  }
+
+  .performances-container p {
+    font-size: 0.9em;
+  }
+
+  #performances-button .btn {
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+    padding-left: 0.3rem;
+  }
+
+  .performance-cards {
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .performances-section {
+    margin: 1rem;
+    margin-top: 145px;
+    margin-bottom: 0;
+    padding-bottom: 1.6rem;
+  }
+  .performances-container h1 {
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+
+  .performances-container p {
+    font-size: 1em;
+  }
+
+  #performances-button .btn {
+    font-size: 0.9em;
+    letter-spacing: 0.3em;
+    padding-left: 0.3rem;
+  }
+
+  .performance-cards {
+    margin-top: 2.7em;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .performances-section {
+    margin: 1rem;
+    margin-top: 145px;
+    margin-bottom: 0;
+    padding-bottom: 1.6rem;
+  }
+  .performances-container h1 {
+    font-size: 1.3em;
+    font-weight: 900;
+  }
+
+  .performances-container p {
+    font-size: 1em;
+  }
+
+  #performances-button .btn {
+    font-size: 0.9em;
+    letter-spacing: 0.3em;
+    padding-left: 0.3rem;
+  }
+
+  .performance-cards {
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+  .performances-section {
+    margin: 1rem;
+    margin-top: 180px;
+    margin-bottom: 0;
+    padding-bottom: 1.6rem;
+  }
+
+  .performances-container h1 {
+    font-size: 1.4em;
+    font-weight: 900;
+  }
+
+  .performances-container p {
+    font-size: 1.1em;
+  }
+
+  .performance-cards {
+    margin-top: 3.2em;
+  }
+  #performances-button .btn {
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    padding-left: 0.5rem;
+  }
+  .performance-cards {
+    margin: 0 auto;
+
+    margin-top: 3.2em;
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .performances-section {
+    margin: 1.3rem;
+    margin-top: 145px;
+    margin-bottom: 0;
+    padding-bottom: 1.6rem;
+  }
+
+  .performances-container h1 {
+    font-size: 1.6em;
+    font-weight: 900;
+  }
+
+  .performances-container p {
+    font-size: 1.1em;
+  }
+
+  .performance-cards {
+    margin-top: 3.2em;
+  }
+  #performances-button .btn {
+    font-size: 1.1em;
+    letter-spacing: 0.3em;
+    padding-left: 0.5rem;
+  }
+  .performance-cards {
+    margin: 0 auto;
+
+    margin-top: 3.2em;
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .performances-section {
+    margin: 1.3rem;
+    margin-top: 155px;
+    margin-bottom: 0;
+    padding-bottom: 1.6rem;
+  }
+
+  .performances-container h1 {
+    font-size: 2.2em;
+    font-weight: 900;
+    margin-bottom: 0.9em;
+  }
+
+  .performances-container p {
+    font-size: 1.2em;
+  }
+
+  #performances-button .btn {
+    font-size: 1.1em;
+    letter-spacing: 0.3em;
+    padding-left: 0.5rem;
+  }
+
+  .performance-cards {
+    margin: 0 auto;
+
+    margin-top: 3.2em;
+    width: 55%;
+  }
+}
