@@ -6,6 +6,7 @@ import NyliaButton from "./nyliaButton/NyliaButton.js";
 
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
 import cinderellaXL from "../assets/performances/cinderella.png";
+import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
 
 import unsSm from "../assets/galleryImages/kristina300.png";
 import unsMd from "../assets/galleryImages/kristina-768.png";
@@ -59,6 +60,13 @@ function Performances() {
             </Card.Body>
             <Card.Footer className="performance-date">
               <small className="text-muted">June 15, 2024</small>
+            </Card.Footer>
+            <Card.Footer>
+              <a id="performances-button" href={cinderellaScheduleXL}>
+                <NyliaButton
+                  label={"Cinderella Rehearsal Schedule"}
+                ></NyliaButton>
+              </a>
             </Card.Footer>
             <Card.Footer>
               <a id="performances-button" href={CinderellaHandbook}>

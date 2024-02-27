@@ -30,6 +30,10 @@ import obsSm from "../assets/ObservationWeekFeb2024-300.png";
 import obsMd from "../assets/ObservationWeekFeb2024-768.png";
 import obsLg from "../assets/ObservationWeekFeb2024-1280.png";
 import obsXL from "../assets/ObservationWeekFeb2024-2000.png";
+import BallerinaStoryTimeMarch2024Sm from "../assets/BallerinaStoryTimeMarch2024-300.png";
+import BallerinaStoryTimeMarch2024Md from "../assets/BallerinaStoryTimeMarch2024-768.png";
+import BallerinaStoryTimeMarch2024Lg from "../assets/BallerinaStoryTimeMarch2024-1280.png";
+import BallerinaStoryTimeMarch2024XL from "../assets/BallerinaStoryTimeMarch2024-2000.png";
 import PaintAndSipMarch2024Sm from "../assets/PaintAndSipMarch2024-300.png";
 import PaintAndSipMarch2024Md from "../assets/PaintAndSipMarch2024-768.png";
 import PaintAndSipMarch2024Lg from "../assets/PaintAndSipMarch2024-2000.png";
@@ -51,7 +55,7 @@ import PhotoGallery from "./photoGallery/PhotoGallery.js";
 import "./UpcomingEvents.css";
 
 function UpcomingEvents() {
-  const CUREVENTIDX = 7;
+  const CUREVENTIDX = 9;
   const images = [
     {
       smImg: newYear2024Sm,
@@ -90,6 +94,10 @@ function UpcomingEvents() {
     {
       smImg: cinderellaScheduleSm,
       imgSet: `${cinderellaScheduleSm} 300w, ${cinderellaScheduleMd} 768w, ${cinderellaScheduleLg} 1280w, ${cinderellaScheduleXL} 2000w`,
+    },
+    {
+      smImg: BallerinaStoryTimeMarch2024Sm,
+      imgSet: `${BallerinaStoryTimeMarch2024Sm} 300w, ${BallerinaStoryTimeMarch2024Md} 768w, ${BallerinaStoryTimeMarch2024Lg} 1280w, ${BallerinaStoryTimeMarch2024XL} 2000w`,
     },
     {
       smImg: PaintAndSipMarch2024Sm,
