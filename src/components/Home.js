@@ -3,7 +3,7 @@ import { React } from "react";
 import PopupModal from "../components/popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
-import auditions from "../assets/CinderellaAuditions-2000.png";
+import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
 
 import "./Home.css";
 
@@ -12,11 +12,11 @@ function Home() {
     <div class="home-container">
       <div className="description-event">
         <p>
-          Auditions for our upcoming production of Cinderella will be held
-          Sunday, February 25, at the academy from 9:00 am to 2:30 pm.
+          We are thrilled to present the Cinderella Ballet on June 15th at the
+          Magoffin Auditiorium! Rehearsals are at the Academy from March - June.
         </p>
-        <a id="description-event-button" href={auditions}>
-          <NyliaButton label={"Audition Details"}></NyliaButton>
+        <a id="description-event-button" href={cinderellaScheduleXL}>
+          <NyliaButton label={"Rehearsal Schedule"}></NyliaButton>
         </a>
       </div>
       <div className="description">
