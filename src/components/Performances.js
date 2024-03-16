@@ -62,6 +62,14 @@ function Performances() {
               <small className="text-muted">June 15, 2024</small>
             </Card.Footer>
             <Card.Footer>
+              <a
+                id="performances-button"
+                href="https://www.ticketmaster.com/cinderella-el-paso-texas-06-15-2024/event/0C006056FECF5021"
+              >
+                <NyliaButton label={"Buy Tickets"}></NyliaButton>
+              </a>
+            </Card.Footer>
+            <Card.Footer>
               <a id="performances-button" href={cinderellaScheduleXL}>
                 <NyliaButton
                   label={"Cinderella Rehearsal Schedule"}

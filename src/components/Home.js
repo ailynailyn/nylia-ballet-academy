@@ -12,13 +12,19 @@ function Home() {
     <div class="home-container">
       <div className="description-event">
         <p>
-          We are thrilled to present the Cinderella Ballet on June 15th at the
-          Magoffin Auditiorium! Rehearsals are at the Academy from March - June.
+          We are thrilled to present the ballet Cinderella on June 15th at the
+          Magoffin Auditiorium! Join us for a memorable, enchanting evening of
+          love and transformation! Get your tickets now at UTEP's box offices or
+          Ticketmaster!
         </p>
-        <a id="description-event-button" href={cinderellaScheduleXL}>
-          <NyliaButton label={"Rehearsal Schedule"}></NyliaButton>
+        <a
+          id="description-event-button"
+          href="https://www.ticketmaster.com/cinderella-el-paso-texas-06-15-2024/event/0C006056FECF5021"
+        >
+          <NyliaButton label={"Buy Cinderella tickets"}></NyliaButton>
         </a>
       </div>
+
       <div className="description">
         <h1>El Paso's Center for Classical Ballet Training</h1>
         <p>
