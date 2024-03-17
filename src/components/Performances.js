@@ -6,7 +6,8 @@ import NyliaButton from "./nyliaButton/NyliaButton.js";
 
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
 import cinderellaXL from "../assets/performances/cinderella.png";
-import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
+import cinderellaSchedule from "../assets/performances/CinderellaWeeklySchedule2024.pdf";
+import cinderellaCastList from "../assets/performances/Cinderella2024CastList.pdf";
 
 import unsSm from "../assets/galleryImages/kristina300.png";
 import unsMd from "../assets/galleryImages/kristina-768.png";
@@ -70,10 +71,15 @@ function Performances() {
               </a>
             </Card.Footer>
             <Card.Footer>
-              <a id="performances-button" href={cinderellaScheduleXL}>
+              <a id="performances-button" href={cinderellaSchedule}>
                 <NyliaButton
                   label={"Cinderella Rehearsal Schedule"}
                 ></NyliaButton>
+              </a>
+            </Card.Footer>
+            <Card.Footer>
+              <a id="performances-button" href={cinderellaCastList}>
+                <NyliaButton label={"Official Cast List"}></NyliaButton>
               </a>
             </Card.Footer>
             <Card.Footer>

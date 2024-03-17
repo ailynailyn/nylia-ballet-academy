@@ -22,10 +22,10 @@ import auditionsSm from "../assets/CinderellaAuditions-300.png";
 import auditionsMd from "../assets/CinderellaAuditions-768.png";
 import auditionsLg from "../assets/CinderellaAuditions-1280.png";
 import auditionsXL from "../assets/CinderellaAuditions-2000.png";
-import cinderellaScheduleSm from "../assets/CinderellaWeeklySchedule2024-300.png";
-import cinderellaScheduleMd from "../assets/CinderellaWeeklySchedule2024-768.png";
-import cinderellaScheduleLg from "../assets/CinderellaWeeklySchedule2024-1280.png";
-import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
+// import cinderellaScheduleSm from "../assets/CinderellaWeeklySchedule2024-300.png";
+// import cinderellaScheduleMd from "../assets/CinderellaWeeklySchedule2024-768.png";
+// import cinderellaScheduleLg from "../assets/CinderellaWeeklySchedule2024-1280.png";
+// import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
 import obsSm from "../assets/ObservationWeekFeb2024-300.png";
 import obsMd from "../assets/ObservationWeekFeb2024-768.png";
 import obsLg from "../assets/ObservationWeekFeb2024-1280.png";
@@ -91,10 +91,10 @@ function UpcomingEvents() {
       smImg: auditionsSm,
       imgSet: `${auditionsSm} 300w, ${auditionsMd} 768w, ${auditionsLg} 1280w, ${auditionsXL} 2000w`,
     },
-    {
-      smImg: cinderellaScheduleSm,
-      imgSet: `${cinderellaScheduleSm} 300w, ${cinderellaScheduleMd} 768w, ${cinderellaScheduleLg} 1280w, ${cinderellaScheduleXL} 2000w`,
-    },
+    // {
+    //   smImg: cinderellaScheduleSm,
+    //   imgSet: `${cinderellaScheduleSm} 300w, ${cinderellaScheduleMd} 768w, ${cinderellaScheduleLg} 1280w, ${cinderellaScheduleXL} 2000w`,
+    // },
     {
       smImg: BallerinaStoryTimeMarch2024Sm,
       imgSet: `${BallerinaStoryTimeMarch2024Sm} 300w, ${BallerinaStoryTimeMarch2024Md} 768w, ${BallerinaStoryTimeMarch2024Lg} 1280w, ${BallerinaStoryTimeMarch2024XL} 2000w`,

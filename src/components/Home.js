@@ -3,7 +3,6 @@ import { React } from "react";
 import PopupModal from "../components/popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
-import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
 
 import "./Home.css";
 
