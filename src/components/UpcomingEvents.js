@@ -60,12 +60,14 @@ import sepObsSm from "../assets/academyEvents/ObsWeekSep2024-300.png";
 import sepObsMd from "../assets/academyEvents/ObsWeekSep2024-768.png";
 import sepObsLg from "../assets/academyEvents/ObsWeekSep2024-1280.png";
 import sepObsXL from "../assets/academyEvents/ObsWeekSep2024-2000.png";
-
+import nutcrackerAudSm from "../assets/academyEvents/Nutcracker2024Auditions-300.png";
+import nutcrackerAudMd from "../assets/academyEvents/Nutcracker2024Auditions-768.png";
+import nutcrackerAudLg from "../assets/academyEvents/Nutcracker2024Auditions-1280.png";
+import nutcrackerAudXL from "../assets/academyEvents/Nutcracker2024Auditions-2000.png";
 import sepAsmntSm from "../assets/academyEvents/sepAssessments-300.png";
 import sepAsmntMd from "../assets/academyEvents/sepAssessments-768.png";
 import sepAsmntLg from "../assets/academyEvents/sepAssessments-1280.png";
 import sepAsmntXL from "../assets/academyEvents/sepAssessments-2000.png";
-
 import decObsSm from "../assets/academyEvents/ObsWeekDec2024-300.png";
 import decObsMd from "../assets/academyEvents/ObsWeekDec2024-768.png";
 import decObsLg from "../assets/academyEvents/ObsWeekDec2024-1280.png";
@@ -143,6 +145,10 @@ function UpcomingEvents() {
     {
       smImg: sepAsmntSm,
       imgSet: `${sepAsmntSm} 300w, ${sepAsmntMd} 768w, ${sepAsmntLg} 1280w, ${sepAsmntXL} 2000w`,
+    },
+    {
+      smImg: nutcrackerAudSm,
+      imgSet: `${nutcrackerAudSm} 300w, ${nutcrackerAudMd} 768w, ${nutcrackerAudLg} 1280w, ${nutcrackerAudXL} 2000w`,
     },
     {
       smImg: decObsSm,
