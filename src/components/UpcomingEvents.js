@@ -76,6 +76,8 @@ import decObsMd from "../assets/academyEvents/ObsWeekDec2024-768.png";
 import decObsLg from "../assets/academyEvents/ObsWeekDec2024-1280.png";
 import decObsXL from "../assets/academyEvents/ObsWeekDec2024-2000.png";
 
+import NyliaButton from "./nyliaButton/NyliaButton.js";
+
 import PhotoGallery from "./photoGallery/PhotoGallery.js";
 
 import "./UpcomingEvents.css";
@@ -171,7 +173,6 @@ function UpcomingEvents() {
         srcSet={imageInfo.imgSet}
         alt="Nylia Ballet Academy Dancer from El Paso Texas"
         style={{
-          // width: "100%",
           height: "90%",
           objectFit: "cover",
         }}
@@ -191,6 +192,11 @@ function UpcomingEvents() {
             curEventIndex={CUREVENTIDX}
           ></PhotoGallery>
         </div>
+      </div>
+      <div className="upcomingevents-button">
+        <a id="events-button" href="">
+          <NyliaButton label={"Go to Latest Event"}></NyliaButton>
+        </a>
       </div>
     </div>
   );
