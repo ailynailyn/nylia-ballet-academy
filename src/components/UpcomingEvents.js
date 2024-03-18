@@ -49,6 +49,9 @@ import MomWeek2024Sm from "../assets/MomWeek2024-300.png";
 import MomWeek2024Md from "../assets/MomWeek2024-768.png";
 import MomWeek2024Lg from "../assets/MomWeek2024-1280.png";
 import MomWeek2024XL from "../assets/MomWeek2024-2000.png";
+import cinderella2024Sm from "../assets/academyEvents/Cinderella2024-300.png";
+import cinderella2024Md from "../assets/academyEvents/Cinderella2024-768.png";
+import cinderella2024Lg from "../assets/academyEvents/Cinderella2024-1280.png";
 import DadWeek2024Sm from "../assets/DadWeek2024-300.png";
 import DadWeek2024Md from "../assets/DadWeek2024-768.png";
 import DadWeek2024Lg from "../assets/DadWeek2024-1280.png";
@@ -133,6 +136,10 @@ function UpcomingEvents() {
     {
       smImg: mayAsmntSm,
       imgSet: `${mayAsmntSm} 300w, ${mayAsmntMd} 768w, ${mayAsmntLg} 1280w, ${mayAsmntXL} 2000w`,
+    },
+    {
+      smImg: cinderella2024Sm,
+      imgSet: `${cinderella2024Sm} 300w, ${cinderella2024Md} 768w, ${cinderella2024Lg} 1280w, ${cinderella2024Lg} 2000w`,
     },
     {
       smImg: DadWeek2024Sm,
