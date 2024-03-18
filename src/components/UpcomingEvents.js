@@ -41,6 +41,10 @@ import mayObsSm from "../assets/academyEvents/ObsWeekMay2024-300.png";
 import mayObsMd from "../assets/academyEvents/ObsWeekMay2024-768.png";
 import mayObsLg from "../assets/academyEvents/ObsWeekMay2024-1280.png";
 import mayObsXL from "../assets/academyEvents/ObsWeekMay2024-2000.png";
+import mayAsmntSm from "../assets/academyEvents/mayAssessments-300.png";
+import mayAsmntMd from "../assets/academyEvents/mayAssessments-768.png";
+import mayAsmntLg from "../assets/academyEvents/mayAssessments-1280.png";
+import mayAsmntXL from "../assets/academyEvents/mayAssessments-2000.png";
 import MomWeek2024Sm from "../assets/MomWeek2024-300.png";
 import MomWeek2024Md from "../assets/MomWeek2024-768.png";
 import MomWeek2024Lg from "../assets/MomWeek2024-1280.png";
@@ -56,6 +60,12 @@ import sepObsSm from "../assets/academyEvents/ObsWeekSep2024-300.png";
 import sepObsMd from "../assets/academyEvents/ObsWeekSep2024-768.png";
 import sepObsLg from "../assets/academyEvents/ObsWeekSep2024-1280.png";
 import sepObsXL from "../assets/academyEvents/ObsWeekSep2024-2000.png";
+
+import sepAsmntSm from "../assets/academyEvents/sepAssessments-300.png";
+import sepAsmntMd from "../assets/academyEvents/sepAssessments-768.png";
+import sepAsmntLg from "../assets/academyEvents/sepAssessments-1280.png";
+import sepAsmntXL from "../assets/academyEvents/sepAssessments-2000.png";
+
 import decObsSm from "../assets/academyEvents/ObsWeekDec2024-300.png";
 import decObsMd from "../assets/academyEvents/ObsWeekDec2024-768.png";
 import decObsLg from "../assets/academyEvents/ObsWeekDec2024-1280.png";
@@ -119,12 +129,20 @@ function UpcomingEvents() {
       imgSet: `${mayObsSm} 300w, ${mayObsMd} 768w, ${mayObsLg} 1280w, ${mayObsXL} 2000w`,
     },
     {
+      smImg: mayAsmntSm,
+      imgSet: `${mayAsmntSm} 300w, ${mayAsmntMd} 768w, ${mayAsmntLg} 1280w, ${mayAsmntXL} 2000w`,
+    },
+    {
       smImg: DadWeek2024Sm,
       imgSet: `${DadWeek2024Sm} 300w, ${DadWeek2024Md} 768w, ${DadWeek2024Lg} 1280w, ${DadWeek2024XL} 2000w`,
     },
     {
       smImg: sepObsSm,
       imgSet: `${sepObsSm} 300w, ${sepObsMd} 768w, ${sepObsLg} 1280w, ${sepObsXL} 2000w`,
+    },
+    {
+      smImg: sepAsmntSm,
+      imgSet: `${sepAsmntSm} 300w, ${sepAsmntMd} 768w, ${sepAsmntLg} 1280w, ${sepAsmntXL} 2000w`,
     },
     {
       smImg: decObsSm,
