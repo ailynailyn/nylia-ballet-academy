@@ -59,6 +59,11 @@ import DadWeek2024XL from "../assets/DadWeek2024-2000.png";
 import Valentines2024Sm from "../assets/Valentines2024-300.png";
 import Valentines2024Md from "../assets/Valentines2024-768.png";
 import Valentines2024Lg from "../assets/Valentines2024-1080.png";
+
+import pasDeDeuxAug2024Sm from "../assets/academyEvents/PasDeDeuxAugust2024-300.png";
+import pasDeDeuxAug2024Md from "../assets/academyEvents/PasDeDeuxAugust2024-768.png";
+import pasDeDeuxAug2024Lg from "../assets/academyEvents/PasDeDeuxAugust2024-1280.png";
+import pasDeDeuxAug2024XL from "../assets/academyEvents/PasDeDeuxAugust2024-2000.png";
 import sepObsSm from "../assets/academyEvents/ObsWeekSep2024-300.png";
 import sepObsMd from "../assets/academyEvents/ObsWeekSep2024-768.png";
 import sepObsLg from "../assets/academyEvents/ObsWeekSep2024-1280.png";
@@ -146,6 +151,10 @@ function UpcomingEvents() {
     {
       smImg: DadWeek2024Sm,
       imgSet: `${DadWeek2024Sm} 300w, ${DadWeek2024Md} 768w, ${DadWeek2024Lg} 1280w, ${DadWeek2024XL} 2000w`,
+    },
+    {
+      smImg: pasDeDeuxAug2024Sm,
+      imgSet: `${pasDeDeuxAug2024Sm} 300w, ${pasDeDeuxAug2024Md} 768w, ${pasDeDeuxAug2024Lg} 1280w, ${pasDeDeuxAug2024XL} 2000w`,
     },
     {
       smImg: sepObsSm,
