@@ -37,7 +37,10 @@ import BallerinaStoryTimeMarch2024XL from "../assets/BallerinaStoryTimeMarch2024
 import PaintAndSipMarch2024Sm from "../assets/PaintAndSipMarch2024-300.png";
 import PaintAndSipMarch2024Md from "../assets/PaintAndSipMarch2024-768.png";
 import PaintAndSipMarch2024Lg from "../assets/PaintAndSipMarch2024-2000.png";
-
+import mayObsSm from "../assets/academyEvents/ObsWeekMay2024-300.png";
+import mayObsMd from "../assets/academyEvents/ObsWeekMay2024-768.png";
+import mayObsLg from "../assets/academyEvents/ObsWeekMay2024-1280.png";
+import mayObsXL from "../assets/academyEvents/ObsWeekMay2024-2000.png";
 import MomWeek2024Sm from "../assets/MomWeek2024-300.png";
 import MomWeek2024Md from "../assets/MomWeek2024-768.png";
 import MomWeek2024Lg from "../assets/MomWeek2024-1280.png";
@@ -49,6 +52,14 @@ import DadWeek2024XL from "../assets/DadWeek2024-2000.png";
 import Valentines2024Sm from "../assets/Valentines2024-300.png";
 import Valentines2024Md from "../assets/Valentines2024-768.png";
 import Valentines2024Lg from "../assets/Valentines2024-1080.png";
+import sepObsSm from "../assets/academyEvents/ObsWeekSep2024-300.png";
+import sepObsMd from "../assets/academyEvents/ObsWeekSep2024-768.png";
+import sepObsLg from "../assets/academyEvents/ObsWeekSep2024-1280.png";
+import sepObsXL from "../assets/academyEvents/ObsWeekSep2024-2000.png";
+import decObsSm from "../assets/academyEvents/ObsWeekDec2024-300.png";
+import decObsMd from "../assets/academyEvents/ObsWeekDec2024-768.png";
+import decObsLg from "../assets/academyEvents/ObsWeekDec2024-1280.png";
+import decObsXL from "../assets/academyEvents/ObsWeekDec2024-2000.png";
 
 import PhotoGallery from "./photoGallery/PhotoGallery.js";
 
@@ -91,10 +102,6 @@ function UpcomingEvents() {
       smImg: auditionsSm,
       imgSet: `${auditionsSm} 300w, ${auditionsMd} 768w, ${auditionsLg} 1280w, ${auditionsXL} 2000w`,
     },
-    // {
-    //   smImg: cinderellaScheduleSm,
-    //   imgSet: `${cinderellaScheduleSm} 300w, ${cinderellaScheduleMd} 768w, ${cinderellaScheduleLg} 1280w, ${cinderellaScheduleXL} 2000w`,
-    // },
     {
       smImg: BallerinaStoryTimeMarch2024Sm,
       imgSet: `${BallerinaStoryTimeMarch2024Sm} 300w, ${BallerinaStoryTimeMarch2024Md} 768w, ${BallerinaStoryTimeMarch2024Lg} 1280w, ${BallerinaStoryTimeMarch2024XL} 2000w`,
@@ -108,8 +115,20 @@ function UpcomingEvents() {
       imgSet: `${MomWeek2024Sm} 300w, ${MomWeek2024Md} 768w, ${MomWeek2024Lg} 1280w, ${MomWeek2024XL} 2000w`,
     },
     {
+      smImg: mayObsSm,
+      imgSet: `${mayObsSm} 300w, ${mayObsMd} 768w, ${mayObsLg} 1280w, ${mayObsXL} 2000w`,
+    },
+    {
       smImg: DadWeek2024Sm,
       imgSet: `${DadWeek2024Sm} 300w, ${DadWeek2024Md} 768w, ${DadWeek2024Lg} 1280w, ${DadWeek2024XL} 2000w`,
+    },
+    {
+      smImg: sepObsSm,
+      imgSet: `${sepObsSm} 300w, ${sepObsMd} 768w, ${sepObsLg} 1280w, ${sepObsXL} 2000w`,
+    },
+    {
+      smImg: decObsSm,
+      imgSet: `${decObsSm} 300w, ${decObsMd} 768w, ${decObsLg} 1280w, ${decObsXL} 2000w`,
     },
   ];
 
