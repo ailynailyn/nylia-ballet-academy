@@ -96,7 +96,7 @@ function Classes() {
   var classInfo = {
     preBallet1: {
       classTitle: "PRE-BALLET I",
-      classAges: "Ages 3 - 4",
+      classAges: "Ages 4 - 5",
       classImg: preBallet1Sm,
       imgSet: `${preBallet1Sm} 300w, ${preBallet1Md} 768w, ${preBallet1Lg} 1280w, ${preBallet1XL} 2000w`,
       webpSet: `${preBallet1SmWebp} 300w, ${preBallet1MdWebp} 768w, ${preBallet1LgWebp} 1280w, ${preBallet1XLWebp} 2000w`,
@@ -105,12 +105,12 @@ function Classes() {
       classSched3: "SATURDAY",
       classSched4: "9:00 - 10:00 AM",
       classDesc:
-        "Designed for 3-4 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
+        "Designed for 4-5 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
       classRgstr: rgstrRqd,
     },
     preBallet2: {
       classTitle: "PRE-BALLET II",
-      classAges: "Ages 5 - 6",
+      classAges: "Age 6",
       classImg: preBallet2Sm,
       imgSet: `${preBallet2Sm} 300w, ${preBallet2Md} 768w, ${preBallet2Lg} 1280w, ${preBallet2XL} 2000w`,
       webpSet: `${preBallet2SmWebp} 300w, ${preBallet2MdWebp} 768w, ${preBallet2LgWebp} 1280w, ${preBallet2XLWebp} 2000w`,
@@ -119,7 +119,7 @@ function Classes() {
       classSched3: "SATURDAY",
       classSched4: "10:00 - 11:00 AM",
       classDesc:
-        "Designed for 5-6 year olds. Pre-Ballet II is a class designed to introduce the fundamentals of classical ballet technique. The class begins with conditioning, strengthening and stretching exercises to help students use, and isolate, certain muscle groups pertaining to dance. This class will enhance the student’s coordination, balance and flexibility, as well as musicality.",
+        "Designed for 6 year olds. Pre-Ballet II is a class designed to introduce the fundamentals of classical ballet technique. The class begins with conditioning, strengthening and stretching exercises to help students use, and isolate, certain muscle groups pertaining to dance. This class will enhance the student’s coordination, balance and flexibility, as well as musicality.",
       classRgstr: rgstrRqd,
     },
     ballet1: {
