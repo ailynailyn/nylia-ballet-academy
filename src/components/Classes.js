@@ -278,7 +278,7 @@ function Classes() {
   };
 
   const classPageDesc =
-    "We offer classes from Monday to Saturday for children and adults, ages 3+. Look through the classes we offer below for more information.";
+    "We offer classes from Monday to Saturday for children and adults, ages 4+. Look through the classes we offer below for more information.";
 
   return (
     <div className="classes-container">
