@@ -56,6 +56,10 @@ import DadWeek2024Sm from "../assets/DadWeek2024-300.png";
 import DadWeek2024Md from "../assets/DadWeek2024-768.png";
 import DadWeek2024Lg from "../assets/DadWeek2024-1280.png";
 import DadWeek2024XL from "../assets/DadWeek2024-2000.png";
+import intensive2024Sm from "../assets/academyEvents/SummerIntensive2024Poster-300.png";
+import intensive2024Md from "../assets/academyEvents/SummerIntensive2024Poster-768.png";
+import intensive2024Lg from "../assets/academyEvents/SummerIntensive2024Poster-1280.png";
+import intensive2024XL from "../assets/academyEvents/SummerIntensive2024Poster-2000.png";
 import Valentines2024Sm from "../assets/Valentines2024-300.png";
 import Valentines2024Md from "../assets/Valentines2024-768.png";
 import Valentines2024Lg from "../assets/Valentines2024-1080.png";
@@ -154,6 +158,10 @@ function UpcomingEvents() {
     {
       smImg: DadWeek2024Sm,
       imgSet: `${DadWeek2024Sm} 300w, ${DadWeek2024Md} 768w, ${DadWeek2024Lg} 1280w, ${DadWeek2024XL} 2000w`,
+    },
+    {
+      smImg: intensive2024Sm,
+      imgSet: `${intensive2024Sm} 300w, ${intensive2024Md} 768w, ${intensive2024Lg} 1280w, ${intensive2024XL} 2000w`,
     },
     {
       smImg: pasDeDeuxAug2024Sm,
