@@ -48,7 +48,7 @@ function Scholarships() {
           <br></br>
         </p>
         <h3>
-          The deadline for all applications and materials is Friday, May 10,
+          The deadline for all applications and materials is Saturday, June 1,
           2024, at 5:00 pm MST.
         </h3>
       </div>
@@ -72,15 +72,15 @@ function Scholarships() {
           <br />
           <ul class="scholarship-bullets">
             <li>
-              Upload a two-to-three-minute video of a variation of choice or
-              original choreography. Should you choose to attach the video from
-              your google drive please ensure that your share settings are open
-              to all those with the link. If your settings are not set to
-              public, you risk us not being able to view your video and will not
-              be considered for the scholarship.
+              Upload a 2-3 minute video of a variation of choice or original
+              choreography. Should you choose to attach the video from your
+              Google Drive please ensure that your share settings are open to
+              all those with the link. If your settings are not set to public,
+              you risk us not being able to view your video and will not be
+              considered for the scholarship.
             </li>
             <li>
-              An essay ranging from 750-1000 words elaborating on your artistic
+              An essay ranging from 750-1,000 words elaborating on your artistic
               choices for your video, what you deem the impact and purpose of
               ballet to be, and why you study or would like to study at Nylia.
             </li>
@@ -175,7 +175,7 @@ function Scholarships() {
           <br></br>
         </p>
         <h3>
-          The deadline for all applications and materials is Friday, May 10,
+          The deadline for all applications and materials is Saturday, June 1,
           2024, at 5:00 pm MST.
         </h3>
       </div>
