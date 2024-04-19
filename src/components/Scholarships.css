@@ -1,0 +1,282 @@
+.scholarship-container {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.scholarship-box p {
+  text-align: left;
+}
+
+.scholarship-container h3 {
+  font-family: "Questrial", sans-serif;
+  text-transform: uppercase;
+}
+
+ul.scholarship-bullets {
+  list-style-type: circle;
+}
+
+.scholarship-box {
+  width: auto;
+  background-color: rgb(0, 0, 0, 0.7);
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  padding: 1.3rem;
+  margin-bottom: 2rem;
+  max-width: 85%;
+}
+
+.scholarship-container .nyliabutton-container .btn {
+  font-size: 0.4rem;
+}
+
+.scholarship-title {
+  color: black;
+}
+
+.scholarship-box.centered p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+  .scholarship-title {
+    margin-top: 8rem;
+  }
+
+  .scholarship-box p {
+    font-size: 0.75rem;
+  }
+
+  .scholarship-container h3 {
+    font-size: 0.75rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.7rem;
+  }
+
+  .scholarship-container .nyliabutton-container .btn {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .scholarship-title {
+    margin-top: 8rem;
+  }
+
+  .scholarship-title h1 {
+    font-size: 1.1rem;
+  }
+
+  .scholarship-box p {
+    font-size: 0.8rem;
+  }
+
+  .scholarship-box h1 {
+    font-size: 1.1rem;
+  }
+
+  .scholarship-container h3 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.75rem;
+  }
+
+  .scholarship-container .nyliabutton-container .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .scholarship-title {
+    margin-top: 10rem;
+  }
+
+  .scholarship-title h1 {
+    font-size: 1.1rem;
+  }
+
+  .scholarship-box p {
+    font-size: 0.8rem;
+  }
+
+  .scholarship-box h1 {
+    font-size: 1.1rem;
+  }
+
+  .scholarship-container h3 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+
+  .scholarship-title img {
+    max-width: 90%;
+  }
+
+  li {
+    font-size: 0.75rem;
+  }
+
+  .scholarship-container .nyliabutton-container .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .scholarship-title {
+    margin-top: 11rem;
+  }
+
+  .scholarship-title h1 {
+    font-size: 1.1rem;
+  }
+
+  .scholarship-box p {
+    font-size: 0.9rem;
+  }
+
+  .scholarship-box h1 {
+    font-size: 1.1rem;
+  }
+
+  .scholarship-container h3 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.8rem;
+  }
+
+  .scholarship-title img {
+    max-width: 80%;
+  }
+
+  .scholarship-container .nyliabutton-container .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+  .scholarship-title {
+    margin-top: 11.5rem;
+  }
+
+  .scholarship-title h1 {
+    font-size: 1.6rem;
+  }
+
+  .scholarship-box p {
+    font-size: 1rem;
+  }
+
+  .scholarship-box h1 {
+    font-size: 1.2rem;
+  }
+
+  .scholarship-container h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+
+  .scholarship-title img {
+    max-width: 60%;
+  }
+
+  .scholarship-container .nyliabutton-container .btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .scholarship-title {
+    margin-top: 11.5rem;
+  }
+
+  .scholarship-title h1 {
+    font-size: 1.6rem;
+  }
+
+  .scholarship-box p {
+    font-size: 1rem;
+  }
+
+  .scholarship-box h1 {
+    font-size: 1.2rem;
+  }
+
+  .scholarship-container h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+
+  .scholarship-title img {
+    max-width: 50%;
+  }
+
+  .scholarship-container .nyliabutton-container .btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .scholarship-title {
+    margin-top: 11.5rem;
+  }
+
+  .scholarship-title h1 {
+    font-size: 1.6rem;
+  }
+
+  .scholarship-box p {
+    font-size: 1.1rem;
+  }
+
+  .scholarship-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .scholarship-container h3 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  .scholarship-container .nyliabutton-container .btn {
+    font-size: 1rem;
+  }
+
+  .scholarship-title img {
+    max-width: 30%;
+  }
+
+  .scholarship-box {
+    margin-right: 15rem;
+    margin-left: 15rem;
+    padding: 1.8rem;
+  }
+}

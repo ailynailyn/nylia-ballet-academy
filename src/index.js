@@ -12,6 +12,7 @@ import Gallery from "./components/Gallery";
 import Team from "./components/Team";
 import UpcomingEvents from "./components/UpcomingEvents";
 import Performances from "./components/Performances";
+import Scholarships from "./components/Scholarships";
 import NotFound from "./components/PageNotFound.js";
 import "./index.css";
 
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="team" element={<Team />} />
           <Route path="academyevents" element={<UpcomingEvents />} />
           <Route path="performances" element={<Performances />} />
+          <Route path="scholarships" element={<Scholarships />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
