@@ -83,6 +83,8 @@ function Scholarships() {
               An essay ranging from 750-1,000 words elaborating on your artistic
               choices for your video, what you deem the impact and purpose of
               ballet to be, and why you study or would like to study at Nylia.
+              AI generated essays will not be tolerated, and each essay will be
+              checked for authenticity.
             </li>
             <li>
               Three letters of recommendation from a non-family member,
@@ -133,7 +135,8 @@ function Scholarships() {
               does ballet mean to you, and what do you envision its role to be
               for your community?”, “What compels you to learn ballet?”, “How do
               you see ballet impacting your future?”, and “How would funding
-              assist you in your long-term goals?”.
+              assist you in your long-term goals?”. AI generated essays will not
+              be tolerated, and each essay will be checked for authenticity.
             </li>
             <li>
               Three letters of recommendation from a non-family member,
