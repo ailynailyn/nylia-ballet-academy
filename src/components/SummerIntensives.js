@@ -82,7 +82,7 @@ function SummerIntensives() {
             $175
             <br />
           </p>
-          <a href="https://docs.google.com/forms/d/1Eu1W3H361G0JB-3oxVeoCJ5c2TLDmuELgml6r_fiWJY/viewform?edit_requested=true">
+          <a href="https://form.jotform.com/241348049445156">
             <NyliaButton label={"Apply Now"}></NyliaButton>
           </a>
         </div>
@@ -127,7 +127,7 @@ function SummerIntensives() {
           $175
           <br />
         </p>
-        <a href="https://docs.google.com/forms/d/1Eu1W3H361G0JB-3oxVeoCJ5c2TLDmuELgml6r_fiWJY/viewform?edit_requested=true">
+        <a href="https://form.jotform.com/241351892390155">
           <NyliaButton label={"Apply Now"}></NyliaButton>
         </a>
       </div>
