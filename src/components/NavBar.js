@@ -63,28 +63,31 @@ function NavBar() {
                 className="justify-content-end flex-grow-1 pe-3"
                 style={{ height: "100%" }}
               >
-                <Nav.Link href="/team" style={{ height: "12.5%" }}>
+                <Nav.Link href="/team" style={{ height: "11.11%" }}>
                   <NyliaButton label={"THE TEAM"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/classes" style={{ height: "12.5%" }}>
+                <Nav.Link href="/classes" style={{ height: "11.11%" }}>
                   <NyliaButton label={"CLASSES"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/enroll" style={{ height: "12.5%" }}>
+                <Nav.Link href="/enroll" style={{ height: "11.11%" }}>
                   <NyliaButton label={"ENROLL"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/scholarships" style={{ height: "12.5%" }}>
+                <Nav.Link href="/scholarships" style={{ height: "11.11%" }}>
                   <NyliaButton label={"SCHOLARSHIPS"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/performances" style={{ height: "12.5%" }}>
+                <Nav.Link href="/performances" style={{ height: "11.11%" }}>
                   <NyliaButton label={"PERFORMANCES"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/academyevents" style={{ height: "12.5%" }}>
+                <Nav.Link href="/academyevents" style={{ height: "11.11%" }}>
                   <NyliaButton label={"ACADEMY EVENTS"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/gallery" style={{ height: "12.5%" }}>
+                <Nav.Link href="/summerintensives" style={{ height: "11.11%" }}>
+                  <NyliaButton label={"SUMMER INTENSIVES"}></NyliaButton>
+                </Nav.Link>
+                <Nav.Link href="/gallery" style={{ height: "11.11%" }}>
                   <NyliaButton label={"GALLERY"}></NyliaButton>
                 </Nav.Link>
-                <Nav.Link href="/contact" style={{ height: "12.5%" }}>
+                <Nav.Link href="/contact" style={{ height: "11.11%" }}>
                   <NyliaButton label={"CONTACT"}></NyliaButton>
                 </Nav.Link>
               </Nav>

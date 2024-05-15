@@ -1,0 +1,594 @@
+.intensives-container {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.intensives-bkg {
+  width: 100%;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+@media all and (orientation: portrait) {
+  #intensives-img-bkg background-position {
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    background-size: auto 100%;
+    background-position: right top;
+    background-size: contain;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .intensives-img-bkg background-position {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+  }
+}
+
+.intensives-text {
+  color: black;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  padding: 1.3rem;
+  margin-bottom: 2rem;
+  max-width: 85%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+.intensives-img {
+  max-width: 500px;
+  margin: auto;
+}
+
+.intensives-img-bkg {
+  background-image: -webkit-image-set(
+    url("../assets/andreaBallet1-300.jpg") 1x,
+    url("../assets/andreaBallet1-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/andreaBallet1-300.jpg") 1x,
+    url("../assets/andreaBallet1-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/andreaBallet1-300.jpg") 300w,
+    url("../assets/andreaBallet1-768.jpg") 768w,
+    url("../assets/andreaBallet1-1280.jpg") 1280w,
+    url("../assets/andreaBallet1-2000.jpg") 2000w
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  -o-background-size: auto 100%;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+  background-position: center right;
+}
+
+.intensives-img-bkg-2 {
+  background-image: -webkit-image-set(
+    url("../assets/anahidRehearsals-300.jpg") 1x,
+    url("../assets/anahidRehearsals-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/anahidRehearsals-300.jpg") 1x,
+    url("../assets/anahidRehearsals-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/anahidRehearsals-300.jpg") 300w,
+    url("../assets/anahidRehearsals-768.jpg") 768w,
+    url("../assets/anahidRehearsals-1280.jpg") 1280w,
+    url("../assets/anahidRehearsals-2000.jpg") 2000w
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  -o-background-size: auto 100%;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+#adultIntensiveSection {
+  margin-top: 3rem;
+}
+
+.intensives-title h1 {
+  font-weight: 900;
+  margin-bottom: 0.9em;
+}
+
+.intensives-box p {
+  text-align: left;
+}
+
+.intensives-container h3 {
+  font-family: "Questrial", sans-serif;
+  text-transform: uppercase;
+}
+
+ul.intensives-bullets {
+  list-style-type: circle;
+}
+
+.intensives-box {
+  width: auto;
+  background-color: rgb(0, 0, 0, 0.7);
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  padding: 1.3rem;
+  margin-bottom: 2rem;
+  max-width: 85%;
+}
+
+.intensives-container .nyliabutton-container .btn {
+  font-size: 0.4rem;
+}
+
+.intensives-title {
+  color: black;
+}
+
+.intensives-box.centered p {
+  text-align: center;
+}
+
+.intensives-text p {
+  font-size: 0.6em;
+}
+
+@media only screen and (max-width: 320px) {
+  .intensives-title {
+    margin-top: 9rem;
+    font-size: 0.9em;
+  }
+
+  .intensives-text p {
+    font-size: 0.7em;
+  }
+
+  .intensives-box p {
+    font-size: 0.7rem;
+  }
+
+  .intensives-box h2 {
+    font-size: 0.6rem;
+  }
+
+  .intensives-container h3 {
+    font-size: 0.75rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.7rem;
+  }
+
+  .intensives-container .nyliabutton-container .btn {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .intensives-title {
+    margin-top: 8rem;
+    font-size: 1em;
+  }
+
+  .intensives-text p {
+    font-size: 0.8em;
+  }
+
+  .intensives-title h1 {
+    font-size: 1.1rem;
+  }
+
+  .intensives-box p {
+    font-size: 0.8rem;
+  }
+
+  .intensives-box h1 {
+    font-size: 1.1rem;
+  }
+  .intensives-box h2 {
+    font-size: 0.7rem;
+  }
+
+  .intensives-container h3 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.75rem;
+  }
+
+  .intensives-container .nyliabutton-container .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .intensives-img-bkg-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: center;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+  .intensives-img-bkg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: center;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .intensives-title {
+    margin-top: 10rem;
+    font-size: 1.1em;
+  }
+
+  .intensives-text p {
+    font-size: 0.9em;
+  }
+
+  .intensives-title h1 {
+    font-size: 1.1rem;
+  }
+
+  .intensives-box p {
+    font-size: 0.8rem;
+  }
+
+  .intensives-box h1 {
+    font-size: 1.1rem;
+  }
+  .intensives-box h2 {
+    font-size: 0.8rem;
+  }
+
+  .intensives-container h3 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+
+  .intensives-title img {
+    max-width: 90%;
+  }
+
+  li {
+    font-size: 0.75rem;
+  }
+
+  .intensives-container .nyliabutton-container .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .intensives-title {
+    margin-top: 11rem;
+    font-size: 1.2em;
+  }
+
+  .intensives-text p {
+    font-size: 1em;
+  }
+
+  .intensives-title h1 {
+    font-size: 1.1rem;
+  }
+
+  .intensives-box p {
+    font-size: 0.9rem;
+  }
+
+  .intensives-box h1 {
+    font-size: 1.1rem;
+  }
+
+  .intensives-box h2 {
+    font-size: 0.9rem;
+  }
+
+  .intensives-container h3 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.8rem;
+  }
+
+  .intensives-box img {
+    max-width: 80%;
+  }
+
+  .intensives-container .nyliabutton-container .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .intensives-img-bkg {
+    background-image: -webkit-image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/nylia-ballerinas-2000.jpg") 2x
+    );
+    background-image: image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/nylia-ballerinas-2000.jpg") 2x
+    );
+    background-image: image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 300w,
+      url("../assets/nylia-ballerinas-768.jpg") 768w,
+      url("../assets/nylia-ballerinas-1280.jpg") 1280w,
+      url("../assets/nylia-ballerinas-2000.jpg") 2000w
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    -o-background-size: auto 100%;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    background-size: auto 100%;
+  }
+
+  .intensives-img-bkg-2 {
+    background-image: -webkit-image-set(
+      url("../assets/cinderella-father-stepmother-300.jpg") 1x,
+      url("../assets/cinderella-father-stepmother-2000.jpg") 2x
+    );
+    background-image: image-set(
+      url("../assets/cinderella-father-stepmother-300.jpg") 1x,
+      url("../assets/cinderella-father-stepmother-2000.jpg") 2x
+    );
+    background-image: image-set(
+      url("../assets/cinderella-father-stepmother-300.jpg") 300w,
+      url("../assets/cinderella-father-stepmother-768.jpg") 768w,
+      url("../assets/cinderella-father-stepmother-1280.jpg") 1280w,
+      url("../assets/cinderella-father-stepmother-2000.jpg") 2000w
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+  .intensives-title {
+    margin-top: 11.5rem;
+    font-size: 1.2em;
+  }
+  .intensives-text p {
+    font-size: 1.1em;
+  }
+
+  .intensives-title h1 {
+    font-size: 1.6rem;
+  }
+
+  .intensives-box p {
+    font-size: 1rem;
+  }
+
+  .intensives-box h1 {
+    font-size: 1.2rem;
+  }
+
+  .intensives-box h2 {
+    font-size: 0.9rem;
+  }
+
+  .intensives-container h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+
+  .intensives-box img {
+    max-width: 60%;
+  }
+
+  .intensives-container .nyliabutton-container .btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .intensives-title {
+    margin-top: 11.5rem;
+    font-size: 1.2em;
+  }
+  .intensives-text p {
+    font-size: 1.1em;
+  }
+
+  .intensives-title h1 {
+    font-size: 1.6rem;
+  }
+
+  .intensives-box p {
+    font-size: 1rem;
+  }
+
+  .intensives-box h1 {
+    font-size: 1.2rem;
+  }
+  .intensives-box h2 {
+    font-size: 0.9rem;
+  }
+  .intensives-container h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+
+  .intensives-box img {
+    max-width: 50%;
+  }
+
+  .intensives-container .nyliabutton-container .btn {
+    font-size: 0.9rem;
+  }
+  .intensives-img-bkg {
+    background-image: -webkit-image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/nylia-ballerinas-2000.jpg") 2x
+    );
+    background-image: image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/nylia-ballerinas-2000.jpg") 2x
+    );
+    background-image: image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 300w,
+      url("../assets/nylia-ballerinas-768.jpg") 768w,
+      url("../assets/nylia-ballerinas-1280.jpg") 1280w,
+      url("../assets/nylia-ballerinas-2000.jpg") 2000w
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .intensives-title {
+    margin-top: 11.5rem;
+    font-size: 1.2em;
+  }
+  .intensives-text p {
+    font-size: 1em;
+  }
+
+  .intensives-title h1 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 0.9em;
+  }
+
+  .intensives-box p {
+    font-size: 0.9rem;
+  }
+
+  .intensives-box h1 {
+    font-size: 1.5rem;
+  }
+  .intensives-box h2 {
+    font-size: 1.1rem;
+  }
+
+  .intensives-container h3 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  .intensives-container .nyliabutton-container .btn {
+    font-size: 1rem;
+  }
+
+  .intensives-box img {
+    max-width: 45%;
+  }
+
+  .intensives-box {
+    margin-right: 15rem;
+    margin-left: 15rem;
+    padding: 1.8rem;
+  }
+
+  .intensives-img-bkg {
+    background-image: -webkit-image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/nylia-ballerinas-2000.jpg") 2x
+    );
+    background-image: image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/nylia-ballerinas-2000.jpg") 2x
+    );
+    background-image: image-set(
+      url("../assets/nylia-ballerinas-300.jpg") 300w,
+      url("../assets/nylia-ballerinas-768.jpg") 768w,
+      url("../assets/nylia-ballerinas-1280.jpg") 1280w,
+      url("../assets/nylia-ballerinas-2000.jpg") 2000w
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+  }
+}
