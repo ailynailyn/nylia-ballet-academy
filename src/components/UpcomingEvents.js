@@ -95,7 +95,7 @@ import PhotoGallery from "./photoGallery/PhotoGallery.js";
 import "./UpcomingEvents.css";
 
 function UpcomingEvents() {
-  const CUREVENTIDX = 11;
+  const CUREVENTIDX = 12;
   const images = [
     {
       smImg: newYear2024Sm,
