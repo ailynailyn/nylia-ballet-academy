@@ -22,6 +22,10 @@
   padding-bottom: 1em;
 }
 
+.table {
+  font-family: "Questrial", sans-serif;
+}
+
 .upcomingevents-button .nyliabutton-container {
   position: relative;
   z-index: 6;
@@ -58,7 +62,58 @@ p {
   font-size: 25px;
 }
 
+.calendar {
+  max-width: 85%;
+  text-align: center;
+  margin: auto;
+}
+
+.table {
+  text-align: center;
+}
+.table .date {
+  text-align: left;
+}
+
+.table .event {
+  text-align: left;
+}
+
+.table .category {
+  text-align: right;
+}
+
+.table td.holiday {
+  /* color: rgb(44, 29, 62); */
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.table td.special {
+  /* color: rgb(44, 29, 62); */
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.table td.community {
+  /* color: rgb(12, 52, 37); */
+  text-align: right;
+  text-transform: capitalize;
+}
+
 @media only screen and (max-width: 320px) {
+  .calendar tr {
+    font-size: 0.7em;
+  }
+
+  .calendar .upcomingevents-title {
+    padding-top: 2rem;
+  }
+
+  .upcomingevents-title p {
+    font-size: 0.8em;
+  }
+
   .upcomingevents-container {
     flex-direction: column;
     padding-top: 140px;
@@ -93,6 +148,17 @@ p {
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
+  .calendar tr {
+    font-size: 0.8em;
+  }
+
+  .calendar .upcomingevents-title {
+    padding-top: 2rem;
+  }
+
+  .upcomingevents-title p {
+    font-size: 0.9em;
+  }
   .upcomingevents-container {
     flex-direction: column;
     padding-top: 140px;
@@ -123,6 +189,17 @@ p {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
+  .calendar tr {
+    font-size: 0.8em;
+  }
+
+  .calendar .upcomingevents-title {
+    padding-top: 2rem;
+  }
+
+  .upcomingevents-title p {
+    font-size: 0.9em;
+  }
   .upcomingevents-container {
     flex-direction: column;
     padding-top: 165px;
@@ -153,6 +230,18 @@ p {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+  .calendar tr {
+    font-size: 0.9em;
+  }
+
+  .calendar .upcomingevents-title {
+    padding-top: 2rem;
+  }
+
+  .upcomingevents-title p {
+    font-size: 1em;
+  }
+
   .upcomingevents-container {
     flex-direction: column;
     padding-top: 170px;
@@ -183,6 +272,18 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 888px) {
+  .calendar tr {
+    font-size: 0.9em;
+  }
+
+  .calendar .upcomingevents-title {
+    padding-top: 2rem;
+  }
+
+  .upcomingevents-title p {
+    font-size: 1em;
+  }
+
   .upcomingevents-container {
     flex-direction: column;
     padding-top: 170px;
@@ -217,6 +318,18 @@ p {
 }
 
 @media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .calendar tr {
+    font-size: 0.9em;
+  }
+
+  .calendar .upcomingevents-title {
+    padding-top: 2rem;
+  }
+
+  .upcomingevents-title p {
+    font-size: 1em;
+  }
+
   .upcomingevents-container {
     flex-direction: column;
     padding-top: 190px;
@@ -257,6 +370,18 @@ p {
 }
 
 @media only screen and (min-width: 1201px) {
+  .calendar tr {
+    font-size: 1em;
+  }
+
+  .calendar .upcomingevents-title {
+    padding-top: 2rem;
+  }
+
+  .upcomingevents-title p {
+    font-size: 1.2em;
+  }
+
   .upcomingevents-container {
     flex-direction: column;
     padding-top: 190px;

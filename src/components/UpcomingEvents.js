@@ -222,6 +222,270 @@ function UpcomingEvents() {
           <NyliaButton label={"Go to Latest Event"}></NyliaButton>
         </a>
       </div>
+      <hr></hr>
+      <div className="calendar">
+        <div className="upcomingevents-title">
+          <h1>2024 CALENDAR</h1>
+          <p>
+            <br></br>
+            Our mission is to inspire students and cultivate a love for dance.
+            We exist to nurture creativity and encourage each student to reach
+            their respective goals while at the same educating our community
+            about the narrative power of the art form.
+            <br></br>
+            <br></br>
+            As we instill discipline and respect for art form amongst students
+            and community, our sights are set to the future and how to
+            facilitate the transition from Academy to Company. It is our intent
+            to focus on large scale productions and establish El Paso as a
+            renowned epicenter for ballet.
+          </p>
+        </div>
+        <div>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col" className="date">
+                  DATE
+                </th>
+                <th scope="col" colspan="3" className="event">
+                  EVENT
+                </th>
+                <th scope="col" className="category">
+                  CATEGORY
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" className="date">
+                  01/06/24
+                </th>
+                <td colspan="3" className="event">
+                  1st Day of Classes
+                </td>
+                <td className="holiday">CLASSES RESUME</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  01/15/24
+                </th>
+                <td colspan="3" className="event">
+                  Bring a Friend Week
+                </td>
+                <td className="special">SPECIAL EVENT</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  02/02/24
+                </th>
+                <td colspan="3" className="event">
+                  Cinderella Movie Night
+                </td>
+                <td className="special">CINDERELLA</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  02/11/24
+                </th>
+                <td colspan="3" className="event">
+                  Farmer's Market
+                </td>
+                <td className="community">COMMUNITY</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  02/14/24
+                </th>
+                <td colspan="3" className="event">
+                  Pas de Deux Night
+                </td>
+                <td className="special">SPECIAL EVENT</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  02/12/24
+                </th>
+                <td colspan="3" className="event">
+                  Observation Week
+                </td>
+                <td className="special">OBSERVATIONS</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  02/21/24
+                </th>
+                <td colspan="3" className="event">
+                  Student Assessments
+                </td>
+                <td className="special">ASSESSMENTS</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  02/25/24
+                </th>
+                <td colspan="3" className="event">
+                  Cinderella Auditions
+                </td>
+                <td className="special">CINDERELLA</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  03/02/24
+                </th>
+                <td colspan="3" className="event">
+                  Ballerina Storytimes
+                </td>
+                <td className="special">COMMUNITY</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  03/21/24
+                </th>
+                <td colspan="3" className="event">
+                  Paint & Sip Brunch
+                </td>
+                <td className="special">COMMUNITY</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  05/08/24
+                </th>
+                <td colspan="3" className="event">
+                  Mom & Me Week
+                </td>
+                <td className="special">SPECIAL EVENT</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  05/15/24
+                </th>
+                <td colspan="3" className="event">
+                  Obsservation Week
+                </td>
+                <td className="special">OBSERVATION</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  05/22/24
+                </th>
+                <td colspan="3" className="event">
+                  Student Assessments
+                </td>
+                <td className="special">ASSESSMENTS</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  05/27/24
+                </th>
+                <td colspan="3" className="event">
+                  Memorial Day - NO CLASSES
+                </td>
+                <td className="special">HOLIDAY</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  06/15/24
+                </th>
+                <td colspan="3" className="event">
+                  Cinderella Ballet - UTEP's Magoffin Auditorium
+                </td>
+                <td className="special">CINDERELLA</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  06/26/24
+                </th>
+                <td colspan="3" className="event">
+                  Dad & Me Week
+                </td>
+                <td className="special">SPECIAL EVENT</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  07/15/24
+                </th>
+                <td colspan="3" className="event">
+                  Youth Summer Intensive
+                </td>
+                <td className="special">SUMMER INTENSIVE</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  07/15/24
+                </th>
+                <td colspan="3" className="event">
+                  Adult Summer Intensive
+                </td>
+                <td className="special">SUMMER INTENSIVE</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  08/01/24
+                </th>
+                <td colspan="3" className="event">
+                  Pas de Deux Class
+                </td>
+                <td className="special">SPECIAL EVENT</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  09/02/24
+                </th>
+                <td colspan="3" className="event">
+                  Labor Day - NO CLASSES
+                </td>
+                <td className="special">HOLIDAY</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  09/11/24
+                </th>
+                <td colspan="3" className="event">
+                  Observation Week
+                </td>
+                <td className="special">OBSERVATION</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  09/18/24
+                </th>
+                <td colspan="3" className="event">
+                  Student Assessments
+                </td>
+                <td className="special">ASSESSMENTS</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  09/22/24
+                </th>
+                <td colspan="3" className="event">
+                  Nutcracker Auditions
+                </td>
+                <td className="special">SPECIAL EVENT</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  10/03/24
+                </th>
+                <td colspan="3" className="event">
+                  Pas de Deux Class
+                </td>
+                <td className="special">SPECIAL EVENT</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  12/04/24
+                </th>
+                <td colspan="3" className="event">
+                  Observation Week
+                </td>
+                <td className="special">OBSERVATION</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }
