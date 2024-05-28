@@ -246,7 +246,9 @@ ul.scholarship-bullets {
   }
 
   .scholarship-title h1 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 0.9em;
   }
 
   .scholarship-box p {

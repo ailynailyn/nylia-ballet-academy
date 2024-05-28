@@ -58,22 +58,33 @@ import pointe1SmWebp from "../assets/pointeTendu300.webp";
 import pointe1MdWebp from "../assets/pointeTendu768.webp";
 import pointe1LgWebp from "../assets/pointeTendu1280.webp";
 import pointe1XLWebp from "../assets/pointeTendu2000.webp";
-import pointe2Sm from "../assets/pointeTrio300.JPG";
-import pointe2Md from "../assets/pointeTrio768.JPG";
-import pointe2Lg from "../assets/pointeTrio1280.JPG";
-import pointe2XL from "../assets/pointeTrio2000.JPG";
-import pointe2SmWebp from "../assets/pointeTrio300.webp";
-import pointe2MdWebp from "../assets/pointeTrio768.webp";
-import pointe2LgWebp from "../assets/pointeTrio1280.webp";
-import pointe2XLWebp from "../assets/pointeTrio2000.webp";
-import adultBalletSm from "../assets/marianaAdultBallet300.JPG";
-import adultBalletMd from "../assets/marianaAdultBallet768.JPG";
-import adultBalletLg from "../assets/marianaAdultBallet1280.JPG";
-import adultBalletXL from "../assets/marianaAdultBallet2000.JPG";
-import adultBalletSmWebp from "../assets/marianaAdultBallet300.webp";
-import adultBalletMdWebp from "../assets/marianaAdultBallet768.webp";
-import adultBalletLgWebp from "../assets/marianaAdultBallet1280.webp";
-import adultBalletXLWebp from "../assets/marianaAdultBallet2000.webp";
+import pointe2Sm from "../assets/classesPage/pointe2-300.jpg";
+import pointe2Md from "../assets/classesPage/pointe2-768.jpg";
+import pointe2Lg from "../assets/classesPage/pointe2-1280.jpg";
+import pointe2XL from "../assets/classesPage/pointe2-2000.jpg";
+import pointe2SmWebp from "../assets/classesPage/pointe2-300.webp";
+import pointe2MdWebp from "../assets/classesPage/pointe2-768.webp";
+import pointe2LgWebp from "../assets/classesPage/pointe2-1280.webp";
+import pointe2XLWebp from "../assets/classesPage/pointe2-2000.webp";
+
+import begAdultBalletSm from "../assets/classesPage/begAdultBallet-300.jpg";
+import begAdultBalletMd from "../assets/classesPage/begAdultBallet-768.jpg";
+import begAdultBalletLg from "../assets/classesPage/begAdultBallet-1280.jpg";
+import begAdultBalletXL from "../assets/classesPage/begAdultBallet-2000.jpg";
+import begAdultBalletSmWebp from "../assets/classesPage/begAdultBallet-300.webp";
+import begAdultBalletMdWebp from "../assets/classesPage/begAdultBallet-768.webp";
+import begAdultBalletLgWebp from "../assets/classesPage/begAdultBallet-1280.webp";
+import begAdultBalletXLWebp from "../assets/classesPage/begAdultBallet-2000.webp";
+
+import adultBalletSm from "../assets/classesPage/advAdultBallet-300.jpg";
+import adultBalletMd from "../assets/classesPage/advAdultBallet-768.jpg";
+import adultBalletLg from "../assets/classesPage/advAdultBallet-1280.jpg";
+import adultBalletXL from "../assets/classesPage/advAdultBallet-2000.jpg";
+import adultBalletSmWebp from "../assets/classesPage/advAdultBallet-300.webp";
+import adultBalletMdWebp from "../assets/classesPage/advAdultBallet-768.webp";
+import adultBalletLgWebp from "../assets/classesPage/advAdultBallet-1280.webp";
+import adultBalletXLWebp from "../assets/classesPage/advAdultBallet-2000.webp";
+
 import flexibilitySm from "../assets/ailynKeinaFold300.JPG";
 import flexibilityMd from "../assets/ailynKeinaFold768.JPG";
 import flexibilityLg from "../assets/ailynKeinaFold1280.JPG";
@@ -210,12 +221,12 @@ function Classes() {
         "Pointe II students will be invited to participate on an individual basis when they have the necessary physical and technical development. These classes are perfect for the ballerina who is wanting to take their ballet technique to the next level. This class includes classical variations, the study of solo dances from historically established classical ballet repertoire.",
       classRgstr: rgstrRqd,
     },
-    adultBegBallet: {
+    begAdultBallet: {
       classTitle: "ADULT BALLET",
       classAges: "- Beginner -",
-      classImg: adultBalletSm,
-      imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
-      webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
+      classImg: begAdultBalletSm,
+      imgSet: `${begAdultBalletSm} 300w, ${begAdultBalletMd} 768w, ${begAdultBalletLg} 1280w, ${begAdultBalletXL} 2000w`,
+      webpSet: `${begAdultBalletSmWebp} 300w, ${begAdultBalletMdWebp} 768w, ${begAdultBalletLgWebp} 1280w, ${begAdultBalletXLWebp} 2000w`,
       classSched1: "TUESDAY & THURSDAY",
       classSched2: "7:00 - 8:00 PM",
       classSched3: "",
@@ -333,7 +344,7 @@ function Classes() {
           </Dropdown.Item>
           <Dropdown.Item
             as="button"
-            onClick={() => setClassInfo("adultBegBallet")}
+            onClick={() => setClassInfo("begAdultBallet")}
           >
             Adult Ballet - Beg
           </Dropdown.Item>
@@ -495,7 +506,7 @@ function Classes() {
                 <Dropdown.Item
                   eventKey="3"
                   as="button"
-                  onClick={() => setClassInfo("intAdvBallet")}
+                  onClick={() => setClassInfo("adultAdvBallet")}
                 >
                   Int/Adv
                 </Dropdown.Item>
