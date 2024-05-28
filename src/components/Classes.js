@@ -85,6 +85,15 @@ import adultBalletMdWebp from "../assets/classesPage/advAdultBallet-768.webp";
 import adultBalletLgWebp from "../assets/classesPage/advAdultBallet-1280.webp";
 import adultBalletXLWebp from "../assets/classesPage/advAdultBallet-2000.webp";
 
+import pilatesSm from "../assets/classesPage/pilates-300.png";
+import pilatesMd from "../assets/classesPage/pilates-768.png";
+import pilatesLg from "../assets/classesPage/pilates-1280.png";
+import pilatesXL from "../assets/classesPage/pilates-2000.png";
+import pilatesSmWebp from "../assets/classesPage/pilates-300.webp";
+import pilatesMdWebp from "../assets/classesPage/pilates-768.webp";
+import pilatesLgWebp from "../assets/classesPage/pilates-1280.webp";
+import pilatesXLWebp from "../assets/classesPage/pilates-2000.webp";
+
 import flexibilitySm from "../assets/ailynKeinaFold300.JPG";
 import flexibilityMd from "../assets/ailynKeinaFold768.JPG";
 import flexibilityLg from "../assets/ailynKeinaFold1280.JPG";
@@ -266,9 +275,9 @@ function Classes() {
     pilates: {
       classTitle: "PILATES",
       classAges: "- All Ages -",
-      classImg: flexibilitySm,
-      imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
-      webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
+      classImg: pilatesSm,
+      imgSet: `${pilatesSm} 300w, ${pilatesMd} 768w, ${pilatesLg} 1280w, ${pilatesXL} 2000w`,
+      webpSet: `${pilatesSmWebp} 300w, ${pilatesMdWebp} 768w, ${pilatesLgWebp} 1280w, ${pilatesXLWebp} 2000w`,
       classSched1: "MONDAY",
       classSched2: "6:00 - 7:00 PM",
       classSched3: "",
