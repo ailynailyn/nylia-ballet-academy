@@ -255,10 +255,10 @@ function Classes() {
       classImg: flexibilitySm,
       imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
       webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
-      classSched1: "MONDAY & WEDNESDAY",
-      classSched2: "6:00 - 7:00 PM",
-      classSched3: "SATURDAY",
-      classSched4: "11:00 AM - 12:00 PM",
+      classSched1: "SATURDAY",
+      classSched2: "11:00 AM - 12:00 PM",
+      classSched3: "",
+      classSched4: "",
       classDesc:
         "Flexibility classes introduce various techniques of flexibility training as well as techniques that are especially designed to improve your range of movement and mobility. The focus of the class is to stretch and lengthen the muscles of the body, and to strengthen them to be able to better execute ballet technique or simply utilize in one’s own daily routine.",
       classRgstr: dropInWlcm,
@@ -316,55 +316,7 @@ function Classes() {
         <h1>CLASSES</h1>
         <p>{classPageDesc}</p>
       </div>
-      <div className="mobile-class-dropdown">
-        <DropdownButton id="dropdown-item-button" title="☰ SELECT CLASS">
-          <Dropdown.Item as="button" onClick={() => setClassInfo("preBallet1")}>
-            Pre-Ballet I
-          </Dropdown.Item>
-          <Dropdown.Item as="button" onClick={() => setClassInfo("preBallet2")}>
-            Pre-Ballet II
-          </Dropdown.Item>
-          <Dropdown.Item as="button" onClick={() => setClassInfo("ballet1")}>
-            Ballet I
-          </Dropdown.Item>
-          <Dropdown.Item as="button" onClick={() => setClassInfo("ballet2")}>
-            Ballet II
-          </Dropdown.Item>
-          <Dropdown.Item as="button" onClick={() => setClassInfo("ballet3")}>
-            Ballet III
-          </Dropdown.Item>
-          <Dropdown.Item as="button" onClick={() => setClassInfo("ballet4")}>
-            Ballet IV
-          </Dropdown.Item>
-          <Dropdown.Item as="button" onClick={() => setClassInfo("pointe1")}>
-            Pointe I
-          </Dropdown.Item>
-          <Dropdown.Item as="button" onClick={() => setClassInfo("pointe2")}>
-            Pointe II
-          </Dropdown.Item>
-          <Dropdown.Item
-            as="button"
-            onClick={() => setClassInfo("begAdultBallet")}
-          >
-            Adult Ballet - Beg
-          </Dropdown.Item>
-          <Dropdown.Item
-            as="button"
-            onClick={() => setClassInfo("adultAdvBallet")}
-          >
-            Adult Ballet - Int/Adv
-          </Dropdown.Item>
-          <Dropdown.Item as="button" onClick={() => setClassInfo("pilates")}>
-            Pilates
-          </Dropdown.Item>
-          <Dropdown.Item
-            as="button"
-            onClick={() => setClassInfo("flexibility")}
-          >
-            Flexibility
-          </Dropdown.Item>
-        </DropdownButton>
-      </div>
+
       <div className="right-info">
         <div className="desktop-page-title">
           <h1>CLASSES</h1>
@@ -372,8 +324,83 @@ function Classes() {
         </div>
 
         <div className="class-desc-box">
+          <div className="mobile-class-dropdown">
+            <DropdownButton id="dropdown-item-button" title="☰ SELECT CLASS">
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("preBallet1")}
+              >
+                Pre-Ballet I
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("preBallet2")}
+              >
+                Pre-Ballet II
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("ballet1")}
+              >
+                Ballet I
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("ballet2")}
+              >
+                Ballet II
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("ballet3")}
+              >
+                Ballet III
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("ballet4")}
+              >
+                Ballet IV
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("pointe1")}
+              >
+                Pointe I
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("pointe2")}
+              >
+                Pointe II
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("begAdultBallet")}
+              >
+                Adult Ballet - Beg
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("adultAdvBallet")}
+              >
+                Adult Ballet - Int/Adv
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("pilates")}
+              >
+                Pilates
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("flexibility")}
+              >
+                Flexibility
+              </Dropdown.Item>
+            </DropdownButton>
+          </div>
           <div className="class-title">
-            <h1 id="class-title-header">{classInfo.preBallet1.classTitle}</h1>
             <p id="cur-class-ages">{classInfo.preBallet1.classAges}</p>
           </div>
           <div className="class-image">
@@ -395,16 +422,20 @@ function Classes() {
               ></img>
             </picture>
           </div>
+          <div className="class-title">
+            <h1 id="class-title-header">{classInfo.preBallet1.classTitle}</h1>
+          </div>
+
           <div className="class-info"></div>
+          <div className="class-description">
+            <p id="cur-class-description">{classInfo.preBallet1.classDesc}</p>
+          </div>
           <div className="class-schedule">
             <p id="cur-class-sched1">{classInfo.preBallet1.classSched1}</p>
             <p id="cur-class-sched2">{classInfo.preBallet1.classSched2}</p>
             <p id="cur-class-sched3">{classInfo.preBallet1.classSched3}</p>
             <p id="cur-class-sched4">{classInfo.preBallet1.classSched4}</p>
             <p id="cur-class-rgstr">{classInfo.preBallet1.classRgstr}</p>
-          </div>
-          <div className="class-description">
-            <p id="cur-class-description">{classInfo.preBallet1.classDesc}</p>
           </div>
         </div>
         <div className="learn-more-classes">
