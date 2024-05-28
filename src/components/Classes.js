@@ -18,14 +18,14 @@ import preBallet2SmWebp from "../assets/mabelAndAilyn300.webp";
 import preBallet2MdWebp from "../assets/mabelAndAilyn768.webp";
 import preBallet2LgWebp from "../assets/mabelAndAilyn1280.webp";
 import preBallet2XLWebp from "../assets/mabelAndAilyn2000.webp";
-import ballet1Sm from "../assets/keinaPose300.JPG";
-import ballet1Md from "../assets/keinaPose768.JPG";
-import ballet1Lg from "../assets/keinaPose1280.JPG";
-import ballet1XL from "../assets/keinaPose2000.JPG";
-import ballet1SmWebp from "../assets/keinaPose300.webp";
-import ballet1MdWebp from "../assets/keinaPose768.webp";
-import ballet1LgWebp from "../assets/keinaPose1280.webp";
-import ballet1XLWebp from "../assets/keinaPose2000.webp";
+import ballet1Sm from "../assets/classesPage/balletI-300.jpg";
+import ballet1Md from "../assets/classesPage/balletI-768.jpg";
+import ballet1Lg from "../assets/classesPage/balletI-1280.jpg";
+import ballet1XL from "../assets/classesPage/balletI-2000.jpg";
+import ballet1SmWebp from "../assets/classesPage/balletI-300.webp";
+import ballet1MdWebp from "../assets/classesPage/balletI-768.webp";
+import ballet1LgWebp from "../assets/classesPage/balletI-1280.webp";
+import ballet1XLWebp from "../assets/classesPage/balletI-2000.webp";
 import ballet2Sm from "../assets/barreStretch300.JPG";
 import ballet2Md from "../assets/barreStretch768.JPG";
 import ballet2Lg from "../assets/barreStretch1280.JPG";
@@ -82,12 +82,16 @@ import flexibilitySmWebp from "../assets/ailynKeinaFold300.webp";
 import flexibilityMdWebp from "../assets/ailynKeinaFold768.webp";
 import flexibilityLgWebp from "../assets/ailynKeinaFold1280.webp";
 import flexibilityXLWebp from "../assets/ailynKeinaFold2000.webp";
+import WeeklyCalendar from "../assets/WeeklyCalendar.png";
 
 import ClassSchedule from "../assets/NyliaSchedule.pdf";
 import ClassDescriptionBrochure from "../assets/Class Descriptions Brochure.pdf";
 
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
+import Button from "react-bootstrap/Button";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
+import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 
 function Classes() {
   const rgstrRqd = "Registration Required";
@@ -96,7 +100,7 @@ function Classes() {
   var classInfo = {
     preBallet1: {
       classTitle: "PRE-BALLET I",
-      classAges: "Ages 4 - 5",
+      classAges: "Ages 4",
       classImg: preBallet1Sm,
       imgSet: `${preBallet1Sm} 300w, ${preBallet1Md} 768w, ${preBallet1Lg} 1280w, ${preBallet1XL} 2000w`,
       webpSet: `${preBallet1SmWebp} 300w, ${preBallet1MdWebp} 768w, ${preBallet1LgWebp} 1280w, ${preBallet1XLWebp} 2000w`,
@@ -105,12 +109,12 @@ function Classes() {
       classSched3: "SATURDAY",
       classSched4: "9:00 - 10:00 AM",
       classDesc:
-        "Designed for 4-5 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
+        "Designed for 4year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
       classRgstr: rgstrRqd,
     },
     preBallet2: {
       classTitle: "PRE-BALLET II",
-      classAges: "Age 6",
+      classAges: "Age 5-6",
       classImg: preBallet2Sm,
       imgSet: `${preBallet2Sm} 300w, ${preBallet2Md} 768w, ${preBallet2Lg} 1280w, ${preBallet2XL} 2000w`,
       webpSet: `${preBallet2SmWebp} 300w, ${preBallet2MdWebp} 768w, ${preBallet2LgWebp} 1280w, ${preBallet2XLWebp} 2000w`,
@@ -119,7 +123,7 @@ function Classes() {
       classSched3: "SATURDAY",
       classSched4: "10:00 - 11:00 AM",
       classDesc:
-        "Designed for 6 year olds. Pre-Ballet II is a class designed to introduce the fundamentals of classical ballet technique. The class begins with conditioning, strengthening and stretching exercises to help students use, and isolate, certain muscle groups pertaining to dance. This class will enhance the student’s coordination, balance and flexibility, as well as musicality.",
+        "Designed for 5-6 year olds. Pre-Ballet II is a class designed to introduce the fundamentals of classical ballet technique. The class begins with conditioning, strengthening and stretching exercises to help students use, and isolate, certain muscle groups pertaining to dance. This class will enhance the student’s coordination, balance and flexibility, as well as musicality.",
       classRgstr: rgstrRqd,
     },
     ballet1: {
@@ -235,7 +239,7 @@ function Classes() {
       classRgstr: dropInWlcm,
     },
     flexibility: {
-      classTitle: "FLEXIBILITY & CONDITIONING",
+      classTitle: "FLEXIBILITY",
       classAges: "- All Ages -",
       classImg: flexibilitySm,
       imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
@@ -246,6 +250,20 @@ function Classes() {
       classSched4: "11:00 AM - 12:00 PM",
       classDesc:
         "Flexibility classes introduce various techniques of flexibility training as well as techniques that are especially designed to improve your range of movement and mobility. The focus of the class is to stretch and lengthen the muscles of the body, and to strengthen them to be able to better execute ballet technique or simply utilize in one’s own daily routine.",
+      classRgstr: dropInWlcm,
+    },
+    pilates: {
+      classTitle: "PILATES",
+      classAges: "- All Ages -",
+      classImg: flexibilitySm,
+      imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
+      webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
+      classSched1: "MONDAY",
+      classSched2: "6:00 - 7:00 PM",
+      classSched3: "",
+      classSched4: "",
+      classDesc:
+        "Pilates is an exercise system that focuses on developing efficient movement patterns and creating balance within the body.  With its prioritization on length and mobility in the spine, an equal emphasis on strength and flexibility, and strengthening the smaller, supporting muscles, Pilates can be the perfect complement to ballet training or a new, enjoyable form of movement.   Our instructor provides individualized modifications and advancements, ensuring you have the best experience possible and eave feeling better than when you walked in! ",
       classRgstr: dropInWlcm,
     },
   };
@@ -275,6 +293,7 @@ function Classes() {
       classInfo[curClass].classRgstr;
     document.getElementById("cur-class-description").innerHTML =
       classInfo[curClass].classDesc;
+    window.scrollTo(0, 0);
   };
 
   const classPageDesc =
@@ -282,60 +301,12 @@ function Classes() {
 
   return (
     <div className="classes-container">
-      <div className="left-listings">
-        <div className="class-buttons">
-          <NyliaButton
-            handleClick={() => setClassInfo("preBallet1")}
-            label={"Pre-Ballet I"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("preBallet2")}
-            label={"Pre-Ballet II"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("ballet1")}
-            label={"Ballet I"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("ballet2")}
-            label={"Ballet II"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("ballet3")}
-            label={"Ballet III"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("ballet4")}
-            label={"Ballet IV"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("pointe1")}
-            label={"Pointe I"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("pointe2")}
-            label={"Pointe II"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("adultBegBallet")}
-            label={"Adult Ballet - Beginner"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("adultAdvBallet")}
-            label={"Adult Ballet - Advanced"}
-          ></NyliaButton>
-          <NyliaButton
-            handleClick={() => setClassInfo("flexibility")}
-            label={"flexibility"}
-          ></NyliaButton>
-        </div>
-      </div>
       <div className="page-title">
         <h1>CLASSES</h1>
         <p>{classPageDesc}</p>
       </div>
       <div className="mobile-class-dropdown">
-        <DropdownButton id="dropdown-item-button" title="☰ Pre-Ballet I">
+        <DropdownButton id="dropdown-item-button" title="☰ SELECT CLASS">
           <Dropdown.Item as="button" onClick={() => setClassInfo("preBallet1")}>
             Pre-Ballet I
           </Dropdown.Item>
@@ -364,13 +335,16 @@ function Classes() {
             as="button"
             onClick={() => setClassInfo("adultBegBallet")}
           >
-            Adult Ballet - Beginner
+            Adult Ballet - Beg
           </Dropdown.Item>
           <Dropdown.Item
             as="button"
             onClick={() => setClassInfo("adultAdvBallet")}
           >
-            Adult Ballet - Advanced
+            Adult Ballet - Int/Adv
+          </Dropdown.Item>
+          <Dropdown.Item as="button" onClick={() => setClassInfo("pilates")}>
+            Pilates
           </Dropdown.Item>
           <Dropdown.Item
             as="button"
@@ -385,21 +359,7 @@ function Classes() {
           <h1>CLASSES</h1>
           <p>{classPageDesc}</p>
         </div>
-        <div className="class-schedule-button">
-          <a
-            href={ClassSchedule}
-            without
-            rel="noopener noreferrer"
-            target="_blank"
-            aria-label="Download Nylia Ballet Academy Class Schedule"
-          >
-            <NyliaButton
-              addtClassName="class-schedule-button"
-              handleClick={() => setClassInfo("Download Class Schedule")}
-              label={"Download Class Schedule"}
-            ></NyliaButton>
-          </a>
-        </div>
+
         <div className="class-desc-box">
           <div className="class-title">
             <h1 id="class-title-header">{classInfo.preBallet1.classTitle}</h1>
@@ -436,20 +396,160 @@ function Classes() {
             <p id="cur-class-description">{classInfo.preBallet1.classDesc}</p>
           </div>
         </div>
-        <div className="class-descriptions-button">
-          <a
-            href={ClassDescriptionBrochure}
-            without
-            rel="noopener noreferrer"
-            target="_blank"
-            aria-label="Download Nylia Ballet Academy Class Descriptions"
-          >
-            <NyliaButton
-              addtClassName="class-descriptions-button"
-              handleClick={() => setClassInfo("Download Class Descriptions")}
-              label={"Download Class Descriptions"}
-            ></NyliaButton>
-          </a>
+        <div className="learn-more-classes">
+          <h2>Learn about our class offerings</h2>
+          <p>
+            Our mission is to inspire students and cultivate a love for dance.
+            We exist to nurture creativity and encourage each student to reach
+            their respective goals while at the same educating our community
+            about the narrative power of the art form.
+          </p>
+          <ButtonToolbar>
+            <ButtonGroup vertical>
+              <DropdownButton
+                as={ButtonGroup}
+                title="Pre-Ballet"
+                id="bg-vertical-dropdown-1"
+              >
+                <Dropdown.Item
+                  eventKey="1"
+                  as="button"
+                  onClick={() => setClassInfo("preBallet1")}
+                >
+                  Pre-Ballet I
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="2"
+                  as="button"
+                  onClick={() => setClassInfo("preBallet2")}
+                >
+                  Pre-Ballet II
+                </Dropdown.Item>
+              </DropdownButton>
+              <DropdownButton
+                as={ButtonGroup}
+                title="Ballet"
+                id="bg-vertical-dropdown-1"
+              >
+                <Dropdown.Item
+                  eventKey="1"
+                  as="button"
+                  onClick={() => setClassInfo("ballet1")}
+                >
+                  Ballet I
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="2"
+                  as="button"
+                  onClick={() => setClassInfo("ballet2")}
+                >
+                  Ballet II
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="3"
+                  as="button"
+                  onClick={() => setClassInfo("ballet3")}
+                >
+                  Ballet III
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="4"
+                  as="button"
+                  onClick={() => setClassInfo("ballet4")}
+                >
+                  Ballet IV
+                </Dropdown.Item>
+              </DropdownButton>
+              <DropdownButton
+                as={ButtonGroup}
+                title="Pointe"
+                id="bg-vertical-dropdown-1"
+              >
+                <Dropdown.Item
+                  eventKey="1"
+                  as="button"
+                  onClick={() => setClassInfo("pointe1")}
+                >
+                  Pointe I
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="2"
+                  as="button"
+                  onClick={() => setClassInfo("pointe2")}
+                >
+                  Pointe II
+                </Dropdown.Item>
+              </DropdownButton>
+              <DropdownButton
+                as={ButtonGroup}
+                title="Adult Ballet"
+                id="bg-vertical-dropdown-1"
+              >
+                <Dropdown.Item
+                  eventKey="2"
+                  as="button"
+                  onClick={() => setClassInfo("begAdultBallet")}
+                >
+                  Beginner
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="3"
+                  as="button"
+                  onClick={() => setClassInfo("intAdvBallet")}
+                >
+                  Int/Adv
+                </Dropdown.Item>
+              </DropdownButton>
+              <Button as="button" onClick={() => setClassInfo("pilates")}>
+                Pilates
+              </Button>
+              <Button as="button" onClick={() => setClassInfo("flexibility")}>
+                Flexibility
+              </Button>
+            </ButtonGroup>
+          </ButtonToolbar>
+          <p>
+            <br></br>
+            <b>Select a class to learn more</b>
+          </p>
+          <div className="class-descriptions-button">
+            <a
+              href={ClassDescriptionBrochure}
+              without
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Download Nylia Ballet Academy Class Descriptions"
+            >
+              <NyliaButton
+                addtClassName="class-descriptions-button"
+                handleClick={() => setClassInfo("Download Class Descriptions")}
+                label={"Download Class Descriptions"}
+              ></NyliaButton>
+            </a>
+          </div>
+        </div>
+        <div className="full-schedule">
+          <h1>WEEKLY SCHEDULE</h1>
+          <img
+            alt="Nylia Ballet Academy teacher helps adult student with posture."
+            src={WeeklyCalendar}
+            srcSet={`${WeeklyCalendar} 300w, ${WeeklyCalendar} 768w, ${WeeklyCalendar} 1280w, ${WeeklyCalendar} 2000w`}
+          />
+          <div className="class-schedule-button">
+            <a
+              href={WeeklyCalendar}
+              without
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Download Nylia Ballet Academy Class Schedule"
+            >
+              <NyliaButton
+                addtClassName="class-schedule-button"
+                handleClick={() => setClassInfo("Download Class Schedule")}
+                label={"Download Class Schedule"}
+              ></NyliaButton>
+            </a>
+          </div>
         </div>
       </div>
     </div>
