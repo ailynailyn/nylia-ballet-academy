@@ -95,7 +95,7 @@ import PhotoGallery from "./photoGallery/PhotoGallery.js";
 import "./UpcomingEvents.css";
 
 function UpcomingEvents() {
-  const CUREVENTIDX = 12;
+  const CUREVENTIDX = 13;
   const images = [
     {
       smImg: newYear2024Sm,
@@ -252,7 +252,7 @@ function UpcomingEvents() {
                   EVENT
                 </th>
                 <th scope="col" className="category">
-                  CATEGORY
+                  NOTE
                 </th>
               </tr>
             </thead>
@@ -273,7 +273,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Bring a Friend Week
                 </td>
-                <td className="special">SPECIAL EVENT</td>
+                <td className="special">Special Event</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -291,7 +291,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Farmer's Market
                 </td>
-                <td className="community">COMMUNITY</td>
+                <td className="community">Community Event</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -300,7 +300,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Pas de Deux Night
                 </td>
-                <td className="special">SPECIAL EVENT</td>
+                <td className="special">Special Event</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -309,7 +309,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Observation Week
                 </td>
-                <td className="special">OBSERVATIONS</td>
+                <td className="special">Family Observation</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -318,7 +318,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Student Assessments
                 </td>
-                <td className="special">ASSESSMENTS</td>
+                <td className="special">Assessments</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -336,7 +336,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Ballerina Storytimes
                 </td>
-                <td className="special">COMMUNITY</td>
+                <td className="special">Community Event</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -345,7 +345,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Paint & Sip Brunch
                 </td>
-                <td className="special">COMMUNITY</td>
+                <td className="special">Community Event</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -354,16 +354,16 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Mom & Me Week
                 </td>
-                <td className="special">SPECIAL EVENT</td>
+                <td className="special">Special Event</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
                   05/15/24
                 </th>
                 <td colspan="3" className="event">
-                  Obsservation Week
+                  Observation Week
                 </td>
-                <td className="special">OBSERVATION</td>
+                <td className="special">Family Observation</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -372,7 +372,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Student Assessments
                 </td>
-                <td className="special">ASSESSMENTS</td>
+                <td className="special">Assessments</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -381,7 +381,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Memorial Day - NO CLASSES
                 </td>
-                <td className="special">HOLIDAY</td>
+                <td className="special">Holiday</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -399,25 +399,25 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Dad & Me Week
                 </td>
-                <td className="special">SPECIAL EVENT</td>
+                <td className="special">Special Event</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
-                  07/15/24
+                  07/15/24 - 07/19/24
                 </th>
                 <td colspan="3" className="event">
                   Youth Summer Intensive
                 </td>
-                <td className="special">SUMMER INTENSIVE</td>
+                <td className="special">Monday - Friday from 8:00 - 2:00 PM</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
-                  07/15/24
+                  07/15/24 - 07/19/24
                 </th>
                 <td colspan="3" className="event">
                   Adult Summer Intensive
                 </td>
-                <td className="special">SUMMER INTENSIVE</td>
+                <td className="special">Monday - Friday from 5:00 - 8:30 PM</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -426,7 +426,34 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Pas de Deux Class
                 </td>
-                <td className="special">SPECIAL EVENT</td>
+                <td className="special">Special Event</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  08/03/24
+                </th>
+                <td colspan="3" className="event">
+                  <b>Nylia Ballet Company Auditions</b>
+                </td>
+                <td className="special">NBC</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  08/03/24
+                </th>
+                <td colspan="3" className="event">
+                  <b>Nylia Youth Ballet Company Auditions</b>
+                </td>
+                <td className="special">NYBC</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  08/03/24
+                </th>
+                <td colspan="3" className="event">
+                  Dracula Auditions
+                </td>
+                <td className="special">DRACULA</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -435,7 +462,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Labor Day - NO CLASSES
                 </td>
-                <td className="special">HOLIDAY</td>
+                <td className="special">Holiday</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -444,7 +471,7 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Observation Week
                 </td>
-                <td className="special">OBSERVATION</td>
+                <td className="special">Family Observation</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -453,16 +480,16 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Student Assessments
                 </td>
-                <td className="special">ASSESSMENTS</td>
+                <td className="special">Assessments</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
-                  09/22/24
+                  OCTOBER 2024
                 </th>
                 <td colspan="3" className="event">
-                  Nutcracker Auditions
+                  <b>Dracula</b>
                 </td>
-                <td className="special">SPECIAL EVENT</td>
+                <td className="special">DRACULA</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -471,7 +498,16 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Pas de Deux Class
                 </td>
-                <td className="special">SPECIAL EVENT</td>
+                <td className="special">Special Event</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  08/26/24
+                </th>
+                <td colspan="3" className="event">
+                  Swan Lake Auditions
+                </td>
+                <td className="special">SWAN LAKE</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -480,7 +516,34 @@ function UpcomingEvents() {
                 <td colspan="3" className="event">
                   Observation Week
                 </td>
-                <td className="special">OBSERVATION</td>
+                <td className="special">Family Observation</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  JANUARY - FEBRUARY 2025
+                </th>
+                <td colspan="3" className="event">
+                  <b>Swan Lake</b>
+                </td>
+                <td className="special">SWAN LAKE</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  02/08/25
+                </th>
+                <td colspan="3" className="event">
+                  Sleeping Beauty Auditions
+                </td>
+                <td className="special">SLEEPING BEAUTY</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  02/08/25
+                </th>
+                <td colspan="3" className="event">
+                  <b>Sleeping Beauty</b>
+                </td>
+                <td className="special">SLEEPING BEAUTY</td>
               </tr>
             </tbody>
           </table>

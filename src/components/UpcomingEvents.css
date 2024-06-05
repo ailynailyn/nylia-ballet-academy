@@ -92,7 +92,7 @@ p {
 .table td.special {
   /* color: rgb(44, 29, 62); */
   text-align: right;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .table td.community {
