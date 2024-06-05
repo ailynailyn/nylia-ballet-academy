@@ -5,13 +5,10 @@ import CardGroup from "react-bootstrap/CardGroup";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
-import cinderellaXL from "../assets/performances/cinderella.png";
+import cinderellaXL from "../assets/performances/Cinderella2024IG-Cinderella.png";
+import cinderellaProgram from "../assets/performances/Cinderella2024Program.pdf";
 import cinderellaSchedule from "../assets/performances/CinderellaWeeklySchedule2024.pdf";
-import cinderellaCastList from "../assets/performances/Cinderella2024CastList.pdf";
 
-import unsSm from "../assets/galleryImages/kristina300.png";
-import unsMd from "../assets/galleryImages/kristina-768.png";
-import unsLg from "../assets/galleryImages/kristina-1280.png";
 import unsXL from "../assets/galleryImages/kristina-2000.png";
 import UNSHandbook from "../assets/performances/UNSHandbook2023.pdf";
 import UNSProgram from "../assets/performances/UNSProgram2023.pdf";
@@ -71,15 +68,8 @@ function Performances() {
               </a>
             </Card.Footer>
             <Card.Footer>
-              <a id="performances-button" href={cinderellaSchedule}>
-                <NyliaButton
-                  label={"Cinderella Rehearsal Schedule"}
-                ></NyliaButton>
-              </a>
-            </Card.Footer>
-            <Card.Footer>
-              <a id="performances-button" href={cinderellaCastList}>
-                <NyliaButton label={"Official Cast List"}></NyliaButton>
+              <a id="performances-button" href={cinderellaProgram}>
+                <NyliaButton label={"Cinderella Program"}></NyliaButton>
               </a>
             </Card.Footer>
             <Card.Footer>
