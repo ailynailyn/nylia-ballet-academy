@@ -102,9 +102,9 @@ import flexibilitySmWebp from "../assets/ailynKeinaFold300.webp";
 import flexibilityMdWebp from "../assets/ailynKeinaFold768.webp";
 import flexibilityLgWebp from "../assets/ailynKeinaFold1280.webp";
 import flexibilityXLWebp from "../assets/ailynKeinaFold2000.webp";
-import WeeklyCalendar from "../assets/WeeklyCalendar.png";
+// import WeeklyCalendar from "../assets/WeeklyCalendar.png";
 
-import ClassSchedule from "../assets/NyliaSchedule.pdf";
+import WeeklyCalendar from "../assets/classesPage/NyliaBalletAcademyScheduleJune2024.png";
 import ClassDescriptionBrochure from "../assets/Class Descriptions Brochure.pdf";
 
 import Dropdown from "react-bootstrap/Dropdown";
