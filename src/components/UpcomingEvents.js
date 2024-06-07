@@ -531,7 +531,7 @@ function UpcomingEvents() {
               </tr>
               <tr>
                 <th scope="row" className="date">
-                  02/08/25
+                  JUNE 2025
                 </th>
                 <td colspan="3" className="event">
                   <b>Sleeping Beauty</b>
