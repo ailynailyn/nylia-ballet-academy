@@ -50,6 +50,16 @@ import ballet4SmWebp from "../assets/terePose300.webp";
 import ballet4MdWebp from "../assets/terePose768.webp";
 import ballet4LgWebp from "../assets/terePose1280.webp";
 import ballet4XLWebp from "../assets/terePose2000.webp";
+
+import ballet5Sm from "../assets/classesPage/ballet5-300.jpg";
+import ballet5Md from "../assets/classesPage/ballet5-768.jpg";
+import ballet5Lg from "../assets/classesPage/ballet5-1280.jpg";
+import ballet5XL from "../assets/classesPage/ballet5-2000.jpg";
+import ballet5SmWebp from "../assets/classesPage/ballet5-300.webp";
+import ballet5MdWebp from "../assets/classesPage/ballet5-768.webp";
+import ballet5LgWebp from "../assets/classesPage/ballet5-1280.webp";
+import ballet5XLWebp from "../assets/classesPage/ballet5-2000.webp";
+
 import pointe1Sm from "../assets/pointeTendu300.JPG";
 import pointe1Md from "../assets/pointeTendu768.JPG";
 import pointe1Lg from "../assets/pointeTendu1280.JPG";
@@ -84,6 +94,15 @@ import adultBalletSmWebp from "../assets/classesPage/advAdultBallet-300.webp";
 import adultBalletMdWebp from "../assets/classesPage/advAdultBallet-768.webp";
 import adultBalletLgWebp from "../assets/classesPage/advAdultBallet-1280.webp";
 import adultBalletXLWebp from "../assets/classesPage/advAdultBallet-2000.webp";
+
+import advAdultSm from "../assets/classesPage/adultBallet-300.jpg";
+import advAdultMd from "../assets/classesPage/adultBallet-768.jpg";
+import advAdultLg from "../assets/classesPage/adultBallet-1280.jpg";
+import advAdultXL from "../assets/classesPage/adultBallet-2000.jpg";
+import advAdultSmWebp from "../assets/classesPage/adultBallet-300.webp";
+import advAdultMdWebp from "../assets/classesPage/adultBallet-768.webp";
+import advAdultLgWebp from "../assets/classesPage/adultBallet-1280.webp";
+import advAdultXLWebp from "../assets/classesPage/adultBallet-2000.webp";
 
 import pilatesSm from "../assets/classesPage/pilates-300.png";
 import pilatesMd from "../assets/classesPage/pilates-768.png";
@@ -129,7 +148,7 @@ function Classes() {
       classSched3: "SATURDAY",
       classSched4: "9:00 - 10:00 AM",
       classDesc:
-        "Designed for 4year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
+        "Designed for 4 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
       classRgstr: rgstrRqd,
     },
     preBallet2: {
@@ -138,8 +157,8 @@ function Classes() {
       classImg: preBallet2Sm,
       imgSet: `${preBallet2Sm} 300w, ${preBallet2Md} 768w, ${preBallet2Lg} 1280w, ${preBallet2XL} 2000w`,
       webpSet: `${preBallet2SmWebp} 300w, ${preBallet2MdWebp} 768w, ${preBallet2LgWebp} 1280w, ${preBallet2XLWebp} 2000w`,
-      classSched1: "THURSDAY",
-      classSched2: "5:30 - 6:30 PM",
+      classSched1: "TUESDAY",
+      classSched2: "4:30 - 5:30 PM",
       classSched3: "SATURDAY",
       classSched4: "10:00 - 11:00 AM",
       classDesc:
@@ -181,7 +200,7 @@ function Classes() {
       imgSet: `${ballet3Sm} 300w, ${ballet3Md} 768w, ${ballet3Lg} 1280w, ${ballet3XL} 2000w`,
       webpSet: `${ballet3SmWebp} 300w, ${ballet3MdWebp} 768w, ${ballet3LgWebp} 1280w, ${ballet3XLWebp} 2000w`,
       classSched1: "MONDAY & WEDNESDAY",
-      classSched2: "5:30 - 7:00 PM",
+      classSched2: "4:30 - 5:30 PM",
       classSched3: "",
       classSched4: "",
       classDesc:
@@ -199,7 +218,21 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Ballet IV is an advanced level class with a required placement class prior for enrollment. Students learn advanced technique, while emphasizing musicality, discipline, and professionalism. We highly recommend students at this level to take class at least four times a week for optimal growth.",
+        "Ballet IV is an intermediate level class with a required placement class prior for enrollment. Students learn advanced technique, while emphasizing musicality, discipline, and professionalism. We highly recommend students at this level to take class at least four times a week for optimal growth.",
+      classRgstr: rgstrRqd,
+    },
+    ballet5: {
+      classTitle: "BALLET V",
+      classAges: "Placement by Evaluation",
+      classImg: ballet5Sm,
+      imgSet: `${ballet5Sm} 300w, ${ballet5Md} 768w, ${ballet5Lg} 1280w, ${ballet5XL} 2000w`,
+      webpSet: `${ballet5SmWebp} 300w, ${ballet5MdWebp} 768w, ${ballet5LgWebp} 1280w, ${ballet5XLWebp} 2000w`,
+      classSched1: "MONDAY & WEDNESDAY",
+      classSched2: "5:30 - 7:00 PM",
+      classSched3: "",
+      classSched4: "",
+      classDesc:
+        "Ballet V is an advanced level class with a required placement class prior for enrollment. Students learn advanced technique, while emphasizing musicality, discipline, and professionalism. We highly recommend students at this level to take class at least four times a week for optimal growth.",
       classRgstr: rgstrRqd,
     },
     pointe1: {
@@ -209,7 +242,7 @@ function Classes() {
       imgSet: `${pointe1Sm} 300w, ${pointe1Md} 768w, ${pointe1Lg} 1280w, ${pointe1XL} 2000w`,
       webpSet: `${pointe1SmWebp} 300w, ${pointe1MdWebp} 768w, ${pointe1LgWebp} 1280w, ${pointe1XLWebp} 2000w`,
       classSched1: "FRIDAY",
-      classSched2: "5:00 - 6:00 PM",
+      classSched2: "4:30 - 5:30 PM",
       classSched3: "",
       classSched4: "",
       classDesc:
@@ -223,12 +256,26 @@ function Classes() {
       imgSet: `${pointe2Sm} 300w, ${pointe2Md} 768w, ${pointe2Lg} 1280w, ${pointe2XL} 2000w`,
       webpSet: `${pointe2SmWebp} 300w, ${pointe2MdWebp} 768w, ${pointe2LgWebp} 1280w, ${pointe2XLWebp} 2000w`,
       classSched1: "FRIDAY",
-      classSched2: "6:00 - 7:30 PM",
+      classSched2: "5:30 - 6:30 PM",
       classSched3: "",
       classSched4: "",
       classDesc:
         "Pointe II students will be invited to participate on an individual basis when they have the necessary physical and technical development. These classes are perfect for the ballerina who is wanting to take their ballet technique to the next level. This class includes classical variations, the study of solo dances from historically established classical ballet repertoire.",
       classRgstr: rgstrRqd,
+    },
+    absBegAdultBallet: {
+      classTitle: "ADULT BALLET",
+      classAges: "- Absolute Beginner -",
+      classImg: begAdultBalletSm,
+      imgSet: `${begAdultBalletSm} 300w, ${begAdultBalletMd} 768w, ${begAdultBalletLg} 1280w, ${begAdultBalletXL} 2000w`,
+      webpSet: `${begAdultBalletSmWebp} 300w, ${begAdultBalletMdWebp} 768w, ${begAdultBalletLgWebp} 1280w, ${begAdultBalletXLWebp} 2000w`,
+      classSched1: "FRIDAY",
+      classSched2: "7:00 - 8:00 PM",
+      classSched3: "",
+      classSched4: "",
+      classDesc:
+        "Learn the fundamentals of the ballet technique in a welcoming and supportive environment! This workshop is designed for students to learn the basics of ballet terminology and class etiquette through detailed explanations and practice. Students will gain an understanding of correct body alignment, footwork coordination, and musicality while dancing easy-to-follow combinations.",
+      classRgstr: dropInWlcm,
     },
     begAdultBallet: {
       classTitle: "ADULT BALLET",
@@ -241,21 +288,35 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Adult Ballet class is designed for dancers of all abilities. Participants will strengthen their ballet technique aimed to improve alignment and balance, strengthen muscles, and increase flexibility. In this class, the teacher will make sure to accommodate to participants of all levels in order to create a comfortable environment for growth.",
+        "Come enjoy the beauty and grace of classical ballet! This class will cover basic ballet positions, steps and vocabulary with a focus on the student's awareness of proper posture and body alignment. Standing barre work and center floor exercises will be given to enhance coordination, strength, balance and flexibility. Participants will also develop a sense of musical awareness and movement quality. No prior ballet experience necessary. ",
+      classRgstr: dropInWlcm,
+    },
+    adultIntBallet: {
+      classTitle: "ADULT BALLET",
+      classAges: "- Intermediate -",
+      classImg: adultBalletSm,
+      imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
+      webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
+      classSched1: "MONDAY & WEDNESDAY",
+      classSched2: "7:00 - 8:30 PM",
+      classSched3: "SATURDAY",
+      classSched4: "12:00 - 1:30 PM",
+      classDesc:
+        "This class is designed for intermediate ballet dancers. Participants will strengthen their ballet technique aimed to improve alignment and balance, strengthen muscles, and increase flexibility.",
       classRgstr: dropInWlcm,
     },
     adultAdvBallet: {
       classTitle: "ADULT BALLET",
-      classAges: "- Intermediate/Advanced -",
-      classImg: adultBalletSm,
-      imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
-      webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
+      classAges: "- Advanced -",
+      classImg: advAdultSm,
+      imgSet: `${advAdultSm} 300w, ${advAdultMd} 768w, ${advAdultLg} 1280w, ${advAdultXL} 2000w`,
+      webpSet: `${advAdultSmWebp} 300w, ${advAdultMdWebp} 768w, ${advAdultLgWebp} 1280w, ${advAdultXLWebp} 2000w`,
       classSched1: "MONDAY, TUESDAY & THURSDAY",
       classSched2: "7:00 - 8:30 PM",
       classSched3: "SATURDAY",
       classSched4: "12:00 - 1:30 PM",
       classDesc:
-        "This class is designed for intermediate and advanced dancers. Participants will strengthen their ballet technique aimed to improve alignment and balance, strengthen muscles, and increase flexibility.",
+        "These class is Advanced. Extensive prior ballet experience is required. We will focus on classical ballet technique through a professional class progression. Barre work, center and across the floor exercises are designed to better your technique, as well as performance quality and confidence. With quality and knowledgeable teaching, and an encouraging environment, these classes will be a perfect fit for those who aspire to improve their dancing, and artistry!",
       classRgstr: dropInWlcm,
     },
     flexibility: {
@@ -278,8 +339,8 @@ function Classes() {
       classImg: pilatesSm,
       imgSet: `${pilatesSm} 300w, ${pilatesMd} 768w, ${pilatesLg} 1280w, ${pilatesXL} 2000w`,
       webpSet: `${pilatesSmWebp} 300w, ${pilatesMdWebp} 768w, ${pilatesLgWebp} 1280w, ${pilatesXLWebp} 2000w`,
-      classSched1: "MONDAY",
-      classSched2: "6:00 - 7:00 PM",
+      classSched1: "FRIDAY",
+      classSched2: "6:30 - 7:30 PM",
       classSched3: "",
       classSched4: "",
       classDesc:
@@ -373,6 +434,12 @@ function Classes() {
               </Dropdown.Item>
               <Dropdown.Item
                 as="button"
+                onClick={() => setClassInfo("ballet5")}
+              >
+                Ballet V
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
                 onClick={() => setClassInfo("pointe1")}
               >
                 Pointe I
@@ -391,9 +458,15 @@ function Classes() {
               </Dropdown.Item>
               <Dropdown.Item
                 as="button"
+                onClick={() => setClassInfo("adultIntBallet")}
+              >
+                Adult Ballet - Int
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
                 onClick={() => setClassInfo("adultAdvBallet")}
               >
-                Adult Ballet - Int/Adv
+                Adult Ballet - Adv
               </Dropdown.Item>
               <Dropdown.Item
                 as="button"
@@ -510,6 +583,13 @@ function Classes() {
                 >
                   Ballet IV
                 </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="5"
+                  as="button"
+                  onClick={() => setClassInfo("ballet5")}
+                >
+                  Ballet V
+                </Dropdown.Item>
               </DropdownButton>
               <DropdownButton
                 as={ButtonGroup}
@@ -546,9 +626,16 @@ function Classes() {
                 <Dropdown.Item
                   eventKey="3"
                   as="button"
+                  onClick={() => setClassInfo("adultIntBallet")}
+                >
+                  Intermediate
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="3"
+                  as="button"
                   onClick={() => setClassInfo("adultAdvBallet")}
                 >
-                  Int/Adv
+                  Advanced
                 </Dropdown.Item>
               </DropdownButton>
               <Button as="button" onClick={() => setClassInfo("pilates")}>
