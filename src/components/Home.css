@@ -10,18 +10,18 @@
   justify-content: center;
   color: white;
   background-image: -webkit-image-set(
-    url("../assets/cinderellaPrince-300.jpg") 1x,
-    url("../assets/cinderellaPrince-2000.jpg") 2x
+    url("../assets/classesPage/cinderellaPrince-300.jpg") 1x,
+    url("../assets/classesPage/cinderellaPrince-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/cinderellaPrince-300.jpg") 1x,
-    url("../assets/cinderellaPrince-2000.jpg") 2x
+    url("../assets/classesPage/cinderellaPrince-300.jpg") 1x,
+    url("../assets/classesPage/cinderellaPrince-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/cinderellaPrince-300.jpg") 300w,
-    url("../assets/cinderellaPrince-768.jpg") 768w,
-    url("../assets/cinderellaPrince-1280.jpg") 1280w,
-    url("../assets/cinderellaPrince-2000.jpg") 2000w
+    url("../assets/classesPage/cinderellaPrince-300.jpg") 300w,
+    url("../assets/classesPage/cinderellaPrince-768.jpg") 768w,
+    url("../assets/classesPage/cinderellaPrince-1280.jpg") 1280w,
+    url("../assets/classesPage/cinderellaPrince-2000.jpg") 2000w
   );
   background-repeat: no-repeat;
   background-size: cover;

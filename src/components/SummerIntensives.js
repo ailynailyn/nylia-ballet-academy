@@ -1,9 +1,9 @@
 import { React } from "react";
 
-import adultBalletSm from "../assets/claudia-and-linda-300.jpg";
-import adultBalletMd from "../assets/claudia-and-linda-768.jpg";
-import adultBalletLg from "../assets/claudia-and-linda-1280.jpg";
-import adultBalletXL from "../assets/claudia-and-linda-2000.jpg";
+import adultBalletSm from "../assets/summerIntensivesPage/claudia-and-linda-300.jpg";
+import adultBalletMd from "../assets/summerIntensivesPage/claudia-and-linda-768.jpg";
+import adultBalletLg from "../assets/summerIntensivesPage/claudia-and-linda-1280.jpg";
+import adultBalletXL from "../assets/summerIntensivesPage/claudia-and-linda-2000.jpg";
 
 import PopupModal from "./popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";

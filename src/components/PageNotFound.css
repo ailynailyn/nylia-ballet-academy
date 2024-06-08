@@ -9,18 +9,18 @@
   justify-content: center;
   color: white;
   background-image: -webkit-image-set(
-    url("../assets/zoeHome300.jpeg") 1x,
-    url("../assets/zoeHome2000.jpeg") 2x
+    url("../assets/classesPage/cinderellaPrince-300.jpg") 1x,
+    url("../assets/classesPage/cinderellaPrince-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/zoeHome300.jpeg") 1x,
-    url("../assets/zoeHome2000.jpeg") 2x
+    url("../assets/classesPage/cinderellaPrince-300.jpg") 1x,
+    url("../assets/classesPage/cinderellaPrince-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/zoeHome300.jpeg") 300w,
-    url("../assets/zoeHome768.jpeg") 768w,
-    url("../assets/zoeHome1280.jpeg") 1280w,
-    url("../assets/zoeHome2000.jpeg") 2000w
+    url("../assets/classesPage/cinderellaPrince-300.jpg") 300w,
+    url("../assets/classesPage/cinderellaPrince-768.jpg") 768w,
+    url("../assets/classesPage/cinderellaPrince-1280.jpg") 1280w,
+    url("../assets/classesPage/cinderellaPrince-2000.jpg") 2000w
   );
   background-repeat: no-repeat;
   background-size: cover;

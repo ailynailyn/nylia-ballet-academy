@@ -1,11 +1,11 @@
 import { React } from "react";
 import TeamCard from "../components/teamCard/TeamCard";
-import ailyn from "../assets/ailynTeam.jpg";
-import jazmine from "../assets/jazmine.png";
-import clara from "../assets/clara.JPG";
+import ailyn from "../assets/teamPages/ailynTeam.jpg";
+import jazmine from "../assets/teamPages/jazmine.png";
+import clara from "../assets/teamPages/clara.JPG";
 import grace from "../assets/teamPages/grace.jpg";
-import yocelyn from "../assets/yocelyn.JPG";
-import katherine from "../assets/katherine.jpeg";
+import yocelyn from "../assets/teamPages/yocelyn.JPG";
+import katherine from "../assets/teamPages/katherine.jpeg";
 import "./Team.css";
 import CardGroup from "react-bootstrap/CardGroup";
 

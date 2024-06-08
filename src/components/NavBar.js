@@ -12,9 +12,9 @@ import NyliaButton from "./nyliaButton/NyliaButton";
 
 import "./NavBar.css";
 
-import logo from "../assets/NYLIA.png";
-import logoTransparent from "../assets/Nylia_Logo_500px.png";
-import logoShort from "../assets/NYLIA.png";
+import logo from "../assets/logos/NYLIA.png";
+import logoTransparent from "../assets/logos/Nylia_Logo_500px.png";
+import logoShort from "../assets/logos/NYLIA.png";
 
 // TODO AILYN: Navbar exit button https://codepen.io/ilkeryilmaz/pen/obEMNo
 

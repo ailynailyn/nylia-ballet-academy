@@ -1,9 +1,9 @@
 import { React } from "react";
 
-import fairySm from "../assets/Spring-Fairy-300.png";
-import fairyMd from "../assets/Spring-Fairy-768.png";
-import fairyLg from "../assets/Spring-Fairy-1280.png";
-import fairyXL from "../assets/Spring-Fairy-2000.png";
+import fairySm from "../assets/scholarshipsPage/Spring-Fairy-300.png";
+import fairyMd from "../assets/scholarshipsPage/Spring-Fairy-768.png";
+import fairyLg from "../assets/scholarshipsPage/Spring-Fairy-1280.png";
+import fairyXL from "../assets/scholarshipsPage/Spring-Fairy-2000.png";
 
 import PopupModal from "./popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";

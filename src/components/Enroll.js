@@ -1,20 +1,20 @@
 import { React } from "react";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
-import enrollmentSm from "../assets/luisaAilynBallet300.JPG";
-import enrollmentMd from "../assets/luisaAilynBallet768.JPG";
-import enrollmentLg from "../assets/luisaAilynBallet1280.JPG";
-import enrollmentXL from "../assets/luisaAilynBallet2000.JPG";
+import enrollmentSm from "../assets/enrollPage/luisaAilynBallet300.JPG";
+import enrollmentMd from "../assets/enrollPage/luisaAilynBallet768.JPG";
+import enrollmentLg from "../assets/enrollPage/luisaAilynBallet1280.JPG";
+import enrollmentXL from "../assets/enrollPage/luisaAilynBallet2000.JPG";
 
-import blueBallerinaSm from "../assets/blueBallerinaPoster-300.png";
-import blueBallerinaMd from "../assets/blueBallerinaPoster-768.png";
-import blueBallerinaLg from "../assets/blueBallerinaPoster-1280.png";
-import blueBallerinaXL from "../assets/blueBallerinaPoster-2000.png";
+import blueBallerinaSm from "../assets/enrollPage/blueBallerinaPoster-300.png";
+import blueBallerinaMd from "../assets/enrollPage/blueBallerinaPoster-768.png";
+import blueBallerinaLg from "../assets/enrollPage/blueBallerinaPoster-1280.png";
+import blueBallerinaXL from "../assets/enrollPage/blueBallerinaPoster-2000.png";
 
-import NyliaStudentRegistration from "../assets/NyliaStudentRegistration.pdf";
-import TuitionPackages from "../assets/TuitionPackages.pdf";
-import AcademyEtiquette from "../assets/AcademyEtiquette.pdf";
-import AcademyUniform from "../assets/AcademyUniform.pdf";
-import Handbook from "../assets/NyliaBalletAcademyHandbook2024.pdf";
+import NyliaStudentRegistration from "../assets/enrollPage/NyliaStudentRegistration.pdf";
+import TuitionPackages from "../assets/enrollPage/TuitionPackages.pdf";
+import AcademyEtiquette from "../assets/enrollPage/AcademyEtiquette.pdf";
+import AcademyUniform from "../assets/enrollPage/AcademyUniform.pdf";
+import Handbook from "../assets/enrollPage/NyliaBalletAcademyHandbook2024.pdf";
 
 import "./Enroll.css";
 

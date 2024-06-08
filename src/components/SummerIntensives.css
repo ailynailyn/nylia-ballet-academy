@@ -60,18 +60,18 @@ a {
 
 .intensives-img-bkg {
   background-image: -webkit-image-set(
-    url("../assets/andreaBallet1-300.jpg") 1x,
-    url("../assets/andreaBallet1-2000.jpg") 2x
+    url("../assets/classesPage/andreaBallet1-300.jpg") 1x,
+    url("../assets/classesPage/andreaBallet1-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/andreaBallet1-300.jpg") 1x,
-    url("../assets/andreaBallet1-2000.jpg") 2x
+    url("../assets/classesPage/andreaBallet1-300.jpg") 1x,
+    url("../assets/classesPage/andreaBallet1-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/andreaBallet1-300.jpg") 300w,
-    url("../assets/andreaBallet1-768.jpg") 768w,
-    url("../assets/andreaBallet1-1280.jpg") 1280w,
-    url("../assets/andreaBallet1-2000.jpg") 2000w
+    url("../assets/classesPage/andreaBallet1-300.jpg") 300w,
+    url("../assets/classesPage/andreaBallet1-768.jpg") 768w,
+    url("../assets/classesPage/andreaBallet1-1280.jpg") 1280w,
+    url("../assets/classesPage/andreaBallet1-2000.jpg") 2000w
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,18 +88,18 @@ a {
 
 .intensives-img-bkg-2 {
   background-image: -webkit-image-set(
-    url("../assets/anahidRehearsals-300.jpg") 1x,
-    url("../assets/anahidRehearsals-2000.jpg") 2x
+    url("../assets/summerIntensivesPage/anahidRehearsals-300.jpg") 1x,
+    url("../assets/summerIntensivesPage/anahidRehearsals-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/anahidRehearsals-300.jpg") 1x,
-    url("../assets/anahidRehearsals-2000.jpg") 2x
+    url("../assets/summerIntensivesPage/anahidRehearsals-300.jpg") 1x,
+    url("../assets/summerIntensivesPage/anahidRehearsals-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/anahidRehearsals-300.jpg") 300w,
-    url("../assets/anahidRehearsals-768.jpg") 768w,
-    url("../assets/anahidRehearsals-1280.jpg") 1280w,
-    url("../assets/anahidRehearsals-2000.jpg") 2000w
+    url("../assets/summerIntensivesPage/anahidRehearsals-300.jpg") 300w,
+    url("../assets/summerIntensivesPage/anahidRehearsals-768.jpg") 768w,
+    url("../assets/summerIntensivesPage/anahidRehearsals-1280.jpg") 1280w,
+    url("../assets/summerIntensivesPage/anahidRehearsals-2000.jpg") 2000w
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,18 +353,18 @@ ul.intensives-bullets {
 @media only screen and (min-width: 768px) {
   .intensives-img-bkg {
     background-image: -webkit-image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 1x,
-      url("../assets/nylia-ballerinas-2000.jpg") 2x
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2x
     );
     background-image: image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 1x,
-      url("../assets/nylia-ballerinas-2000.jpg") 2x
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2x
     );
     background-image: image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 300w,
-      url("../assets/nylia-ballerinas-768.jpg") 768w,
-      url("../assets/nylia-ballerinas-1280.jpg") 1280w,
-      url("../assets/nylia-ballerinas-2000.jpg") 2000w
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 300w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-768.jpg") 768w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-1280.jpg") 1280w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2000w
     );
     background-repeat: no-repeat;
     background-size: cover;
@@ -380,18 +380,26 @@ ul.intensives-bullets {
 
   .intensives-img-bkg-2 {
     background-image: -webkit-image-set(
-      url("../assets/cinderella-father-stepmother-300.jpg") 1x,
-      url("../assets/cinderella-father-stepmother-2000.jpg") 2x
+      url("../assets/summerIntensivesPage/cinderella-father-stepmother-300.jpg")
+        1x,
+      url("../assets/summerIntensivesPage/cinderella-father-stepmother-2000.jpg")
+        2x
     );
     background-image: image-set(
-      url("../assets/cinderella-father-stepmother-300.jpg") 1x,
-      url("../assets/cinderella-father-stepmother-2000.jpg") 2x
+      url("../assets/summerIntensivesPage/cinderella-father-stepmother-300.jpg")
+        1x,
+      url("../assets/summerIntensivesPage/cinderella-father-stepmother-2000.jpg")
+        2x
     );
     background-image: image-set(
-      url("../assets/cinderella-father-stepmother-300.jpg") 300w,
-      url("../assets/cinderella-father-stepmother-768.jpg") 768w,
-      url("../assets/cinderella-father-stepmother-1280.jpg") 1280w,
-      url("../assets/cinderella-father-stepmother-2000.jpg") 2000w
+      url("../assets/summerIntensivesPage/cinderella-father-stepmother-300.jpg")
+        300w,
+      url("../assets/summerIntensivesPage/cinderella-father-stepmother-768.jpg")
+        768w,
+      url("../assets/summerIntensivesPage/cinderella-father-stepmother-1280.jpg")
+        1280w,
+      url("../assets/summerIntensivesPage/cinderella-father-stepmother-2000.jpg")
+        2000w
     );
     background-repeat: no-repeat;
     background-size: cover;
@@ -490,18 +498,18 @@ ul.intensives-bullets {
   }
   .intensives-img-bkg {
     background-image: -webkit-image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 1x,
-      url("../assets/nylia-ballerinas-2000.jpg") 2x
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2x
     );
     background-image: image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 1x,
-      url("../assets/nylia-ballerinas-2000.jpg") 2x
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2x
     );
     background-image: image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 300w,
-      url("../assets/nylia-ballerinas-768.jpg") 768w,
-      url("../assets/nylia-ballerinas-1280.jpg") 1280w,
-      url("../assets/nylia-ballerinas-2000.jpg") 2000w
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 300w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-768.jpg") 768w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-1280.jpg") 1280w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2000w
     );
     background-repeat: no-repeat;
     background-size: cover;
@@ -567,18 +575,18 @@ ul.intensives-bullets {
 
   .intensives-img-bkg {
     background-image: -webkit-image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 1x,
-      url("../assets/nylia-ballerinas-2000.jpg") 2x
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2x
     );
     background-image: image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 1x,
-      url("../assets/nylia-ballerinas-2000.jpg") 2x
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 1x,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2x
     );
     background-image: image-set(
-      url("../assets/nylia-ballerinas-300.jpg") 300w,
-      url("../assets/nylia-ballerinas-768.jpg") 768w,
-      url("../assets/nylia-ballerinas-1280.jpg") 1280w,
-      url("../assets/nylia-ballerinas-2000.jpg") 2000w
+      url("../assets/summerIntensivesPage/nylia-ballerinas-300.jpg") 300w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-768.jpg") 768w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-1280.jpg") 1280w,
+      url("../assets/summerIntensivesPage/nylia-ballerinas-2000.jpg") 2000w
     );
     background-repeat: no-repeat;
     background-size: cover;
