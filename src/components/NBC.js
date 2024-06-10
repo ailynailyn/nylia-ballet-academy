@@ -273,126 +273,129 @@ function NBC() {
             variations, partnering, and modern, as well as other classes,
             performances, appearances and events.
             <br /> <br />
-            <b id="highlightTitle">
-              NYLIA YOUTH BALLET COMPANY - MEMBER EXCLUSIVES
-            </b>
-            <br />
-            <u>TRAINING</u>
-            <ul>
+            <div className="shadow-box">
+              <b id="highlightTitle">
+                NYLIA YOUTH BALLET COMPANY - MEMBER EXCLUSIVES
+              </b>
+              <br />
+              <u>TRAINING</u>
+              <ul>
+                <li>
+                  Receive professionalization and mock training for interviews,
+                  auditions, etc. <br />
+                </li>
+                <li>
+                  Priority access to private training. <br />
+                </li>
+                <li>
+                  Comprehensive curriculum. <br />
+                </li>
+                <li>
+                  Access to staff. <br />
+                </li>
+                <li>
+                  A remarkable facility. <br />
+                </li>
+              </ul>
+              <u>PERFORMING</u>
+              <ul>
+                <li>
+                  Gain access to a company staging new and notable repertory.
+                </li>
+                <li>
+                  Company dancers gain exposure to creative processes through
+                  new original works while fine-tuning foundational and
+                  historical classical ballets. <br />
+                </li>
+                <li>
+                  In all our performances, young dancers are given opportunities
+                  to work with professionals to learn about the world of
+                  classical ballet and performing. <br />
+                </li>
+              </ul>
+              <u>COMPETITION</u>
+              <ul>
+                <li>
+                  Select Youth Company members are invited to compete in
+                  nationwide competitions, including YAGP.
+                </li>
+              </ul>
+              <u>Extra Perks</u>
+              <ul>
+                <li>
+                  Participate in Nylia Ballet Company marketing photoshoots.{" "}
+                  <br />
+                </li>
+                <li>
+                  Headshot featured in every program for Nylia Ballet Company
+                  productions. <br />
+                </li>
+                <li>5% discount on Academy tuition.</li>
+              </ul>
+              <b id="highlightTitle">REQUIREMENTS</b>
+              <br />
+              <li>Ages 7 - 18</li>
               <li>
-                Receive professionalization and mock training for interviews,
-                auditions, etc. <br />
+                Must be enrolled in at least X classes a week at Nylia Ballet
+                Academy - depending on dancer individually.
               </li>
               <li>
-                Priority access to private training. <br />
+                All Nylia Youth Ballet Company members must take Company class
+                once a week.
               </li>
               <li>
-                Comprehensive curriculum. <br />
+                As leaders of the school, company members are expected to take
+                part in assistant teaching younger levels & costume/set-work as
+                needed.
+              </li>
+              <br />
+              <b id="highlightTitle">FEES</b>
+              <br />
+              Company fees help the company fulfill its commitment to pay for
+              the costs of our operating budget, performance expenses, etc. As
+              such, they are vitally important to the existence of our
+              organization.
+              <br />
+              <br />
+              <li>
+                Youth Company members receive a 5% discount on their tuition for
+                Nylia Ballet Academy.
               </li>
               <li>
-                Access to staff. <br />
+                Company members are not charged for time spent in rehearsals.
               </li>
+              <li>Company members are charged a $40 registration fee.</li>
+              <br />
+              $175
+              <br />
               <li>
-                A remarkable facility. <br />
+                Limited merit-based scholarships are available and distributed
+                in conjunction with acceptance.
               </li>
-            </ul>
-            <u>PERFORMING</u>
-            <ul>
-              <li>
-                Gain access to a company staging new and notable repertory.
-              </li>
-              <li>
-                Company dancers gain exposure to creative processes through new
-                original works while fine-tuning foundational and historical
-                classical ballets. <br />
-              </li>
-              <li>
-                In all our performances, young dancers are given opportunities
-                to work with professionals to learn about the world of classical
-                ballet and performing. <br />
-              </li>
-            </ul>
-            <u>COMPETITION</u>
-            <ul>
-              <li>
-                Select Youth Company members are invited to compete in
-                nationwide competitions, including YAGP.
-              </li>
-            </ul>
-            <u>Extra Perks</u>
-            <ul>
-              <li>
-                Participate in Nylia Ballet Company marketing photoshoots.{" "}
-                <br />
-              </li>
-              <li>
-                Headshot featured in every program for Nylia Ballet Company
-                productions. <br />
-              </li>
-              <li>5% discount on Academy tuition.</li>
-            </ul>
-            <b id="highlightTitle">REQUIREMENTS</b>
-            <br />
-            <li>Ages 7 - 18</li>
-            <li>
-              Must be enrolled in at least X classes a week at Nylia Ballet
-              Academy - depending on dancer individually.
-            </li>
-            <li>
-              All Nylia Youth Ballet Company members must take Company class
-              once a week.
-            </li>
-            <li>
-              As leaders of the school, company members are expected to take
-              part in assistant teaching younger levels & costume/set-work as
-              needed.
-            </li>
-            <br />
-            <b id="highlightTitle">FEES</b>
-            <br />
-            Company fees help the company fulfill its commitment to pay for the
-            costs of our operating budget, performance expenses, etc. As such,
-            they are vitally important to the existence of our organization.
-            <br />
-            <br />
-            <li>
-              Youth Company members receive a 5% discount on their tuition for
-              Nylia Ballet Academy.
-            </li>
-            <li>
-              Company members are not charged for time spent in rehearsals.
-            </li>
-            <li>Company members are charged a $40 registration fee.</li>
-            <br />
-            $175
-            <br />
-            <li>
-              Limited merit-based scholarships are available and distributed in
-              conjunction with acceptance.
-            </li>
-            <br /> <br />
-            <br />
-            <b id="highlightTitle">IMPORTANT DATES</b> <br />
-            <b>Nylia Youth Ballet Company: 2024 - 2025 Season</b>
-            <ul>
-              <li>August 3rd, 2024 - June 20, 2025</li>
-            </ul>
-            <b>Nylia Youth Ballet Company Auditions</b>
-            <ul>
-              <li>August 3rd, 2024 at 1:30 pm - Nylia Ballet Academy</li>
-            </ul>
-            <b>Dracula</b>
-            <ul>
-              <li>August - October 2024</li>
-            </ul>
-            <b>Swan Lake</b>
-            <ul>
-              <li>October 2024 - February 2025</li>
-            </ul>
-            <b>Sleeping Beauty</b>
-            <ul>
-              <li>February - June 2025</li>
-            </ul>
+              <br /> <br />
+              <br />
+              <b id="highlightTitle">IMPORTANT DATES</b> <br />
+              <b>Nylia Youth Ballet Company: 2024 - 2025 Season</b>
+              <ul>
+                <li>August 3rd, 2024 - June 20, 2025</li>
+              </ul>
+              <b>Nylia Youth Ballet Company Auditions</b>
+              <ul>
+                <li>August 3rd, 2024 at 1:30 pm - Nylia Ballet Academy</li>
+              </ul>
+              <b>Dracula</b>
+              <ul>
+                <li>August - October 2024</li>
+              </ul>
+              <b>Swan Lake</b>
+              <ul>
+                <li>October 2024 - February 2025</li>
+              </ul>
+              <b>Sleeping Beauty</b>
+              <ul>
+                <li>February - June 2025</li>
+              </ul>
+            </div>
           </p>
           <a href="https://form.jotform.com/241351892390155">
             <NyliaButton label={"Apply Now"}></NyliaButton>
