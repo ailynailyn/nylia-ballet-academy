@@ -169,15 +169,16 @@ function NBC() {
                 <br />
                 <b id="highlightTitle">FEES</b>
                 <br />
-                Company members are charged a $40 registration fee.
-                <br /> <br />
+                <li>Company members are charged a $40 registration fee.</li>
                 <li>
                   Limited merit-based scholarships are available and distributed
                   in conjunction with acceptance.
                 </li>
-                <br />{" "}
                 <li>
-                  Company members are not charged for time spent in rehearsals.{" "}
+                  Company members are not charged for time spent in rehearsals.
+                  All non-Company members participating in a Nylia Ballet
+                  performance and not enrolled in the Academy are charged a
+                  drop-in fee of $15 per rehearsal.
                 </li>
                 <br />
                 <b id="highlightTitle">IMPORTANT DATES</b> <br />
@@ -212,7 +213,6 @@ function NBC() {
           </a>
         </div>
       </div>
-
       <div className="main-img-bkg" id="auditions-nbc">
         <div className="main-box">
           <h1>AUDITIONS</h1>
@@ -365,14 +365,14 @@ function NBC() {
                 Company members are not charged for time spent in rehearsals.
               </li>
               <li>Company members are charged a $40 registration fee.</li>
-              <br />
-              $175
-              <br />
+              <li>
+                Company members are required to pay a monthly Nylia Youth Ballet
+                Company fee of $33.
+              </li>
               <li>
                 Limited merit-based scholarships are available and distributed
                 in conjunction with acceptance.
               </li>
-              <br /> <br />
               <br />
               <b id="highlightTitle">IMPORTANT DATES</b> <br />
               <b>Nylia Youth Ballet Company: 2024 - 2025 Season</b>
