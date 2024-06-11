@@ -36,20 +36,18 @@ function Scholarships() {
           <br></br>
           <br></br>
           Thus, to fulfill our mission, and to reach as many students as
-          possible, the Academy is proud to award two scholarships and three
-          partial tuition waivers. The <i>Aurora Piñon Memorial Scholarship</i>,
-          the <i>ADA Family Scholarship</i>, and the <i>ADA Tuition Fund</i>
-          will be presented to five recipients during our June production of{" "}
-          <i>Cinderella</i>. The scholarships will waive monthly tuition for the
-          span of one year beginning from July 2024 to July 2025, and will waive
-          the annual registration fee in January 2025. Whereas the tuition
-          waiver will partially waive monthly tuition running from the span of
-          one year from July 2024 to July 2025.
+          possible, the Academy is proud to offer scholarships and partial
+          tuition waivers: the <i>Aurora Piñon Memorial Scholarship</i>, the{" "}
+          <i>ADA Family Scholarship</i>, and the <i>ADA Tuition Fund</i>. The
+          scholarships will waive monthly tuition for the span of one year, and
+          will waive the annual registration fee for the recipient. Whereas the
+          tuition waiver will partially waive monthly tuition running from the
+          span of one year for the recipient.
           <br></br>
         </p>
         <h3>
-          The deadline for all applications and materials is Saturday, June 1,
-          2024, at 5:00 pm MST.
+          The deadline for all applications and materials is Saturday, December
+          7, 2024, at 5:00 pm MST.
         </h3>
       </div>
 
@@ -67,8 +65,8 @@ function Scholarships() {
           <br />
           <br />
           This scholarship is eligible to dancers and prospective dancers ages
-          12 and up upon completion of the application. It will be provided to
-          one applicant upon review of the following materials:
+          12 and up upon completion of the application. We ask for the
+          following:
           <br />
           <ul class="scholarship-bullets">
             <li>
@@ -92,10 +90,7 @@ function Scholarships() {
               with in a professional capacity, who can speak to the applicant’s
               artistic inclination, leadership ability, and passion for ballet.
               Should your recommender want to directly send their letter to us,
-              they may email it to <b>jazmine@nyliaballetacademy.com</b> with
-              the applicant’s name and “LOR” in the subject line, i.e if the
-              applicant's name is Nylia then the subject line would be “Nylia
-              LOR”.
+              they may email it to <b>info@nyliaballetacademy.com</b>.
             </li>
             <li>
               An unofficial academic transcript from the applicant’s current
@@ -121,10 +116,7 @@ function Scholarships() {
           while we have individual students, ballet is a communal act, and our
           dancers are supported through their respective households. The
           scholarship and tuition waivers will be judged on the same criteria
-          listed below; however, only one applicant will receive the{" "}
-          <i>ADA Family Scholarship</i>, whereas we will offer three tuition
-          waivers from the <i>ADA Tuition Fund </i> to strong applicants
-          accordingly.
+          listed below.
           <br />
           <br />
           We ask for the following:
@@ -144,10 +136,7 @@ function Scholarships() {
               with in a professional capacity, who can speak to the applicant’s
               artistic inclination, leadership ability, and passion for ballet.
               Should your recommender want to directly send their letter to us,
-              they may email it to <b>jazmine@nyliaballetacademy.com</b> with
-              the applicant’s name and “LOR” in the subject line, i.e if the
-              applicant's name is Nylia then the subject line would be “Nylia
-              LOR”.
+              they may email it to <b>info@nyliaballetacademy.com</b>.
             </li>
             <li>
               An unofficial academic transcript from the applicant’s current
@@ -173,13 +162,13 @@ function Scholarships() {
           our code of conduct and have no more than two unexcused absences.
           <br />
           <br />
-          For more information please contact our Marketing Director, Jazmine
-          Janay Cuevas, at <b>jazmine@nyliaballetacademy.com</b>.<br></br>
+          For more information please contact our team, at{" "}
+          <b>info@nyliaballetacademy.com</b>.<br></br>
           <br></br>
         </p>
         <h3>
-          The deadline for all applications and materials is Saturday, June 1,
-          2024, at 5:00 pm MST.
+          The deadline for all applications and materials is Saturday, December
+          7, 2024, at 5:00 pm MST.
         </h3>
       </div>
     </div>
