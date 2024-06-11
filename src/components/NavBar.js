@@ -33,7 +33,7 @@ function NavBar() {
         <Container fluid>
           <Navbar.Brand href="/">
             <img
-              id="nylia-navbar-logo-img"
+              id="nyliaNavbarLogoImg"
               className="nylia-logo"
               src={logoTransparent}
               alt="Nylia Ballet Academy Logo"

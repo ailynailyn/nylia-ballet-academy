@@ -11,12 +11,27 @@
   color: white;
 }
 
-#nylia-navbar-logo-img {
-  filter: invert(1);
+.accordion-flush .accordion-item {
+  background-color: transparent;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  background-color: transparent;
+}
+
+.accordion-body {
+  color: white;
+}
+
+.accordion {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb(137, 201, 137)'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 #highlightTitle {
   color: rgb(137, 201, 137);
+  font-size: 0.8rem;
 }
 
 .main-bkg {
@@ -35,7 +50,6 @@ a {
 .main-container .nyliabutton-container .btn {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 0;
-  /* color: rgb(239, 255, 190); */
 }
 
 .main-container .nyliabutton-container .btn:hover {
@@ -114,18 +128,18 @@ a {
 
 #mission-section {
   background-image: -webkit-image-set(
-    url("../assets/nbc/nbc-linda-300.jpg") 1x,
-    url("../assets/nbc/nbc-linda-2000.jpg") 2x
+    url("../assets/nbc/nbc-anahid-300.jpg") 1x,
+    url("../assets/nbc/nbc-anahid-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/nbc/nbc-linda-300.jpg") 1x,
-    url("../assets/nbc/nbc-linda-2000.jpg") 2x
+    url("../assets/nbc/nbc-anahid-300.jpg") 1x,
+    url("../assets/nbc/nbc-anahid-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/nbc/nbc-linda-300.jpg") 300w,
-    url("../assets/nbc/nbc-linda-768.jpg") 768w,
-    url("../assets/nbc/nbc-linda-1280.jpg") 1280w,
-    url("../assets/nbc/nbc-linda-2000.jpg") 2000w
+    url("../assets/nbc/nbc-anahid-300.jpg") 300w,
+    url("../assets/nbc/nbc-anahid-768.jpg") 768w,
+    url("../assets/nbc/nbc-anahid-1280.jpg") 1280w,
+    url("../assets/nbc/nbc-anahid-2000.jpg") 2000w
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,18 +163,18 @@ a {
 
 .main-img-bkg-2 {
   background-image: -webkit-image-set(
-    url("../assets/nbc/nbc-anahid-300.jpg") 1x,
-    url("../assets/nbc/nbc-anahid-2000.jpg") 2x
+    url("../assets/nbc/nbcClaraPurple-300.jpg") 1x,
+    url("../assets/nbc/nbcClaraPurple-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/nbc/nbc-anahid-300.jpg") 1x,
-    url("../assets/nbc/nbc-anahid-2000.jpg") 2x
+    url("../assets/nbc/nbcClaraPurple-300.jpg") 1x,
+    url("../assets/nbc/nbcClaraPurple-2000.jpg") 2x
   );
   background-image: image-set(
-    url("../assets/nbc/nbc-anahid-300.jpg") 300w,
-    url("../assets/nbc/nbc-anahid-768.jpg") 768w,
-    url("../assets/nbc/nbc-anahid-1280.jpg") 1280w,
-    url("../assets/nbc/nbc-anahid-2000.jpg") 2000w
+    url("../assets/nbc/nbcClaraPurple-300.jpg") 300w,
+    url("../assets/nbc/nbcClaraPurple-768.jpg") 768w,
+    url("../assets/nbc/nbcClaraPurple-1280.jpg") 1280w,
+    url("../assets/nbc/nbcClaraPurple-2000.jpg") 2000w
   );
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,13 +209,13 @@ ul.main-bullets {
 }
 
 .main-box {
-  width: auto;
+  width: 100%;
   background-color: rgb(0, 0, 0, 0.7);
-  margin-right: 2.5rem;
-  margin-left: 2.5rem;
+  /* margin-right: 2.5rem; */
+  /* margin-left: 2.5rem; */
   padding: 1.3rem;
   margin-bottom: 2rem;
-  max-width: 85%;
+  /* max-width: 85%; */
 }
 
 .main-box.centered p {
@@ -213,13 +227,12 @@ ul.main-bullets {
 }
 
 .shadow-box {
-  width: auto;
+  width: 100%;
   background-color: rgb(0, 0, 0, 0.7);
-  margin-right: 2.5rem;
-  margin-left: 2.5rem;
+
   padding: 1.3rem;
   margin-bottom: 2rem;
-  max-width: 85%;
+  align-content: center;
 }
 
 .shadow-box.centered p {
@@ -272,6 +285,10 @@ ul.main-bullets {
   .main-container .nyliabutton-container .btn {
     font-size: 0.6rem;
   }
+
+  .accordion #highlightTitle {
+    font-size: 0.5rem;
+  }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -309,6 +326,10 @@ ul.main-bullets {
   }
 
   .main-container .nyliabutton-container .btn {
+    font-size: 0.7rem;
+  }
+
+  .accordion #highlightTitle {
     font-size: 0.7rem;
   }
 }
@@ -354,6 +375,10 @@ ul.main-bullets {
   .main-container .nyliabutton-container .btn {
     font-size: 0.7rem;
   }
+  .main-box {
+    max-width: 85%;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -398,9 +423,14 @@ ul.main-bullets {
   .main-container .nyliabutton-container .btn {
     font-size: 0.8rem;
   }
-}
 
-@media only screen and (min-width: 768px) {
+  .main-container .nyliabutton-container .btn {
+    font-size: 0.7rem;
+  }
+  .main-box {
+    max-width: 85%;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 888px) {
@@ -417,7 +447,7 @@ ul.main-bullets {
   }
 
   .main-box p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .main-box h1 {
@@ -444,6 +474,19 @@ ul.main-bullets {
   .main-container .nyliabutton-container .btn {
     font-size: 0.9rem;
   }
+
+  #highlightTitle {
+    font-size: 1.3rem;
+  }
+
+  .accordion #highlightTitle {
+    font-size: 0.8rem;
+  }
+
+  .main-box {
+    max-width: 85%;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 889px) and (max-width: 1200px) {
@@ -452,7 +495,7 @@ ul.main-bullets {
     font-size: 1.2em;
   }
   .main-text p {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .main-title h1 {
@@ -460,7 +503,7 @@ ul.main-bullets {
   }
 
   .main-box p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .main-box h1 {
@@ -484,6 +527,19 @@ ul.main-bullets {
 
   .main-container .nyliabutton-container .btn {
     font-size: 0.9rem;
+  }
+
+  #highlightTitle {
+    font-size: 1.3rem;
+  }
+
+  .accordion #highlightTitle {
+    font-size: 0.8rem;
+  }
+
+  .main-box {
+    max-width: 85%;
+    margin: auto;
   }
 }
 
@@ -530,9 +586,16 @@ ul.main-bullets {
     max-width: 45%;
   }
 
+  #highlightTitle {
+    font-size: 1.3rem;
+  }
+
+  .accordion #highlightTitle {
+    font-size: 0.8rem;
+  }
+
   .main-box {
-    margin-right: 15rem;
-    margin-left: 15rem;
-    padding: 1.8rem;
+    max-width: 85%;
+    margin: auto;
   }
 }
