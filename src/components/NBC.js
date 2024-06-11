@@ -40,15 +40,15 @@ function NBC() {
           <p>
             <br />
             At Nylia Ballet Company, we aspire to inspire and cultivate a
-            vibrant community of dancers and enthusiasts by embracing the
-            transformative power of ballet. Our company consists of dancers who
-            work full-time, non-dance jobs, but we train in a professional
-            environment. By offering diverse artistic performance and outreach
-            programs, we strive to share the beauty of dance and enrich the
-            cultural heritage of the El Paso Borderland community. We believe
-            that ballet is for everyone, and our mission is to foster a
-            community that reflects the diversity of our world, welcoming anyone
-            who wishes to participate, regardless of age, skills, or experience.
+            vibrant community of dancers and enthusiasts by embracing ballet's
+            transformative power. Our Company consists of dancers who work
+            full-time, non-dance jobs but still train professionally. We believe
+            ballet is for everyone. Thus, by offering diverse artistic
+            performances and outreach programs, we strive to share the beauty of
+            dance and enrich the cultural heritage of the El Paso Borderland
+            community. Our mission is to foster a community that reflects the
+            diversity of our world, welcoming anyone who wishes to participate,
+            regardless of age, skills, or experience.
           </p>
           <a onClick={() => goToSection("auditions-nbc")}>
             <NyliaButton label={"Join the company"}></NyliaButton>
@@ -56,8 +56,8 @@ function NBC() {
           <p>
             <br />
             <br />
-            Interested in doing this for your kids? Sign them up for the youth
-            company
+            Interested in pre-professional training? Join our Youth Company, who
+            performs alongside Nylia Ballet Company!
           </p>
           <a onClick={() => goToSection("nybc-section")}>
             <NyliaButton label={"Nylia Youth Ballet Company"}></NyliaButton>
@@ -77,24 +77,27 @@ function NBC() {
 
           <p>
             <br />
-            Founded in 2024, Nylia Ballet's talented company of dancers perform
-            a year long three-program season, providing the region with the
-            highest quality dance performances. NBC offers a wide repertory from
-            traditional classics to creative contemporary ballets. The company
-            also collaborates with other area performing arts groups and is
-            active in educational outreach.
+            Founded in 2024, the Company operates on a three-season calendar,
+            each season providing the region with the highest-quality
+            productions. NBC offers a repertoire of classical and contemporary
+            ballets, with specialized instructors using Balanchine and Vaganova
+            methods. As we embark on this programming, in our positionality as
+            Borderland City, we collaborate with other area performing arts and
+            cultural groups, always centering educational outreach.
             <br /> <br />
-            Newly led by Artistic Director Grace McCoy, the El Paso-based
-            company will present stunning technique, impressive range, and
-            iconic contemporary works during their 2024-2025 season. The company
-            will make their first public appearance during their Fall 2024
-            performance of Dracula.
+            Newly led by Artistic Director Grace McCoy, who has trained at the
+            Tulsa Ballet, The Kirov Academy, Boston Ballet, Ellison Ballet, and
+            the Marais Ballet School in Paris, the El Paso-based Company looks
+            to instill impeccable technique through staple classical and
+            contemporary works during its 2024- 2025 season. We look forward to
+            demonstrating our focus in our inaugural performance of Dracula,
+            scheduled for Fall 2024.
             <br /> <br />
-            We acknowledge and strive to rectify the injustices and violence
-            that have historically plagued the ballet world. Through our
-            inclusive approach, we seek to create a safe and supportive
-            environment where everyone feels valued and empowered to pursue
-            their passion for dance.
+            In all of our endeavors, we are hyperaware of the historical
+            violence that has plagued the ballet world and actively work to
+            rectify injustices. Through our inclusive approach, we seek to
+            create a safe and supportive environment where everyone feels valued
+            and empowered to pursue their passion for dance.
             <br /> <br />
           </p>
           <div className="shadow-box">
@@ -107,8 +110,9 @@ function NBC() {
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
-                    We know that our dancers are busy working full-time jobs, so
-                    we offer the following incentives in order to:
+                    Our Company would be nothing without our talented and
+                    dedicated dancers. We take great joy in offering our Company
+                    members the following incentives:
                     <br />
                     <u>TRAINING</u>
                     <ul>
@@ -140,12 +144,17 @@ function NBC() {
                         through new original works while fine-tuning
                         foundational and historical classical ballets. <br />
                       </li>
+                      <li>
+                        Enhancing the accessibility of accessible high art
+                        throughout the El Paso Community.
+                      </li>
                     </ul>
                     <u>COMPETITION</u>
                     <ul>
                       <li>
                         Select Company members are invited to compete in
-                        nationwide competitions, including YAGP.
+                        nationwide competitions, including the Youth America
+                        Grand Prix (YAGP).
                       </li>
                     </ul>
                     <u>STIPENDS</u>
@@ -258,21 +267,21 @@ function NBC() {
           <h2>Join the Company</h2>
           <p>
             <br />
-            Nylia Ballet Company is thrilled to present Dracula this Fall 2024!
-            Company Auditions will be at Nylia Ballet Academy following Dracula
-            auditions.
+            Nylia Ballet Company is thrilled to present Dracula this Fall of
+            2024! Company Auditions will be at Nylia Ballet Academy following
+            Dracula auditions.
             <br /> <br />
             <b>NYLIA BALLET COMPANY AUDITIONS</b>
             <br />
             August 3rd, 2024
             <br />
-            8:00 am - 2:00 pm
+            1:30 - 2:30 pm
             <br /> <br />
             <b>NYLIA YOUTH BALLET COMPANY AUDITIONS</b>
             <br />
             August 3rd, 2024
             <br />
-            8:00 am - 2:00 pm
+            10:30 am - 11:30 pm
             <br /> <br />
             <b>AUDITION REQUIREMENTS</b>
             <br />
@@ -451,7 +460,7 @@ function NBC() {
                       <b>Nylia Youth Ballet Company Auditions</b>
                       <ul>
                         <li>
-                          August 3rd, 2024 at 1:30 pm - Nylia Ballet Academy
+                          August 3rd, 2024 at 10:30 am - Nylia Ballet Academy
                         </li>
                       </ul>
                       <b>Dracula</b>
