@@ -22,6 +22,12 @@ import Accordion from "react-bootstrap/Accordion";
 import "./NBC.css";
 
 function NBC() {
+  // var element = ;
+
+  const goToSection = (sectionId) => {
+    document.getElementById(sectionId).scrollIntoView(false);
+  };
+
   return (
     <div class="main-container">
       <div className="main-img-bkg" id="mission-section">
@@ -44,7 +50,7 @@ function NBC() {
             community that reflects the diversity of our world, welcoming anyone
             who wishes to participate, regardless of age, skills, or experience.
           </p>
-          <a href="https://form.jotform.com/241348049445156">
+          <a onClick={() => goToSection("auditions-nbc")}>
             <NyliaButton label={"Join the company"}></NyliaButton>
           </a>
           <p>
@@ -53,7 +59,7 @@ function NBC() {
             Interested in doing this for your kids? Sign them up for the youth
             company
           </p>
-          <a href="https://form.jotform.com/241348049445156">
+          <a onClick={() => goToSection("nybc-section")}>
             <NyliaButton label={"Nylia Youth Ballet Company"}></NyliaButton>
           </a>
         </div>
@@ -123,7 +129,6 @@ function NBC() {
                         A remarkable facility. <br />
                       </li>
                     </ul>
-                    <br></br>
                     <u>PERFORMING</u>
                     <ul>
                       <li>
