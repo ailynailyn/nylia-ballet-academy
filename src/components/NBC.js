@@ -39,8 +39,8 @@ function NBC() {
           <h2>Our Mission</h2>
           <p>
             <br />
-            At Nylia Ballet Company, we aspire to inspire and cultivate a
-            vibrant community of dancers and enthusiasts by embracing ballet's
+            At Nylia Ballet Company, we inspire and cultivate a vibrant
+            community of dancers and enthusiasts by embracing ballet's
             transformative power. Our Company consists of dancers who work
             full-time, non-dance jobs but still train professionally. We believe
             ballet is for everyone. Thus, by offering diverse artistic
@@ -85,18 +85,19 @@ function NBC() {
             Borderland City, we collaborate with other area performing arts and
             cultural groups, always centering educational outreach.
             <br /> <br />
-            Newly led by Artistic Director Grace McCoy, who has trained at the
-            Tulsa Ballet, The Kirov Academy, Boston Ballet, Ellison Ballet, and
-            the Marais Ballet School in Paris, the El Paso-based Company looks
-            to instill impeccable technique through staple classical and
-            contemporary works during its 2024- 2025 season. We look forward to
-            demonstrating our focus in our inaugural performance of Dracula,
-            scheduled for Fall 2024.
+            Newly led by Artistic Director Grace McCoy, who has performed with
+            Tulsa Ballet and trained at Tulsa Ballet, The Kirov Academy, Boston
+            Ballet, Ellison Ballet, and the Marais Ballet School in Paris, the
+            El Paso-based Company instills impeccable technique through staple
+            classical ballets and new premieres of contemporary works during its
+            2024 - 2025 season. We look forward to demonstrating our focus in
+            our inaugural performance of Dracula, scheduled for Fall 2024.
             <br /> <br />
-            In all of our endeavors, we are hyperaware of the historical
-            violence that has plagued the ballet world and actively work to
-            rectify injustices. Through our inclusive approach, we seek to
-            create a safe and supportive environment where everyone feels valued
+            Our inclusive approach to classical ballet is a response to the
+            current and historic barriers to excellent dance training in the
+            larger field. The Nylia Ballet Company is countercultural to the
+            elitism and exclusionary practices commonly seen in the world of
+            ballet training. At the Nylia Ballet Academy, all dancers are valued
             and empowered to pursue their passion for dance.
             <br /> <br />
           </p>
@@ -124,7 +125,7 @@ function NBC() {
                         Priority access to private training. <br />
                       </li>
                       <li>
-                        Comprehensive curriculum. <br />
+                        Comprehensive ballet curriculum. <br />
                       </li>
                       <li>
                         Access to staff. <br />
@@ -152,9 +153,9 @@ function NBC() {
                     <u>COMPETITION</u>
                     <ul>
                       <li>
-                        Select Company members are invited to compete in
-                        nationwide competitions, including the Youth America
-                        Grand Prix (YAGP).
+                        Select and eligible Company members are invited to
+                        compete in nationwide competitions, including the Youth
+                        America Grand Prix (YAGP).
                       </li>
                     </ul>
                     <u>STIPENDS</u>
@@ -196,8 +197,9 @@ function NBC() {
                       the company and must sign a commitment contract.
                     </li>
                     <li>
-                      Nylia Ballet Company members must be enrolled in at least
-                      X classes a week - depending on dancer individually.
+                      Nylia Ballet Company members must be enrolled in 3-5
+                      classes a week, specifics will be outlined in each
+                      dancers’ offer letter.
                     </li>
                   </p>
                 </Accordion.Body>
@@ -341,7 +343,7 @@ function NBC() {
                           Priority access to private training. <br />
                         </li>
                         <li>
-                          Comprehensive curriculum. <br />
+                          Comprehensive ballet curriculum. <br />
                         </li>
                         <li>
                           Access to staff. <br />
@@ -371,8 +373,8 @@ function NBC() {
                       <u>COMPETITION</u>
                       <ul>
                         <li>
-                          Select Youth Company members are invited to compete in
-                          nationwide competitions, including YAGP.
+                          Select and eligible Youth Company members are invited
+                          to compete in nationwide competitions, including YAGP.
                         </li>
                       </ul>
                       <u>Extra Perks</u>
@@ -398,8 +400,9 @@ function NBC() {
                     <p>
                       <li>Ages 7 - 18</li>
                       <li>
-                        Must be enrolled in at least X classes a week at Nylia
-                        Ballet Academy - depending on dancer individually.
+                        Nylia Youth Ballet Company members must be enrolled in
+                        2-5 classes a week. Specifics will be outlined in offer
+                        letter determined by age and skill level.
                       </li>
                       <li>
                         All Nylia Youth Ballet Company members must take Company
@@ -419,10 +422,10 @@ function NBC() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      Company fees help the company fulfill its commitment to
-                      pay for the costs of our operating budget, performance
-                      expenses, etc. As such, they are vitally important to the
-                      existence of our organization.
+                      In an effort to keep tuition costs consistent, additional
+                      fees are required in order to produce and present high
+                      quality productions for Youth company dancers to
+                      participate in.
                       <br />
                       <br />
                       <li>
@@ -496,10 +499,10 @@ function NBC() {
             <br />
             <br />
             With a dedication to artistic integrity, social responsibility, and
-            collaboration, Nylia Ballet Company seeks to enrich the lives of our
+            collaboration, Nylia Ballet Company enriches the lives of our
             audience members, performers, and community alike. Together we
-            aspire to create moments of beauty, inspiration, and joy that
-            resonate far beyond the stage.
+            create moments of beauty, inspiration, and joy that resonate far
+            beyond the stage.
             <br />
             <br />
             For more information please contact us at{" "}
