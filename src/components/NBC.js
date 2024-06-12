@@ -281,7 +281,7 @@ function NBC() {
             <br />
             August 3rd, 2024
             <br />
-            10:30 am - 11:30 pm
+            10:30 am - 11:30 am
             <br /> <br />
             <b>AUDITION REQUIREMENTS</b>
             <br />
