@@ -16,12 +16,6 @@ function Scholarships() {
     <div class="scholarship-container">
       <div className="scholarship-title">
         <h1>SCHOLARSHIPS</h1>
-        <img
-          src={fairySm}
-          srcSet={`${fairySm} 300w, ${fairyMd} 768w, ${fairyLg} 1280w, ${fairyXL} 2000w`}
-          className="w-100 shadow-1-strong rounded mb-4"
-          alt="Ballerina Anahid Aguirre posing in fairy blue tutu for Nylia Ballet Academy"
-        />
       </div>
 
       <div className="scholarship-box centered">
@@ -49,6 +43,14 @@ function Scholarships() {
           The deadline for all applications and materials is Saturday, December
           7, 2024, at 5:00 pm MST.
         </h3>
+      </div>
+      <div className="scholarship">
+        <img
+          src={fairySm}
+          srcSet={`${fairySm} 300w, ${fairyMd} 768w, ${fairyLg} 1280w, ${fairyXL} 2000w`}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Ballerina Anahid Aguirre posing in fairy blue tutu for Nylia Ballet Academy"
+        />
       </div>
 
       <div className="scholarship-box">

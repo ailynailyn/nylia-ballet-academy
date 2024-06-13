@@ -6,6 +6,10 @@
   z-index: 5;
 }
 
+.offcanvas-header .btn-close {
+  background-color: white;
+}
+
 .navbar > .container-fluid {
   justify-content: start;
   height: 100%;
@@ -17,6 +21,7 @@ img {
   height: 100%;
   width: auto;
 }
+
 .nylia-logo {
   aspect-ratio: 1 / 1;
 }
@@ -35,17 +40,16 @@ img {
   height: 100%;
 }
 
-.offcanvas-header {
-  margin-right: 1.5rem;
+.offcanvas {
+  /* margin-right: 1.5rem; */
+  background-color: black;
+  color: white;
 }
 
-.offcanvas.offcanvas-start {
+/* .offcanvas.offcanvas-start {
   width: 35%;
   min-width: 480px;
-  border-right: 1rem;
-  border-right-color: #7daa8e;
-  border-style: solid;
-}
+} */
 
 .nav-link {
   font-size: 2.7rem;
@@ -61,6 +65,11 @@ img {
   --inv: black;
 }
 
+.nav-link {
+  font-size: 0.6rem;
+  text-align: left;
+}
+
 @media only screen and (max-width: 320px) {
   .navbar-container {
     width: 100%;
@@ -71,7 +80,7 @@ img {
   }
 
   #offcanvasNavbar-expand-false {
-    width: 98%;
+    width: 100%;
   }
   .modal-open {
     width: 100%;
@@ -84,11 +93,11 @@ img {
   }
 
   .offcanvas-header {
-    width: 95vw;
+    width: 100vw;
   }
 
   .offcanvas-body {
-    width: 95vw;
+    width: 100vw;
   }
 
   .offcanvas.offcanvas-start {
@@ -97,19 +106,19 @@ img {
   }
 
   #navigation-body {
-    width: 85%;
+    width: 100%;
   }
 
   .nyliabutton-container {
-    padding: 1rem;
+    /* padding: 1rem; */
   }
 
   .nyliabutton-container .btn {
-    font-size: 0.7rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-right: 0rem;
-    padding-left: 01rem;
+    font-size: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    /* padding-right: 0rem;
+    padding-left: 01rem; */
     letter-spacing: 0.3rem;
   }
 }
@@ -124,7 +133,7 @@ img {
   }
 
   #offcanvasNavbar-expand-false {
-    width: 98%;
+    width: 100%;
   }
   .modal-open {
     width: 100%;
@@ -137,11 +146,11 @@ img {
   }
 
   .offcanvas-header {
-    width: 95vw;
+    width: 100vw;
   }
 
   .offcanvas-body {
-    width: 95vw;
+    width: 100vw;
   }
 
   .offcanvas.offcanvas-start {
@@ -150,19 +159,19 @@ img {
   }
 
   #navigation-body {
-    width: 85%;
+    width: 100%;
   }
 
   .nyliabutton-container {
-    padding: 1rem;
+    /* padding: 1rem; */
   }
 
   .nyliabutton-container .btn {
     font-size: 0.8rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
-    padding-right: 0rem;
-    padding-left: 01rem;
+    /* padding-right: 0rem;
+    padding-left: 01rem; */
     letter-spacing: 0.8rem;
   }
 }
@@ -177,7 +186,7 @@ img {
   }
 
   #offcanvasNavbar-expand-false {
-    width: 98%;
+    width: 100%;
   }
   .modal-open {
     width: 100%;
@@ -214,8 +223,12 @@ img {
     padding: 1rem;
   }
 
+  .nav-link h1 {
+    font-size: 0.7rem;
+  }
+
   .nyliabutton-container .btn {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 0rem;
@@ -271,6 +284,10 @@ img {
     padding: 1rem;
   }
 
+  .nav-link h1 {
+    font-size: 0.75rem;
+  }
+
   .nyliabutton-container .btn {
     font-size: 0.83rem;
     padding-top: 1rem;
@@ -321,7 +338,7 @@ img {
   }
 
   #navigation-body {
-    width: 85%;
+    width: 100%;
   }
 
   .nyliabutton-container {
@@ -335,6 +352,9 @@ img {
     padding-right: 0rem;
     padding-left: 1.3rem;
     letter-spacing: 0.6rem;
+  }
+  .nav-link h1 {
+    font-size: 0.8rem;
   }
 }
 
@@ -393,6 +413,10 @@ img {
     padding-left: 1.3rem;
     letter-spacing: 0.6rem;
   }
+
+  .nav-link h1 {
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (min-width: 1201px) {
@@ -449,5 +473,9 @@ img {
     padding-right: 0.3rem;
     padding-left: 1.3rem;
     letter-spacing: 0.6rem;
+  }
+
+  .nav-link h1 {
+    font-size: 0.9rem;
   }
 }

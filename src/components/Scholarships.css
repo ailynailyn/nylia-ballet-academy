@@ -1,7 +1,7 @@
 .scholarship-container {
   height: 100%;
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   margin: 0;
   display: flex;
@@ -36,6 +36,10 @@ ul.scholarship-bullets {
 
 .scholarship-container .nyliabutton-container .btn {
   font-size: 0.4rem;
+}
+
+.scholarship img {
+  max-width: 50%;
 }
 
 .scholarship-title {
@@ -122,8 +126,8 @@ ul.scholarship-bullets {
     font-weight: bolder;
   }
 
-  .scholarship-title img {
-    max-width: 90%;
+  .scholarship img {
+    max-width: 60%;
   }
 
   li {
@@ -161,8 +165,8 @@ ul.scholarship-bullets {
     font-size: 0.8rem;
   }
 
-  .scholarship-title img {
-    max-width: 80%;
+  .scholarship img {
+    max-width: 60%;
   }
 
   .scholarship-container .nyliabutton-container .btn {
@@ -196,7 +200,7 @@ ul.scholarship-bullets {
     font-size: 0.9rem;
   }
 
-  .scholarship-title img {
+  .scholarship img {
     max-width: 60%;
   }
 
@@ -231,7 +235,7 @@ ul.scholarship-bullets {
     font-size: 0.9rem;
   }
 
-  .scholarship-title img {
+  .scholarship img {
     max-width: 50%;
   }
 
@@ -272,7 +276,7 @@ ul.scholarship-bullets {
     font-size: 1rem;
   }
 
-  .scholarship-title img {
+  .scholarship img {
     max-width: 30%;
   }
 

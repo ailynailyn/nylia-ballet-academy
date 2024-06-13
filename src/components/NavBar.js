@@ -14,6 +14,7 @@ import "./NavBar.css";
 
 import logo from "../assets/logos/NYLIA.png";
 import logoTransparent from "../assets/logos/Nylia_Logo_500px.png";
+import logoWhiteTransparent from "../assets/logos/Nylia_Logo_White_500px.png";
 import logoShort from "../assets/logos/NYLIA.png";
 
 // TODO AILYN: Navbar exit button https://codepen.io/ilkeryilmaz/pen/obEMNo
@@ -50,7 +51,7 @@ function NavBar() {
                 <a href="/">
                   <img
                     className="nylia-logo"
-                    src={logoTransparent}
+                    src={logoWhiteTransparent}
                     width="400px"
                     height="400px"
                     alt="Nylia Ballet Academy Logo"
@@ -64,32 +65,38 @@ function NavBar() {
                 className="justify-content-end flex-grow-1 pe-3"
                 style={{ height: "100%" }}
               >
-                <Nav.Link href="/team" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"THE TEAM"}></NyliaButton>
+                <Nav.Link href="/team" style={{ height: "10%" }}>
+                  <h1>THE TEAM</h1>
                 </Nav.Link>
-                <Nav.Link href="/classes" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"CLASSES"}></NyliaButton>
+                <Nav.Link href="/classes" style={{ height: "10%" }}>
+                  <h1>CLASSES</h1>
                 </Nav.Link>
-                <Nav.Link href="/enroll" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"ENROLL"}></NyliaButton>
+                <Nav.Link href="/enroll" style={{ height: "10%" }}>
+                  <h1>ENROLL</h1>
                 </Nav.Link>
-                <Nav.Link href="/scholarships" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"SCHOLARSHIPS"}></NyliaButton>
+                <Nav.Link href="/scholarships" style={{ height: "10%" }}>
+                  <h1>SCHOLARSHIPS</h1>
                 </Nav.Link>
-                <Nav.Link href="/performances" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"PERFORMANCES"}></NyliaButton>
+                <Nav.Link
+                  href="/nyliaballetcompany"
+                  style={{ height: "10%", width: "100%" }}
+                >
+                  <h1>NYLIA BALLET COMPANY</h1>
                 </Nav.Link>
-                <Nav.Link href="/academyevents" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"ACADEMY EVENTS"}></NyliaButton>
+                <Nav.Link href="/performances" style={{ height: "10%" }}>
+                  <h1>PERFORMANCES</h1>
                 </Nav.Link>
-                <Nav.Link href="/summerintensives" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"SUMMER INTENSIVES"}></NyliaButton>
+                <Nav.Link href="/academyevents" style={{ height: "10%" }}>
+                  <h1>ACADEMY EVENTS</h1>
                 </Nav.Link>
-                <Nav.Link href="/gallery" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"GALLERY"}></NyliaButton>
+                <Nav.Link href="/summerintensives" style={{ height: "10%" }}>
+                  <h1>SUMMER INTENSIVES</h1>
                 </Nav.Link>
-                <Nav.Link href="/contact" style={{ height: "11.11%" }}>
-                  <NyliaButton label={"CONTACT"}></NyliaButton>
+                <Nav.Link href="/gallery" style={{ height: "10%" }}>
+                  <h1>GALLERY</h1>
+                </Nav.Link>
+                <Nav.Link href="/contact" style={{ height: "10%" }}>
+                  <h1>CONTACT</h1>
                 </Nav.Link>
               </Nav>
             </Offcanvas.Body>

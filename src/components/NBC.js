@@ -258,7 +258,7 @@ function NBC() {
             </Accordion>
           </div>
 
-          <a href="">
+          <a href="https://form.jotform.com/241645987475170">
             <NyliaButton label={"Apply Now"}></NyliaButton>
           </a>
         </div>
@@ -279,6 +279,16 @@ function NBC() {
             <br />
             1:30 - 2:30 pm
             <br /> <br />
+            <b>AUDITION REQUIREMENTS</b>
+            <br />
+            <li>A $20 audition fee is due prior to the Company audition.</li>
+            <br />
+            <a href="https://form.jotform.com/241645987475170">
+              <NyliaButton
+                label={"Register for Company Auditions"}
+              ></NyliaButton>
+            </a>
+            <br />
             <b>NYLIA YOUTH BALLET COMPANY AUDITIONS</b>
             <br />
             August 3rd, 2024
@@ -288,11 +298,17 @@ function NBC() {
             <b>AUDITION REQUIREMENTS</b>
             <br />
             <li>A $20 audition fee is due prior to the Company audition.</li>
+            <li>
+              A <b>mandatory</b> parent meeting will take place at Nylia Ballet
+              Academy during the audition from 10:30 am - 11:00 am.
+            </li>
             <br />
           </p>
 
-          <a href="">
-            <NyliaButton label={"Apply Now"}></NyliaButton>
+          <a href="https://form.jotform.com/241645277892165">
+            <NyliaButton
+              label={"Register for Youth Company Auditions"}
+            ></NyliaButton>
           </a>
         </div>
       </div>
@@ -484,7 +500,7 @@ function NBC() {
               </Accordion>
             </div>
           </p>
-          <a href="">
+          <a href="https://form.jotform.com/241645277892165">
             <NyliaButton label={"Apply Now"}></NyliaButton>
           </a>
         </div>
