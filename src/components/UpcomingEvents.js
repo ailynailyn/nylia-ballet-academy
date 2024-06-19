@@ -495,7 +495,7 @@ function UpcomingEvents() {
               </tr>
               <tr>
                 <th scope="row" className="date">
-                  08/26/24
+                  10/26/24
                 </th>
                 <td colspan="3" className="event">
                   Swan Lake Auditions
