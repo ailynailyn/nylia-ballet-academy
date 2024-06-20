@@ -62,6 +62,23 @@ function Team() {
       and is very enthusiastic to inspire and create a nurturing
       environment for all.`,
     },
+    tiffiny: {
+      name: "TIFFINY STEVENS",
+      // profileImg: tiffiny,
+      position: "Instructor",
+      description: `Tiffiny Stevens is a dance instructor and choreographer. She began her training under El Paso 
+      ballet legends, Andree Harper and Ingeborg Heuser. Tiffiny has attended summer intensives with 
+      American Ballet Theatre, Pacific Northwest Ballet, School of American Ballet and The Jillana 
+      School where she learned from Balanchine ballerina Jillana. She continued her training in New 
+      York at The Joffrey Ballet School, where she had the opportunity to tour with their concert group
+      and perform original works choreographed by Gerald Arpino, Robert Joffrey, Earl Mosely and 
+      Dwight Rhoden as well as featured roles in Swan Lake, Sleeping Beauty, The Nutcracker and 
+      Don Quixote. Tiffiny began teaching ballet in El Paso after an injury caused her to retire early 
+      from dance. Her students have had many successes of their own from being accepted into college
+      dance programs like The Boston Conservatory at Berklee, and summer and year-round ballet 
+      programs with Ballet Arizona, Complexions Contemporary Ballet, Joffrey Ballet, Ballet Austin, 
+      and American Ballet Theatre.`,
+    },
   };
 
   return (
@@ -103,6 +120,12 @@ function Team() {
           name={memberInfo.yocelyn.name}
           position={memberInfo.yocelyn.position}
           description={memberInfo.yocelyn.description}
+        ></TeamCard>
+        <TeamCard
+          profileImg={memberInfo.tiffiny.profileImg}
+          name={memberInfo.tiffiny.name}
+          position={memberInfo.tiffiny.position}
+          description={memberInfo.tiffiny.description}
         ></TeamCard>
       </CardGroup>
     </div>
