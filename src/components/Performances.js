@@ -5,6 +5,7 @@ import CardGroup from "react-bootstrap/CardGroup";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 
 import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
+import swanLakeXL from "../assets/performances/SwanLake.png";
 import draculaXL from "../assets/performances/Dracula.png";
 
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
@@ -78,7 +79,7 @@ function Performances() {
             </Card.Footer>
           </Card>
           <Card>
-            {/* <Card.Img variant="top" src={sleepingBeautyXL} /> */}
+            <Card.Img variant="top" src={swanLakeXL} />
             <Card.Body>
               <Card.Title>SWAN LAKE</Card.Title>
               <Card.Text>
