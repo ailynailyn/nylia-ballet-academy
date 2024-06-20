@@ -6,12 +6,13 @@
   text-align: center;
 }
 
-.performance-date {
-  background-color: white;
-}
-
 .card-footer {
   margin-top: 0.1em;
+  background-color: black;
+}
+
+.performance-date {
+  background-color: white;
 }
 
 .card {
@@ -21,6 +22,14 @@
 .performances-section {
   margin: 1rem;
   margin-top: 135px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-title small {
+  font-weight: 100;
 }
 
 @media only screen and (max-width: 320px) {
@@ -205,6 +214,10 @@
 
   .performances-container p {
     font-size: 1.2em;
+  }
+
+  .card-text p {
+    font-size: 1rem;
   }
 
   #performances-button .btn {

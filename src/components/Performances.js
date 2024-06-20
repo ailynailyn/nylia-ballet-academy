@@ -4,6 +4,9 @@ import CardGroup from "react-bootstrap/CardGroup";
 
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 
+import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
+import draculaXL from "../assets/performances/Dracula.png";
+
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
 import cinderellaXL from "../assets/performances/Cinderella2024IG-Cinderella.png";
 import cinderellaProgram from "../assets/performances/Cinderella2024Program.pdf";
@@ -43,17 +46,115 @@ function Performances() {
         </p>
 
         <div className="performance-cards">
-          {/* <CardGroup> */}
+          <Card>
+            <Card.Img variant="top" src={sleepingBeautyXL} />
+            <Card.Body>
+              <Card.Title>SLEEPING BEAUTY</Card.Title>
+              <Card.Text>
+                Visit an enchanting world of princesses, fairy godmothers, and
+                magical spells!
+                <br /> <br />
+                <b>AUDITIONS: FEBRUARY 8, 2024</b>
+                <p>
+                  All auditions will be held at Nylia Ballet Academy.
+                  <br></br>
+                  <br></br>
+                  <b>Youth Cast Auditions:</b> 9 am - 10:30 am<br></br>
+                  <b>Mandatory Parent Meeting:</b> 9 am - 9:30 am<br></br>
+                  <b>Adult Cast Auditions:</b> 10:30 am - 12:00 pm
+                </p>
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className="performance-date">
+              <small className="text-muted">JUNE 2025</small>
+            </Card.Footer>
+
+            <Card.Footer>
+              <a id="performances-button">
+                <NyliaButton
+                  label={"Sleeping Beauty Handbook - Coming Soon"}
+                ></NyliaButton>
+              </a>
+            </Card.Footer>
+          </Card>
+          <Card>
+            {/* <Card.Img variant="top" src={sleepingBeautyXL} /> */}
+            <Card.Body>
+              <Card.Title>SWAN LAKE</Card.Title>
+              <Card.Text>
+                Immerse yourself in the enchanting love story of{" "}
+                <i>Swan Lake</i>. Witness Prince Siegfried's fateful encounter
+                with the Swan Queen, Odette, as he pledges his undying love and
+                loyalty to her. However, a cruel curse by the evil sorcerer
+                Baron von Rothbart only allows Odette to take human form at
+                night. Only true love and unwavering fidelity can break this
+                powerful spell.
+                <br /> <br />
+                <b>AUDITIONS: OCTOBER 26, 2024</b>
+                <p>
+                  All auditions will be held at Nylia Ballet Academy.
+                  <br></br>
+                  <br></br>
+                  <b>Youth Cast Auditions:</b> 9 am - 10:30 am<br></br>
+                  <b>Mandatory Parent Meeting:</b> 9 am - 9:30 am<br></br>
+                  <b>Adult Cast Auditions:</b> 10:30 am - 12:00 pm
+                </p>
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className="performance-date">
+              <small className="text-muted">FEBRUARY 2025</small>
+            </Card.Footer>
+
+            <Card.Footer>
+              <a id="performances-button">
+                <NyliaButton
+                  label={"Swan Lake Handbook - Coming Soon"}
+                ></NyliaButton>
+              </a>
+            </Card.Footer>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src={draculaXL} />
+            <Card.Body>
+              <Card.Title>DRACULA</Card.Title>
+              <Card.Text>
+                Experience the mesmerizing world of Dracula, a ballet teeming
+                with love, passion, and unending desire, all unfolding against a
+                backdrop of Gothic mystery. Dracula will enchant audiences with
+                its haunting tale of immortal longing.
+                <br /> <br />
+                <b>AUDITIONS: AUGUST 3, 2024</b>
+                <p>
+                  All auditions will be held at Nylia Ballet Academy.
+                  <br></br>
+                  <br></br>
+                  <b>Youth Cast Auditions:</b> 9 am - 10:30 am<br></br>
+                  <b>Mandatory Parent Meeting:</b> 9 am - 9:30 am<br></br>
+                  <b>Adult Cast Auditions:</b> 12 pm - 1:30 pm
+                </p>
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className="performance-date">
+              <small className="text-muted">October 2024</small>
+            </Card.Footer>
+
+            <Card.Footer>
+              <a id="performances-button">
+                <NyliaButton
+                  label={"Dracula Handbook - Coming Soon"}
+                ></NyliaButton>
+              </a>
+            </Card.Footer>
+          </Card>
           <Card>
             <Card.Img variant="top" src={cinderellaXL} />
             <Card.Body>
               <Card.Title>CINDERELLA</Card.Title>
               <Card.Text>
                 Nylia Ballet Academy is thrilled to present our first public
-                production of Cinderella at UTEP's Magoffin Auditorium! This
-                ballet tells the classic story of Cinderella, taking us on a
-                journey of emotions as she discovers unexpected support,
-                friendships and, ultimately, her true love.
+                production of Dracula! This ballet tells the classic story of
+                Dracula, taking us on a journey of emotions as she discovers
+                unexpected support, friendships and, ultimately, her true love.
               </Card.Text>
             </Card.Body>
             <Card.Footer className="performance-date">
@@ -62,9 +163,9 @@ function Performances() {
             <Card.Footer>
               <a
                 id="performances-button"
-                href="https://www.ticketmaster.com/cinderella-el-paso-texas-06-15-2024/event/0C006056FECF5021"
+                href="https://www.pinterest.com/nyliaballetacademy/cinderella-2024/"
               >
-                <NyliaButton label={"Buy Tickets"}></NyliaButton>
+                <NyliaButton label={"Gallery"}></NyliaButton>
               </a>
             </Card.Footer>
             <Card.Footer>
