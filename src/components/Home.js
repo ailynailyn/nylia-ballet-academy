@@ -11,16 +11,23 @@ function Home() {
     <div class="home-container">
       <div className="description-event">
         <p>
-          We are thrilled to present the ballet Cinderella on June 15th at the
-          Magoffin Auditiorium! Join us for a memorable, enchanting evening of
-          love and transformation! Get your tickets now at UTEP's box offices or
-          Ticketmaster!
+          At Nylia, we focus on large scal productions to widely demonstrate how
+          ballet operates as an art form that tells stories. Yet, the power of
+          art is not accomplishable without high quality technical training. We
+          want our dancers, and dancers throughout the city, to always be
+          developing their craft.
+          <br></br>
+          <br></br>
+          Thus, we are proud to offer our community this week long opportunity
+          to refine their technique and build different genres to enhance
+          performance. We invite you to apply for our Summer Intensive, July 15
+          - 19, 2024. Both Youth and Adult programs available!
         </p>
         <a
           id="description-event-button"
-          href="https://www.ticketmaster.com/cinderella-el-paso-texas-06-15-2024/event/0C006056FECF5021"
+          href="https://www.nyliaballetacademy.com/summerintensives"
         >
-          <NyliaButton label={"Buy Cinderella tickets"}></NyliaButton>
+          <NyliaButton label={"Summer intensives"}></NyliaButton>
         </a>
       </div>
 
