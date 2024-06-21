@@ -11,10 +11,10 @@ function Home() {
     <div class="home-container">
       <div className="description-event">
         <p>
-          At Nylia, we focus on large scal productions to widely demonstrate how
-          ballet operates as an art form that tells stories. Yet, the power of
-          art is not accomplishable without high quality technical training. We
-          want our dancers, and dancers throughout the city, to always be
+          At Nylia, we focus on large scale productions to widely demonstrate
+          how ballet operates as an art form that tells stories. Yet, the power
+          of art is not accomplishable without high quality technical training.
+          We want our dancers, and dancers throughout the city, to always be
           developing their craft.
           <br></br>
           <br></br>
