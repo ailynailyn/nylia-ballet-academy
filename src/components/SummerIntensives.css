@@ -20,6 +20,15 @@ a {
   text-decoration: inherit; /* no underline */
 }
 
+.intensives-container .nyliabutton-container .btn {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0;
+}
+
+.intensives-container .nyliabutton-container .btn:hover {
+  color: black;
+}
+
 @media all and (orientation: portrait) {
   #intensives-img-bkg background-position {
     /* background-repeat: no-repeat;

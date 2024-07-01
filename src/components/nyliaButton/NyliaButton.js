@@ -5,12 +5,14 @@ import { React } from "react";
 
 import "./NyliaButton.css";
 
-function NyliaButton({ handleClick, label }) {
+function NyliaButton({ handleClick, label, link }) {
   return (
     <div class="nyliabutton-container">
-      <div class="btn from-left" onClick={handleClick}>
-        {label}
-      </div>
+      <a href={link}>
+        <div class="btn from-left" onClick={handleClick}>
+          {label}
+        </div>
+      </a>
     </div>
   );
 }

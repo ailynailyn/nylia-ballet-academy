@@ -5,6 +5,9 @@ import adultBalletMd from "../assets/summerIntensivesPage/claudia-and-linda-768.
 import adultBalletLg from "../assets/summerIntensivesPage/claudia-and-linda-1280.jpg";
 import adultBalletXL from "../assets/summerIntensivesPage/claudia-and-linda-2000.jpg";
 
+import youthSchedule from "../assets/summerIntensivesPage/YouthSI2024Schedule.pdf";
+import adultSchedule from "../assets/summerIntensivesPage/AdultSI2024Schedule.pdf";
+
 import PopupModal from "./popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
@@ -51,6 +54,7 @@ function SummerIntensives() {
         <div className="intensives-box">
           <h1>YOUTH INTENSIVE</h1>
           <h2>JULY 15 - 19</h2>
+          <NyliaButton label={"SCHEDULE"} link={youthSchedule}></NyliaButton>
           <p>
             <br />
             Our youth ballet intensive is an immersive and rigorous training
@@ -82,14 +86,18 @@ function SummerIntensives() {
             $175
             <br />
           </p>
-          <a href="https://form.jotform.com/241348049445156">
-            <NyliaButton label={"Apply Now"}></NyliaButton>
-          </a>
+
+          <NyliaButton
+            label={"Apply Now"}
+            link="https://form.jotform.com/241348049445156"
+          ></NyliaButton>
         </div>
       </div>
       <div className="intensives-box" id="adultIntensiveSection">
         <h1>ADULT INTENSIVE</h1>
         <h2>July 15 - 19</h2>
+        <NyliaButton label={"SCHEDULE"} link={adultSchedule}></NyliaButton>
+
         <img
           src={adultBalletSm}
           srcSet={`${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`}
@@ -127,9 +135,10 @@ function SummerIntensives() {
           $175
           <br />
         </p>
-        <a href="https://form.jotform.com/241351892390155">
-          <NyliaButton label={"Apply Now"}></NyliaButton>
-        </a>
+        <NyliaButton
+          label={"Apply Now"}
+          link="https://form.jotform.com/241351892390155"
+        ></NyliaButton>
       </div>
       <div className="intensives-img-bkg-2">
         <div className="intensives-box centered">
