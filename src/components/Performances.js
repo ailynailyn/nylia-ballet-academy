@@ -6,6 +6,8 @@ import NyliaButton from "./nyliaButton/NyliaButton.js";
 
 import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
 import swanLakeXL from "../assets/performances/SwanLake.png";
+
+import DraculaHandbook from "../assets/performances/Dracula Handbook 2024.pdf";
 import draculaXL from "../assets/performances/Dracula.png";
 
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
@@ -69,14 +71,12 @@ function Performances() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="performance-date">
-                <small className="text-muted">October 2024</small>
+                <small className="text-muted">October 20, 2024</small>
               </Card.Footer>
 
               <Card.Footer>
-                <a id="performances-button">
-                  <NyliaButton
-                    label={"Dracula Handbook - Coming Soon"}
-                  ></NyliaButton>
+                <a id="performances-button" href={DraculaHandbook}>
+                  <NyliaButton label={"Dracula Handbook"}></NyliaButton>
                 </a>
               </Card.Footer>
             </Card>
