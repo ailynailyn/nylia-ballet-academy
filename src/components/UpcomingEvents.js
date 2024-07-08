@@ -435,7 +435,7 @@ function UpcomingEvents() {
                   08/03/24
                 </th>
                 <td colspan="3" className="event">
-                  <b>Nylia Youth Ballet Company Auditions</b>
+                  <b>Nylia Ballet Youth Company Auditions</b>
                 </td>
                 <td className="special">NYBC</td>
               </tr>

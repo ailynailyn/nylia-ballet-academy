@@ -60,7 +60,7 @@ function NBC() {
             performs alongside Nylia Ballet Company!
           </p>
           <a onClick={() => goToSection("nybc-section")}>
-            <NyliaButton label={"Nylia Youth Ballet Company"}></NyliaButton>
+            <NyliaButton label={"Nylia Ballet Youth Company"}></NyliaButton>
           </a>
         </div>
       </div>
@@ -79,11 +79,12 @@ function NBC() {
             <br />
             Founded in 2024, the Company operates on a three-season calendar,
             each season providing the region with the highest-quality
-            productions. NBC offers a repertoire of classical and contemporary
-            ballets, with specialized instructors using Balanchine and Vaganova
-            methods. As we embark on this programming, in our positionality as
-            Borderland City, we collaborate with other area performing arts and
-            cultural groups, always centering educational outreach.
+            productions. Nylia Ballet Company (NBC) offers a repertoire of
+            classical and contemporary ballets, with specialized instructors
+            using Balanchine and Vaganova methods. As we embark on this
+            programming, in our positionality as a Borderland City, we
+            collaborate with other area performing arts and cultural groups,
+            always centering educational outreach.
             <br /> <br />
             Newly led by Artistic Director Grace McCoy, who has performed with
             Tulsa Ballet and trained at Tulsa Ballet, The Kirov Academy, Boston
@@ -289,7 +290,7 @@ function NBC() {
               ></NyliaButton>
             </a>
             <br />
-            <b>NYLIA YOUTH BALLET COMPANY AUDITIONS</b>
+            <b>NYLIA BALLET YOUTH COMPANY AUDITIONS</b>
             <br />
             August 3rd, 2024
             <br />
@@ -320,8 +321,7 @@ function NBC() {
             className="w-100 shadow-1-strong rounded mb-4"
             alt="Adult ballett students for Nylia Ballet Academy"
           />
-          <h1 id="highlightTitle">NYLIA YOUTH BALLET COMPANY</h1>
-          <h2>July 15 - 19</h2>
+          <h1 id="highlightTitle">NYLIA BALLET YOUTH COMPANY</h1>
 
           <p>
             <br />
@@ -330,7 +330,7 @@ function NBC() {
             within our community. We believe in providing the highest level of
             classical ballet training and performance opportunities, nurturing
             each individual to reach their unique potential in an environment of
-            self-discipline, creativity, and respect. Nylia Youth Ballet Company
+            self-discipline, creativity, and respect. Nylia Ballet Youth Company
             dancers perform throughout the year, on our main stage, at outreach
             events, festivals, workshops and other events around the El Paso
             area and beyond. Weekly schedules will include company classes,
@@ -344,7 +344,7 @@ function NBC() {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <b id="highlightTitle">
-                      NYLIA YOUTH BALLET COMPANY - MEMBER EXCLUSIVES
+                      NYLIA BALLET YOUTH COMPANY - MEMBER EXCLUSIVES
                     </b>
                   </Accordion.Header>
                   <Accordion.Body>
@@ -416,12 +416,12 @@ function NBC() {
                     <p>
                       <li>Ages 7 - 18</li>
                       <li>
-                        Nylia Youth Ballet Company members must be enrolled in
+                        Nylia Ballet Youth Company members must be enrolled in
                         2-5 classes a week. Specifics will be outlined in offer
                         letter determined by age and skill level.
                       </li>
                       <li>
-                        All Nylia Youth Ballet Company members must take Company
+                        All Nylia Ballet Youth Company members must take Company
                         class once a week.
                       </li>
                       <li>
@@ -457,7 +457,7 @@ function NBC() {
                       </li>
                       <li>
                         Company members are required to pay a monthly Nylia
-                        Youth Ballet Company fee of $33.
+                        Ballet Youth Company fee of $33.
                       </li>
                       <li>
                         Limited merit-based scholarships are available and
@@ -472,11 +472,11 @@ function NBC() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      <b>Nylia Youth Ballet Company: 2024 - 2025 Season</b>
+                      <b>Nylia Ballet Youth Company: 2024 - 2025 Season</b>
                       <ul>
                         <li>August 3rd, 2024 - June 20, 2025</li>
                       </ul>
-                      <b>Nylia Youth Ballet Company Auditions</b>
+                      <b>Nylia Ballet Youth Company Auditions</b>
                       <ul>
                         <li>
                           August 3rd, 2024 at 10:30 am - Nylia Ballet Academy
