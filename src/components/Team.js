@@ -16,7 +16,7 @@ function Team() {
     ailyn: {
       name: "AILYN AGUIRRE",
       profileImg: ailyn,
-      position: "Academy Director",
+      position: "Executive Director",
       description: `Ailyn began her ballet training at eleven years old under Andrée
       Harper and Ouisa Davis. After graduating from the University of
       Texas in Austin, Ailyn became a Software Engineer. After teaching
@@ -65,7 +65,7 @@ function Team() {
     tiffiny: {
       name: "TIFFINY STEVENS",
       // profileImg: tiffiny,
-      position: "Instructor",
+      position: "Director - Nylia Ballet Youth Company",
       description: `Tiffiny Stevens is a dance instructor and choreographer. She began her training under El Paso 
       ballet legends, Andree Harper and Ingeborg Heuser. Tiffiny has attended summer intensives with 
       American Ballet Theatre, Pacific Northwest Ballet, School of American Ballet and The Jillana 

@@ -393,7 +393,7 @@ function NBC() {
                           to compete in nationwide competitions, including YAGP.
                         </li>
                       </ul>
-                      <u>Extra Perks</u>
+                      <u>EXTRA PERKS</u>
                       <ul>
                         <li>
                           Participate in Nylia Ballet Company marketing
