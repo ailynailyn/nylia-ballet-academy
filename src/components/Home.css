@@ -35,7 +35,7 @@
 
 .description-event {
   width: 50%;
-  background-color: rgb(0, 0, 0, 0.35);
+  background-color: rgb(0, 0, 0, 0.85);
   margin-right: 10em;
   margin-left: 10em;
   padding: 5rem;
@@ -54,17 +54,28 @@
   height: auto;
   margin: 0 auto;
   border: 0.4mm solid;
+  background-color: rgb(0, 0, 0, 01);
 }
 
 #description-event-button .nyliabutton-container,
 #description-event-button .nyliabutton-container:focus {
-  background-color: transparent;
+  background-color: rgb(0, 0, 0, 01);
   color: transparent;
   box-shadow: transparent;
 }
 
-.description {
+.description-event {
   width: auto;
+  background-color: rgb(0, 0, 0, 0.75);
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding: 5rem;
+  margin-bottom: 2rem;
+  max-width: 85%;
+}
+
+.description {
+  width: 50%;
   background-color: rgb(0, 0, 0, 0.5);
   margin-right: 2rem;
   margin-left: 2rem;
@@ -73,7 +84,11 @@
   max-width: 85%;
 }
 
-.description p,
+.home-container .description p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 100;
+}
+
 .description-event p {
   font-family: "Questrial", sans-serif;
   font-weight: 900;

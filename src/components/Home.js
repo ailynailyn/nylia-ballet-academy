@@ -10,28 +10,6 @@ function Home() {
   return (
     <div class="home-container">
       <div className="description-event">
-        <p>
-          At Nylia, we focus on large scale productions to widely demonstrate
-          how ballet operates as an art form that tells stories. Yet, the power
-          of art is not accomplishable without high quality technical training.
-          We want our dancers, and dancers throughout the city, to always be
-          developing their craft.
-          <br></br>
-          <br></br>
-          Thus, we are proud to offer our community this week long opportunity
-          to refine their technique and build different genres to enhance
-          performance. We invite you to apply for our Summer Intensive, July 15
-          - 19, 2024. Both Youth and Adult programs available!
-        </p>
-        <a
-          id="description-event-button"
-          href="https://www.nyliaballetacademy.com/summerintensives"
-        >
-          <NyliaButton label={"Summer intensives"}></NyliaButton>
-        </a>
-      </div>
-
-      <div className="description">
         <h1>El Paso's Center for Classical Ballet Training</h1>
         <p>
           <br />
@@ -61,6 +39,61 @@ function Home() {
             fgColor="white"
           />
         </div>
+      </div>
+
+      <div className="description">
+        <p>
+          At Nylia, we focus on large scale productions to widely demonstrate
+          how ballet operates as an art form that tells stories. Yet, the power
+          of art is not accomplishable without high quality technical training.
+          We want our dancers, and dancers throughout the city, to always be
+          developing their craft. Thus, we are thrilled to announce auditions
+          for our premier performing companies: Nylia Ballet Company and Nylia
+          Ballet Youth Company!
+          <br></br>
+          <br></br>
+        </p>
+        <a
+          id="description-event-button"
+          href="https://www.nyliaballetacademy.com/nyliaballetcompany"
+        >
+          <NyliaButton label={"COMPANY AUDITIONS"}></NyliaButton>
+        </a>
+        <br /> <br />
+        <b>COMPANY AUDITIONS: AUGUST 3, 2024</b>
+        <p>
+          All auditions will be held at Nylia Ballet Academy.
+          <br></br>
+          <br></br>
+          <b>Nylia Ballet Youth Company Auditions:</b> 10:30 am - 11:30 am
+          <br></br>
+          <b>Nylia Ballet Company Auditions:</b> 1:30 pm - 2:30 pm
+        </p>
+        <br /> <br />
+        <hr></hr>
+        <a
+          id="description-event-button"
+          href="https://www.nyliaballetacademy.com/performances"
+        >
+          <NyliaButton label={"DRACULA AUDITIONS"}></NyliaButton>
+        </a>
+        <br></br>
+        <p>
+          Experience the mesmerizing world of Dracula, a ballet teeming with
+          love, passion, and unending desire, all unfolding against a backdrop
+          of Gothic mystery. Dracula will enchant audiences with its haunting
+          tale of immortal longing.
+        </p>
+        <br></br>
+        <b>DRACULA AUDITIONS: AUGUST 3, 2024</b>
+        <p>
+          All auditions will be held at Nylia Ballet Academy.
+          <br></br>
+          <br></br>
+          <b>Youth Cast Auditions:</b> 9 am - 10:30 am<br></br>
+          <b>Mandatory Parent Meeting:</b> 9 am - 9:30 am<br></br>
+          <b>Adult Cast Auditions:</b> 12 pm - 1:30 pm
+        </p>
       </div>
     </div>
   );
