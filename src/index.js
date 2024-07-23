@@ -30,7 +30,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="team" element={<Team />} />
-          <Route path="academyevents" element={<UpcomingEvents />} />
+          <Route path="calendar" element={<UpcomingEvents />} />
           <Route path="performances" element={<Performances />} />
           <Route path="scholarships" element={<Scholarships />} />
           <Route path="nyliaballetcompany" element={<NBC />} />

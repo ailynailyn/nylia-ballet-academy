@@ -86,8 +86,8 @@ function NavBar() {
                 <Nav.Link href="/performances" style={{ height: "10%" }}>
                   <h1>PERFORMANCES</h1>
                 </Nav.Link>
-                <Nav.Link href="/academyevents" style={{ height: "10%" }}>
-                  <h1>ACADEMY EVENTS</h1>
+                <Nav.Link href="/calendar" style={{ height: "10%" }}>
+                  <h1>CALENDAR</h1>
                 </Nav.Link>
                 <Nav.Link href="/summerintensives" style={{ height: "10%" }}>
                   <h1>SUMMER INTENSIVES</h1>

@@ -50,7 +50,7 @@ function Team() {
       name: "KATHERINE QUEZADA",
       profileImg: katherine,
       position: "Studio Manager",
-      description: `Katherine is a proud El Pasoan who was born and raised in the city. She is currently attending EPCC studying towards a chemistry degree in dreams of becoming a Forensic Science Technician. An experienced leader, Katherine is passionate about building an inviting and opportunistic environment for all kinds of dancers.`,
+      description: `Katherine is deeply rooted in El Paso and takes great pride in her hometown. Having lived and grown up in the city, she has developed a strong bond with its culture and community. Currently, she is pursuing a chemistry degree at EPCC with a specific goal of becoming a Forensic Science Technician. Her passion for this field is evident in her eagerness to learn and contribute to the scientific community. Beyond her academic pursuits, Katherine is known for her exceptional leadership skills. With her wealth of leadership experience, Katherine is deeply committed to fostering a welcoming and supportive environment for diverse dancers, aiming to create a space that nurtures their artistic expression and personal growth.`,
     },
     yocelyn: {
       name: "YOCELYN SALCIDO",
