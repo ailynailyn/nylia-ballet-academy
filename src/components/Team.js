@@ -28,7 +28,8 @@ function Team() {
     jazmine: {
       name: "JAZMINE CUEVAS",
       profileImg: jazmine,
-      position: "Marketing Director",
+      position:
+        "Marketing Coordinator and Reformative Justice & Performance Consultant",
       description:
         "Jazmine Janay Cuevas is an Educator and Contract Curator with specialized knowledge in Afro-Diasporic Cultures and Performance in Mexican and Mexican American spaces. She received her Masters from the University of Texas at El Paso where she worked as an Instructor of First Year Rhetoric and Writing teaching classes on Hip-hop, Nation-Buidling, and Blackness. She has since been a fellow for the Smithsonian’s Latino Museum Studies Program at the National Museum of African American History and Culture where she worked on curating accessible tours that center Latinidad in the Museum’s Afrofuturism exhibition. She is currently a fellow for the Borderlands Shakespeare Collectiva demonstrating how the art of adaption provides particular relevance and socio-political understanding for communities on the borderland. Jazmine’s background in Public Relations at the K-12 level and cultural programming in higher education and public institutions happily lead her to the Nylia Ballet Academy. She is excited to do her part in help building the academy’s relationship to community and learning the connotations of performance in the academy’s endeavors.",
     },
