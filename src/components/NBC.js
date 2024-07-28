@@ -13,6 +13,7 @@ import nbcCinRehearsalsSm from "../assets/nbc/nbcCinRehearsals-300.jpg";
 import nbcCinRehearsalsMd from "../assets/nbc/nbcCinRehearsals-768.jpg";
 import nbcCinRehearsalsLg from "../assets/nbc/nbcCinRehearsals-1280.jpg";
 import nbcCinRehearsalsXL from "../assets/nbc/nbcCinRehearsals-2000.jpg";
+import nbcHandbook from "../assets/nbc/Nylia Ballet Company Handbook 2024-2025.pdf";
 
 import PopupModal from "./popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
@@ -102,6 +103,12 @@ function NBC() {
             and empowered to pursue their passion for dance.
             <br /> <br />
           </p>
+
+          <NyliaButton
+            label={"COMPANY MEMBER HANDBOOK"}
+            link={nbcHandbook}
+          ></NyliaButton>
+          <br></br>
           <div className="shadow-box">
             <Accordion flush>
               <Accordion.Item eventKey="0">
@@ -259,9 +266,10 @@ function NBC() {
             </Accordion>
           </div>
 
-          <a href="https://form.jotform.com/241645987475170">
-            <NyliaButton label={"Apply Now"}></NyliaButton>
-          </a>
+          <NyliaButton
+            label={"Apply Now"}
+            link="https://form.jotform.com/241645987475170"
+          ></NyliaButton>
         </div>
       </div>
       <div className="main-img-bkg" id="auditions-nbc">
@@ -284,11 +292,10 @@ function NBC() {
             <br />
             <li>A $20 audition fee is due prior to the Company audition.</li>
             <br />
-            <a href="https://form.jotform.com/241645987475170">
-              <NyliaButton
-                label={"Register for Company Auditions"}
-              ></NyliaButton>
-            </a>
+            <NyliaButton
+              label={"Register for Company Auditions"}
+              link="https://form.jotform.com/241645987475170"
+            ></NyliaButton>
             <br />
             <b>NYLIA BALLET YOUTH COMPANY AUDITIONS</b>
             <br />
@@ -306,11 +313,10 @@ function NBC() {
             <br />
           </p>
 
-          <a href="https://form.jotform.com/241645277892165">
-            <NyliaButton
-              label={"Register for Youth Company Auditions"}
-            ></NyliaButton>
-          </a>
+          <NyliaButton
+            label={"Register for Youth Company Auditions"}
+            link="https://form.jotform.com/241645277892165"
+          ></NyliaButton>
         </div>
       </div>
       <div className="main-img-bkg" id="nybc-section">
@@ -500,9 +506,10 @@ function NBC() {
               </Accordion>
             </div>
           </p>
-          <a href="https://form.jotform.com/241645277892165">
-            <NyliaButton label={"Apply Now"}></NyliaButton>
-          </a>
+          <NyliaButton
+            label={"Apply Now"}
+            link="https://form.jotform.com/241645277892165"
+          ></NyliaButton>
         </div>
       </div>
       <div className="main-img-bkg-2" id="nbc-footer">
