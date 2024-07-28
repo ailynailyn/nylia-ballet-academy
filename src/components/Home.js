@@ -79,10 +79,13 @@ function Home() {
         </a>
         <br></br>
         <p>
-          Experience the mesmerizing world of Dracula, a ballet teeming with
-          love, passion, and unending desire, all unfolding against a backdrop
-          of Gothic mystery. Dracula will enchant audiences with its haunting
-          tale of immortal longing.
+          Experience the mesmerizing world of Dracula, a Ballet set in
+          Transylvania. Dracula and his brides seek to regain their waning
+          power. Dracula targets a young girl named Flora and later sets his
+          sights on Svetlana, the daughter of a village innkeeper. Despite the
+          vampire's attempts to take Svetlana as his bride, the villagers
+          ultimately band together to defeat Dracula, with Svetlana ultimately
+          foiling the vampire's plan, leading to his demise.
         </p>
         <br></br>
         <b>DRACULA AUDITIONS: AUGUST 3, 2024</b>
