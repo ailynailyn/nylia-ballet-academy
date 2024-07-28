@@ -25,6 +25,13 @@ function Team() {
       Academy to provide an equal opportunity for anyone in the community
       to pursue their dreams in dance. Ailyn is an ABT® Certified Teacher, who has successfully completed the ABT® Teacher Training Intensive in Pre-Primary through Level 3 of the ABT® National Training Curriculum.`,
     },
+    beck: {
+      name: "BECK CUELLAR",
+      // profileImg: beck,
+      position: "Executive Assistant & Production Assistant",
+      description:
+        "Beck, a proud El Paso native, is currently pursuing a BFA with a focus on Painting and a minor in Graphic Design at UTEP. Following high school, Beck was offered a soccer scholarship at Navarro College and also secured a prestigious local scholarship from El Paso. With a diverse background in various job fields, Beck has diligently honed their artistic skills while also making a name for themselves as a local vegan cook, actively seeking to expand their culinary expertise. Securing multiple scholarships and furthering their art techniques, Beck joined Nylia Ballet Academy as a Production Assistant, whose works include personally crafting the Cinderella set. In addition to serving as the house artist, they are a valuable member of the Nylia Dancewear team, contributing to the creation of stunning attire. Furthermore, Beck has attained a Technical Diploma in Medical Assistance and completed their phlebotomy certification through a Texas-accredited school, showcasing their versatility beyond artistic pursuits. Known for their multitude of talents and unwavering passion for art, Beck consistently brings a burst of creativity to Nylia Ballet's showcases.",
+    },
     jazmine: {
       name: "JAZMINE CUEVAS",
       profileImg: jazmine,
@@ -91,6 +98,12 @@ function Team() {
           name={memberInfo.ailyn.name}
           position={memberInfo.ailyn.position}
           description={memberInfo.ailyn.description}
+        ></TeamCard>
+        <TeamCard
+          profileImg={memberInfo.beck.profileImg}
+          name={memberInfo.beck.name}
+          position={memberInfo.beck.position}
+          description={memberInfo.beck.description}
         ></TeamCard>
         <TeamCard
           profileImg={memberInfo.jazmine.profileImg}
