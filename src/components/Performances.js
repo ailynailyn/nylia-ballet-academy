@@ -163,10 +163,10 @@ function Performances() {
                 <Card.Title>CINDERELLA</Card.Title>
                 <Card.Text>
                   Nylia Ballet Academy is thrilled to present our first public
-                  production of Dracula! This ballet tells the classic story of
-                  Dracula, taking us on a journey of emotions as she discovers
-                  unexpected support, friendships and, ultimately, her true
-                  love.
+                  production of Cinderella! This ballet tells the classic story
+                  of Cinderella, taking us on a journey of emotions as she
+                  discovers unexpected support, friendships and, ultimately, her
+                  true love.
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="performance-date">
