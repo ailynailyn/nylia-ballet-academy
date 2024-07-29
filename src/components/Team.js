@@ -1,5 +1,6 @@
 import { React } from "react";
 import TeamCard from "../components/teamCard/TeamCard";
+import Footer from "../components/Footer";
 import ailyn from "../assets/teamPages/ailynTeam.jpg";
 import jazmine from "../assets/teamPages/jazmine.png";
 import clara from "../assets/teamPages/clara.JPG";
@@ -142,6 +143,7 @@ function Team() {
           description={memberInfo.tiffiny.description}
         ></TeamCard>
       </CardGroup>
+      <Footer></Footer>
     </div>
   );
 }

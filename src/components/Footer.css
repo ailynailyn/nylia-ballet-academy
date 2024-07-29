@@ -1,0 +1,251 @@
+.footer-container {
+  /* font-family: "Alegreya Sans SC", sans-serif; */
+  /* font-family: "Questrial", sans-serif; */
+  font-family: "Michroma", sans-serif;
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-container p {
+    font-size: 0.65rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .footer-container h6 {
+    font-size: 0.5rem;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .footer-container .nylia-logo {
+    width: 125px;
+    height: auto;
+  }
+
+  .footer-container .mt-5,
+  .footer-container .mt-3 {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .footer-container .text-reset {
+    font-size: 0.55rem;
+    margin: 0;
+  }
+
+  .footer-container .p-4 {
+    padding: 0.55rem !important;
+  }
+
+  .footer-container .social-icon {
+    width: 35px !important;
+    height: 35px !important;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .footer-container p {
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .footer-container h6 {
+    font-size: 0.6rem;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .footer-container .nylia-logo {
+    width: 125px;
+    height: auto;
+  }
+
+  .footer-container .mt-5,
+  .footer-container .mt-3 {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .footer-container .text-reset {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+
+  .footer-container .p-4 {
+    padding: 0.6rem !important;
+  }
+
+  .footer-container .social-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .footer-container p {
+    font-size: 0.75rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .footer-container h6 {
+    font-size: 0.7rem;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .footer-container .nylia-logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .footer-container .mt-5,
+  .footer-container .mt-3 {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .footer-container .text-reset {
+    font-size: 0.75rem;
+    margin: 0;
+  }
+
+  .footer-container .p-4 {
+    padding: 0.7rem !important;
+  }
+
+  .footer-container .social-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .footer-container p {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .footer-container h6 {
+    font-size: 0.7rem;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .footer-container .nylia-logo {
+    width: 175px;
+    height: 175px;
+  }
+
+  .footer-container .mt-5,
+  .footer-container .mt-3 {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  .footer-container .text-reset {
+    font-size: 0.75rem;
+    margin: 0;
+  }
+
+  .footer-container .p-4 {
+    padding: 0.7rem !important;
+  }
+
+  .footer-container .social-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 888px) {
+  .footer-container p {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .footer-container h6 {
+    font-size: 0.7rem;
+    margin-bottom: 0.4rem !important;
+  }
+
+  img#nyliaFooterLogo.nylia-logo {
+    height: 115px;
+    width: auto;
+    min-height: 75px;
+  }
+
+  .footer-container .text-reset {
+    font-size: 0.75rem;
+    margin: 0;
+  }
+
+  .footer-container .p-4 {
+    padding: 0.7rem !important;
+  }
+
+  .footer-container .social-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  .footer-container p {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .footer-container h6 {
+    font-size: 0.7rem;
+    margin-bottom: 0.4rem !important;
+  }
+
+  img#nyliaFooterLogo.nylia-logo {
+    height: 115px;
+    width: auto;
+    min-height: 75px;
+  }
+
+  .footer-container .text-reset {
+    font-size: 0.75rem;
+    margin: 0;
+  }
+
+  .footer-container .p-4 {
+    padding: 0.7rem !important;
+    font-size: 1rem;
+  }
+
+  .footer-container .social-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .footer-container p {
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .footer-container h6 {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem !important;
+  }
+
+  img#nyliaFooterLogo.nylia-logo {
+    height: 115px;
+    width: auto;
+    min-height: 75px;
+  }
+
+  .footer-container .text-reset {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .footer-container .p-4 {
+    padding: 0.9rem !important;
+    font-size: 1rem;
+  }
+
+  .footer-container .social-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
