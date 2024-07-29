@@ -1,5 +1,7 @@
 import { React } from "react";
 import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
+import Footer from "../components/Footer";
+
 import p1Sm from "../assets/galleryImages/BalletISm.png";
 import p1Md from "../assets/galleryImages/BalletIMd.png";
 import p1Lg from "../assets/galleryImages/BalletILg.png";
@@ -196,6 +198,7 @@ function Gallery() {
           />
         </MDBCol>
       </MDBRow>
+      <Footer />
     </div>
   );
 }

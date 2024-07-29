@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 import "./Classes.css";
+import Footer from "../components/Footer";
 
 import preBallet1Sm from "../assets/classesPage/evanButterfly300.JPG";
 import preBallet1Md from "../assets/classesPage/evanButterfly768.JPG";
@@ -689,6 +690,7 @@ function Classes() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

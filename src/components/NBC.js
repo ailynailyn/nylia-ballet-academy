@@ -4,6 +4,7 @@ import adultBalletSm from "../assets/summerIntensivesPage/claudia-and-linda-300.
 import adultBalletMd from "../assets/summerIntensivesPage/claudia-and-linda-768.jpg";
 import adultBalletLg from "../assets/summerIntensivesPage/claudia-and-linda-1280.jpg";
 import adultBalletXL from "../assets/summerIntensivesPage/claudia-and-linda-2000.jpg";
+import Footer from "../components/Footer";
 
 import nybcAlondraSm from "../assets/nybc/nybc-alondra-300.jpg";
 import nybcAlondraMd from "../assets/nybc/nybc-alondra-768.jpg";
@@ -544,6 +545,7 @@ function NBC() {
           </h3>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

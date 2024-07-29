@@ -15,6 +15,7 @@ import TuitionPackages from "../assets/enrollPage/TuitionPackages.pdf";
 import AcademyEtiquette from "../assets/enrollPage/AcademyEtiquette.pdf";
 import AcademyUniform from "../assets/enrollPage/AcademyUniform.pdf";
 import Handbook from "../assets/enrollPage/NyliaBalletAcademyHandbook2024.pdf";
+import Footer from "../components/Footer";
 
 import "./Enroll.css";
 
@@ -143,6 +144,7 @@ function Enroll() {
           <NyliaButton label={"Student Handbook"}></NyliaButton>
         </a>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

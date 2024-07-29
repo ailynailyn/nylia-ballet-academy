@@ -1,4 +1,6 @@
 import { React } from "react";
+import Footer from "../components/Footer";
+
 import newYear2024Sm from "../assets/academyEvents/newYear2024-300.png";
 import newYear2024Md from "../assets/academyEvents/newYear2024-768.png";
 import newYear2024Lg from "../assets/academyEvents/newYear2024-2000.png";
@@ -556,6 +558,7 @@ function UpcomingEvents() {
           </table>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -11,6 +11,7 @@ import adultSchedule from "../assets/summerIntensivesPage/AdultSI2024Schedule.pd
 import PopupModal from "./popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
+import Footer from "../components/Footer";
 
 import "./SummerIntensives.css";
 
@@ -167,6 +168,7 @@ function SummerIntensives() {
           </h3>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

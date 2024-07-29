@@ -8,6 +8,7 @@ import fairyXL from "../assets/scholarshipsPage/Spring-Fairy-2000.png";
 import PopupModal from "./popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
+import Footer from "../components/Footer";
 
 import "./Scholarships.css";
 
@@ -173,6 +174,7 @@ function Scholarships() {
           7, 2024, at 5:00 pm MST.
         </h3>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -9,6 +9,7 @@ import pSm from "../assets/galleryImages/kristina300.png";
 import pMd from "../assets/galleryImages/kristina-768.png";
 import pLg from "../assets/galleryImages/kristina-1280.png";
 import pXL from "../assets/galleryImages/kristina-2000.png";
+import Footer from "../components/Footer";
 
 import ContactForm from "./contact/ContactForm.js";
 import PhotoGallery from "./photoGallery/PhotoGallery.js";
@@ -79,21 +80,9 @@ function Contact() {
             <br></br>
             info@nyliaballetacademy.com
           </p>
-          <SocialIcon
-            url="https://www.facebook.com/nyliaballetacademy/"
-            network="facebook"
-            bgColor="#7D83AA"
-            fgColor="white"
-            style={{ marginRight: "1rem" }}
-          />
-          <SocialIcon
-            url="https://www.instagram.com/nyliaballetacademy/"
-            network="instagram"
-            bgColor="#7DAAA4"
-            fgColor="white"
-          />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

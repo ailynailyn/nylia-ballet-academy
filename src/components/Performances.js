@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 
 import NyliaButton from "./nyliaButton/NyliaButton.js";
+import Footer from "../components/Footer";
 
 import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
 import swanLakeXL from "../assets/performances/SwanLake.png";
@@ -259,6 +260,7 @@ function Performances() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
