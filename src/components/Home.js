@@ -37,6 +37,13 @@ function Home() {
             network="instagram"
             bgColor="rgb(0, 0, 0, .3)"
             fgColor="white"
+            style={{ marginRight: "1rem" }}
+          />
+          <SocialIcon
+            url="https://mx.pinterest.com/nyliaballetacademy/"
+            network="pinterest"
+            bgColor="rgb(0, 0, 0, .3)"
+            fgColor="white"
           />
         </div>
       </div>
