@@ -14,6 +14,7 @@ import nbcCinRehearsalsMd from "../assets/nbc/nbcCinRehearsals-768.jpg";
 import nbcCinRehearsalsLg from "../assets/nbc/nbcCinRehearsals-1280.jpg";
 import nbcCinRehearsalsXL from "../assets/nbc/nbcCinRehearsals-2000.jpg";
 import nbcHandbook from "../assets/nbc/Nylia Ballet Company Handbook 2024-2025.pdf";
+import nbycHandbook from "../assets/nybc/Nylia Ballet Youth Company Handbook 2024-2025.pdf";
 
 import PopupModal from "./popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
@@ -345,6 +346,11 @@ function NBC() {
             variations, partnering, and modern, as well as other classes,
             performances, appearances and events.
             <br /> <br />
+            <NyliaButton
+              label={"YOUTH COMPANY MEMBER HANDBOOK"}
+              link={nbycHandbook}
+            ></NyliaButton>
+            <br></br>
             <div className="shadow-box">
               <Accordion flush>
                 <Accordion.Item eventKey="0">
