@@ -116,8 +116,12 @@
     padding-left: 1rem;
   }
 
+  .description {
+    width: 95%;
+  }
+
   .description-event {
-    width: auto;
+    width: 95%;
   }
 
   .description p,
@@ -138,8 +142,15 @@
   }
 
   .description-event {
-    width: auto;
     margin-top: 10em;
+  }
+
+  .description {
+    width: 95%;
+  }
+
+  .description-event {
+    width: 92%;
   }
 }
 
@@ -161,8 +172,15 @@
   }
 
   .description-event {
-    width: auto;
     margin-top: 10em;
+  }
+
+  .description {
+    width: 80%;
+  }
+
+  .description-event {
+    width: 87%;
   }
 }
 
@@ -179,8 +197,15 @@
   }
 
   .description-event {
-    width: auto;
     margin-top: 10em;
+  }
+
+  .description {
+    width: 70%;
+  }
+
+  .description-event {
+    width: 87%;
   }
 }
 
@@ -200,8 +225,14 @@
     font-size: 1.2em;
   }
   .description-event {
-    width: auto;
     margin-top: 10em;
+  }
+  .description {
+    width: 70%;
+  }
+
+  .description-event {
+    width: 87%;
   }
 }
 
@@ -226,8 +257,14 @@
   }
 
   .description-event {
-    width: auto;
     margin-top: 10em;
+  }
+  .description {
+    width: 70%;
+  }
+
+  .description-event {
+    width: 87%;
   }
 }
 
@@ -253,5 +290,12 @@
   }
   .description h1 {
     font-size: 1.5em;
+  }
+  .description {
+    width: 70%;
+  }
+
+  .description-event {
+    width: 87%;
   }
 }

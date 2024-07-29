@@ -37,7 +37,7 @@
   }
 
   h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .card-text {
@@ -70,6 +70,10 @@
     font-size: 1.5rem;
   }
 
+  #team-label {
+    font-size: 1.5rem;
+  }
+
   .card-text {
     font-size: 0.9rem;
   }
@@ -95,6 +99,10 @@
   .card-text {
     font-size: 1rem;
   }
+
+  #team-label {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -117,6 +125,9 @@
   .card-text {
     font-size: 1rem;
   }
+  #team-label {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 888px) {
@@ -138,6 +149,9 @@
 
   .card-text {
     font-size: 1rem;
+  }
+  #team-label {
+    font-size: 1.75rem;
   }
 }
 
