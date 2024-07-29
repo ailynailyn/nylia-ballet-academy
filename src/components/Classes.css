@@ -1,5 +1,5 @@
 .classes-container {
-  background-image: linear-gradient(-25deg, #616161 0%, #96b7c4 100%);
+  background-image: linear-gradient(-25deg, #1b2925 0%, #78aca3 100%);
   padding-bottom: 1rem;
 }
 
@@ -19,6 +19,11 @@
 .learn-more-classes {
   text-align: center;
   width: 100%;
+  color: white;
+}
+
+.page-title {
+  color: white;
 }
 
 #cur-class-ages {
@@ -39,7 +44,7 @@
 }
 
 .learn-more-classes .btn-group-vertical .btn {
-  background-color: rgba(10, 48, 62, 0.75);
+  background-color: rgba(7, 49, 50, 0.75);
   border-radius: 0;
 }
 
