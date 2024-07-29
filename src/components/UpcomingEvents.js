@@ -22,10 +22,6 @@ import auditionsSm from "../assets/academyEvents/CinderellaAuditions-300.png";
 import auditionsMd from "../assets/academyEvents/CinderellaAuditions-768.png";
 import auditionsLg from "../assets/academyEvents/CinderellaAuditions-1280.png";
 import auditionsXL from "../assets/academyEvents/CinderellaAuditions-2000.png";
-// import cinderellaScheduleSm from "../assets/CinderellaWeeklySchedule2024-300.png";
-// import cinderellaScheduleMd from "../assets/CinderellaWeeklySchedule2024-768.png";
-// import cinderellaScheduleLg from "../assets/CinderellaWeeklySchedule2024-1280.png";
-// import cinderellaScheduleXL from "../assets/CinderellaWeeklySchedule2024-2000.png";
 import obsSm from "../assets/academyEvents/ObservationWeekFeb2024-300.png";
 import obsMd from "../assets/academyEvents/ObservationWeekFeb2024-768.png";
 import obsLg from "../assets/academyEvents/ObservationWeekFeb2024-1280.png";
@@ -474,15 +470,7 @@ function UpcomingEvents() {
                 </td>
                 <td className="special">DRACULA</td>
               </tr>
-              <tr>
-                <th scope="row" className="date">
-                  10/03/24
-                </th>
-                <td colspan="3" className="event">
-                  Pas de Deux Class
-                </td>
-                <td className="special">Special Event</td>
-              </tr>
+
               <tr>
                 <th scope="row" className="date">
                   10/26/24
@@ -491,6 +479,15 @@ function UpcomingEvents() {
                   Swan Lake Auditions
                 </td>
                 <td className="special">SWAN LAKE</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  11/28/24 - 11/29/24
+                </th>
+                <td colspan="3" className="event">
+                  THANKSGIVING BREAK - NO CLASSES
+                </td>
+                <td className="special">Holiday</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
@@ -503,7 +500,25 @@ function UpcomingEvents() {
               </tr>
               <tr>
                 <th scope="row" className="date">
-                  JANUARY - FEBRUARY 2025
+                  12/23/24 - 1/01/25
+                </th>
+                <td colspan="3" className="event">
+                  WINTER BREAK - NO CLASSES
+                </td>
+                <td className="special">Holiday</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  01/02/25
+                </th>
+                <td colspan="3" className="event">
+                  1st Day of Classes in 2025
+                </td>
+                <td className="holiday">CLASSES RESUME</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  FEBRUARY 2025
                 </th>
                 <td colspan="3" className="event">
                   <b>Swan Lake</b>
@@ -518,6 +533,15 @@ function UpcomingEvents() {
                   Sleeping Beauty Auditions
                 </td>
                 <td className="special">SLEEPING BEAUTY</td>
+              </tr>
+              <tr>
+                <th scope="row" className="date">
+                  4/18/25
+                </th>
+                <td colspan="3" className="event">
+                  BREAK - NO CLASSES
+                </td>
+                <td className="special">Holiday</td>
               </tr>
               <tr>
                 <th scope="row" className="date">
