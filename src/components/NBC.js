@@ -53,8 +53,8 @@ function NBC() {
             diversity of our world, welcoming anyone who wishes to participate,
             regardless of age, skills, or experience.
           </p>
-          <a onClick={() => goToSection("auditions-nbc")}>
-            <NyliaButton label={"Join the company"}></NyliaButton>
+          <a href="./companydancers">
+            <NyliaButton label={"Our Dancers"}></NyliaButton>
           </a>
           <p>
             <br />

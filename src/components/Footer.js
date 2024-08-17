@@ -104,6 +104,11 @@ function Footer() {
                   </a>
                 </p>
                 <p>
+                  <a href="/companydancers" className="text-reset">
+                    Company Dancers
+                  </a>
+                </p>
+                <p>
                   <a href="/performances" className="text-reset">
                     Performances
                   </a>

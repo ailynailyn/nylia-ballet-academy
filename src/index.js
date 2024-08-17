@@ -14,6 +14,7 @@ import UpcomingEvents from "./components/UpcomingEvents";
 import Performances from "./components/Performances";
 import Scholarships from "./components/Scholarships";
 import SummerIntensives from "./components/SummerIntensives";
+import CompanyDancers from "./components/NBC/CompanyDancers";
 import NBC from "./components/NBC";
 import NotFound from "./components/PageNotFound.js";
 import "./index.css";
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="performances" element={<Performances />} />
           <Route path="scholarships" element={<Scholarships />} />
           <Route path="nyliaballetcompany" element={<NBC />} />
+          <Route path="companydancers" element={<CompanyDancers />} />
           <Route path="summerintensives" element={<SummerIntensives />} />
           <Route path="*" element={<NotFound />} />
         </Route>

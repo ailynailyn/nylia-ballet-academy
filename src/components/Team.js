@@ -5,7 +5,6 @@ import ailyn from "../assets/teamPages/ailynTeam.jpg";
 import jazmine from "../assets/teamPages/jazmine.png";
 import clara from "../assets/teamPages/clara.JPG";
 import grace from "../assets/teamPages/grace.jpg";
-import yocelyn from "../assets/teamPages/yocelyn.JPG";
 import katherine from "../assets/teamPages/katherine.jpeg";
 import "./Team.css";
 import CardGroup from "react-bootstrap/CardGroup";
@@ -60,17 +59,7 @@ function Team() {
       position: "Studio Manager",
       description: `Katherine is deeply rooted in El Paso and takes great pride in her hometown. Having lived and grown up in the city, she has developed a strong bond with its culture and community. Currently, she is pursuing a chemistry degree at EPCC with a specific goal of becoming a Forensic Science Technician. Her passion for this field is evident in her eagerness to learn and contribute to the scientific community. Beyond her academic pursuits, Katherine is known for her exceptional leadership skills. With her wealth of leadership experience, Katherine is deeply committed to fostering a welcoming and supportive environment for diverse dancers, aiming to create a space that nurtures their artistic expression and personal growth.`,
     },
-    yocelyn: {
-      name: "YOCELYN SALCIDO",
-      profileImg: yocelyn,
-      position: "Instructor",
-      description: `From Bellflower, California, Yocelyn moved to El Paso and began
-      dancing at the age of three. She is currently studying towards her
-      degree in Neuroscience at UTEP. After furthering her ballet training
-      at Nylia Ballet Academy, Yocelyn now teaches the Pre-Ballet classes
-      and is very enthusiastic to inspire and create a nurturing
-      environment for all.`,
-    },
+
     tiffiny: {
       name: "TIFFINY STEVENS",
       // profileImg: tiffiny,
@@ -130,12 +119,7 @@ function Team() {
           position={memberInfo.katherine.position}
           description={memberInfo.katherine.description}
         ></TeamCard>
-        <TeamCard
-          profileImg={memberInfo.yocelyn.profileImg}
-          name={memberInfo.yocelyn.name}
-          position={memberInfo.yocelyn.position}
-          description={memberInfo.yocelyn.description}
-        ></TeamCard>
+
         <TeamCard
           profileImg={memberInfo.tiffiny.profileImg}
           name={memberInfo.tiffiny.name}
