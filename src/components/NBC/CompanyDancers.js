@@ -51,10 +51,10 @@ import beckSm from "../../assets/nbc/headshots/JPEG-300/beck.jpg";
 import beckMd from "../../assets/nbc/headshots/JPEG-768/beck.jpg";
 import beckLg from "../../assets/nbc/headshots/JPEG-1280/beck.jpg";
 import beckXL from "../../assets/nbc/headshots/JPEG-2000/beck.jpg";
-// import LuisaSm from "../../assets/nbc/headshots/JPEG-300/luisa.jpg";
-// import LuisaMd from "../../assets/nbc/headshots/JPEG-768/luisa.jpg";
-// import LuisaLg from "../../assets/nbc/headshots/JPEG-1280/luisa.jpg";
-// import LuisaXL from "../../assets/nbc/headshots/JPEG-2000/luisa.jpg";
+import luisaSm from "../../assets/nbc/headshots/JPEG-300/luisa.png";
+import luisaMd from "../../assets/nbc/headshots/JPEG-768/luisa.png";
+import luisaLg from "../../assets/nbc/headshots/JPEG-1280/luisa.png";
+import luisaXL from "../../assets/nbc/headshots/JPEG-2000/luisa.png";
 import luzSm from "../../assets/nbc/headshots/JPEG-300/luz.jpg";
 import luzMd from "../../assets/nbc/headshots/JPEG-768/luz.jpg";
 import luzLg from "../../assets/nbc/headshots/JPEG-1280/luz.jpg";
@@ -236,7 +236,11 @@ function CompanyDancers() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" />
+                  <Card.Img
+                    variant="top"
+                    src={luisaSm}
+                    srcSet={`${luisaSm} 300w, ${luisaMd} 768w, ${luisaLg} 1280w, ${luisaXL} 2000w`}
+                  />
                   <Card.Body>
                     <Card.Title>Luisa Cuellar</Card.Title>
                     <Card.Text>
