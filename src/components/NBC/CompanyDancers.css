@@ -66,6 +66,7 @@ a {
 .companydancers-container .card {
   background-color: rgb(1, 23, 23);
   align-items: center;
+  color: white;
 }
 
 .companydancers-container .companydancers-main-box img {
