@@ -31,18 +31,10 @@ import camilaSm from "../../assets/nbc/headshots/JPEG-300/camila.jpg";
 import camilaMd from "../../assets/nbc/headshots/JPEG-768/camila.jpg";
 import camilaLg from "../../assets/nbc/headshots/JPEG-1280/camila.jpg";
 import camilaXL from "../../assets/nbc/headshots/JPEG-2000/camila.jpg";
-
-// COPY BELOW (CMD + C)
 import anahidSm from "../../assets/nbc/headshots/JPEG-300/anahid.jpg";
 import anahidMd from "../../assets/nbc/headshots/JPEG-768/anahid.jpg";
 import anahidLg from "../../assets/nbc/headshots/JPEG-1280/anahid.jpg";
 import anahidXL from "../../assets/nbc/headshots/JPEG-2000/anahid.jpg";
-
-// PASTE BELOW THIS (CMD P)
-//     OPTION + CLICK (to put cursor everywhere)
-//     delete the name it was, replace with the new company member name
-//
-// To comment, CMD + /
 import rinaSm from "../../assets/nbc/headshots/JPEG-300/rina.jpg";
 import rinaMd from "../../assets/nbc/headshots/JPEG-768/rina.jpg";
 import rinaLg from "../../assets/nbc/headshots/JPEG-1280/rina.jpg";
