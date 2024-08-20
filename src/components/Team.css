@@ -25,6 +25,10 @@
   background-color: rgb(0, 0, 0, 0.6);
 }
 
+.TeamCard .card-body {
+  color: white;
+}
+
 #team-card-bkg {
   /* background-color: rgba(0, 0, 0, 0.457); */
   /* margin: 4rem; */
