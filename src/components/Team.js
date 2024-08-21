@@ -7,7 +7,7 @@ import tiffinyXL from "../assets/nbc/headshots/JPEG-2000/tiffiny.jpg";
 import katXL from "../assets/nbc/headshots/JPEG-2000/kat.jpg";
 import graceXL from "../assets/nbc/headshots/JPEG-2000/grace.jpg";
 import beckXL from "../assets/nbc/headshots/JPEG-2000/beck.jpg";
-import claraXL from "../assets/nbc/headshots/JPEG-2000/clara.png";
+import claraXL from "../assets/nbc/headshots/JPEG-2000/clara2.png";
 import "./Team.css";
 import CardGroup from "react-bootstrap/CardGroup";
 

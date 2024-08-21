@@ -23,10 +23,20 @@ import yocelynSm from "../../assets/nbc/headshots/JPEG-300/yocelyn.jpg";
 import yocelynMd from "../../assets/nbc/headshots/JPEG-768/yocelyn.jpg";
 import yocelynLg from "../../assets/nbc/headshots/JPEG-1280/yocelyn.jpg";
 import yocelynXL from "../../assets/nbc/headshots/JPEG-2000/yocelyn.jpg";
-import shelbySm from "../../assets/nbc/headshots/JPEG-300/shelby.jpg";
-import shelbyMd from "../../assets/nbc/headshots/JPEG-768/shelby.jpg";
-import shelbyLg from "../../assets/nbc/headshots/JPEG-1280/shelby.jpg";
-import shelbyXL from "../../assets/nbc/headshots/JPEG-2000/shelby.jpg";
+import shelbySm from "../../assets/nbc/headshots/JPEG-300/shelby2.png";
+import shelbyMd from "../../assets/nbc/headshots/JPEG-768/shelby2.png";
+import shelbyLg from "../../assets/nbc/headshots/JPEG-1280/shelby2.png";
+import shelbyXL from "../../assets/nbc/headshots/JPEG-2000/shelby2.png";
+import melinaSm from "../../assets/nbc/headshots/JPEG-300/melina.png";
+import melinaMd from "../../assets/nbc/headshots/JPEG-768/melina.png";
+import melinaLg from "../../assets/nbc/headshots/JPEG-1280/melina.png";
+import melinaXL from "../../assets/nbc/headshots/JPEG-2000/melina.png";
+
+import vivianSm from "../../assets/nbc/headshots/JPEG-300/vivian.png";
+import vivianMd from "../../assets/nbc/headshots/JPEG-768/vivian.png";
+import vivianLg from "../../assets/nbc/headshots/JPEG-1280/vivian.png";
+import vivianXL from "../../assets/nbc/headshots/JPEG-2000/vivian.png";
+
 import camilaSm from "../../assets/nbc/headshots/JPEG-300/camila.jpg";
 import camilaMd from "../../assets/nbc/headshots/JPEG-768/camila.jpg";
 import camilaLg from "../../assets/nbc/headshots/JPEG-1280/camila.jpg";
@@ -309,7 +319,11 @@ function CompanyDancers() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" />
+                  <Card.Img
+                    variant="top"
+                    src={melinaSm}
+                    srcSet={`${melinaSm} 300w, ${melinaMd} 768w, ${melinaLg} 1280w, ${melinaXL} 2000w`}
+                  />
                   <Card.Body>
                     <Card.Title>Melina Garcia</Card.Title>
                     <Card.Text>
@@ -320,7 +334,11 @@ function CompanyDancers() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" />
+                  <Card.Img
+                    variant="top"
+                    src={vivianSm}
+                    srcSet={`${vivianSm} 300w, ${vivianMd} 768w, ${vivianLg} 1280w, ${vivianXL} 2000w`}
+                  />
                   <Card.Body>
                     <Card.Title>Vivian Trincado</Card.Title>
                     <Card.Text>
