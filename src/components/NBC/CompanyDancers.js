@@ -181,6 +181,17 @@ function CompanyDancers() {
                   </Card.Body>
                 </Card>
               </Col>
+              <Col>
+                <Card>
+                  <Card.Img variant="top" />
+                  <Card.Body>
+                    <Card.Title>Isabel Robinson</Card.Title>
+                    <Card.Text>
+                      <i>Corps De Ballet</i>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
             </Row>
           </div>
           <br></br>
