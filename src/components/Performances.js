@@ -10,6 +10,7 @@ import swanLakeXL from "../assets/performances/SwanLake.png";
 
 import DraculaHandbook from "../assets/performances/Dracula Handbook 2024.pdf";
 import draculaXL from "../assets/performances/Dracula.png";
+import DraculaCastList from "../assets/performances/Dracula Cast List.png";
 
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
 import cinderellaXL from "../assets/performances/Cinderella2024IG-Cinderella.png";
@@ -64,21 +65,16 @@ function Performances() {
                   Dracula, with Svetlana ultimately foiling the vampire's plan,
                   leading to his demise.
                   <br /> <br />
-                  <b>AUDITIONS: AUGUST 3, 2024</b>
-                  <p>
-                    All auditions will be held at Nylia Ballet Academy.
-                    <br></br>
-                    <br></br>
-                    <b>Youth Cast Auditions:</b> 9 am - 10:30 am<br></br>
-                    <b>Mandatory Parent Meeting:</b> 9 am - 9:30 am<br></br>
-                    <b>Adult Cast Auditions:</b> 12 pm - 1:30 pm
-                  </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="performance-date">
                 <small className="text-muted">October 20, 2024</small>
               </Card.Footer>
-
+              <Card.Footer>
+                <a id="performances-button" href={DraculaCastList}>
+                  <NyliaButton label={"Dracula Cast List"}></NyliaButton>
+                </a>
+              </Card.Footer>
               <Card.Footer>
                 <a id="performances-button" href={DraculaHandbook}>
                   <NyliaButton label={"Dracula Handbook"}></NyliaButton>
