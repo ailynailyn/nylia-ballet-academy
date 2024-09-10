@@ -302,21 +302,6 @@ function CompanyDancers() {
                 <Card>
                   <Card.Img
                     variant="top"
-                    src={tereSm}
-                    srcSet={`${tereSm} 300w, ${tereMd} 768w, ${tereLg} 1280w, ${tereXL} 2000w`}
-                  />
-                  <Card.Body>
-                    <Card.Title>Tere Castellanos</Card.Title>
-                    <Card.Text>
-                      <i>Apprentice</i>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                <Card>
-                  <Card.Img
-                    variant="top"
                     src={zairaSm}
                     srcSet={`${zairaSm} 300w, ${zairaMd} 768w, ${zairaLg} 1280w, ${zairaXL} 2000w`}
                   />
