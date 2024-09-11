@@ -37,6 +37,11 @@ import vivianMd from "../../assets/nbc/headshots/JPEG-768/vivian.png";
 import vivianLg from "../../assets/nbc/headshots/JPEG-1280/vivian.png";
 import vivianXL from "../../assets/nbc/headshots/JPEG-2000/vivian.png";
 
+import isabelSm from "../../assets/nbc/headshots/JPEG-300/isabel.png";
+import isabelMd from "../../assets/nbc/headshots/JPEG-768/isabel.png";
+import isabelLg from "../../assets/nbc/headshots/JPEG-1280/isabel.png";
+import isabelXL from "../../assets/nbc/headshots/JPEG-2000/isabel.png";
+
 import camilaSm from "../../assets/nbc/headshots/JPEG-300/camila.jpg";
 import camilaMd from "../../assets/nbc/headshots/JPEG-768/camila.jpg";
 import camilaLg from "../../assets/nbc/headshots/JPEG-1280/camila.jpg";
@@ -183,7 +188,11 @@ function CompanyDancers() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" />
+                  <Card.Img
+                    variant="top"
+                    src={isabelSm}
+                    srcSet={`${isabelSm} 300w, ${isabelMd} 768w, ${isabelLg} 1280w, ${isabelXL} 2000w`}
+                  />
                   <Card.Body>
                     <Card.Title>Isabel Robinson</Card.Title>
                     <Card.Text>
