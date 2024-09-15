@@ -66,14 +66,10 @@ import luzSm from "../../assets/nbc/headshots/JPEG-300/luz.jpg";
 import luzMd from "../../assets/nbc/headshots/JPEG-768/luz.jpg";
 import luzLg from "../../assets/nbc/headshots/JPEG-1280/luz.jpg";
 import luzXL from "../../assets/nbc/headshots/JPEG-2000/luz.jpg";
-// import chelseaSm from "../../assets/nbc/headshots/JPEG-300/chelsea.jpg";
-// import chelseaMd from "../../assets/nbc/headshots/JPEG-768/chelsea.jpg";
-// import chelseaLg from "../../assets/nbc/headshots/JPEG-1280/chelsea.jpg";
-// import chelseaXL from "../../assets/nbc/headshots/JPEG-2000/chelsea.jpg";
-import tereSm from "../../assets/nbc/headshots/JPEG-300/tere.jpg";
-import tereMd from "../../assets/nbc/headshots/JPEG-768/tere.jpg";
-import tereLg from "../../assets/nbc/headshots/JPEG-1280/tere.jpg";
-import tereXL from "../../assets/nbc/headshots/JPEG-2000/tere.jpg";
+import chelseaSm from "../../assets/nbc/headshots/JPEG-300/chelsea.png";
+import chelseaMd from "../../assets/nbc/headshots/JPEG-768/chelsea.png";
+import chelseaLg from "../../assets/nbc/headshots/JPEG-1280/chelsea.png";
+import chelseaXL from "../../assets/nbc/headshots/JPEG-2000/chelsea.png";
 import logoXL from "../../assets/logos/Nylia Company Logos/2-cropped.png";
 
 import "./CompanyDancers.css";
@@ -289,7 +285,11 @@ function CompanyDancers() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" />
+                  <Card.Img
+                    variant="top"
+                    src={chelseaSm}
+                    srcSet={`${chelseaSm} 300w, ${chelseaMd} 768w, ${chelseaLg} 1280w, ${chelseaXL} 2000w`}
+                  />
                   <Card.Body>
                     <Card.Title>Chelsea Shugert</Card.Title>
                     <Card.Text>

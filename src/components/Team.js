@@ -1,10 +1,10 @@
 import { React } from "react";
 import TeamCard from "../components/teamCard/TeamCard";
 import Footer from "../components/Footer";
-import ailyn from "../assets/teamPages/ailynTeam.jpg";
+import ailyn from "../assets/nbc/headshots/JPEG-2000/ailyn.png";
 import jazmine from "../assets/teamPages/jazmine.png";
 import tiffinyXL from "../assets/nbc/headshots/JPEG-2000/tiffiny.jpg";
-import katXL from "../assets/nbc/headshots/JPEG-2000/kat.jpg";
+// import victoriaXL from "../assets/nbc/headshots/JPEG-2000/victoria.jpg";
 import graceXL from "../assets/nbc/headshots/JPEG-2000/grace.jpg";
 import beckXL from "../assets/nbc/headshots/JPEG-2000/beck.jpg";
 import claraXL from "../assets/nbc/headshots/JPEG-2000/clara2.png";
@@ -55,11 +55,11 @@ function Team() {
       position: "Instructor",
       description: `Clara Neufeld is a dance teacher, Pilates instructor, and choreographer passionate about connecting people to the joy of movement in all forms throughout El Paso, TX. Clara’s dance training began in classical ballet under the direction of Andrée Harper, instilling her with discipline, perseverance, and a drive for excellence. As an Eastwood HS Trooperette, Clara discovered her passion for teaching and choreographing.  These pursuits led her to Texas Christian University’s School for Classical & Contemporary Dance, where she studied under various dance merit and academic achievement scholarships, as a Hispanic Scholarship Fund Scholar, and part of the John V. Roach Honors College.  While at TCU, Clara performed as “Silver” in Jewels Pas de Quarte in The Sleeping Beauty (excerpts), Swan Lake (Act II), and in original works by Keith Saunders, Rubén Gerding, and Peter Pucci.  In May 2023, Clara received a BFA in Ballet and a BA in English with Honors Laureate Distinction, in addition to a 700-hour comprehensive Pilates Teaching Certificate.`,
     },
-    katherine: {
-      name: "KATHERINE QUEZADA",
-      profileImg: katXL,
-      position: "Studio Manager",
-      description: `Katherine is deeply rooted in El Paso and takes great pride in her hometown. Having lived and grown up in the city, she has developed a strong bond with its culture and community. Currently, she is pursuing a chemistry degree at EPCC with a specific goal of becoming a Forensic Science Technician. Her passion for this field is evident in her eagerness to learn and contribute to the scientific community. Beyond her academic pursuits, Katherine is known for her exceptional leadership skills. With her wealth of leadership experience, Katherine is deeply committed to fostering a welcoming and supportive environment for diverse dancers, aiming to create a space that nurtures their artistic expression and personal growth.`,
+    victoria: {
+      name: "VICTORIA WATERS",
+      // profileImg: victoriaXL,
+      position: "Administrative Assistant",
+      description: ``,
     },
 
     tiffiny: {
@@ -98,12 +98,12 @@ function Team() {
             position={memberInfo.beck.position}
             description={memberInfo.beck.description}
           ></TeamCard>
-          <TeamCard
+          {/* <TeamCard
             profileImg={memberInfo.jazmine.profileImg}
             name={memberInfo.jazmine.name}
             position={memberInfo.jazmine.position}
             description={memberInfo.jazmine.description}
-          ></TeamCard>
+          ></TeamCard> */}
           <TeamCard
             profileImg={memberInfo.grace.profileImg}
             name={memberInfo.grace.name}
@@ -116,18 +116,19 @@ function Team() {
             position={memberInfo.clara.position}
             description={memberInfo.clara.description}
           ></TeamCard>
-          <TeamCard
-            profileImg={memberInfo.katherine.profileImg}
-            name={memberInfo.katherine.name}
-            position={memberInfo.katherine.position}
-            description={memberInfo.katherine.description}
-          ></TeamCard>
 
           <TeamCard
             profileImg={memberInfo.tiffiny.profileImg}
             name={memberInfo.tiffiny.name}
             position={memberInfo.tiffiny.position}
             description={memberInfo.tiffiny.description}
+          ></TeamCard>
+
+          <TeamCard
+            // profileImg={memberInfo.victoria.profileImg}
+            name={memberInfo.victoria.name}
+            position={memberInfo.victoria.position}
+            description={memberInfo.victoria.description}
           ></TeamCard>
         </CardGroup>
       </div>
