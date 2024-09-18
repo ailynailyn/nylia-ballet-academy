@@ -167,21 +167,7 @@ function CompanyDancers() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col>
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src={camilaSm}
-                    srcSet={`${camilaSm} 300w, ${camilaMd} 768w, ${camilaLg} 1280w, ${camilaXL} 2000w`}
-                  />
-                  <Card.Body>
-                    <Card.Title>Camila Hellmuth</Card.Title>
-                    <Card.Text>
-                      <i>Demi-Soloist</i>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
+
               <Col>
                 <Card>
                   <Card.Img
@@ -341,11 +327,11 @@ function CompanyDancers() {
                 <Card>
                   <Card.Img
                     variant="top"
-                    src={vivianSm}
-                    srcSet={`${vivianSm} 300w, ${vivianMd} 768w, ${vivianLg} 1280w, ${vivianXL} 2000w`}
+                    src={camilaSm}
+                    srcSet={`${camilaSm} 300w, ${camilaMd} 768w, ${camilaLg} 1280w, ${camilaXL} 2000w`}
                   />
                   <Card.Body>
-                    <Card.Title>Vivian Trincado</Card.Title>
+                    <Card.Title>Camila Hellmuth</Card.Title>
                     <Card.Text>
                       <i>Apprentice</i>
                     </Card.Text>
