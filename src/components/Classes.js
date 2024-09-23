@@ -105,6 +105,9 @@ import advAdultMdWebp from "../assets/classesPage/adultBallet-768.webp";
 import advAdultLgWebp from "../assets/classesPage/adultBallet-1280.webp";
 import advAdultXLWebp from "../assets/classesPage/adultBallet-2000.webp";
 
+import allAdultSm from "../assets/classesPage/AllLevels-300.jpg";
+import allAdultMd from "../assets/classesPage/AllLevels-2000.jpg";
+
 import pilatesSm from "../assets/classesPage/pilates-300.png";
 import pilatesMd from "../assets/classesPage/pilates-768.png";
 import pilatesLg from "../assets/classesPage/pilates-1280.png";
@@ -316,7 +319,21 @@ function Classes() {
       classSched3: "SATURDAY",
       classSched4: "12:00 - 1:30 PM",
       classDesc:
-        "These class is Advanced. Extensive prior ballet experience is required. We will focus on classical ballet technique through a professional class progression. Barre work, center and across the floor exercises are designed to better your technique, as well as performance quality and confidence. With quality and knowledgeable teaching, and an encouraging environment, these classes will be a perfect fit for those who aspire to improve their dancing, and artistry!",
+        "This class is designed for advanced ballet dancers. Extensive prior ballet experience is required. We will focus on classical ballet technique through a professional class progression. Barre work, center and across the floor exercises are designed to better your technique, as well as performance quality and confidence. With quality and knowledgeable teaching, and an encouraging environment, these classes will be a perfect fit for those who aspire to improve their dancing, and artistry!",
+      classRgstr: dropInWlcm,
+    },
+    adultAllLevelsBallet: {
+      classTitle: "ADULT BALLET",
+      classAges: "- All Levels -",
+      classImg: allAdultSm,
+      imgSet: `${allAdultSm} 300w, ${allAdultMd} 768w, ${allAdultMd} 1280w, ${allAdultMd} 2000w`,
+      webpSet: `${allAdultSm} 300w, ${allAdultMd} 768w, ${allAdultMd} 1280w, ${allAdultMd} 2000w`,
+      classSched1: "TUESDAY & THURSDAY",
+      classSched2: "10:00 - 11:30 AM",
+      classSched3: "",
+      classSched4: "",
+      classDesc:
+        "These class is for all dancers, regardless of any past experience! Our instructor caters to a broad spectrum of students. Whether you become a dedicated student who graduates to pointe work, or you’re content to fly under the radar, each level has it’s own benefits and challenges. No matter what level you’re in, remember, the ultimate goal of adult ballet class is to have fun!",
       classRgstr: dropInWlcm,
     },
     flexibility: {
@@ -467,6 +484,13 @@ function Classes() {
                 onClick={() => setClassInfo("adultAdvBallet")}
               >
                 Adult Ballet - Adv
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("adultAllLevelsBallet")}
+              >
+                {" "}
+                Adult Ballet - All Levels{" "}
               </Dropdown.Item>
               <Dropdown.Item
                 as="button"
@@ -636,6 +660,14 @@ function Classes() {
                   onClick={() => setClassInfo("adultAdvBallet")}
                 >
                   Advanced
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="3"
+                  as="button"
+                  onClick={() => setClassInfo("adultAllLevelsBallet")}
+                >
+                  {" "}
+                  All Levels{" "}
                 </Dropdown.Item>
               </DropdownButton>
               <Button as="button" onClick={() => setClassInfo("pilates")}>
