@@ -66,7 +66,7 @@ function Team() {
     tiffiny: {
       name: "TIFFINY STEVENS",
       profileImg: tiffinyXL,
-      position: "Director - Nylia Ballet Youth Company",
+      position: "Instructor - Nylia Ballet Youth Company",
       description: `Tiffiny Stevens is a dance instructor and choreographer. She began her training under El Paso 
       ballet legends, Andree Harper and Ingeborg Heuser. Tiffiny has attended summer intensives with 
       American Ballet Theatre, Pacific Northwest Ballet, School of American Ballet and The Jillana 
