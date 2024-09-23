@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import ailyn from "../assets/nbc/headshots/JPEG-2000/ailyn.png";
 import jazmine from "../assets/teamPages/jazmine.png";
 import tiffinyXL from "../assets/nbc/headshots/JPEG-2000/tiffiny.jpg";
-// import victoriaXL from "../assets/nbc/headshots/JPEG-2000/victoria.jpg";
+import victoriaXL from "../assets/nbc/headshots/JPEG-2000/victoria.png";
 import graceXL from "../assets/nbc/headshots/JPEG-2000/grace.jpg";
 import beckXL from "../assets/nbc/headshots/JPEG-2000/beck.jpg";
 import claraXL from "../assets/nbc/headshots/JPEG-2000/clara2.png";
@@ -57,9 +57,10 @@ function Team() {
     },
     victoria: {
       name: "VICTORIA WATERS",
-      // profileImg: victoriaXL,
+      profileImg: victoriaXL,
       position: "Administrative Assistant",
-      description: ``,
+      description: `Victoria is originally from California where she had plenty of experience in the area of arts through public performances in precision dance and in solo and collaborative piano playing, to include playing the drums later in life. Her artistic skills have earned her several awards and accolades by instructors and directors. Having now made El Paso her home, Victoria still has a deep love for the arts, which extends to her enthusiasm for anything music and art. Her current hobbies include playing the piano and painting. She is currently pursuing a major in Linguistics with a minor in Legal Reasoning at UTEP. Passionate about language, she is also dedicated to studying Arabic, exploring its complexities and beauty. Her multifaceted interests in art and culture add depth to her personal and academic endeavors, highlighting her diverse talents and perspectives.
+      `,
     },
 
     tiffiny: {
@@ -125,7 +126,7 @@ function Team() {
           ></TeamCard>
 
           <TeamCard
-            // profileImg={memberInfo.victoria.profileImg}
+            profileImg={memberInfo.victoria.profileImg}
             name={memberInfo.victoria.name}
             position={memberInfo.victoria.position}
             description={memberInfo.victoria.description}
