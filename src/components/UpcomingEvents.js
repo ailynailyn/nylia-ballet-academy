@@ -69,10 +69,10 @@ import sepAsmntSm from "../assets/academyEvents/sepAssessments-300.png";
 import sepAsmntMd from "../assets/academyEvents/sepAssessments-768.png";
 import sepAsmntLg from "../assets/academyEvents/sepAssessments-1280.png";
 import sepAsmntXL from "../assets/academyEvents/sepAssessments-2000.png";
-import pasDeDeuxOct2024Sm from "../assets/academyEvents/PasDeDeuxOct2024-300.png";
-import pasDeDeuxOct2024Md from "../assets/academyEvents/PasDeDeuxOct2024-768.png";
-import pasDeDeuxOct2024Lg from "../assets/academyEvents/PasDeDeuxOct2024-1280.png";
-import pasDeDeuxOct2024XL from "../assets/academyEvents/PasDeDeuxOct2024-2000.png";
+import draculaSm from "../assets/performances/Dracula Poster-Bride 2024-300.png";
+import draculaMd from "../assets/performances/Dracula Poster-Bride 2024-768.png";
+import draculaLg from "../assets/performances/Dracula Poster-Bride 2024-1280.png";
+import draculaXL from "../assets/performances/Dracula Poster-Bride 2024.png";
 import decObsSm from "../assets/academyEvents/ObsWeekDec2024-300.png";
 import decObsMd from "../assets/academyEvents/ObsWeekDec2024-768.png";
 import decObsLg from "../assets/academyEvents/ObsWeekDec2024-1280.png";
@@ -85,7 +85,7 @@ import PhotoGallery from "./photoGallery/PhotoGallery.js";
 import "./UpcomingEvents.css";
 
 function UpcomingEvents() {
-  const CUREVENTIDX = 16;
+  const CUREVENTIDX = 18;
   const images = [
     {
       smImg: newYear2024Sm,
@@ -162,8 +162,8 @@ function UpcomingEvents() {
       imgSet: `${sepAsmntSm} 300w, ${sepAsmntMd} 768w, ${sepAsmntLg} 1280w, ${sepAsmntXL} 2000w`,
     },
     {
-      smImg: pasDeDeuxOct2024Sm,
-      imgSet: `${pasDeDeuxOct2024Sm} 300w, ${pasDeDeuxOct2024Md} 768w, ${pasDeDeuxOct2024Lg} 1280w, ${pasDeDeuxOct2024XL} 2000w`,
+      smImg: draculaSm,
+      imgSet: `${draculaSm} 300w, ${draculaMd} 768w, ${draculaLg} 1280w, ${draculaXL} 2000w`,
     },
     {
       smImg: decObsSm,
@@ -414,7 +414,7 @@ function UpcomingEvents() {
                   08/03/24
                 </th>
                 <td colspan="3" className="event">
-                  <b>Nylia Ballet Company Auditions</b>
+                  Nylia Ballet Company Auditions
                 </td>
                 <td className="special">NBC</td>
               </tr>
@@ -423,7 +423,7 @@ function UpcomingEvents() {
                   08/03/24
                 </th>
                 <td colspan="3" className="event">
-                  <b>Nylia Ballet Youth Company Auditions</b>
+                  Nylia Ballet Youth Company Auditions
                 </td>
                 <td className="special">NYBC</td>
               </tr>
@@ -465,7 +465,7 @@ function UpcomingEvents() {
               </tr>
               <tr>
                 <th scope="row" className="date">
-                  OCTOBER 2024
+                  10/20/2024
                 </th>
                 <td colspan="3" className="event">
                   <b>Dracula</b>

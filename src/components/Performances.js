@@ -9,21 +9,21 @@ import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
 import swanLakeXL from "../assets/performances/SwanLake.png";
 
 import DraculaHandbook from "../assets/performances/Dracula Handbook 2024.pdf";
-import draculaXL from "../assets/performances/Dracula.png";
+import draculaXL from "../assets/performances/Dracula Poster-Bride 2024.png";
 import DraculaCastList from "../assets/performances/Dracula Cast List.png";
 
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
 import cinderellaXL from "../assets/performances/Cinderella2024IG-Cinderella.png";
 import cinderellaProgram from "../assets/performances/Cinderella2024Program.pdf";
-import cinderellaSchedule from "../assets/performances/CinderellaWeeklySchedule2024.pdf";
+// import cinderellaSchedule from "../assets/performances/CinderellaWeeklySchedule2024.pdf";
 
 import unsXL from "../assets/galleryImages/kristina-2000.png";
 import UNSHandbook from "../assets/performances/UNSHandbook2023.pdf";
 import UNSProgram from "../assets/performances/UNSProgram2023.pdf";
 
-import terraSm from "../assets/galleryImages/FridaKahlo-2Sm.png";
-import terraMd from "../assets/galleryImages/FridaKahlo-2Md.png";
-import terraLg from "../assets/galleryImages/FridaKahlo-2Lg.png";
+// import terraSm from "../assets/galleryImages/FridaKahlo-2Sm.png";
+// import terraMd from "../assets/galleryImages/FridaKahlo-2Md.png";
+// import terraLg from "../assets/galleryImages/FridaKahlo-2Lg.png";
 import terraXL from "../assets/galleryImages/FridaKahlo-2XL.png";
 import TerraProgram from "../assets/performances/Terra2023Program.pdf";
 import TerraHandbook from "../assets/performances/TerraHandbook2023.pdf";
