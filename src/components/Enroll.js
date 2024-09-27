@@ -13,7 +13,7 @@ import blueBallerinaXL from "../assets/enrollPage/blueBallerinaPoster-2000.png";
 import NyliaStudentRegistration from "../assets/enrollPage/NyliaStudentRegistration.pdf";
 import TuitionPackages from "../assets/enrollPage/TuitionPackages.pdf";
 import AcademyEtiquette from "../assets/enrollPage/AcademyEtiquette.pdf";
-import AcademyUniform from "../assets/enrollPage/AcademyUniform.pdf";
+import AcademyUniform from "../assets/enrollPage/AcademyUniform.png";
 import Handbook from "../assets/enrollPage/NyliaBalletAcademyHandbook2024.pdf";
 import Footer from "../components/Footer";
 
