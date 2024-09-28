@@ -98,10 +98,26 @@ function Performances() {
                   <p>
                     All auditions will be held at Nylia Ballet Academy.
                     <br></br>
+                    Audition Fee: $15
                     <br></br>
-                    <b>Youth Cast Auditions:</b> 9 am - 10:30 am<br></br>
-                    <b>Mandatory Parent Meeting:</b> 9 am - 9:30 am<br></br>
-                    <b>Adult Cast Auditions:</b> 10:30 am - 12:00 pm
+                    <br></br>
+                    <b>Youth Cast Auditions</b>
+                    <br></br>10:00 - 10:30 am:{" "}
+                    <i>Check-in for all Youth auditions</i>
+                    <br></br>10:30 - 11:00 am: <i>4-9 year olds</i>
+                    <br></br>11:00 - 11:30 am: <i>10-13 year olds</i>
+                    <br></br>11:30 - 12:00 pm: <i>14-18 year olds</i>
+                    <br></br>
+                    <br></br>
+                    <b>Mandatory Youth Parent Meeting:</b> 12 - 12:30 pm
+                    <br></br>
+                    <br></br>
+                    <b>Adult Cast Auditions</b>
+                    <br></br>11:30 - 12:00 pm:{" "}
+                    <i>Check-in for all Adult auditions</i>
+                    <br></br>12:00 - 12:30 pm: <i>Beginner Adults</i>
+                    <br></br>12:30 - 1:00 pm:{" "}
+                    <i>Intermediate & Advanced Adults</i>
                   </p>
                 </Card.Text>
               </Card.Body>
