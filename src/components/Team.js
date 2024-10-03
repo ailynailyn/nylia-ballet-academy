@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import ailyn from "../assets/nbc/headshots/JPEG-2000/ailyn.png";
 import jazmine from "../assets/teamPages/jazmine.png";
 import tiffinyXL from "../assets/nbc/headshots/JPEG-2000/tiffiny.jpg";
-import victoriaXL from "../assets/nbc/headshots/JPEG-2000/victoria.png";
 import graceXL from "../assets/nbc/headshots/JPEG-2000/grace.jpg";
 import beckXL from "../assets/nbc/headshots/JPEG-2000/beck.jpg";
 import claraXL from "../assets/nbc/headshots/JPEG-2000/clara2.png";
@@ -55,14 +54,6 @@ function Team() {
       position: "Instructor",
       description: `Clara Neufeld is a dance teacher, Pilates instructor, and choreographer passionate about connecting people to the joy of movement in all forms throughout El Paso, TX. Clara’s dance training began in classical ballet under the direction of Andrée Harper, instilling her with discipline, perseverance, and a drive for excellence. As an Eastwood HS Trooperette, Clara discovered her passion for teaching and choreographing.  These pursuits led her to Texas Christian University’s School for Classical & Contemporary Dance, where she studied under various dance merit and academic achievement scholarships, as a Hispanic Scholarship Fund Scholar, and part of the John V. Roach Honors College.  While at TCU, Clara performed as “Silver” in Jewels Pas de Quarte in The Sleeping Beauty (excerpts), Swan Lake (Act II), and in original works by Keith Saunders, Rubén Gerding, and Peter Pucci.  In May 2023, Clara received a BFA in Ballet and a BA in English with Honors Laureate Distinction, in addition to a 700-hour comprehensive Pilates Teaching Certificate.`,
     },
-    victoria: {
-      name: "VICTORIA WATERS",
-      profileImg: victoriaXL,
-      position: "Administrative Assistant",
-      description: `Victoria is originally from California where she had plenty of experience in the area of arts through public performances in precision dance and in solo and collaborative piano playing, to include playing the drums later in life. Her artistic skills have earned her several awards and accolades by instructors and directors. Having now made El Paso her home, Victoria still has a deep love for the arts, which extends to her enthusiasm for anything music and art. Her current hobbies include playing the piano and painting. She is currently pursuing a major in Linguistics with a minor in Legal Reasoning at UTEP. Passionate about language, she is also dedicated to studying Arabic, exploring its complexities and beauty. Her multifaceted interests in art and culture add depth to her personal and academic endeavors, highlighting her diverse talents and perspectives.
-      `,
-    },
-
     tiffiny: {
       name: "TIFFINY STEVENS",
       profileImg: tiffinyXL,
@@ -123,13 +114,6 @@ function Team() {
             name={memberInfo.tiffiny.name}
             position={memberInfo.tiffiny.position}
             description={memberInfo.tiffiny.description}
-          ></TeamCard>
-
-          <TeamCard
-            profileImg={memberInfo.victoria.profileImg}
-            name={memberInfo.victoria.name}
-            position={memberInfo.victoria.position}
-            description={memberInfo.victoria.description}
           ></TeamCard>
         </CardGroup>
       </div>
