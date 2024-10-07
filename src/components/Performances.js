@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 
 import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
 import swanLakeXL from "../assets/performances/SwanLake.png";
+import swanLakeHandbook from "../assets/performances/Swan Lake Handbook 2024-2025.pdf";
 
 import DraculaHandbook from "../assets/performances/Dracula Handbook 2024.pdf";
 import draculaXL from "../assets/performances/Dracula Poster-Bride 2024.png";
@@ -126,10 +127,8 @@ function Performances() {
               </Card.Footer>
 
               <Card.Footer>
-                <a id="performances-button">
-                  <NyliaButton
-                    label={"Swan Lake Handbook - Coming Soon"}
-                  ></NyliaButton>
+                <a id="performances-button" href={swanLakeHandbook}>
+                  <NyliaButton label={"Swan Lake Handbook"}></NyliaButton>
                 </a>
               </Card.Footer>
             </Card>
