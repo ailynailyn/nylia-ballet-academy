@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+#cur-class-description {
+  white-space: pre-wrap;
+}
+
 .learn-more-classes {
   text-align: center;
   width: 100%;
@@ -249,6 +253,7 @@
   #cur-class-description {
     font-size: 0.8em;
     color: white;
+    white-space: pre-wrap;
   }
 
   .class-schedule-button .btn {

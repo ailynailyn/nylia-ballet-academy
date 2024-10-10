@@ -221,7 +221,7 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Ballet IV is an intermediate level class with a required placement class prior for enrollment. Students learn advanced technique, while emphasizing musicality, discipline, and professionalism. We highly recommend students at this level to take class at least four times a week for optimal growth.",
+        "Ballet IV is an advanced-level class with a required placement class prior to enrollment. Students continue developing advanced technique with a strong focus on musicality, discipline, and professionalism. At this advanced level, students are given extended barre exercises that incorporate increasing demi-pointe work, as well as stretching and strengthening exercises. Classical ballet lines should be well established, and students are introduced to new vocabulary for traveling steps, elevation, and pirouettes. The use of arms and upper back continues to build on the foundation established in the previous level, further refining their expression and fluidity.<br /><br />Students at this level should have a strong grasp of classical ballet vocabulary and can now adequately demonstrate correct use of line and musical performance in their movements.<br /><br /><i>We highly recommend that students take class at least four times a week for optimal growth.<i/>",
       classRgstr: rgstrRqd,
     },
     ballet5: {
@@ -235,7 +235,7 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Ballet V is an advanced level class with a required placement class prior for enrollment. Students learn advanced technique, while emphasizing musicality, discipline, and professionalism. We highly recommend students at this level to take class at least four times a week for optimal growth.",
+        "Ballet V is an advanced-level class with a required placement class prior to enrollment. Students must demonstrate a thorough understanding of all positions, arabesque, and épaulement placement, as well as mastery of pirouette preparation and execution. Proper technique is critical at this level—students must show no signs of sickling, hip raising, or loss of control over their body, core, and limbs.<br/><br/>In this class, dancers continue to develop spatial awareness, body orientation, and full-body coordination, with an added focus on fluidity of movement. The curriculum includes advanced steps such as multiple pirouettes, turns in à la seconde, and beating jumps.<br/><br/><i>Material is taught quickly at this level, and students are expected to pick it up at a fast rate. We highly recommend that students take class at least four times a week for optimal growth.<i/>",
       classRgstr: rgstrRqd,
     },
     pointe1: {
@@ -249,7 +249,7 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Pointe I class is by invitation only for our Ballet III & IV students. This class is an introduction to pointe work, requiring students to have very strong ankles, body awareness, core stability, along with basic classical ballet technique.",
+        "Pointe I is an invitation-only class for select Ballet III and IV students. This class serves as a preparation for pointe work and requires students to demonstrate very strong ankles, excellent body awareness, core stability, and a solid foundation in basic classical ballet technique. Emphasis is placed on ensuring that students are physically prepared to safely begin pointe work, with a focus on proper alignment, strength, and control to prevent injury.",
       classRgstr: rgstrRqd,
     },
     pointe2: {
@@ -263,7 +263,36 @@ function Classes() {
       classSched3: "",
       classSched4: "",
       classDesc:
-        "Pointe II students will be invited to participate on an individual basis when they have the necessary physical and technical development. These classes are perfect for the ballerina who is wanting to take their ballet technique to the next level. This class includes classical variations, the study of solo dances from historically established classical ballet repertoire.",
+        "Pointe II is designed for students who have successfully completed Pointe I and have demonstrated the necessary strength, technique, and control to advance their pointe work. This class continues to build on the foundation established in Pointe I, focusing on increasing strength, stability, and endurance en pointe. Students will work on more complex combinations at the barre and in center, incorporating elements such as sustained balances, turns, and linking steps.<br/><br/>A strong emphasis is placed on precision, alignment, and fluidity of movement as students begin to explore more advanced pointe repertoire. In addition, this class prepares students for more demanding choreography, requiring a heightened sense of body awareness, coordination, and musicality. Safety remains a priority as students advance in their technical abilities.",
+
+      classRgstr: rgstrRqd,
+    },
+    pointe3: {
+      classTitle: "POINTE III",
+      classAges: "Placement by Evaluation",
+      classImg: pointe2Sm,
+      imgSet: `${pointe2Sm} 300w, ${pointe2Md} 768w, ${pointe2Lg} 1280w, ${pointe2XL} 2000w`,
+      webpSet: `${pointe2SmWebp} 300w, ${pointe2MdWebp} 768w, ${pointe2LgWebp} 1280w, ${pointe2XLWebp} 2000w`,
+      classSched1: "FRIDAY",
+      classSched2: "6:30 - 7:30 PM",
+      classSched3: "",
+      classSched4: "",
+      classDesc:
+        "Pointe III is for students who have progressed beyond Pointe II and are ready for more demanding work en pointe. This class focuses on developing greater stamina, precision, and artistry. Students will work on intricate combinations at the barre and in the center, incorporating more challenging turns, extended balances, and petit allegro movements en pointe.<br/><br/>The class emphasizes seamless transitions between steps, improving foot articulation and strength, and expanding the range of movement en pointe. Students also begin to focus on performance quality and expression, integrating musicality and dynamics into their pointe work. Pointe III prepares dancers for pre-professional level pointe technique, with attention to both technical and artistic development.",
+      classRgstr: rgstrRqd,
+    },
+    pointeAdv: {
+      classTitle: "ADVANCED POINTE",
+      classAges: "Placement by Evaluation",
+      classImg: pointe2Sm,
+      imgSet: `${pointe2Sm} 300w, ${pointe2Md} 768w, ${pointe2Lg} 1280w, ${pointe2XL} 2000w`,
+      webpSet: `${pointe2SmWebp} 300w, ${pointe2MdWebp} 768w, ${pointe2LgWebp} 1280w, ${pointe2XLWebp} 2000w`,
+      classSched1: "FRIDAY",
+      classSched2: "6:00 - 7:30 PM",
+      classSched3: "",
+      classSched4: "",
+      classDesc:
+        "Advanced Pointe is the highest level of pointe training, designed for experienced dancers who have mastered the technical requirements of pointe work and are ready to refine their performance abilities. This class pushes students to achieve greater control, strength, and fluidity in advanced movements. Dancers will execute complex sequences with multiple pirouettes, sustained balances, and intricate footwork, both at the barre and in the center.<br/><br/>There is a strong emphasis on the artistry of pointe work, with students expected to demonstrate a high level of musicality, grace, and expression in their movements. Dancers in Advanced Pointe will work on classical variations and repertoire, preparing for performances or auditions. This class also focuses on building the endurance necessary for full-length ballets and complex pointe choreography.",
       classRgstr: rgstrRqd,
     },
     absBegAdultBallet: {
@@ -469,6 +498,18 @@ function Classes() {
               </Dropdown.Item>
               <Dropdown.Item
                 as="button"
+                onClick={() => setClassInfo("pointe3")}
+              >
+                Pointe III
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("pointeAdv")}
+              >
+                Advanced Pointe
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
                 onClick={() => setClassInfo("begAdultBallet")}
               >
                 Adult Ballet - Beg
@@ -633,6 +674,20 @@ function Classes() {
                   onClick={() => setClassInfo("pointe2")}
                 >
                   Pointe II
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="2"
+                  as="button"
+                  onClick={() => setClassInfo("pointe3")}
+                >
+                  Pointe III
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="2"
+                  as="button"
+                  onClick={() => setClassInfo("pointeAdv")}
+                >
+                  Advanced Pointe
                 </Dropdown.Item>
               </DropdownButton>
               <DropdownButton
