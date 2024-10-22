@@ -12,7 +12,7 @@ import swanLakeHandbook from "../assets/performances/Swan Lake Handbook 2024-202
 
 import DraculaHandbook from "../assets/performances/Dracula Handbook 2024.pdf";
 import draculaXL from "../assets/performances/Dracula Poster-Bride 2024.png";
-import DraculaCastList from "../assets/performances/Dracula Cast List.png";
+import DraculaProgram from "../assets/performances/Dracula 2024 Program.pdf";
 
 import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
 import cinderellaXL from "../assets/performances/Cinderella2024IG-Cinderella.png";
@@ -164,8 +164,8 @@ function Performances() {
                 <small className="text-muted">October 20, 2024</small>
               </Card.Footer>
               <Card.Footer>
-                <a id="performances-button" href={DraculaCastList}>
-                  <NyliaButton label={"Dracula Cast List"}></NyliaButton>
+                <a id="performances-button" href={DraculaProgram}>
+                  <NyliaButton label={"Dracula Program"}></NyliaButton>
                 </a>
               </Card.Footer>
               <Card.Footer>
