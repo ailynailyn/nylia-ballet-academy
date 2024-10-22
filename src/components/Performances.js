@@ -6,7 +6,8 @@ import NyliaButton from "./nyliaButton/NyliaButton.js";
 import Footer from "../components/Footer";
 
 import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
-import swanLakeXL from "../assets/performances/SwanLake.png";
+// import swanLakeXL from "../assets/performances/SwanLake.png";
+import swanLakeXL from "../assets/performances/Swan Lake Auditions 2024 Poster.png";
 import swanLakeHandbook from "../assets/performances/Swan Lake Handbook 2024-2025.pdf";
 
 import DraculaHandbook from "../assets/performances/Dracula Handbook 2024.pdf";
@@ -52,36 +53,6 @@ function Performances() {
         </p>
         <div>
           <div className="performance-cards">
-            <Card>
-              <Card.Img variant="top" src={draculaXL} />
-              <Card.Body>
-                <Card.Title>DRACULA</Card.Title>
-                <Card.Text>
-                  Experience the mesmerizing world of Dracula, a Ballet set in
-                  Transylvania. Dracula and his brides seek to regain their
-                  waning power. Dracula targets a young girl named Flora and
-                  later sets his sights on Svetlana, the daughter of a village
-                  innkeeper. Despite the vampire's attempts to take Svetlana as
-                  his bride, the villagers ultimately band together to defeat
-                  Dracula, with Svetlana ultimately foiling the vampire's plan,
-                  leading to his demise.
-                  <br /> <br />
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer className="performance-date">
-                <small className="text-muted">October 20, 2024</small>
-              </Card.Footer>
-              <Card.Footer>
-                <a id="performances-button" href={DraculaCastList}>
-                  <NyliaButton label={"Dracula Cast List"}></NyliaButton>
-                </a>
-              </Card.Footer>
-              <Card.Footer>
-                <a id="performances-button" href={DraculaHandbook}>
-                  <NyliaButton label={"Dracula Handbook"}></NyliaButton>
-                </a>
-              </Card.Footer>
-            </Card>
             <Card>
               <Card.Img variant="top" src={swanLakeXL} />
               <Card.Body>
@@ -173,6 +144,36 @@ function Performances() {
               <br />
               <br />
             </h1>
+            <Card>
+              <Card.Img variant="top" src={draculaXL} />
+              <Card.Body>
+                <Card.Title>DRACULA</Card.Title>
+                <Card.Text>
+                  Experience the mesmerizing world of Dracula, a Ballet set in
+                  Transylvania. Dracula and his brides seek to regain their
+                  waning power. Dracula targets a young girl named Flora and
+                  later sets his sights on Svetlana, the daughter of a village
+                  innkeeper. Despite the vampire's attempts to take Svetlana as
+                  his bride, the villagers ultimately band together to defeat
+                  Dracula, with Svetlana ultimately foiling the vampire's plan,
+                  leading to his demise.
+                  <br /> <br />
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer className="performance-date">
+                <small className="text-muted">October 20, 2024</small>
+              </Card.Footer>
+              <Card.Footer>
+                <a id="performances-button" href={DraculaCastList}>
+                  <NyliaButton label={"Dracula Cast List"}></NyliaButton>
+                </a>
+              </Card.Footer>
+              <Card.Footer>
+                <a id="performances-button" href={DraculaHandbook}>
+                  <NyliaButton label={"Dracula Handbook"}></NyliaButton>
+                </a>
+              </Card.Footer>
+            </Card>
             <Card>
               <Card.Img variant="top" src={cinderellaXL} />
               <Card.Body>
