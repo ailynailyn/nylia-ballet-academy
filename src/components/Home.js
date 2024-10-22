@@ -50,23 +50,22 @@ function Home() {
 
       <div className="description">
         <br></br>
-        <h1>DRACULA</h1>
-        <h4>10.20.2024</h4>
+        <h1>SWAN LAKE AUDITIONS</h1>
+        <h4>10.26.2024</h4>
         <p>
-          Experience the mesmerizing world of Dracula, a Ballet set in
-          Transylvania. Dracula and his brides seek to regain their waning
-          power. Dracula targets a young girl named Flora and later sets his
-          sights on Svetlana, the daughter of a village innkeeper. Despite the
-          vampire's attempts to take Svetlana as his bride, the villagers
-          ultimately band together to defeat Dracula, with Svetlana ultimately
-          foiling the vampire's plan, leading to his demise.
+          Swan Lake auditions are here! oin us for auditions and step into a
+          world of grace and beauty. Whether you’re a seasoned performer or new
+          to the stage, we want to see your talent! Don’t miss your chance to be
+          part of this enchanting tale—come dance with us! Join now for a chance
+          to soar! See full audition details and our official Swan Lake Handbook
+          here.
         </p>{" "}
         <br></br>
         <a
           id="description-event-button"
-          href="https://www.ticketmaster.com/dracula-el-paso-texas-10-20-2024/event/0C00610DCC433581"
+          href="https://www.nyliaballetacademy.com/performances"
         >
-          <NyliaButton label={"DRACULA TICKETS"}></NyliaButton>
+          <NyliaButton label={"SWAN LAKE AUDITIONS"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
