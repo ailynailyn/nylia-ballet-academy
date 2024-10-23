@@ -94,8 +94,7 @@ function NBC() {
             Ballet, Ellison Ballet, and the Marais Ballet School in Paris, the
             El Paso-based Company instills impeccable technique through staple
             classical ballets and new premieres of contemporary works during its
-            2024 - 2025 season. We look forward to demonstrating our focus in
-            our inaugural performance of Dracula, scheduled for Fall 2024.
+            2024 - 2025 season.
             <br /> <br />
             Our inclusive approach to classical ballet is a response to the
             current and historic barriers to excellent dance training in the
@@ -254,6 +253,12 @@ function NBC() {
                     <ul>
                       <li>August - October 2024</li>
                     </ul>
+                    <b>Nylia Ballet Company Trainee Auditions</b>
+                    <ul>
+                      <li>
+                        October 26th, 2024 at 11:30 am - Nylia Ballet Academy
+                      </li>
+                    </ul>
                     <b>Swan Lake</b>
                     <ul>
                       <li>October 2024 - February 2025</li>
@@ -280,9 +285,10 @@ function NBC() {
           <h2>Join the Company</h2>
           <p>
             <br />
-            Nylia Ballet Company is thrilled to present Dracula this Fall of
-            2024! Company Auditions will be at Nylia Ballet Academy following
-            Dracula auditions.
+            Nylia Ballet Company is thrilled to present Swan Lake this coming
+            February of 2025! Dancers will be considered for the Trainee
+            division of the Company at our Swan Lake Auditions, which will be at
+            Nylia Ballet Academy.
             <br /> <br />
             <b>NYLIA BALLET COMPANY AUDITIONS</b>
             <br />
@@ -290,9 +296,15 @@ function NBC() {
             <br />
             1:30 - 2:30 pm
             <br /> <br />
+            <b>NYLIA BALLET COMPANY TRAINEE AUDITIONS</b>
+            <br />
+            October 26th, 2024
+            <br />
+            11:30 am - 1:00 pm
+            <br /> <br />
             <b>AUDITION REQUIREMENTS</b>
             <br />
-            <li>A $20 audition fee is due prior to the Company audition.</li>
+            <li>A $10 Company audition fee is due prior to the audition.</li>
             <br />
             <NyliaButton
               label={"Register for Company Auditions"}
@@ -305,12 +317,20 @@ function NBC() {
             <br />
             10:30 am - 11:30 am
             <br /> <br />
+            <b>NYLIA BALLET YOUTH COMPANY TRAINEE AUDITIONS</b>
+            <br />
+            October 26th, 2024
+            <br />
+            10:00 am - 12:30 pm
+            <br /> <br />
             <b>AUDITION REQUIREMENTS</b>
             <br />
-            <li>A $20 audition fee is due prior to the Company audition.</li>
+            <li>
+              A $10 Youth Company audition fee is due prior to the audition.
+            </li>
             <li>
               A <b>mandatory</b> parent meeting will take place at Nylia Ballet
-              Academy during the audition from 10:30 am - 11:00 am.
+              Academy during the audition from 12:00 pm - 12:30 pm.
             </li>
             <br />
           </p>
@@ -498,6 +518,12 @@ function NBC() {
                       <b>Dracula</b>
                       <ul>
                         <li>August - October 2024</li>
+                      </ul>
+                      <b>Nylia Ballet Youth Company Trainee Auditions</b>
+                      <ul>
+                        <li>
+                          October 26th, 2024 at 10:00 am - Nylia Ballet Academy
+                        </li>
                       </ul>
                       <b>Swan Lake</b>
                       <ul>
