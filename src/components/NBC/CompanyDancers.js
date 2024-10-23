@@ -178,7 +178,7 @@ function CompanyDancers() {
                   <Card.Body>
                     <Card.Title>Isabel Robinson</Card.Title>
                     <Card.Text>
-                      <i>Corps De Ballet</i>
+                      <i>Demi-Soloist</i>
                     </Card.Text>
                   </Card.Body>
                 </Card>
