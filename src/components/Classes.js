@@ -302,7 +302,7 @@ function Classes() {
       imgSet: `${begAdultBalletSm} 300w, ${begAdultBalletMd} 768w, ${begAdultBalletLg} 1280w, ${begAdultBalletXL} 2000w`,
       webpSet: `${begAdultBalletSmWebp} 300w, ${begAdultBalletMdWebp} 768w, ${begAdultBalletLgWebp} 1280w, ${begAdultBalletXLWebp} 2000w`,
       classSched1: "FRIDAY",
-      classSched2: "7:00 - 8:00 PM",
+      classSched2: "7:30 - 8:30 PM",
       classSched3: "",
       classSched4: "",
       classDesc:
@@ -343,8 +343,8 @@ function Classes() {
       classImg: advAdultSm,
       imgSet: `${advAdultSm} 300w, ${advAdultMd} 768w, ${advAdultLg} 1280w, ${advAdultXL} 2000w`,
       webpSet: `${advAdultSmWebp} 300w, ${advAdultMdWebp} 768w, ${advAdultLgWebp} 1280w, ${advAdultXLWebp} 2000w`,
-      classSched1: "MONDAY, TUESDAY & THURSDAY",
-      classSched2: "7:00 - 8:30 PM",
+      classSched1: "MONDAY & THURSDAY",
+      classSched2: "5:30 - 7:00 PM",
       classSched3: "SATURDAY",
       classSched4: "12:00 - 1:30 PM",
       classDesc:
@@ -377,20 +377,6 @@ function Classes() {
       classSched4: "11:00 AM - 12:00 PM",
       classDesc:
         "Flexibility classes introduce various techniques of flexibility training as well as techniques that are especially designed to improve your range of movement and mobility. The focus of the class is to stretch and lengthen the muscles of the body, and to strengthen them to be able to better execute ballet technique or simply utilize in one’s own daily routine.",
-      classRgstr: dropInWlcm,
-    },
-    pilates: {
-      classTitle: "PILATES",
-      classAges: "- All Ages -",
-      classImg: pilatesSm,
-      imgSet: `${pilatesSm} 300w, ${pilatesMd} 768w, ${pilatesLg} 1280w, ${pilatesXL} 2000w`,
-      webpSet: `${pilatesSmWebp} 300w, ${pilatesMdWebp} 768w, ${pilatesLgWebp} 1280w, ${pilatesXLWebp} 2000w`,
-      classSched1: "FRIDAY",
-      classSched2: "6:30 - 7:30 PM",
-      classSched3: "",
-      classSched4: "",
-      classDesc:
-        "Pilates is an exercise system that focuses on developing efficient movement patterns and creating balance within the body.  With its prioritization on length and mobility in the spine, an equal emphasis on strength and flexibility, and strengthening the smaller, supporting muscles, Pilates can be the perfect complement to ballet training or a new, enjoyable form of movement.   Our instructor provides individualized modifications and advancements, ensuring you have the best experience possible and eave feeling better than when you walked in! ",
       classRgstr: dropInWlcm,
     },
   };
