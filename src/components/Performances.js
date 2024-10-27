@@ -6,7 +6,9 @@ import NyliaButton from "./nyliaButton/NyliaButton.js";
 import Footer from "../components/Footer";
 
 import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
-// import swanLakeXL from "../assets/performances/SwanLake.png";
+import swanLakeWeeklySchedule from "../assets/performances/Swan Lake Weekly Schedule 2024.png";
+import swanLakeRehearsalReqs from "../assets/performances/SwanLake24RehearsalReqs.png";
+import swanLakeCastList from "../assets/performances/SwanLakeCastList2024.pdf";
 import swanLakeXL from "../assets/performances/Swan Lake Auditions 2024 Poster.png";
 import swanLakeHandbook from "../assets/performances/Swan Lake Handbook 2024-2025.pdf";
 
@@ -66,37 +68,36 @@ function Performances() {
                   form at night. Only true love and unwavering fidelity can
                   break this powerful spell.
                   <br /> <br />
-                  <b>AUDITIONS: OCTOBER 26, 2024</b>
+                  <b>REHEARSALS BEGIN: TUESDAY, OCTOBER 29, 2024</b>
                   <p>
-                    All auditions will be held at Nylia Ballet Academy.
-                    <br></br>
-                    Audition Fee: $15
-                    <br></br>
-                    <br></br>
-                    <b>Youth Cast Auditions</b>
-                    <br></br>10:00 - 10:30 am:{" "}
-                    <i>Check-in for all Youth auditions</i>
-                    <br></br>10:30 - 11:00 am: <i>4-9 year olds</i>
-                    <br></br>11:00 - 11:30 am: <i>10-13 year olds</i>
-                    <br></br>11:30 - 12:00 pm: <i>14-18 year olds</i>
-                    <br></br>
-                    <br></br>
-                    <b>Mandatory Youth Parent Meeting:</b> 12 - 12:30 pm
-                    <br></br>
-                    <br></br>
-                    <b>Adult Cast Auditions</b>
-                    <br></br>11:30 - 12:00 pm:{" "}
-                    <i>Check-in for all Adult auditions</i>
-                    <br></br>12:00 - 12:30 pm: <i>Beginner Adults</i>
-                    <br></br>12:30 - 1:00 pm:{" "}
-                    <i>Intermediate & Advanced Adults</i>
+                    All dancers must be have necessary costume pieces depending
+                    on their role. All items must be obtained and worn by
+                    November 11th.
                   </p>
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="performance-date">
-                <small className="text-muted">FEBRUARY 2025</small>
+                <small className="text-muted">FEBRUARY 1 & 2, 2025</small>
               </Card.Footer>
-
+              <Card.Footer>
+                <a id="performances-button" href={swanLakeWeeklySchedule}>
+                  <NyliaButton
+                    label={"Swan Lake Rehearsal Schedule"}
+                  ></NyliaButton>
+                </a>
+              </Card.Footer>
+              <Card.Footer>
+                <a id="performances-button" href={swanLakeRehearsalReqs}>
+                  <NyliaButton
+                    label={"Rehearsal Attire Requirements"}
+                  ></NyliaButton>
+                </a>
+              </Card.Footer>
+              <Card.Footer>
+                <a id="performances-button" href={swanLakeCastList}>
+                  <NyliaButton label={"Swan Lake Cast List"}></NyliaButton>
+                </a>
+              </Card.Footer>
               <Card.Footer>
                 <a id="performances-button" href={swanLakeHandbook}>
                   <NyliaButton label={"Swan Lake Handbook"}></NyliaButton>
