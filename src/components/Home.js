@@ -50,22 +50,27 @@ function Home() {
 
       <div className="description">
         <br></br>
-        <h1>SWAN LAKE AUDITIONS</h1>
-        <h4>10.26.2024</h4>
+        <h1>ENROLL TODAY</h1>
+        <h4>Your first class is free!</h4>
         <p>
-          Swan Lake auditions are here! oin us for auditions and step into a
-          world of grace and beauty. Whether you’re a seasoned performer or new
-          to the stage, we want to see your talent! Don’t miss your chance to be
-          part of this enchanting tale—come dance with us! Join now for a chance
-          to soar! See full audition details and our official Swan Lake Handbook
-          here.
+          Nylia Ballet Academy is proud to be home to the Nylia Ballet Company
+          and our Youth Company, elite performing groups that bring captivating
+          productions to life. This season, experience the magic of Dracula,
+          Swan Lake, and Sleeping Beauty. <br></br> <br></br>
+          We offer a comprehensive youth curriculum for ages 4-18, alongside
+          adult classes ranging from absolute beginner to advanced levels,
+          including Men's Ballet, Pointe, and flexibility classes. Enjoy your
+          first class free as a trial, giving you the perfect opportunity to
+          experience our welcoming environment. Located in East El Paso, we
+          foster a vibrant artistic community where everyone can thrive. Join us
+          and be part of the journey!
         </p>{" "}
         <br></br>
         <a
           id="description-event-button"
-          href="https://www.nyliaballetacademy.com/performances"
+          href="https://www.nyliaballetacademy.com/classes"
         >
-          <NyliaButton label={"SWAN LAKE AUDITIONS"}></NyliaButton>
+          <NyliaButton label={"OUR CLASSES"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
