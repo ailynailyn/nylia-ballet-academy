@@ -57,8 +57,10 @@ function Performances() {
           <div className="performance-cards">
             <Card>
               <Card.Img variant="top" src={swanLakeXL} />
+
               <Card.Body>
                 <Card.Title>SWAN LAKE</Card.Title>
+
                 <Card.Text>
                   Immerse yourself in the enchanting love story of{" "}
                   <i>Swan Lake</i>. Witness Prince Siegfried's fateful encounter
@@ -78,6 +80,22 @@ function Performances() {
               </Card.Body>
               <Card.Footer className="performance-date">
                 <small className="text-muted">FEBRUARY 1 & 2, 2025</small>
+              </Card.Footer>
+              <Card.Footer>
+                <a
+                  id="description-event-button"
+                  href="https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F"
+                >
+                  <NyliaButton label={"TICKETS: FEBRUARY 1"}></NyliaButton>
+                </a>
+              </Card.Footer>
+              <Card.Footer>
+                <a
+                  id="description-event-button"
+                  href="https://www.ticketmaster.com/swan-lake-el-paso-texas-02-02-2025/event/0C00615EEEF14284"
+                >
+                  <NyliaButton label={"TICKETS: FEBRUARY 2"}></NyliaButton>
+                </a>
               </Card.Footer>
               <Card.Footer>
                 <a id="performances-button" href={swanLakeWeeklySchedule}>

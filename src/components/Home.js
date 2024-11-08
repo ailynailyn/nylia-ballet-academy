@@ -47,6 +47,47 @@ function Home() {
           />
         </div>
       </div>
+      <div className="description">
+        <br></br>
+        <h3>NYLIA BALLET COMPANY PRESENTS</h3>
+        <h1>
+          <b>SWAN LAKE</b>
+        </h1>
+        <br></br>
+        <h3>February 1-2, 2025</h3>
+        <h3>UTEP's Magoffin Auditorium</h3>
+        <br></br>
+        <p>
+          Experience Prince Siegfried’s journey from the joyous revelry of his
+          21st birthday to the haunting shores of Swan Lake, where he encounters
+          the ethereal Swan Queen, Odette. Captivated by her beauty, Siegfried
+          faces a powerful test of love against the sinister sorceress Von
+          Rothbart, in a world where illusions blur the line between truth and
+          deception. As fate unfolds under moonlit skies, watch as love,
+          loyalty, and sacrifice entwine in a mesmerizing battle for freedom.
+          <br></br>
+          <br></br>
+          This is the ballet event of the season—an unforgettable masterpiece
+          too enchanting to miss. Let Swan Lake sweep you into a world where
+          destiny dances on enchanted waters!
+        </p>{" "}
+        <br></br>
+        <a
+          id="description-event-button"
+          href="https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F"
+        >
+          <NyliaButton label={"TICKETS: FEBRUARY 1"}></NyliaButton>
+        </a>
+        <br></br>
+        <a
+          id="description-event-button"
+          href="https://www.ticketmaster.com/swan-lake-el-paso-texas-02-02-2025/event/0C00615EEEF14284"
+        >
+          <NyliaButton label={"TICKETS: FEBRUARY 2"}></NyliaButton>
+        </a>
+        <br></br>
+        <br></br>
+      </div>
 
       <div className="description">
         <br></br>
