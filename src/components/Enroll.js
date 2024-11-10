@@ -56,7 +56,7 @@ function Enroll() {
         srcSet={`${enrollmentSm} 300w, ${enrollmentMd} 768w, ${enrollmentLg} 1280w, ${enrollmentXL} 2000w`}
       />
 
-      <div className="tuition-section">
+      <div className="tuition-section" id="academy-tuition">
         <h1>TUITION</h1>
         <p>
           Tuition is due on the 1st of each month. A late fee of $10 is charged
@@ -99,7 +99,7 @@ function Enroll() {
           <NyliaButton label={"Academy Etiquette"}></NyliaButton>
         </a>
       </div>
-      <div className="uniform-section">
+      <div className="uniform-section" id="academy-uniform">
         <h1>CLASS ATTIRE</h1>
         <p>
           The Academy uniform is an integral part of the Nylia Ballet Academy
