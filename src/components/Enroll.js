@@ -1,9 +1,9 @@
 import { React } from "react";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
-import enrollmentSm from "../assets/enrollPage/luisaAilynBallet300.JPG";
-import enrollmentMd from "../assets/enrollPage/luisaAilynBallet768.JPG";
-import enrollmentLg from "../assets/enrollPage/luisaAilynBallet1280.JPG";
-import enrollmentXL from "../assets/enrollPage/luisaAilynBallet2000.JPG";
+import enrollmentSm from "../assets/enrollPage/ThreeBallerinas-300.JPG";
+import enrollmentMd from "../assets/enrollPage/ThreeBallerinas-768.JPG";
+import enrollmentLg from "../assets/enrollPage/ThreeBallerinas-1280.JPG";
+import enrollmentXL from "../assets/enrollPage/ThreeBallerinas-2000.JPG";
 
 import blueBallerinaSm from "../assets/enrollPage/blueBallerinaPoster-300.png";
 import blueBallerinaMd from "../assets/enrollPage/blueBallerinaPoster-768.png";
@@ -13,7 +13,7 @@ import blueBallerinaXL from "../assets/enrollPage/blueBallerinaPoster-2000.png";
 import NyliaStudentRegistration from "../assets/enrollPage/NyliaStudentRegistration.pdf";
 import TuitionPackages from "../assets/enrollPage/TuitionPackages.pdf";
 import AcademyEtiquette from "../assets/enrollPage/AcademyEtiquette.pdf";
-import AcademyUniform from "../assets/enrollPage/AcademyUniform.png";
+import AcademyUniform from "../assets/enrollPage/Academy Uniform.pdf";
 import Handbook from "../assets/enrollPage/NyliaBalletAcademyHandbook2024.pdf";
 import Footer from "../components/Footer";
 
@@ -64,7 +64,7 @@ function Enroll() {
           <br />
           <br />
           An annual registration fee of $45 is due at the time of registration
-          and every January thereafter.
+          and annually thereafter.
         </p>
         <a
           id="enrollment-page-button"
