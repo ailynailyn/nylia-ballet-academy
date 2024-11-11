@@ -484,7 +484,7 @@ function UpcomingEvents() {
               </tr>
               <tr>
                 <th scope="row" className="date">
-                  11/28/24 - 11/29/24
+                  11/28/24 - 11/30/24
                 </th>
                 <td colspan="3" className="event">
                   THANKSGIVING BREAK - NO CLASSES
