@@ -30,6 +30,25 @@
   font-family: "Questrial", sans-serif;
 }
 
+.form-control {
+  color: white;
+  border-radius: 0;
+  font-family: "Questrial", sans-serif;
+  background-color: transparent;
+  box-shadow: 0 0 0 2px #88c88a;
+  text-align: left;
+}
+
+.formInput,
+.formInput:focus {
+  color: white;
+  border-radius: 0;
+  font-family: "Questrial", sans-serif;
+  background-color: transparent;
+  box-shadow: 0 0 0 2px #88c88a;
+  text-align: left;
+}
+
 .PopupModal .formInput::placeholder {
   color: white;
   opacity: 0.4;

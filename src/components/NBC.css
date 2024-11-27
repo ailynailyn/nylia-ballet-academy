@@ -191,11 +191,6 @@ a {
   margin-top: 3rem;
 }
 
-.main-title h1 {
-  font-weight: 900;
-  margin-bottom: 0.9em;
-}
-
 .main-container h3 {
   font-family: "Questrial", sans-serif;
   text-transform: uppercase;
@@ -207,16 +202,6 @@ ul.main-bullets {
 
 .main-box p {
   text-align: left;
-}
-
-.main-box {
-  width: 100%;
-  background-color: rgb(0, 0, 0, 0.7);
-  /* margin-right: 2.5rem; */
-  /* margin-left: 2.5rem; */
-  padding: 1.3rem;
-  margin-bottom: 2rem;
-  /* max-width: 85%; */
 }
 
 .main-box.centered p {
@@ -302,10 +287,6 @@ ul.main-bullets {
     font-size: 0.8em;
   }
 
-  .main-title h1 {
-    font-size: 1.1rem;
-  }
-
   .main-box p {
     font-size: 0.8rem;
   }
@@ -343,10 +324,6 @@ ul.main-bullets {
 
   .main-text p {
     font-size: 0.9em;
-  }
-
-  .main-title h1 {
-    font-size: 1.1rem;
   }
 
   .main-box p {
@@ -392,10 +369,6 @@ ul.main-bullets {
     font-size: 1em;
   }
 
-  .main-title h1 {
-    font-size: 1.1rem;
-  }
-
   .main-box p {
     font-size: 0.9rem;
   }
@@ -415,10 +388,6 @@ ul.main-bullets {
 
   li {
     font-size: 0.8rem;
-  }
-
-  .main-box img {
-    max-width: 80%;
   }
 
   .main-container .nyliabutton-container .btn {
@@ -443,10 +412,6 @@ ul.main-bullets {
     font-size: 1.1em;
   }
 
-  .main-title h1 {
-    font-size: 1.6rem;
-  }
-
   .main-box p {
     font-size: 0.9rem;
   }
@@ -466,10 +431,6 @@ ul.main-bullets {
 
   li {
     font-size: 0.9rem;
-  }
-
-  .main-box img {
-    max-width: 60%;
   }
 
   .main-container .nyliabutton-container .btn {
@@ -499,10 +460,6 @@ ul.main-bullets {
     font-size: 1em;
   }
 
-  .main-title h1 {
-    font-size: 1.6rem;
-  }
-
   .main-box p {
     font-size: 0.95rem;
   }
@@ -520,10 +477,6 @@ ul.main-bullets {
 
   li {
     font-size: 0.9rem;
-  }
-
-  .main-box img {
-    max-width: 50%;
   }
 
   .main-container .nyliabutton-container .btn {
@@ -553,12 +506,6 @@ ul.main-bullets {
     font-size: 1em;
   }
 
-  .main-title h1 {
-    font-size: 2.2rem;
-    font-weight: 900;
-    margin-bottom: 0.9em;
-  }
-
   .main-box p {
     font-size: 1.1rem;
   }
@@ -583,20 +530,11 @@ ul.main-bullets {
     font-size: 1rem;
   }
 
-  .main-box img {
-    max-width: 45%;
-  }
-
   #highlightTitle {
     font-size: 1.3rem;
   }
 
   .accordion #highlightTitle {
-    font-size: 0.8rem;
-  }
-
-  .main-box {
-    max-width: 85%;
-    margin: auto;
+    font-size: 0.95rem;
   }
 }

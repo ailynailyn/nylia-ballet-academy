@@ -69,12 +69,14 @@ function NBC() {
       </div>
       <div className="main-img-bkg" id="nbc-section">
         <div className="main-box">
-          <img
-            src={nbcCinRehearsalsSm}
-            srcSet={`${nbcCinRehearsalsSm} 300w, ${nbcCinRehearsalsMd} 768w, ${nbcCinRehearsalsLg} 1280w, ${nbcCinRehearsalsXL} 2000w`}
-            className="w-100 shadow-1-strong rounded mb-4"
-            alt="Adult ballett students for Nylia Ballet Academy"
-          />
+          <div className="main-img">
+            <img
+              src={nbcCinRehearsalsSm}
+              srcSet={`${nbcCinRehearsalsSm} 300w, ${nbcCinRehearsalsMd} 768w, ${nbcCinRehearsalsLg} 1280w, ${nbcCinRehearsalsXL} 2000w`}
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt="Adult ballett students for Nylia Ballet Academy"
+            />
+          </div>
           <h1 id="highlightTitle">NYLIA BALLET COMPANY</h1>
           <h2>Nylia Ballet's Performing Company</h2>
 
@@ -343,12 +345,14 @@ function NBC() {
       </div>
       <div className="main-img-bkg" id="nybc-section">
         <div className="main-box">
-          <img
-            src={nybcAlondraSm}
-            srcSet={`${nybcAlondraSm} 300w, ${nybcAlondraMd} 768w, ${nybcAlondraLg} 1280w, ${nybcAlondraXL} 2000w`}
-            className="w-100 shadow-1-strong rounded mb-4"
-            alt="Adult ballett students for Nylia Ballet Academy"
-          />
+          <div className="main-img">
+            <img
+              src={nybcAlondraSm}
+              srcSet={`${nybcAlondraSm} 300w, ${nybcAlondraMd} 768w, ${nybcAlondraLg} 1280w, ${nybcAlondraXL} 2000w`}
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt="Adult ballett students for Nylia Ballet Academy"
+            />
+          </div>
           <h1 id="highlightTitle">NYLIA BALLET YOUTH COMPANY</h1>
 
           <p>

@@ -15,10 +15,77 @@
   width: 100%;
 }
 
-.registration-section {
-  margin: 5rem;
-  padding-right: 5%;
-  padding-left: 5%;
+#enroll-section {
+  background-image: -webkit-image-set(
+    url("../assets/enrollPage/anahid-at-barre-300.JPG") 1x,
+    url("../assets/enrollPage/anahid-at-barre-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../assets/enrollPage/anahid-at-barre-300.JPG") 1x,
+    url("../assets/enrollPage/anahid-at-barre-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../assets/enrollPage/anahid-at-barre-300.JPG") 300w,
+    url("../assets/enrollPage/anahid-at-barre-768.JPG") 768w,
+    url("../assets/enrollPage/anahid-at-barre-1280.JPG") 1280w,
+    url("../assets/enrollPage/anahid-at-barre-2000.JPG") 2000w
+  );
+}
+
+#uniform-section {
+  background-image: -webkit-image-set(
+    url("../assets/enrollPage/ThreeAdultDancers-300.JPG") 1x,
+    url("../assets/enrollPage/ThreeAdultDancers-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../assets/enrollPage/ThreeAdultDancers-300.JPG") 1x,
+    url("../assets/enrollPage/ThreeAdultDancers-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../assets/enrollPage/ThreeAdultDancers-300.JPG") 300w,
+    url("../assets/enrollPage/ThreeAdultDancers-768.JPG") 768w,
+    url("../assets/enrollPage/ThreeAdultDancers-1280.JPG") 1280w,
+    url("../assets/enrollPage/ThreeAdultDancers-2000.JPG") 2000w
+  );
+  background-position: right center;
+}
+
+#enroll-section {
+  background-image: -webkit-image-set(
+    url("../assets/enrollPage/ThreeBallerinas-300.JPG") 1x,
+    url("../assets/enrollPage/ThreeBallerinas-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../assets/enrollPage/ThreeBallerinas-300.JPG") 1x,
+    url("../assets/enrollPage/ThreeBallerinas-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../assets/enrollPage/ThreeBallerinas-300.JPG") 300w,
+    url("../assets/enrollPage/ThreeBallerinas-768.JPG") 768w,
+    url("../assets/enrollPage/ThreeBallerinas-1280.JPG") 1280w,
+    url("../assets/enrollPage/ThreeBallerinas-2000.JPG") 2000w
+  );
+  background-position: right center;
+}
+
+#handbook-section {
+  background-image: -webkit-image-set(
+    url("../assets/enrollPage/Dracula-262-300.jpg") 1x,
+    url("../assets/enrollPage/Dracula-262-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/enrollPage/Dracula-262-300.jpg") 1x,
+    url("../assets/enrollPage/Dracula-262-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/enrollPage/Dracula-262-300.jpg") 300w,
+    url("../assets/enrollPage/Dracula-262-768.jpg") 768w,
+    url("../assets/enrollPage/Dracula-262-1280.jpg") 1280w,
+    url("../assets/enrollPage/Dracula-262-2000.jpg") 2000w
+  );
+}
+
+#enroll-section .main-box p {
   text-align: center;
 }
 
@@ -28,46 +95,33 @@
   max-height: 100%;
 }
 
-#ballerinaImg img {
-  max-height: 60vh;
-  width: auto;
-}
-
-.tuition-section {
-  margin: 5rem;
-  text-align: center;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-
-.rules-section {
-  margin: 5rem;
-  text-align: center;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-
 .rules-section #quote {
   font-style: italic;
 }
 
-.uniform-section {
-  margin: 5rem;
-  text-align: center;
-  padding-right: 5%;
-  padding-left: 5%;
+.form-check label {
+  display: flex;
 }
 
-.handbook-section {
-  margin: 5rem;
-  text-align: center;
-  padding-right: 5%;
-  padding-left: 5%;
+.form-control {
+  color: white;
+  border-radius: 0;
+  font-family: "Questrial", sans-serif;
+  background-color: transparent;
+  /* box-shadow: 0 0 0 2px white; */
+  box-shadow: 0 0 0 2px #88c88a;
+  text-align: left;
 }
 
-a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+.enroll-container .formInput,
+.enroll-container .formInput:focus {
+  color: white;
+  border-radius: 0;
+  font-family: "Questrial", sans-serif;
+  background-color: transparent;
+  /* box-shadow: 0 0 0 2px white; */
+  box-shadow: 0 0 0 2px #88c88a;
+  text-align: left;
 }
 
 @media only screen and (max-width: 320px) {
@@ -92,10 +146,6 @@ a {
     font-size: 1em;
     letter-spacing: 0.3em;
   }
-
-  .tuition-section {
-    margin: 1rem;
-  }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -119,10 +169,6 @@ a {
   #handbook-page-button .btn {
     font-size: 1.1em;
     letter-spacing: 0.3em;
-  }
-
-  .tuition-section {
-    margin: 1.1rem;
   }
 }
 
@@ -150,11 +196,6 @@ a {
     font-size: 1.4em;
     letter-spacing: 0.3em;
   }
-
-  .tuition-section {
-    margin: 1.2rem;
-    padding-bottom: 1rem;
-  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -180,11 +221,6 @@ a {
   #handbook-page-button .btn {
     font-size: 1.5em;
     letter-spacing: 0.3em;
-  }
-
-  .tuition-section {
-    margin: 1.2rem;
-    padding-bottom: 1rem;
   }
 }
 
@@ -212,11 +248,26 @@ a {
     font-size: 1.7em;
     letter-spacing: 0.3em;
   }
+}
 
-  .tuition-section {
-    margin: 1.2rem;
-    padding-bottom: 1rem;
-  }
+@media only screen and (min-width: 889px) {
+  /* #handbook-section {
+    background-image: -webkit-image-set(
+      url("../assets/enrollPage/ThreeAdultDancers-300.JPG") 1x,
+      url("../assets/enrollPage/ThreeAdultDancers-2000.JPG") 2x
+    );
+    background-image: image-set(
+      url("../assets/enrollPage/ThreeAdultDancers-300.JPG") 1x,
+      url("../assets/enrollPage/ThreeAdultDancers-2000.JPG") 2x
+    );
+    background-image: image-set(
+      url("../assets/enrollPage/ThreeAdultDancers-300.JPG") 300w,
+      url("../assets/enrollPage/ThreeAdultDancers-768.JPG") 768w,
+      url("../assets/enrollPage/ThreeAdultDancers-1280.JPG") 1280w,
+      url("../assets/enrollPage/ThreeAdultDancers-2000.JPG") 2000w
+    );
+    /* background-position: right top; */
+  /* } */
 }
 
 @media only screen and (min-width: 889px) and (max-width: 1200px) {
@@ -242,11 +293,6 @@ a {
   #handbook-page-button .btn {
     font-size: 1.65em;
     letter-spacing: 0.3em;
-  }
-
-  .tuition-section {
-    margin: 1.2rem;
-    padding-bottom: 1rem;
   }
 }
 
@@ -274,11 +320,6 @@ a {
   #handbook-page-button .btn {
     font-size: 1.75em;
     letter-spacing: 0.3em;
-  }
-
-  .tuition-section {
-    margin: 1.2rem;
-    padding-bottom: 1rem;
   }
 
   .enroll-container img {
