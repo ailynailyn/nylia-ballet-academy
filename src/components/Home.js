@@ -54,7 +54,7 @@ function Home() {
           <b>SWAN LAKE</b>
         </h1>
         <br></br>
-        <h3>February 1-2, 2025</h3>
+        <h3>February 1, 2025</h3>
         <h3>UTEP's Magoffin Auditorium</h3>
         <br></br>
         <p>
@@ -76,14 +76,7 @@ function Home() {
           id="description-event-button"
           href="https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F"
         >
-          <NyliaButton label={"TICKETS: FEBRUARY 1"}></NyliaButton>
-        </a>
-        <br></br>
-        <a
-          id="description-event-button"
-          href="https://www.ticketmaster.com/swan-lake-el-paso-texas-02-02-2025/event/0C00615EEEF14284"
-        >
-          <NyliaButton label={"TICKETS: FEBRUARY 2"}></NyliaButton>
+          <NyliaButton label={"SWAN LAKE TICKETS"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
