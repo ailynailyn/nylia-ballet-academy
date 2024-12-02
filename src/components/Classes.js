@@ -108,15 +108,6 @@ import advAdultXLWebp from "../assets/classesPage/adultBallet-2000.webp";
 import allAdultSm from "../assets/classesPage/AllLevels-300.jpg";
 import allAdultMd from "../assets/classesPage/AllLevels-2000.jpg";
 
-import pilatesSm from "../assets/classesPage/pilates-300.png";
-import pilatesMd from "../assets/classesPage/pilates-768.png";
-import pilatesLg from "../assets/classesPage/pilates-1280.png";
-import pilatesXL from "../assets/classesPage/pilates-2000.png";
-import pilatesSmWebp from "../assets/classesPage/pilates-300.webp";
-import pilatesMdWebp from "../assets/classesPage/pilates-768.webp";
-import pilatesLgWebp from "../assets/classesPage/pilates-1280.webp";
-import pilatesXLWebp from "../assets/classesPage/pilates-2000.webp";
-
 import flexibilitySm from "../assets/classesPage/ailynKeinaFold300.JPG";
 import flexibilityMd from "../assets/classesPage/ailynKeinaFold768.JPG";
 import flexibilityLg from "../assets/classesPage/ailynKeinaFold1280.JPG";
@@ -371,7 +362,7 @@ function Classes() {
       classImg: flexibilitySm,
       imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
       webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
-      classSched1: "WEDNESDAY",
+      classSched1: "MONDAY & WEDNESDAY",
       classSched2: "6:00 PM - 7:00 PM",
       classSched3: "SATURDAY",
       classSched4: "11:00 AM - 12:00 PM",
@@ -513,12 +504,6 @@ function Classes() {
                 Adult Ballet - Adv
               </Dropdown.Item>
 
-              <Dropdown.Item
-                as="button"
-                onClick={() => setClassInfo("pilates")}
-              >
-                Pilates
-              </Dropdown.Item>
               <Dropdown.Item
                 as="button"
                 onClick={() => setClassInfo("flexibility")}
@@ -697,9 +682,7 @@ function Classes() {
                   Advanced
                 </Dropdown.Item>
               </DropdownButton>
-              <Button as="button" onClick={() => setClassInfo("pilates")}>
-                Pilates
-              </Button>
+
               <Button as="button" onClick={() => setClassInfo("flexibility")}>
                 Flexibility
               </Button>
@@ -709,21 +692,6 @@ function Classes() {
             <br></br>
             <b>Select a class to learn more</b>
           </p>
-          <div className="class-descriptions-button">
-            <a
-              href={ClassDescriptionBrochure}
-              without
-              rel="noopener noreferrer"
-              target="_blank"
-              aria-label="Download Nylia Ballet Academy Class Descriptions"
-            >
-              <NyliaButton
-                addtClassName="class-descriptions-button"
-                handleClick={() => setClassInfo("Download Class Descriptions")}
-                label={"Download Class Descriptions"}
-              ></NyliaButton>
-            </a>
-          </div>
         </div>
         <div className="full-schedule">
           <h1>WEEKLY SCHEDULE</h1>
