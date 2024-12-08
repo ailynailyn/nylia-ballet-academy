@@ -43,40 +43,49 @@ import ballet3SmWebp from "../assets/classesPage/zoePose300.webp";
 import ballet3MdWebp from "../assets/classesPage/zoePose768.webp";
 import ballet3LgWebp from "../assets/classesPage/zoePose1280.webp";
 import ballet3XLWebp from "../assets/classesPage/zoePose2000.webp";
-import ballet4Sm from "../assets/classesPage/terePose300.JPG";
-import ballet4Md from "../assets/classesPage/terePose768.JPG";
-import ballet4Lg from "../assets/classesPage/terePose1280.JPG";
-import ballet4XL from "../assets/classesPage/terePose2000.JPG";
-import ballet4SmWebp from "../assets/classesPage/terePose300.webp";
-import ballet4MdWebp from "../assets/classesPage/terePose768.webp";
-import ballet4LgWebp from "../assets/classesPage/terePose1280.webp";
-import ballet4XLWebp from "../assets/classesPage/terePose2000.webp";
+import ballet4Sm from "../assets/classesPage/balletIV-300.JPG";
+import ballet4Md from "../assets/classesPage/balletIV-768.JPG";
+import ballet4Lg from "../assets/classesPage/balletIV-1280.JPG";
+import ballet4XL from "../assets/classesPage/balletIV-2000.JPG";
+import ballet4SmWebp from "../assets/classesPage/balletIV-300.webp";
+import ballet4MdWebp from "../assets/classesPage/balletIV-768.webp";
+import ballet4LgWebp from "../assets/classesPage/balletIV-1280.webp";
+import ballet4XLWebp from "../assets/classesPage/balletIV-2000.webp";
 
-import ballet5Sm from "../assets/classesPage/ballet5-300.jpg";
-import ballet5Md from "../assets/classesPage/ballet5-768.jpg";
-import ballet5Lg from "../assets/classesPage/ballet5-1280.jpg";
-import ballet5XL from "../assets/classesPage/ballet5-2000.jpg";
-import ballet5SmWebp from "../assets/classesPage/ballet5-300.webp";
-import ballet5MdWebp from "../assets/classesPage/ballet5-768.webp";
-import ballet5LgWebp from "../assets/classesPage/ballet5-1280.webp";
-import ballet5XLWebp from "../assets/classesPage/ballet5-2000.webp";
+import ballet5Sm from "../assets/classesPage/balletV-300.JPG";
+import ballet5Md from "../assets/classesPage/balletV-768.JPG";
+import ballet5Lg from "../assets/classesPage/balletV-1280.JPG";
+import ballet5XL from "../assets/classesPage/balletV-2000.JPG";
+import ballet5SmWebp from "../assets/classesPage/balletV-300.webp";
+import ballet5MdWebp from "../assets/classesPage/balletV-768.webp";
+import ballet5LgWebp from "../assets/classesPage/balletV-1280.webp";
+import ballet5XLWebp from "../assets/classesPage/balletV-2000.webp";
 
-import pointe1Sm from "../assets/classesPage/pointeTendu300.JPG";
-import pointe1Md from "../assets/classesPage/pointeTendu768.JPG";
-import pointe1Lg from "../assets/classesPage/pointeTendu1280.JPG";
-import pointe1XL from "../assets/classesPage/pointeTendu2000.JPG";
-import pointe1SmWebp from "../assets/classesPage/pointeTendu300.webp";
-import pointe1MdWebp from "../assets/classesPage/pointeTendu768.webp";
-import pointe1LgWebp from "../assets/classesPage/pointeTendu1280.webp";
-import pointe1XLWebp from "../assets/classesPage/pointeTendu2000.webp";
-import pointe2Sm from "../assets/classesPage/pointe2-300.jpg";
-import pointe2Md from "../assets/classesPage/pointe2-768.jpg";
-import pointe2Lg from "../assets/classesPage/pointe2-1280.jpg";
-import pointe2XL from "../assets/classesPage/pointe2-2000.jpg";
-import pointe2SmWebp from "../assets/classesPage/pointe2-300.webp";
-import pointe2MdWebp from "../assets/classesPage/pointe2-768.webp";
-import pointe2LgWebp from "../assets/classesPage/pointe2-1280.webp";
-import pointe2XLWebp from "../assets/classesPage/pointe2-2000.webp";
+import pointe1Sm from "../assets/classesPage/pointeI-300.JPG";
+import pointe1Md from "../assets/classesPage/pointeI-768.JPG";
+import pointe1Lg from "../assets/classesPage/pointeI-1280.JPG";
+import pointe1XL from "../assets/classesPage/pointeI-2000.JPG";
+import pointe1SmWebp from "../assets/classesPage/pointeI-300.webp";
+import pointe1MdWebp from "../assets/classesPage/pointeI-768.webp";
+import pointe1LgWebp from "../assets/classesPage/pointeI-1280.webp";
+import pointe1XLWebp from "../assets/classesPage/pointeI-2000.webp";
+import pointe2Sm from "../assets/classesPage/pointeII-300.JPG";
+import pointe2Md from "../assets/classesPage/pointeII-768.JPG";
+import pointe2Lg from "../assets/classesPage/pointeII-1280.JPG";
+import pointe2XL from "../assets/classesPage/pointeII-2000.JPG";
+import pointe2SmWebp from "../assets/classesPage/pointeII-300.webp";
+import pointe2MdWebp from "../assets/classesPage/pointeII-768.webp";
+import pointe2LgWebp from "../assets/classesPage/pointeII-1280.webp";
+import pointe2XLWebp from "../assets/classesPage/pointeII-2000.webp";
+
+import pointe3Sm from "../assets/classesPage/pointeIII-300.JPG";
+import pointe3Md from "../assets/classesPage/pointeIII-768.JPG";
+import pointe3Lg from "../assets/classesPage/pointeIII-1280.JPG";
+import pointe3XL from "../assets/classesPage/pointeIII-2000.JPG";
+import pointe3SmWebp from "../assets/classesPage/pointeIII-300.webp";
+import pointe3MdWebp from "../assets/classesPage/pointeIII-768.webp";
+import pointe3LgWebp from "../assets/classesPage/pointeIII-1280.webp";
+import pointe3XLWebp from "../assets/classesPage/pointeIII-2000.webp";
 
 import begAdultBalletSm from "../assets/classesPage/begAdultBallet-300.jpg";
 import begAdultBalletMd from "../assets/classesPage/begAdultBallet-768.jpg";
@@ -261,9 +270,9 @@ function Classes() {
     pointe3: {
       classTitle: "POINTE III",
       classAges: "Placement by Evaluation",
-      classImg: pointe2Sm,
-      imgSet: `${pointe2Sm} 300w, ${pointe2Md} 768w, ${pointe2Lg} 1280w, ${pointe2XL} 2000w`,
-      webpSet: `${pointe2SmWebp} 300w, ${pointe2MdWebp} 768w, ${pointe2LgWebp} 1280w, ${pointe2XLWebp} 2000w`,
+      classImg: pointe3Sm,
+      imgSet: `${pointe3Sm} 300w, ${pointe3Md} 768w, ${pointe3Lg} 1280w, ${pointe3XL} 2000w`,
+      webpSet: `${pointe3SmWebp} 300w, ${pointe3MdWebp} 768w, ${pointe3LgWebp} 1280w, ${pointe3XLWebp} 2000w`,
       classSched1: "FRIDAY",
       classSched2: "6:30 - 7:30 PM",
       classSched3: "",
