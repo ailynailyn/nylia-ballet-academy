@@ -114,6 +114,15 @@ import advAdultMdWebp from "../assets/classesPage/adultBallet-768.webp";
 import advAdultLgWebp from "../assets/classesPage/adultBallet-1280.webp";
 import advAdultXLWebp from "../assets/classesPage/adultBallet-2000.webp";
 
+import advPointeSm from "../assets/classesPage/advancedPointe-300.jpg";
+import advPointeMd from "../assets/classesPage/advancedPointe-768.jpg";
+import advPointeLg from "../assets/classesPage/advancedPointe-1280.jpg";
+import advPointeXL from "../assets/classesPage/advancedPointe-2000.jpg";
+import advPointeSmWebp from "../assets/classesPage/advancedPointe-300.webp";
+import advPointeMdWebp from "../assets/classesPage/advancedPointe-768.webp";
+import advPointeLgWebp from "../assets/classesPage/advancedPointe-1280.webp";
+import advPointeXLWebp from "../assets/classesPage/advancedPointe-2000.webp";
+
 import allAdultSm from "../assets/classesPage/AllLevels-300.jpg";
 import allAdultMd from "../assets/classesPage/AllLevels-2000.jpg";
 
@@ -284,9 +293,9 @@ function Classes() {
     pointeAdv: {
       classTitle: "ADVANCED POINTE",
       classAges: "Placement by Evaluation",
-      classImg: pointe2Sm,
-      imgSet: `${pointe2Sm} 300w, ${pointe2Md} 768w, ${pointe2Lg} 1280w, ${pointe2XL} 2000w`,
-      webpSet: `${pointe2SmWebp} 300w, ${pointe2MdWebp} 768w, ${pointe2LgWebp} 1280w, ${pointe2XLWebp} 2000w`,
+      classImg: advPointeSm,
+      imgSet: `${advPointeSm} 300w, ${advPointeMd} 768w, ${advPointeLg} 1280w, ${advPointeXL} 2000w`,
+      webpSet: `${advPointeSmWebp} 300w, ${advPointeMdWebp} 768w, ${advPointeLgWebp} 1280w, ${advPointeXLWebp} 2000w`,
       classSched1: "FRIDAY",
       classSched2: "6:00 - 7:30 PM",
       classSched3: "",
