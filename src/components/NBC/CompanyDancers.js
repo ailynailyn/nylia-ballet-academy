@@ -32,11 +32,6 @@ import melinaMd from "../../assets/nbc/headshots/JPEG-768/melina.png";
 import melinaLg from "../../assets/nbc/headshots/JPEG-1280/melina.png";
 import melinaXL from "../../assets/nbc/headshots/JPEG-2000/melina.png";
 
-import vivianSm from "../../assets/nbc/headshots/JPEG-300/vivian.png";
-import vivianMd from "../../assets/nbc/headshots/JPEG-768/vivian.png";
-import vivianLg from "../../assets/nbc/headshots/JPEG-1280/vivian.png";
-import vivianXL from "../../assets/nbc/headshots/JPEG-2000/vivian.png";
-
 import isabelSm from "../../assets/nbc/headshots/JPEG-300/isabel.png";
 import isabelMd from "../../assets/nbc/headshots/JPEG-768/isabel.png";
 import isabelLg from "../../assets/nbc/headshots/JPEG-1280/isabel.png";
@@ -263,21 +258,6 @@ function CompanyDancers() {
                   />
                   <Card.Body>
                     <Card.Title>Luz Gonzalez</Card.Title>
-                    <Card.Text>
-                      <i>Corps De Ballet</i>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src={chelseaSm}
-                    srcSet={`${chelseaSm} 300w, ${chelseaMd} 768w, ${chelseaLg} 1280w, ${chelseaXL} 2000w`}
-                  />
-                  <Card.Body>
-                    <Card.Title>Chelsea Shugert</Card.Title>
                     <Card.Text>
                       <i>Corps De Ballet</i>
                     </Card.Text>
