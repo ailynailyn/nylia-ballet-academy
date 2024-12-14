@@ -61,10 +61,6 @@ import luzSm from "../../assets/nbc/headshots/JPEG-300/luz.jpg";
 import luzMd from "../../assets/nbc/headshots/JPEG-768/luz.jpg";
 import luzLg from "../../assets/nbc/headshots/JPEG-1280/luz.jpg";
 import luzXL from "../../assets/nbc/headshots/JPEG-2000/luz.jpg";
-import chelseaSm from "../../assets/nbc/headshots/JPEG-300/chelsea.png";
-import chelseaMd from "../../assets/nbc/headshots/JPEG-768/chelsea.png";
-import chelseaLg from "../../assets/nbc/headshots/JPEG-1280/chelsea.png";
-import chelseaXL from "../../assets/nbc/headshots/JPEG-2000/chelsea.png";
 import logoXL from "../../assets/logos/Nylia Company Logos/2-cropped.png";
 
 import "./CompanyDancers.css";
