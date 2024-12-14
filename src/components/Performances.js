@@ -6,7 +6,7 @@ import NyliaButton from "./nyliaButton/NyliaButton.js";
 import Footer from "../components/Footer";
 
 import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
-import swanLakeWeeklySchedule from "../assets/performances/Swan Lake Weekly Schedule 2024.png";
+import swanLakeWeeklySchedule from "../assets/performances/Swan Lake Weekly Schedule 2024.pdf";
 import swanLakeRehearsalReqs from "../assets/performances/SwanLake24RehearsalReqs.png";
 import swanLakeCastList from "../assets/performances/SwanLakeCastList2024.pdf";
 import swanLakeXL from "../assets/performances/Swan Lake 2024 Poster.png";
