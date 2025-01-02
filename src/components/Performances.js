@@ -25,9 +25,6 @@ import unsXL from "../assets/galleryImages/kristina-2000.png";
 import UNSHandbook from "../assets/performances/UNSHandbook2023.pdf";
 import UNSProgram from "../assets/performances/UNSProgram2023.pdf";
 
-// import terraSm from "../assets/galleryImages/FridaKahlo-2Sm.png";
-// import terraMd from "../assets/galleryImages/FridaKahlo-2Md.png";
-// import terraLg from "../assets/galleryImages/FridaKahlo-2Lg.png";
 import terraXL from "../assets/galleryImages/FridaKahlo-2XL.png";
 import TerraProgram from "../assets/performances/Terra2023Program.pdf";
 import TerraHandbook from "../assets/performances/TerraHandbook2023.pdf";
@@ -123,7 +120,7 @@ function Performances() {
                   Visit an enchanting world of princesses, fairy godmothers, and
                   magical spells!
                   <br /> <br />
-                  <b>AUDITIONS: FEBRUARY 8, 2025</b>
+                  <b>AUDITIONS: FEBRUARY 9, 2025</b>
                   <p>
                     All auditions will be held at Nylia Ballet Academy.
                     <br></br>
