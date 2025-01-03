@@ -228,14 +228,14 @@ function UpcomingEvents() {
       note: "NBC & NBYC",
     },
     {
-      date: "07/14/2025 - 07/18/2025",
+      date: "07/07/2025 - 07/11/2025",
       event: "Youth Summer Intensive",
       note: "SUMMER INTENSIVE",
       link: "/summerintensives",
       isLink: true,
     },
     {
-      date: "07/14/2025 - 07/18/2025",
+      date: "07/07/2025 - 07/11/2025",
       event: "Adult Summer Intensive",
       note: "SUMMER INTENSIVE",
       link: "/summerintensives",
