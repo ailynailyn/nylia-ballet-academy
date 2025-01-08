@@ -19,7 +19,7 @@ function TheLittleMermaid2025() {
   const status = "UPCOMING";
   const showName = "The Little Mermaid";
   const showDate = "2025";
-  const headerDescription = `This is the description of what the little mermaid is and what it is about. a story of underwater and the land and a prince and a princess`;
+  const headerDescription = `Dive into a world of sacrifice, love, and enchantment! Join the Nylia Ballet Company as we bring Hans Christian Andersen's timeless tale The Little Mermaid to life on stage. Witness the journey of a mermaid who dares to trade her voice for a chance at love, only to discover the true meaning of courage and selflessness.`;
   // const handbook = littleMermaidHandbook;
 
   const auditionDate = "DATE: TO BE ANNOUNCED";
