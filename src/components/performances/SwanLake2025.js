@@ -4,10 +4,10 @@ import Footer from "../Footer";
 // import littleMermaidHandbook from "../../assets/nbc/Nylia Ballet Company Handbook 2024-2025.pdf";
 
 // IMAGES FOR PAGE
-import perfSect2ImgSm from "../../assets/performances/SwanLake2025/Swan Lake 2024 Poster-300.png";
-import perfSect2ImgMd from "../../assets/performances/SwanLake2025/Swan Lake 2024 Poster-768.png";
-import perfSect2ImgLg from "../../assets/performances/SwanLake2025/Swan Lake 2024 Poster-1280.png";
-import perfSect2ImgXL from "../../assets/performances/SwanLake2025/Swan Lake 2024 Poster-2000.png";
+import perfSect2ImgSm from "../../assets/performances/SwanLake2025/SwanLake2024Poster-300.png";
+import perfSect2ImgMd from "../../assets/performances/SwanLake2025/SwanLake2024Poster-768.png";
+import perfSect2ImgLg from "../../assets/performances/SwanLake2025/SwanLake2024Poster-1280.png";
+import perfSect2ImgXL from "../../assets/performances/SwanLake2025/SwanLake2024Poster-2000.png";
 
 // Gallery Images
 import gallery1 from "../../assets/performances/SwanLake2025/gallery/1.png";

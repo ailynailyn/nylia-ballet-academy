@@ -5,25 +5,25 @@
 #littleMermaid2025Div #performance-header-section,
 #littleMermaid2025Div #performance-guidelines-section {
   background-image: -webkit-image-set(
-    url("../../assets/performances/SwanLake2025/Little Mermaid Background Collage-300.png")
+    url("../../assets/performances/TheLittleMermaid2025/Little Mermaid Background Collage-300.png")
       1x,
-    url("../../assets/performances/SwanLake2025/Little Mermaid Background Collage-1280.png")
+    url("../../assets/performances/TheLittleMermaid2025/Little Mermaid Background Collage-1280.png")
       2x
   );
   background-image: image-set(
-    url("../../assets/performances/SwanLake2025/Little Mermaid Background Collage-300.png")
+    url("../../assets/performances/TheLittleMermaid2025/Little Mermaid Background Collage-300.png")
       1x,
-    url("../../assets/performances/SwanLake2025/Little Mermaid Background Collage-1280.png")
+    url("../../assets/performances/TheLittleMermaid2025/Little Mermaid Background Collage-1280.png")
       2x
   );
   background-image: image-set(
-    url("../../assets/performances/SwanLake2025/Little Mermaid Background Collage-300.png")
+    url("../../assets/performances/TheLittleMermaid2025/Little Mermaid Background Collage-300.png")
       300w,
-    url("../../assets/performances/SwanLake2025/Little Mermaid Background Collage-768.png")
+    url("../../assets/performances/TheLittleMermaid2025/Little Mermaid Background Collage-768.png")
       768w,
-    url("../../assets/performances/SwanLake2025/Little Mermaid Background Collage-1280.png")
+    url("../../assets/performances/TheLittleMermaid2025/Little Mermaid Background Collage-1280.png")
       1280w,
-    url("../../assets/performances/SwanLake2025/Little Mermaid Background Collage-1280.png")
+    url("../../assets/performances/TheLittleMermaid2025/Little Mermaid Background Collage-1280.png")
       2000w
   );
 }

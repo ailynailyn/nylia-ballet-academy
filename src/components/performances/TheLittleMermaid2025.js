@@ -6,10 +6,10 @@ import Footer from "../Footer";
 // import littleMermaidHandbook from "../../assets/nbc/Nylia Ballet Company Handbook 2024-2025.pdf";
 
 // IMAGES FOR PAGE
-import perfSect2ImgSm from "../../assets/performances/TheLittleMermaid2025/The Little Mermaid Poster-300.png";
-import perfSect2ImgMd from "../../assets/performances/TheLittleMermaid2025/The Little Mermaid Poster-768.png";
-import perfSect2ImgLg from "../../assets/performances/TheLittleMermaid2025/The Little Mermaid Poster-1280.png";
-import perfSect2ImgXL from "../../assets/performances/TheLittleMermaid2025/The Little Mermaid Poster-2000.png";
+import perfSect2ImgSm from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaidPoster-300.png";
+import perfSect2ImgMd from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaidPoster-768.png";
+import perfSect2ImgLg from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaidPoster-1280.png";
+import perfSect2ImgXL from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaidPoster-2000.png";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
 

@@ -9,7 +9,7 @@ import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
 import swanLakeWeeklySchedule from "../assets/performances/SwanLake2025/Swan Lake Weekly Schedule 2024.pdf";
 import swanLakeRehearsalReqs from "../assets/performances/SwanLake2025/SwanLake24RehearsalReqs.png";
 import swanLakeCastList from "../assets/performances/SwanLake2025/SwanLakeCastList2024.pdf";
-import swanLakeXL from "../assets/performances/SwanLake2025/Swan Lake 2024 Poster-2000.png";
+import swanLakeXL from "../assets/performances/SwanLake2025/SwanLake2024Poster-2000.png";
 import swanLakeHandbook from "../assets/performances/SwanLake2025/Swan Lake Handbook 2024-2025.pdf";
 
 import DraculaHandbook from "../assets/performances/Dracula Handbook 2024.pdf";
