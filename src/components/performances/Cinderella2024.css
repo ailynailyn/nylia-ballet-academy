@@ -1,0 +1,48 @@
+/* img#nyliaNavbarLogoImg.nylia-logo {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+} */
+
+#cinderella2024Div #performance-header-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-300.jpg")
+      1x,
+    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-2000.jpg")
+      2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-300.jpg")
+      1x,
+    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-2000.jpg")
+      2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-300.jpg")
+      300w,
+    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-768.jpg")
+      768w,
+    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-1280.jpg")
+      1280w,
+    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-2000.jpg")
+      2000w
+  );
+}
+
+#cinderella2024Div #performance-guidelines-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/Cinderella2024/CinderellaClock-300.jpg") 1x,
+    url("../../assets/performances/Cinderella2024/CinderellaClock-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Cinderella2024/CinderellaClock-300.jpg") 1x,
+    url("../../assets/performances/Cinderella2024/CinderellaClock-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Cinderella2024/CinderellaClock-300.jpg") 300w,
+    url("../../assets/performances/Cinderella2024/CinderellaClock-768.jpg") 768w,
+    url("../../assets/performances/Cinderella2024/CinderellaClock-1280.jpg")
+      1280w,
+    url("../../assets/performances/Cinderella2024/CinderellaClock-2000.jpg")
+      2000w
+  );
+}

@@ -1,5 +1,5 @@
 import { React } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
@@ -28,6 +28,12 @@ function NavBar() {
 
   var expand = false;
 
+  // PAGES THAT NEED A WHITE LOGO MUST BE ADDED HERE
+  const whiteLogoPages = ["/team", "/performances/cinderella2024"];
+  var logoUsed = whiteLogoPages.includes(useLocation().pathname)
+    ? logoWhiteTransparent
+    : logoTransparent;
+
   return (
     <div class="navbar-container">
       <Navbar key={expand} expand={expand} className="mb-3" id="nylia-navbar">
@@ -36,7 +42,7 @@ function NavBar() {
             <img
               id="nyliaNavbarLogoImg"
               className="nylia-logo"
-              src={logoTransparent}
+              src={logoUsed}
               alt="Nylia Ballet Academy Logo"
             ></img>
           </Navbar.Brand>

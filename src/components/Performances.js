@@ -6,19 +6,19 @@ import NyliaButton from "./nyliaButton/NyliaButton.js";
 import Footer from "../components/Footer";
 
 import sleepingBeautyXL from "../assets/performances/SleepingBeauty.png";
-import swanLakeWeeklySchedule from "../assets/performances/Swan Lake Weekly Schedule 2024.pdf";
-import swanLakeRehearsalReqs from "../assets/performances/SwanLake24RehearsalReqs.png";
-import swanLakeCastList from "../assets/performances/SwanLakeCastList2024.pdf";
-import swanLakeXL from "../assets/performances/Swan Lake 2024 Poster.png";
-import swanLakeHandbook from "../assets/performances/Swan Lake Handbook 2024-2025.pdf";
+import swanLakeWeeklySchedule from "../assets/performances/SwanLake2025/Swan Lake Weekly Schedule 2024.pdf";
+import swanLakeRehearsalReqs from "../assets/performances/SwanLake2025/SwanLake24RehearsalReqs.png";
+import swanLakeCastList from "../assets/performances/SwanLake2025/SwanLakeCastList2024.pdf";
+import swanLakeXL from "../assets/performances/SwanLake2025/Swan Lake 2024 Poster-2000.png";
+import swanLakeHandbook from "../assets/performances/SwanLake2025/Swan Lake Handbook 2024-2025.pdf";
 
 import DraculaHandbook from "../assets/performances/Dracula Handbook 2024.pdf";
 import draculaXL from "../assets/performances/Dracula Poster-Bride 2024.png";
 import DraculaProgram from "../assets/performances/Dracula 2024 Program.pdf";
 
-import CinderellaHandbook from "../assets/performances/Cinderella Handbook 2024.pdf";
-import cinderellaXL from "../assets/performances/Cinderella2024IG-Cinderella.png";
-import cinderellaProgram from "../assets/performances/Cinderella2024Program.pdf";
+import CinderellaHandbook from "../assets/performances/Cinderella2024/Cinderella Handbook 2024.pdf";
+import cinderellaXL from "../assets/performances/Cinderella2024/Cinderella2024IG-Cinderella.png";
+import cinderellaProgram from "../assets/performances/Cinderella2024/Cinderella2024Program.pdf";
 // import cinderellaSchedule from "../assets/performances/CinderellaWeeklySchedule2024.pdf";
 
 import unsXL from "../assets/galleryImages/kristina-2000.png";

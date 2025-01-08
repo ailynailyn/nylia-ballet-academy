@@ -1,0 +1,49 @@
+#performance-second-section,
+#performance-program-section,
+#performance-importantlinks-section,
+#performance-gallery-section {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+#performance-second-section .main-box,
+#performance-program-section .main-box,
+#performance-importantlinks-section .main-box,
+#performance-gallery-section .main-box {
+  background-color: transparent;
+}
+
+#performance-header-section,
+#performance-guidelines-section,
+#performance-calendar-section,
+#performance-gallery-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  background-position: center;
+}
+
+#performance-header-section .main-box p,
+#performance-second-section .main-box p {
+  text-align: center;
+}
+
+#performance-gallery-section img {
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (min-width: 889px) and (max-width: 1200px) {
+  #performance-gallery-section img {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #performance-gallery-section img {
+    max-width: 50%;
+  }
+}

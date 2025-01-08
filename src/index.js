@@ -12,6 +12,9 @@ import Gallery from "./components/Gallery";
 import Team from "./components/Team";
 import UpcomingEvents from "./components/UpcomingEvents";
 import Performances from "./components/Performances";
+import Cinderella2024 from "./components/performances/Cinderella2024";
+import SwanLake2025 from "./components/performances/SwanLake2025";
+import TheLittleMermaid2025 from "./components/performances/TheLittleMermaid2025";
 import Scholarships from "./components/Scholarships";
 import SummerIntensives from "./components/SummerIntensives";
 import CompanyDancers from "./components/NBC/CompanyDancers";
@@ -34,6 +37,15 @@ export default function App() {
           <Route path="team" element={<Team />} />
           <Route path="calendar" element={<UpcomingEvents />} />
           <Route path="performances" element={<Performances />} />
+          <Route
+            path="performances/cinderella2024"
+            element={<Cinderella2024 />}
+          />
+          <Route path="performances/swanlake2025" element={<SwanLake2025 />} />
+          <Route
+            path="performances/thelittlemermaid2025"
+            element={<TheLittleMermaid2025 />}
+          />
           <Route path="scholarships" element={<Scholarships />} />
           <Route path="nyliaballetcompany" element={<NBC />} />
           <Route path="companydancers" element={<CompanyDancers />} />

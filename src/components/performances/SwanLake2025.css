@@ -1,0 +1,62 @@
+#swanLake2025Div #performance-header-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/SwanLake2025/SwanLake-Odette-300.JPG") 1x,
+    url("../../assets/performances/SwanLake2025/SwanLake-Odette-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/SwanLake2025/SwanLake-Odette-300.JPG") 1x,
+    url("../../assets/performances/SwanLake2025/SwanLake-Odette-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/SwanLake2025/SwanLake-Odette-300.JPG") 300w,
+    url("../../assets/performances/SwanLake2025/SwanLake-Odette-768.JPG") 768w,
+    url("../../assets/performances/SwanLake2025/SwanLake-Odette-1280.JPG") 1280w,
+    url("../../assets/performances/SwanLake2025/SwanLake-Odette-2000.JPG") 2000w
+  );
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#swanLake2025Div #performance-guidelines-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/SwanLake2025/SwanLake-PasdedeuxRehearsal-300.JPG")
+      1x,
+    url("../../assets/performances/SwanLake2025/SwanLake-PasdedeuxRehearsal-2000.JPG")
+      2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/SwanLake2025/SwanLake-PasdedeuxRehearsal-300.JPG")
+      1x,
+    url("../../assets/performances/SwanLake2025/SwanLake-PasdedeuxRehearsal-2000.JPG")
+      2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/SwanLake2025/SwanLake-PasdedeuxRehearsal-300.JPG")
+      300w,
+    url("../../assets/performances/SwanLake2025/SwanLake-PasdedeuxRehearsal-768.JPG")
+      768w,
+    url("../../assets/performances/SwanLake2025/SwanLake-PasdedeuxRehearsal-1280.JPG")
+      1280w,
+    url("../../assets/performances/SwanLake2025/SwanLake-PasdedeuxRehearsal-2000.JPG")
+      2000w
+  );
+}
+
+#swanLake2025Div #performance-calendar-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/SwanLake2025/princessrehearsal-300.JPG") 1x,
+    url("../../assets/performances/SwanLake2025/princessrehearsal-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/SwanLake2025/princessrehearsal-300.JPG") 1x,
+    url("../../assets/performances/SwanLake2025/princessrehearsal-2000.JPG") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/SwanLake2025/princessrehearsal-300.JPG") 300w,
+    url("../../assets/performances/SwanLake2025/princessrehearsal-768.JPG") 768w,
+    url("../../assets/performances/SwanLake2025/princessrehearsal-1280.JPG")
+      1280w,
+    url("../../assets/performances/SwanLake2025/princessrehearsal-2000.JPG")
+      2000w
+  );
+}
