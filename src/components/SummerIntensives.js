@@ -8,8 +8,6 @@ import adultBalletXL from "../assets/summerIntensivesPage/claudia-and-linda-2000
 import youthSchedule from "../assets/summerIntensivesPage/YouthSI2024Schedule.pdf";
 import adultSchedule from "../assets/summerIntensivesPage/AdultSI2024Schedule.pdf";
 
-import PopupModal from "./popupModal/PopupModal";
-import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 import Footer from "../components/Footer";
 
@@ -17,7 +15,7 @@ import "./SummerIntensives.css";
 
 function SummerIntensives() {
   return (
-    <div class="intensives-container">
+    <div class="main-container intensives-container">
       <div className="intensives-bkg">
         <div className="intensives-title">
           <h1>SUMMER INTENSIVES</h1>

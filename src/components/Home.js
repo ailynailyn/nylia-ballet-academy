@@ -8,7 +8,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div class="home-container">
+    <div class="main-container home-container">
       <div className="description-event">
         <h1>El Paso's Center for Classical Ballet Training</h1>
         <p>

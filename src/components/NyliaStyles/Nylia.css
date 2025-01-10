@@ -94,6 +94,12 @@ a {
   vertical-align: middle;
 }
 
+h1 {
+  font-family: "Michroma", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.1vw;
+}
+
 @media all and (orientation: portrait) {
   #main-img-bkg background-position {
     /* background-repeat: no-repeat;
@@ -153,16 +159,6 @@ a {
   
 } */
 
-#nbc-section,
-#nybc-section {
-  background-color: rgba(0, 0, 0, 0.85);
-}
-
-#nbc-section .main-box,
-#nybc-section .main-box {
-  background-color: transparent;
-}
-
 .main-img-bkg-2 {
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,10 +168,6 @@ a {
   padding-bottom: 3rem;
 
   background-position: center;
-}
-
-#nybcSection {
-  margin-top: 3rem;
 }
 
 .main-title h1 {

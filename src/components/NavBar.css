@@ -121,6 +121,10 @@ img {
     padding-left: 01rem; */
     letter-spacing: 0.3rem;
   }
+
+  .nav-link h1 {
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -173,6 +177,10 @@ img {
     /* padding-right: 0rem;
     padding-left: 01rem; */
     letter-spacing: 0.8rem;
+  }
+
+  a.nav-link h1 {
+    font-size: 0.8rem;
   }
 }
 

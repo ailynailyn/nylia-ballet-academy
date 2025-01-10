@@ -29,7 +29,11 @@ function NavBar() {
   var expand = false;
 
   // PAGES THAT NEED A WHITE LOGO MUST BE ADDED HERE
-  const whiteLogoPages = ["/team", "/performances/cinderella2024"];
+  const whiteLogoPages = [
+    "/team",
+    "/performances/cinderella2024",
+    "/performances",
+  ];
   var logoUsed = whiteLogoPages.includes(useLocation().pathname)
     ? logoWhiteTransparent
     : logoTransparent;

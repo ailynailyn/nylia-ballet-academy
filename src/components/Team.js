@@ -90,12 +90,6 @@ function Team() {
             position={memberInfo.beck.position}
             description={memberInfo.beck.description}
           ></TeamCard>
-          {/* <TeamCard
-            profileImg={memberInfo.jazmine.profileImg}
-            name={memberInfo.jazmine.name}
-            position={memberInfo.jazmine.position}
-            description={memberInfo.jazmine.description}
-          ></TeamCard> */}
           <TeamCard
             profileImg={memberInfo.grace.profileImg}
             name={memberInfo.grace.name}

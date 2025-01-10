@@ -51,8 +51,8 @@ ul.scholarship-bullets {
 }
 
 @media only screen and (max-width: 320px) {
-  .scholarship-title {
-    margin-top: 8rem;
+  .scholarship-container {
+    padding-top: 175px;
   }
 
   .scholarship-box p {
@@ -71,13 +71,13 @@ ul.scholarship-bullets {
   .scholarship-container .nyliabutton-container .btn {
     font-size: 0.6rem;
   }
+
+  .scholarship-title h1 {
+    font-size: 1.1rem;
+  }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  .scholarship-title {
-    margin-top: 8rem;
-  }
-
   .scholarship-title h1 {
     font-size: 1.1rem;
   }
@@ -105,10 +105,6 @@ ul.scholarship-bullets {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
-  .scholarship-title {
-    margin-top: 10rem;
-  }
-
   .scholarship-title h1 {
     font-size: 1.1rem;
   }
@@ -245,10 +241,6 @@ ul.scholarship-bullets {
 }
 
 @media only screen and (min-width: 1201px) {
-  .scholarship-title {
-    margin-top: 11.5rem;
-  }
-
   .scholarship-title h1 {
     font-size: 2.2rem;
     font-weight: 900;

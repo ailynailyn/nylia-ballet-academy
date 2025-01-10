@@ -14,6 +14,7 @@ import UpcomingEvents from "./components/UpcomingEvents";
 import Performances from "./components/Performances";
 import Cinderella2024 from "./components/performances/Cinderella2024";
 import SwanLake2025 from "./components/performances/SwanLake2025";
+import SleepingBeauty2025 from "./components/performances/SleepingBeauty2025";
 import TheLittleMermaid2025 from "./components/performances/TheLittleMermaid2025";
 import Scholarships from "./components/Scholarships";
 import SummerIntensives from "./components/SummerIntensives";
@@ -42,6 +43,10 @@ export default function App() {
             element={<Cinderella2024 />}
           />
           <Route path="performances/swanlake2025" element={<SwanLake2025 />} />
+          <Route
+            path="performances/sleepingbeauty2025"
+            element={<SleepingBeauty2025 />}
+          />
           <Route
             path="performances/thelittlemermaid2025"
             element={<TheLittleMermaid2025 />}

@@ -15,11 +15,6 @@
   width: 100%;
 }
 
-a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
-}
-
 .intensives-container .nyliabutton-container .btn {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 0;

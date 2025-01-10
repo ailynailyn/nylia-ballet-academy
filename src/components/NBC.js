@@ -17,8 +17,6 @@ import nbcCinRehearsalsXL from "../assets/nbc/nbcCinRehearsals-2000.jpg";
 import nbcHandbook from "../assets/nbc/Nylia Ballet Company Handbook 2024-2025.pdf";
 import nbycHandbook from "../assets/nybc/Nylia Ballet Youth Company Handbook 2024-2025.pdf";
 
-import PopupModal from "./popupModal/PopupModal";
-import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 import Accordion from "react-bootstrap/Accordion";
 
