@@ -283,7 +283,7 @@ function Classes() {
       imgSet: `${pointe3Sm} 300w, ${pointe3Md} 768w, ${pointe3Lg} 1280w, ${pointe3XL} 2000w`,
       webpSet: `${pointe3SmWebp} 300w, ${pointe3MdWebp} 768w, ${pointe3LgWebp} 1280w, ${pointe3XLWebp} 2000w`,
       classSched1: "FRIDAY",
-      classSched2: "6:30 - 7:30 PM",
+      classSched2: "6:30 - 8:00 PM",
       classSched3: "",
       classSched4: "",
       classDesc:
