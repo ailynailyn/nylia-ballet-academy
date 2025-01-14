@@ -18,6 +18,10 @@ import gallery5 from "../../assets/performances/SwanLake2025/gallery/5.png";
 import gallery6 from "../../assets/performances/SwanLake2025/gallery/6.png";
 
 import handbook from "../../assets/performances/SwanLake2025/Swan Lake Handbook 2024-2025.pdf";
+import castList from "../../assets/performances/SwanLake2025/SwanLakeCastList2024.pdf";
+import rehearsalAttire from "../../assets/performances/SwanLake2025/SwanLake24RehearsalReqs.png";
+import rehearsalSchedule from "../../assets/performances/SwanLake2025/Swan Lake Weekly Schedule 2024.pdf";
+import costumeReqs from "../../assets/performances/SwanLake2025/SwanLake2024CostumeReqs.png";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
 
@@ -40,12 +44,12 @@ function SwanLake2025() {
   };
 
   const importantLinks = [
-    { buttonLabel: "Cast list", buttonLink: "" },
-    { buttonLabel: "Rehearsal Attire", buttonLink: "" },
-    { buttonLabel: "rehearsal schedule", buttonLink: "" },
-    { buttonLabel: "Costume Requirements", buttonLink: "" },
-    { buttonLabel: "communications", buttonLink: "" },
-    { buttonLabel: "volunteers", buttonLink: "" },
+    { buttonLabel: "Cast list", buttonLink: castList },
+    { buttonLabel: "Rehearsal Attire", buttonLink: rehearsalAttire }, // todo
+    { buttonLabel: "rehearsal schedule", buttonLink: rehearsalSchedule },
+    { buttonLabel: "Costume Requirements", buttonLink: costumeReqs }, //todo
+    // { buttonLabel: "communications", buttonLink: "" }, //todo
+    // { buttonLabel: "volunteers", buttonLink: "" }, //todo
   ];
 
   const eventCalendar = [
