@@ -28,14 +28,31 @@ function NavBar() {
 
   var expand = false;
 
-  // PAGES THAT NEED A WHITE LOGO MUST BE ADDED HERE
-  const whiteLogoPages = [
-    "/team",
-    "/performances/cinderella2024",
-    "/performances",
+  function checkMatchInList(str, regexList) {
+    for (let regex of regexList) {
+      console.log(regex);
+      if (regex.test(str)) {
+        console.log("success");
+        return true;
+      }
+    }
+    return false;
+  }
+
+  /////////////////////////////////////////////////////
+  // PAGES THAT NEED A WHITE LOGO MUST BE ADDED HERE //
+  /////////////////////////////////////////////////////
+
+  const whiteLogoPagesRegex = [
+    new RegExp(".*/team/?$"),
+    new RegExp(".*/performances/?$"),
+    new RegExp(".*/performances/cinderella2024/?$"),
+    new RegExp(".*/performances/swanlake2025/?$"),
   ];
-  var logoUsed = whiteLogoPages.includes(useLocation().pathname)
-    ? logoWhiteTransparent
+
+  var logoUsed = checkMatchInList(useLocation().pathname, whiteLogoPagesRegex) //()
+    ? // var logoUsed = true //checkMatchInList(useLocation().pathname, whiteLogoPagesRegex) //()
+      logoWhiteTransparent
     : logoTransparent;
 
   return (
