@@ -10,6 +10,7 @@ import perfSect2ImgSm from "../../assets/performances/SleepingBeauty2025/Sleepin
 import perfSect2ImgMd from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-768.png";
 import perfSect2ImgLg from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-1280.png";
 import perfSect2ImgXL from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-2000.png";
+import handbook from "../../assets/performances/SleepingBeauty2025/SleepingBeautyHandbook2025.pdf";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
 
@@ -41,6 +42,7 @@ function SleepingBeauty2025() {
         auditionDate={auditionDate}
         perfSect2ButtonLink={perfSect2ButtonLink}
         perfSect2Images={perfSect2Images}
+        handbookLink={handbook}
       />
       <Footer />
     </div>
