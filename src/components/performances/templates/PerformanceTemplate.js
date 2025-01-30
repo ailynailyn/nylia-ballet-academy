@@ -41,6 +41,8 @@ function PerformanceTemplate({
   importantLinks,
   eventCalendar,
   galleryImages,
+  performanceWeek, // boolean used to trigger the program & ticket sales at the same time
+  perfSect2PerformanceWeekButtonLink,
 }) {
   const past = "PAST";
   const active = "ACTIVE";
@@ -97,6 +99,17 @@ function PerformanceTemplate({
         buttonLink={perfSect2ButtonLink}
         sectionImages={perfSect2Images}
       />
+      {/* Used when a production is near the end and a link program & tickets are both needed */}
+      {performanceWeek === true && (
+        <div>
+          <PerfSect2
+            status={"PAST"}
+            showName={showName}
+            buttonLink={perfSect2PerformanceWeekButtonLink}
+          />
+        </div>
+      )}
+
       <div className="main-img-bkg" id="performance-guidelines-section">
         <div className="main-box">
           <h1 id="highlightTitle">{showNameCaps} CAST</h1>

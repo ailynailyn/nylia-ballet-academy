@@ -52,14 +52,16 @@ function PerfSect2({
   return (
     <div className="main-img-bkg" id="performance-second-section">
       <div className="main-box">
-        <div className="main-img">
-          <img
-            src={sectionImages.sm}
-            srcSet={`${sectionImages.sm} 300w, ${sectionImages.md} 768w, ${sectionImages.lg} 1280w, ${sectionImages.xl} 2000w`}
-            className="w-100 shadow-1-strong rounded mb-4"
-            alt="Adult ballet students for Nylia Ballet Academy in El Paso, Texas"
-          />
-        </div>
+        {sectionImages && (
+          <div className="main-img">
+            <img
+              src={sectionImages.sm}
+              srcSet={`${sectionImages.sm} 300w, ${sectionImages.md} 768w, ${sectionImages.lg} 1280w, ${sectionImages.xl} 2000w`}
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt="Adult ballet students for Nylia Ballet Academy in El Paso, Texas"
+            />
+          </div>
+        )}
         <h1 id="highlightTitle">{title}</h1>
         <h2>{subtitle}</h2>
         <p>

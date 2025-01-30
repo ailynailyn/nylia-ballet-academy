@@ -22,6 +22,7 @@ import castList from "../../assets/performances/SwanLake2025/SwanLakeCastList202
 import rehearsalAttire from "../../assets/performances/SwanLake2025/SwanLake24RehearsalReqs.png";
 import rehearsalSchedule from "../../assets/performances/SwanLake2025/Swan Lake Weekly Schedule 2024.pdf";
 import costumeReqs from "../../assets/performances/SwanLake2025/SwanLake2024CostumeReqs.png";
+import program from "../../assets/performances/SwanLake2025/Swan Lake Program 2025.pdf";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
 
@@ -45,9 +46,9 @@ function SwanLake2025() {
 
   const importantLinks = [
     { buttonLabel: "Cast list", buttonLink: castList },
-    { buttonLabel: "Rehearsal Attire", buttonLink: rehearsalAttire }, // todo
+    { buttonLabel: "Rehearsal Attire", buttonLink: rehearsalAttire },
     { buttonLabel: "rehearsal schedule", buttonLink: rehearsalSchedule },
-    { buttonLabel: "Costume Requirements", buttonLink: costumeReqs }, //todo
+    { buttonLabel: "Costume Requirements", buttonLink: costumeReqs },
     // { buttonLabel: "communications", buttonLink: "" }, //todo
     // { buttonLabel: "volunteers", buttonLink: "" }, //todo
   ];
@@ -150,6 +151,8 @@ function SwanLake2025() {
         importantLinks={importantLinks}
         eventCalendar={eventCalendar}
         galleryImages={galleryImages}
+        performanceWeek={true}
+        perfSect2PerformanceWeekButtonLink={program}
       />
       <Footer />
     </div>
