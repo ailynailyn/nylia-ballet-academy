@@ -29,7 +29,7 @@ import PerformanceTemplate from "./templates/PerformanceTemplate";
 import "./SwanLake2025.css";
 
 function SwanLake2025() {
-  const status = "ACTIVE";
+  const status = "PAST";
   const showName = "Swan Lake";
   const showDate = "February 1, 2025";
   const headerDescription = `Immerse yourself in the enchanting love story of Swan Lake. Witness Prince Siegfried's fateful encounter with the Swan Queen, Odette, as he pledges his undying love and loyalty to her. However, a cruel curse by the evil sorcerer Baron von Rothbart only allows Odette to take human form at night. Only true love and unwavering fidelity can break this powerful spell.`;
@@ -146,13 +146,12 @@ function SwanLake2025() {
         showDate={showDate}
         headerDescription={headerDescription}
         handbookLink={handbook}
-        perfSect2ButtonLink={perfSect2ButtonLink}
+        perfSect2ButtonLink={program}
         perfSect2Images={perfSect2Images}
         importantLinks={importantLinks}
         eventCalendar={eventCalendar}
         galleryImages={galleryImages}
-        performanceWeek={true}
-        perfSect2PerformanceWeekButtonLink={program}
+        performanceWeek={false}
       />
       <Footer />
     </div>
