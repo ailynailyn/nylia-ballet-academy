@@ -160,11 +160,11 @@ function PerformanceTemplate({
           </div>
         </div>
       </div>
-      {status == active && (
+      {importantLinks && (
         <PerfSectImportantLinks importantLinks={importantLinks} />
       )}
 
-      {status == active && <PerfSectCalendar eventCalendar={eventCalendar} />}
+      {eventCalendar && <PerfSectCalendar eventCalendar={eventCalendar} />}
       {galleryImages && (
         <PerfSectGallery images={galleryImages}></PerfSectGallery>
       )}
