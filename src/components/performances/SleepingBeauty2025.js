@@ -11,20 +11,22 @@ import perfSect2ImgMd from "../../assets/performances/SleepingBeauty2025/Sleepin
 import perfSect2ImgLg from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-1280.png";
 import perfSect2ImgXL from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-2000.png";
 import handbook from "../../assets/performances/SleepingBeauty2025/SleepingBeautyHandbook2025.pdf";
+import castList from "../../assets/performances/SleepingBeauty2025/Sleeping Beauty 2025 Cast List.pdf";
+import rehearsalSchedule from "../../assets/performances/SleepingBeauty2025/SleepingBeautyRehearsalSchedule.png";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
 
 import "./SleepingBeauty2025.css";
 
 function SleepingBeauty2025() {
-  const status = "UPCOMING";
+  const status = "ACTIVE";
   const showName = "Sleeping Beauty";
   const showDate = "May 8, 2025";
   const headerDescription = `Visit an enchanting world of princesses, fairy godmothers, and magical spells!`;
   // const handbook = littleMermaidHandbook;
 
   const auditionDate = "FEBRUARY 9, 2025";
-  const perfSect2ButtonLink = "https://form.jotform.com/250095489472163";
+  const perfSect2ButtonLink = ""; // TODO: Add tickets link
   const perfSect2Images = {
     sm: perfSect2ImgSm,
     md: perfSect2ImgMd,
@@ -33,13 +35,14 @@ function SleepingBeauty2025() {
   };
 
   const importantLinks = [
-    { buttonLabel: "Cast list: coming soon", buttonLink: "" },
+    { buttonLabel: "Cast list", buttonLink: castList },
+
     {
-      buttonLabel: "Rehearsal Attire: coming soon",
-      buttonLink: "",
+      buttonLabel: "rehearsal schedule",
+      buttonLink: rehearsalSchedule,
     },
     {
-      buttonLabel: "rehearsal schedule: coming soon",
+      buttonLabel: "Rehearsal Attire: coming soon",
       buttonLink: "",
     },
     // { buttonLabel: "Costume Requirements", buttonLink: costumeReqs },
