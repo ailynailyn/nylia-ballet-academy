@@ -6,10 +6,10 @@ import Footer from "../Footer";
 // import littleMermaidHandbook from "../../assets/nbc/Nylia Ballet Company Handbook 2024-2025.pdf";
 
 // IMAGES FOR PAGE
-import perfSect2ImgSm from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-300.png";
-import perfSect2ImgMd from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-768.png";
-import perfSect2ImgLg from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-1280.png";
-import perfSect2ImgXL from "../../assets/performances/SleepingBeauty2025/SleepingBeautyAuditions-2000.png";
+import perfSect2ImgSm from "../../assets/performances/SleepingBeauty2025/SleepingBeauty-Poster-300.png";
+import perfSect2ImgMd from "../../assets/performances/SleepingBeauty2025/SleepingBeauty-Poster-768.png";
+import perfSect2ImgLg from "../../assets/performances/SleepingBeauty2025/SleepingBeauty-Poster-1280.png";
+import perfSect2ImgXL from "../../assets/performances/SleepingBeauty2025/SleepingBeauty-Poster-2000.png";
 import handbook from "../../assets/performances/SleepingBeauty2025/SleepingBeautyHandbook2025.pdf";
 import castList from "../../assets/performances/SleepingBeauty2025/Sleeping Beauty 2025 Cast List.pdf";
 import rehearsalSchedule from "../../assets/performances/SleepingBeauty2025/SleepingBeautyRehearsalSchedule.png";
