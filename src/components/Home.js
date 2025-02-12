@@ -54,24 +54,25 @@ function Home() {
           <b>THE SLEEPING BEAUTY</b>
         </h1>
         <br></br>
-        <h3>AUDITIONS</h3>
-        <h3>Sunday, February 9</h3>
+        <h3></h3>
+        <h3>May 8, 2025</h3>
         <br></br>
         <p>
-          Have you ever wanted to be a ballerina? Now's the chance. Auditions
-          for The Sleeping Beauty are this Sunday, February 9!
-          <br></br>
-          <br></br>
-          Absolutely no experience required! Our productions are for dancers of
-          all ages, 4+. Join us for a cahnce to be a part of our incredible
-          community and bring the art of ballet to El Paso!
+          We are thrilled to bring the classical ballet,{" "}
+          <i>The Sleeping Beauty</i>, to El Paso this spring! Enter a world of
+          princesses, enchantment & fairy tales with Princess Aurora, Carabosse,
+          the Fairies, and many more!
+          <br />
+          <br />
+          Take a look at <i>The Sleeping Beauty</i> page to find our handbook,
+          rehearsal information, purchase tickets and more!
         </p>
         <br></br>
         <a
           id="description-event-button"
           href="/performances/sleepingbeauty2025"
         >
-          <NyliaButton label={"SLEEPING BEAUTY AUDITIONS"}></NyliaButton>
+          <NyliaButton label={"THE SLEEPING BEAUTY"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
