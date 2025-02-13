@@ -13,6 +13,7 @@ import perfSect2ImgXL from "../../assets/performances/SleepingBeauty2025/Sleepin
 import handbook from "../../assets/performances/SleepingBeauty2025/SleepingBeautyHandbook2025.pdf";
 import castList from "../../assets/performances/SleepingBeauty2025/Sleeping Beauty 2025 Cast List.pdf";
 import rehearsalSchedule from "../../assets/performances/SleepingBeauty2025/SleepingBeautyRehearsalSchedule.png";
+import rehearsalReqs from "../../assets/performances/SleepingBeauty2025/SwanLake2024RehearsalReqs.png";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
 
@@ -42,8 +43,8 @@ function SleepingBeauty2025() {
       buttonLink: rehearsalSchedule,
     },
     {
-      buttonLabel: "Rehearsal Attire: coming soon",
-      buttonLink: "",
+      buttonLabel: "Rehearsal Attire",
+      buttonLink: rehearsalReqs,
     },
     // { buttonLabel: "Costume Requirements", buttonLink: costumeReqs },
     // { buttonLabel: "communications", buttonLink: "" }, //todo
