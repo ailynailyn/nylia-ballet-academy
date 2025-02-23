@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import ailyn from "../assets/nbc/headshots/JPEG-2000/ailyn.png";
 import jazmine from "../assets/teamPages/jazmine.png";
 import tiffinyXL from "../assets/nbc/headshots/JPEG-2000/tiffiny.jpg";
+import luisaXL from "../assets/nbc/headshots/JPEG-2000/luisa.png";
+import anahidXL from "../assets/nbc/headshots/JPEG-2000/anahid.jpg";
 import graceXL from "../assets/nbc/headshots/JPEG-2000/grace.jpg";
 import beckXL from "../assets/nbc/headshots/JPEG-2000/beck.jpg";
 import claraXL from "../assets/nbc/headshots/JPEG-2000/clara2.png";
@@ -26,6 +28,7 @@ function Team() {
       Academy to provide an equal opportunity for anyone in the community
       to pursue their dreams in dance. Ailyn is an ABT® Certified Teacher, who has successfully completed the ABT® Teacher Training Intensive in Pre-Primary through Level 3 of the ABT® National Training Curriculum.`,
     },
+
     beck: {
       name: "BECK CUELLAR",
       profileImg: beckXL,
@@ -33,20 +36,27 @@ function Team() {
       description:
         "Beck, a proud El Paso native, is currently pursuing a BFA with a focus on Painting and a minor in Graphic Design at UTEP. Following high school, Beck was offered a soccer scholarship at Navarro College and also secured a prestigious local scholarship from El Paso. With a diverse background in various job fields, Beck has diligently honed their artistic skills while also making a name for themselves as a local vegan cook, actively seeking to expand their culinary expertise. Securing multiple scholarships and furthering their art techniques, Beck joined Nylia Ballet Academy as a Production Assistant, whose works include personally crafting the Cinderella set. In addition to serving as the house artist, they are a valuable member of the Nylia Dancewear team, contributing to the creation of stunning attire. Furthermore, Beck has attained a Technical Diploma in Medical Assistance and completed their phlebotomy certification through a Texas-accredited school, showcasing their versatility beyond artistic pursuits. Known for their multitude of talents and unwavering passion for art, Beck consistently brings a burst of creativity to Nylia Ballet's showcases.",
     },
-    jazmine: {
-      name: "JAZMINE CUEVAS",
-      profileImg: jazmine,
-      position:
-        "Marketing Coordinator and Reformative Justice & Performance Consultant",
-      description:
-        "Jazmine Janay Cuevas is an Educator and Contract Curator with specialized knowledge in Afro-Diasporic Cultures and Performance in Mexican and Mexican American spaces. She received her Masters from the University of Texas at El Paso where she worked as an Instructor of First Year Rhetoric and Writing teaching classes on Hip-hop, Nation-Buidling, and Blackness. She has since been a fellow for the Smithsonian’s Latino Museum Studies Program at the National Museum of African American History and Culture where she worked on curating accessible tours that center Latinidad in the Museum’s Afrofuturism exhibition. She is currently a fellow for the Borderlands Shakespeare Collectiva demonstrating how the art of adaption provides particular relevance and socio-political understanding for communities on the borderland. Jazmine’s background in Public Relations at the K-12 level and cultural programming in higher education and public institutions happily lead her to the Nylia Ballet Academy. She is excited to do her part in help building the academy’s relationship to community and learning the connotations of performance in the academy’s endeavors.",
-    },
+
     grace: {
       name: "GRACE MCCOY",
       profileImg: graceXL,
       position: "Artistic Director - Nylia Ballet Company",
       description:
         "Originally from Oklahoma, Grace is a retired dancer, choreographer, instructor, and fine artist. Trained at Tulsa Ballet, as well as The Kirov Academy, Boston Ballet, Ellison Ballet, and the Marais Ballet School in Paris, placing top 12 at YAGP in 2011 and 2012. Grace joined Tulsa Ballet in 2013 and during their time there performed works by many great choreographers including, Marcello Angelini, Ma Cong, Adam Hougland, Ben Stevenson, Paul Taylor, and Christopher Wheeldon. Upon retirement, they worked as Ballet Mistress for Academy of Performing Arts and has choreographed several full-length performance pieces including an original production of Alice in Wonderland and a Four Moons Ballet celebrating the five native ballerinas from Oklahoma. Grace has worked as a choreographer and instructor at multiple dance studios in the Pacific Northwest, and most recently was Ballet Mistress at Columbia Ballet School in South Carolina, coaching their students to first place awards at many competitions as well as having many graduates and receive contracts with ballet or contemporary companies including, Alvin Ailey, Boston Ballet, Ballet West, Sarasota Ballet, Cincinnati Ballet, and North Carolina School of the Arts. Grace's choreography has been showcased at YAGP finals, the DC Native American Smithsonian, and many performances around the US. Grace currently lives in El Paso, and is excited to be at Nylia Ballet. In addition to a dance career, Grace is currently an MFA candidate in Art Practice from the School of Visual Arts in New York City, has a BFA in Studio Art, is a 500-hour registered yoga teacher, a NASM certified personal trainer, and an NCSA certified strength and conditioning coach.",
+    },
+    anahid: {
+      name: "ANAHID AGUIRRE",
+      profileImg: anahidXL,
+      position: "Instructor",
+      description:
+        "Anahid Aguirre is a full-time dancer and professional nail artist, the proud owner of ADA Nail Salon, located right next to us! She began her dance journey at the age of 4 under the guidance of Andree Harper. Today, Anahid continues to pursue her passion for dance as a Corps de Ballet member with the Nylia Ballet Company. She has been part of Nylia Ballet since its inception, and is thrilled to contribute to the growth and artistry of the company. In addition to her dedication to dance, Anahid is also studying Architecture at EPCC, showcasing her multifaceted talents and strong work ethic. As a business owner and artist, she loves to share the beauty of ballet and nail artistry with others, inspiring those around her to find joy and creativity in the arts. Her mission is to inspire and uplift, just as she has been inspired by her mentors and fellow artists throughout her journey.",
+    },
+    luisa: {
+      name: "LUISA CUELLAR",
+      profileImg: luisaXL,
+      position: "Instructor",
+      description:
+        "Luisa is a talented Corps de Ballet member with the Nylia Ballet Company and is currently pursuing a degree in Computer Science at EPCC. She has been training at Nylia Ballet Academy since its opening and is passionate about sharing the beauty of ballet with the El Paso community. Her love for the arts began long before ballet, with a background in musicals and theatre productions that ultimately led her to discover her true calling in dance. Luisa’s dedication to both her academic and artistic pursuits reflects her strong work ethic and her desire to inspire others through the power of movement and creativity.",
     },
     clara: {
       name: "CLARA NEUFELD",
@@ -95,6 +105,18 @@ function Team() {
             name={memberInfo.grace.name}
             position={memberInfo.grace.position}
             description={memberInfo.grace.description}
+          ></TeamCard>
+          <TeamCard
+            profileImg={memberInfo.anahid.profileImg}
+            name={memberInfo.anahid.name}
+            position={memberInfo.anahid.position}
+            description={memberInfo.anahid.description}
+          ></TeamCard>
+          <TeamCard
+            profileImg={memberInfo.luisa.profileImg}
+            name={memberInfo.luisa.name}
+            position={memberInfo.luisa.position}
+            description={memberInfo.luisa.description}
           ></TeamCard>
           <TeamCard
             profileImg={memberInfo.clara.profileImg}
