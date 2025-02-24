@@ -3,6 +3,7 @@ import { React } from "react";
 import PopupModal from "../components/popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
+import ABTLogo from "../assets/American_Ballet_Theatre_logo.png";
 
 import "./Home.css";
 
@@ -10,7 +11,9 @@ function Home() {
   return (
     <div class="main-container home-container">
       <div className="description-event">
-        <h1>El Paso's Center for Classical Ballet Training</h1>
+        <h1>
+          <b>El Paso's Center for Classical Ballet Training</b>
+        </h1>
         <p>
           <br />
           <i id="NyliaMotto">
@@ -18,9 +21,22 @@ function Home() {
             emphasizing character building and personal growth. Call or visit us
             today!
           </i>
-          <br />
-          <br />
         </p>
+        <hr></hr>
+        <div id="abtSection">
+          <p>
+            Nylia Ballet Academy is proud to include the AMERICAN BALLET
+            THEATRE® National Training Curriculum, a breakthrough 9 level
+            program that combines high quality artistic training with the basics
+            of dancer health and child development. The ABT® National Training
+            Curriculum consists of a comprehensive set of age appropriate,
+            outcome-based guidelines to provide the highest quality ballet
+            training to dance students of all ages and skill levels.
+          </p>
+          <img src={ABTLogo}></img>
+          <br></br>
+          <br></br>
+        </div>
         <div>
           <PopupModal />
         </div>

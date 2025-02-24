@@ -110,7 +110,26 @@
   font-weight: 100;
 }
 
+#abtSection p {
+  font-family: "Questrial", sans-serif;
+  font-weight: normal;
+}
+
+#abtSection img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+}
+
 @media only screen and (max-width: 320px) {
+  #abtSection p {
+    font-size: 0.6rem;
+  }
+
+  #abtSection img {
+    width: 75px;
+  }
+
   .home-container {
     padding-top: 150px;
   }
@@ -148,6 +167,14 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
+  #abtSection p {
+    font-size: 0.65rem;
+  }
+
+  #abtSection img {
+    width: 80px;
+  }
+
   .description,
   .description-event {
     padding: 1.7rem;
@@ -172,6 +199,13 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 599px) {
+  #abtSection p {
+    font-size: 0.7rem;
+  }
+
+  #abtSection img {
+    width: 80px;
+  }
   .description {
     padding: 2.3rem;
   }
@@ -203,6 +237,13 @@
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+  #abtSection p {
+    font-size: 0.7rem;
+  }
+
+  #abtSection img {
+    width: 80px;
+  }
   .description,
   .description-event {
     padding: 2.3rem;
@@ -228,6 +269,14 @@
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) and (max-width: 888px) {
+  #abtSection p {
+    font-size: 0.8rem;
+  }
+
+  #abtSection img {
+    width: 80px;
+  }
+
   .description,
   .description-event {
     padding: 1.3rem;
@@ -255,6 +304,13 @@
 
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) and (max-width: 1200px) {
+  #abtSection p {
+    font-size: 0.85rem;
+  }
+
+  #abtSection img {
+    width: 90px;
+  }
   .description,
   .description-event {
     padding: 1.3rem;
@@ -287,6 +343,18 @@
 
 /* Extra big screen devices (1201px and above) */
 @media only screen and (min-width: 1201px) {
+  #abtSection p {
+    font-size: 1rem;
+  }
+
+  #abtSection {
+    padding-right: 10em;
+    padding-left: 10em;
+  }
+
+  #abtSection img {
+    width: 100px;
+  }
   .description,
   .description-event {
     padding: 1.6rem;
