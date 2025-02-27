@@ -3,7 +3,7 @@ import { React } from "react";
 import PopupModal from "../components/popupModal/PopupModal";
 import { SocialIcon } from "react-social-icons";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
-import ABTLogo from "../assets/American_Ballet_Theatre_logo.png";
+import ABTLogo from "../assets/American_Ballet_Theatre_NTC_logo.png";
 
 import "./Home.css";
 

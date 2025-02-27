@@ -348,12 +348,12 @@
   }
 
   #abtSection {
-    padding-right: 10em;
-    padding-left: 10em;
+    padding-right: 8em;
+    padding-left: 8em;
   }
 
   #abtSection img {
-    width: 100px;
+    width: 150px;
   }
   .description,
   .description-event {
