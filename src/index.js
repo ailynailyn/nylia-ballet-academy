@@ -12,7 +12,10 @@ import Gallery from "./components/Gallery";
 import Team from "./components/Team";
 import UpcomingEvents from "./components/UpcomingEvents";
 import Performances from "./components/Performances";
+import Terra2023 from "./components/performances/Terra2023";
+import UNS2023 from "./components/performances/UNS2023";
 import Cinderella2024 from "./components/performances/Cinderella2024";
+import Dracula2024 from "./components/performances/Dracula2024";
 import SwanLake2025 from "./components/performances/SwanLake2025";
 import SleepingBeauty2025 from "./components/performances/SleepingBeauty2025";
 import TheLittleMermaid2025 from "./components/performances/TheLittleMermaid2025";
@@ -38,10 +41,16 @@ export default function App() {
           <Route path="team" element={<Team />} />
           <Route path="calendar" element={<UpcomingEvents />} />
           <Route path="performances" element={<Performances />} />
+          <Route path="performances/terra2023" element={<Terra2023 />} />{" "}
+          <Route
+            path="performances/unanottesilenziosa2023"
+            element={<UNS2023 />}
+          />
           <Route
             path="performances/cinderella2024"
             element={<Cinderella2024 />}
           />
+          <Route path="performances/dracula2024" element={<Dracula2024 />} />
           <Route path="performances/swanlake2025" element={<SwanLake2025 />} />
           <Route
             path="performances/sleepingbeauty2025"

@@ -49,7 +49,7 @@ import sleepingBeautyPosterXl from "../assets/performances/SleepingBeauty2025/Sl
 // SWAN LAKE 2025
 import swanLakeXL from "../assets/performances/SwanLake2025/SwanLake2024Poster-2000.png";
 // DRACULA 2024
-import draculaXL from "../assets/performances/Dracula Poster-Bride 2024.png";
+import draculaXL from "../assets/performances/Dracula2024/Dracula Poster-Bride 2024.png";
 // CINDERELLA 2024
 import cinderellaGallerySm from "../assets/performances/Cinderella2024/Cinderella-BW-300.jpg";
 import cinderellaGalleryMd from "../assets/performances/Cinderella2024/Cinderella-BW-768.jpg";

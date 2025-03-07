@@ -9,6 +9,7 @@ import perfSect2ImgMd from "../../assets/performances/Cinderella2024/Cinderella2
 import perfSect2ImgLg from "../../assets/performances/Cinderella2024/Cinderella2024-CinderellaPoster-1280.png";
 import perfSect2ImgXL from "../../assets/performances/Cinderella2024/Cinderella2024-CinderellaPoster-2000.png";
 import handbook from "../../assets/performances/Cinderella2024/Cinderella Handbook 2024.pdf";
+import program from "../../assets/performances/Cinderella2024/Cinderella2024Program.pdf";
 
 import "./Cinderella2024.css";
 
@@ -21,7 +22,7 @@ function Cinderella2024() {
   Cinderella, taking us on a journey of emotions as she discovers
   unexpected support, friendships and, ultimately, her true love.`;
 
-  // const perfSect2ButtonLink = "" TODO - Cinderella Program
+  const perfSect2ButtonLink = program;
   const perfSect2Images = {
     sm: perfSect2ImgSm,
     md: perfSect2ImgMd,
@@ -37,7 +38,7 @@ function Cinderella2024() {
         showDate={showDate}
         headerDescription={headerDescription}
         handbookLink={handbook}
-        // perfSect2ButtonLink={perfSect2ButtonLink}
+        perfSect2ButtonLink={perfSect2ButtonLink}
         perfSect2Images={perfSect2Images}
       />
       <Footer />

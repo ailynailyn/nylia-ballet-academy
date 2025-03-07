@@ -1,0 +1,38 @@
+/* img#nyliaNavbarLogoImg.nylia-logo {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+} */
+
+#terra2023Div #performance-header-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/Terra2023/Terra2023Collage-300.png") 1x,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Terra2023/Terra2023Collage-300.png") 1x,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Terra2023/Terra2023Collage-300.png") 300w,
+    url("../../assets/performances/Terra2023/Terra2023Collage-768.png") 768w,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 1280w,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 2000w
+  );
+}
+
+#terra2023Div #performance-guidelines-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 1x,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 1x,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 300w,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 768w,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 1280w,
+    url("../../assets/performances/Terra2023/Terra2023Collage-1280.png") 2000w
+  );
+}

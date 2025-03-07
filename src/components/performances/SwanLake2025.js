@@ -148,7 +148,7 @@ function SwanLake2025() {
         handbookLink={handbook}
         perfSect2ButtonLink={program}
         perfSect2Images={perfSect2Images}
-        importantLinks={importantLinks}
+        // importantLinks={importantLinks}
         // eventCalendar={eventCalendar}
         galleryImages={galleryImages}
         performanceWeek={false}

@@ -1,0 +1,38 @@
+/* img#nyliaNavbarLogoImg.nylia-logo {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+} */
+
+#dracula2024Div #performance-header-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/Dracula2024/Dracula-163-300.jpg") 1x,
+    url("../../assets/performances/Dracula2024/Dracula-163-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Dracula2024/Dracula-163-300.jpg") 1x,
+    url("../../assets/performances/Dracula2024/Dracula-163-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Dracula2024/Dracula-163-300.jpg") 300w,
+    url("../../assets/performances/Dracula2024/Dracula-163-768.jpg") 768w,
+    url("../../assets/performances/Dracula2024/Dracula-163-1280.jpg") 1280w,
+    url("../../assets/performances/Dracula2024/Dracula-163-2000.jpg") 2000w
+  );
+}
+
+#dracula2024Div #performance-guidelines-section {
+  background-image: -webkit-image-set(
+    url("../../assets/performances/Dracula2024/Dracula-41-300.jpg") 1x,
+    url("../../assets/performances/Dracula2024/Dracula-41-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Dracula2024/Dracula-41-300.jpg") 1x,
+    url("../../assets/performances/Dracula2024/Dracula-41-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../../assets/performances/Dracula2024/Dracula-41-300.jpg") 300w,
+    url("../../assets/performances/Dracula2024/Dracula-41-768.jpg") 768w,
+    url("../../assets/performances/Dracula2024/Dracula-41-1280.jpg") 1280w,
+    url("../../assets/performances/Dracula2024/Dracula-41-2000.jpg") 2000w
+  );
+}
