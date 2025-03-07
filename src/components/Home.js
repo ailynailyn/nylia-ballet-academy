@@ -86,9 +86,9 @@ function Home() {
         <br></br>
         <a
           id="description-event-button"
-          href="/performances/sleepingbeauty2025"
+          href="https://www.ticketmaster.com/sleeping-beauty-el-paso-texas-05-08-2025/event/0C006265ED5F32A6"
         >
-          <NyliaButton label={"THE SLEEPING BEAUTY"}></NyliaButton>
+          <NyliaButton label={"GET TICKETS NOW"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
