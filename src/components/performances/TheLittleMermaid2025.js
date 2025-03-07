@@ -22,7 +22,7 @@ function TheLittleMermaid2025() {
   const headerDescription = `Dive into a world of sacrifice, love, and enchantment! Join the Nylia Ballet Company as we bring Hans Christian Andersen's timeless tale The Little Mermaid to life on stage. Witness the journey of a mermaid who dares to trade her voice for a chance at love, only to discover the true meaning of courage and selflessness.`;
   // const handbook = littleMermaidHandbook;
 
-  const auditionDate = "DATE: TO BE ANNOUNCED";
+  const auditionDate = "Sunday, JUNE 8, 2025";
   // const perfSect2ButtonLink = "" TODO - Auditions Registry Link
   const perfSect2Images = {
     sm: perfSect2ImgSm,

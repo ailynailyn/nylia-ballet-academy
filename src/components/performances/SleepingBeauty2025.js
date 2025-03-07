@@ -24,10 +24,10 @@ function SleepingBeauty2025() {
   const showName = "Sleeping Beauty";
   const showDate = "May 8, 2025";
   const headerDescription = `Visit an enchanting world of princesses, fairy godmothers, and magical spells!`;
-  // const handbook = littleMermaidHandbook;
 
   const auditionDate = "FEBRUARY 9, 2025";
-  const perfSect2ButtonLink = ""; // TODO: Add tickets link
+  const perfSect2ButtonLink =
+    "https://www.ticketmaster.com/sleeping-beauty-el-paso-texas-05-08-2025/event/0C006265ED5F32A6"; // TODO: Add tickets link
   const perfSect2Images = {
     sm: perfSect2ImgSm,
     md: perfSect2ImgMd,

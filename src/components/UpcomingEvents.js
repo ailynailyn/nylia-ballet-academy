@@ -14,88 +14,7 @@ import "./UpcomingEvents.css";
 
 function UpcomingEvents() {
   const CUREVENTIDX = 18;
-  const images = [
-    // {
-    //   smImg: newYear2024Sm,
-    //   imgSet: `${newYear2024Sm} 300w, ${newYear2024Md} 768w, ${newYear2024Lg} 1280w, ${newYear2024Lg} 2000w`,
-    // },
-    // {
-    //   smImg: friendWeek2024Sm,
-    //   imgSet: `${friendWeek2024Sm} 300w, ${friendWeek2024Md} 768w, ${friendWeek2024Lg} 1280w, ${friendWeek2024XL} 2000w`,
-    // },
-    // {
-    //   smImg: movieNightSm,
-    //   imgSet: `${movieNightSm} 300w, ${movieNightMd} 768w, ${movieNightLg} 1280w, ${movieNightXL} 2000w`,
-    // },
-    // {
-    //   smImg: FarmersMarketSm,
-    //   imgSet: `${FarmersMarketSm} 300w, ${FarmersMarketMd} 768w, ${FarmersMarketLg} 1280w, ${FarmersMarketXL} 2000w`,
-    // },
-    // {
-    //   smImg: Valentines2024Sm,
-    //   imgSet: `${Valentines2024Sm} 300w, ${Valentines2024Md} 768w, ${Valentines2024Lg} 1280w, ${Valentines2024Lg} 2000w`,
-    // },
-    // {
-    //   smImg: obsSm,
-    //   imgSet: `${obsSm} 300w, ${obsMd} 768w, ${obsLg} 1280w, ${obsXL} 2000w`,
-    // },
-    // {
-    //   smImg: assessmentsSm,
-    //   imgSet: `${assessmentsSm} 300w, ${assessmentsMd} 768w, ${assessmentsLg} 1280w, ${assessmentsXL} 2000w`,
-    // },
-    // {
-    //   smImg: auditionsSm,
-    //   imgSet: `${auditionsSm} 300w, ${auditionsMd} 768w, ${auditionsLg} 1280w, ${auditionsXL} 2000w`,
-    // },
-    // {
-    //   smImg: BallerinaStoryTimeMarch2024Sm,
-    //   imgSet: `${BallerinaStoryTimeMarch2024Sm} 300w, ${BallerinaStoryTimeMarch2024Md} 768w, ${BallerinaStoryTimeMarch2024Lg} 1280w, ${BallerinaStoryTimeMarch2024XL} 2000w`,
-    // },
-    // {
-    //   smImg: PaintAndSipMarch2024Sm,
-    //   imgSet: `${PaintAndSipMarch2024Sm} 300w, ${PaintAndSipMarch2024Md} 768w, ${PaintAndSipMarch2024Lg} 1280w, ${PaintAndSipMarch2024Lg} 2000w`,
-    // },
-    // {
-    //   smImg: MomWeek2024Sm,
-    //   imgSet: `${MomWeek2024Sm} 300w, ${MomWeek2024Md} 768w, ${MomWeek2024Lg} 1280w, ${MomWeek2024XL} 2000w`,
-    // },
-    // {
-    //   smImg: mayObsSm,
-    //   imgSet: `${mayObsSm} 300w, ${mayObsMd} 768w, ${mayObsLg} 1280w, ${mayObsXL} 2000w`,
-    // },
-    // {
-    //   smImg: mayAsmntSm,
-    //   imgSet: `${mayAsmntSm} 300w, ${mayAsmntMd} 768w, ${mayAsmntLg} 1280w, ${mayAsmntXL} 2000w`,
-    // },
-    // {
-    //   smImg: cinderella2024Sm,
-    //   imgSet: `${cinderella2024Sm} 300w, ${cinderella2024Md} 768w, ${cinderella2024Lg} 1280w, ${cinderella2024Lg} 2000w`,
-    // },
-    // {
-    //   smImg: DadWeek2024Sm,
-    //   imgSet: `${DadWeek2024Sm} 300w, ${DadWeek2024Md} 768w, ${DadWeek2024Lg} 1280w, ${DadWeek2024XL} 2000w`,
-    // },
-    // {
-    //   smImg: intensive2024Sm,
-    //   imgSet: `${intensive2024Sm} 300w, ${intensive2024Md} 768w, ${intensive2024Lg} 1280w, ${intensive2024XL} 2000w`,
-    // },
-    // {
-    //   smImg: sepObsSm,
-    //   imgSet: `${sepObsSm} 300w, ${sepObsMd} 768w, ${sepObsLg} 1280w, ${sepObsXL} 2000w`,
-    // },
-    // {
-    //   smImg: sepAsmntSm,
-    //   imgSet: `${sepAsmntSm} 300w, ${sepAsmntMd} 768w, ${sepAsmntLg} 1280w, ${sepAsmntXL} 2000w`,
-    // },
-    // {
-    //   smImg: draculaSm,
-    //   imgSet: `${draculaSm} 300w, ${draculaMd} 768w, ${draculaLg} 1280w, ${draculaXL} 2000w`,
-    // },
-    // {
-    //   smImg: decObsSm,
-    //   imgSet: `${decObsSm} 300w, ${decObsMd} 768w, ${decObsLg} 1280w, ${decObsXL} 2000w`,
-    // },
-  ];
+  const images = [];
 
   const renderImages = () => {
     return images.map((imageInfo, index) => (
@@ -130,7 +49,7 @@ function UpcomingEvents() {
       date: "02/01/2025",
       event: "Swan Lake Dress Rehearsal",
       note: "SWAN LAKE",
-      link: "/performances",
+      link: "/performances/swanlake2025",
       isLink: true,
     },
     {
@@ -139,13 +58,13 @@ function UpcomingEvents() {
       note: "SWAN LAKE TICKETS",
       link:
         "https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F",
-      isLink: true,
+      isLink: false,
     },
     {
       date: "02/09/2025",
       event: "Sleeping Beauty Auditions",
-      note: "SLEEPING BEAUTY",
-      link: "/performances",
+      note: "THE SLEEPING BEAUTY",
+      link: "/performances/sleepingbeauty2025",
       isLink: true,
     },
     {
@@ -182,6 +101,13 @@ function UpcomingEvents() {
       isLink: true,
     },
     {
+      date: "05/08/2025",
+      event: "The Sleeping Beauty 2025",
+      note: "THE SLEEPING BEAUTY",
+      link: "/performances/sleepingbeauty2025",
+      isLink: true,
+    },
+    {
       date: "05/12/2025",
       event: "Start of NBC & NBYC '25-26 Season",
       note: "NBC & NBYC",
@@ -204,19 +130,20 @@ function UpcomingEvents() {
       isLink: true,
     },
     {
+      date: "06/08/2025",
+      event: "The Little Mermaid Auditions",
+      note: "THE LITTLE MERMAID",
+      link: "/performances/thelittlemermaid2025",
+      isLink: true,
+    },
+    {
       date: "06/11/2025 - 06/13/2025",
       event: "Student Assessments",
       note: "ASSESSMENTS",
       link: "/assessments",
       isLink: true,
     },
-    {
-      date: "06/08/2025",
-      event: "The Little Mermaid Auditions",
-      note: "THE LITTLE MERMAID",
-      link: "/performances",
-      isLink: true,
-    },
+
     {
       date: "06/16/2025 - 06/21/2025",
       event: "Dad & Me Week",
@@ -261,10 +188,17 @@ function UpcomingEvents() {
       isLink: true,
     },
     {
-      date: "09/28/2025",
+      date: "09/27/2025",
+      event: "The Little Mermaid",
+      note: "THE LITTLE MERMAID",
+      link: "/performances/thelittlemermaid2025",
+      isLink: true,
+    },
+    {
+      date: "10/05/2025",
       event: "Swan Lake Auditions",
       note: "SWAN LAKE",
-      link: "/performances",
+      link: "/performances/swanlake2026",
       isLink: true,
     },
     {
@@ -292,10 +226,24 @@ function UpcomingEvents() {
       note: "HOLIDAY",
     },
     {
-      date: "01/25/2026",
+      date: "01/24/2026",
+      event: "Swan Lake",
+      note: "SWAN LAKE",
+      link: "/performances/swanlake2026",
+      isLink: true,
+    },
+    {
+      date: "02/01/2026",
       event: "Alice in Wonderland Auditions",
       note: "ALICE IN WONDERLAND",
-      link: "/performances",
+      link: "/performances/aliceinwonderland2026",
+      isLink: true,
+    },
+    {
+      date: "04/25/2026",
+      event: "Alice in Wonderland",
+      note: "ALICE IN WONDERLAND",
+      link: "/performances/aliceinwonderland2026",
       isLink: true,
     },
   ];
