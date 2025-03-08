@@ -5,44 +5,35 @@
 
 #uns2023Div #performance-header-section {
   background-image: -webkit-image-set(
-    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-300.jpg")
-      1x,
-    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-2000.jpg")
-      2x
+    url("../../assets/performances/UNS\ 2023/UNS-Daisy-300.png") 1x,
+    url("../../assets/performances/UNS\ 2023/UNS-Daisy-2000.png") 2x
   );
   background-image: image-set(
-    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-300.jpg")
-      1x,
-    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-2000.jpg")
-      2x
+    url("../../assets/performances/UNS\ 2023/UNS-Daisy-300.png") 1x,
+    url("../../assets/performances/UNS\ 2023/UNS-Daisy-2000.png") 2x
   );
   background-image: image-set(
-    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-300.jpg")
-      300w,
-    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-768.jpg")
-      768w,
-    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-1280.jpg")
-      1280w,
-    url("../../assets/performances/Cinderella2024/Cinderella-PrinceAndCinderella-2000.jpg")
-      2000w
+    url("../../assets/performances/UNS\ 2023/UNS-Daisy-300.png") 300w,
+    url("../../assets/performances/UNS\ 2023/UNS-Daisy-768.png") 768w,
+    url("../../assets/performances/UNS\ 2023/UNS-Daisy-1280.png") 1280w,
+    url("../../assets/performances/UNS\ 2023/UNS-Daisy-2000.png") 2000w
   );
+  background-position: top;
 }
 
 #uns2023Div #performance-guidelines-section {
   background-image: -webkit-image-set(
-    url("../../assets/performances/Cinderella2024/CinderellaClock-300.jpg") 1x,
-    url("../../assets/performances/Cinderella2024/CinderellaClock-2000.jpg") 2x
+    url("../../assets/performances/UNS\ 2023/UNSClara-300.png") 1x,
+    url("../../assets/performances/UNS\ 2023/UNSClara-2000.png") 2x
   );
   background-image: image-set(
-    url("../../assets/performances/Cinderella2024/CinderellaClock-300.jpg") 1x,
-    url("../../assets/performances/Cinderella2024/CinderellaClock-2000.jpg") 2x
+    url("../../assets/performances/UNS\ 2023/UNSClara-300.png") 1x,
+    url("../../assets/performances/UNS\ 2023/UNSClara-2000.png") 2x
   );
   background-image: image-set(
-    url("../../assets/performances/Cinderella2024/CinderellaClock-300.jpg") 300w,
-    url("../../assets/performances/Cinderella2024/CinderellaClock-768.jpg") 768w,
-    url("../../assets/performances/Cinderella2024/CinderellaClock-1280.jpg")
-      1280w,
-    url("../../assets/performances/Cinderella2024/CinderellaClock-2000.jpg")
-      2000w
+    url("../../assets/performances/UNS\ 2023/UNSClara-300.png") 300w,
+    url("../../assets/performances/UNS\ 2023/UNSClara-768.png") 768w,
+    url("../../assets/performances/UNS\ 2023/UNSClara-1280.png") 1280w,
+    url("../../assets/performances/UNS\ 2023/UNSClara-2000.png") 2000w
   );
 }

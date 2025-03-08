@@ -46,6 +46,7 @@ function NavBar() {
   const whiteLogoPagesRegex = [
     new RegExp(".*/team/?$"),
     new RegExp(".*/performances/?$"),
+    new RegExp(".*/performances/unanottesilenziosa2023/?$"),
     new RegExp(".*/performances/cinderella2024/?$"),
     new RegExp(".*/performances/swanlake2025/?$"),
   ];
