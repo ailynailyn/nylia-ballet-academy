@@ -239,33 +239,27 @@ function NBC() {
                 </Accordion.Header>
                 <Accordion.Body>
                   <p>
-                    <b>Nylia Ballet Company: 2024 - 2025 Season</b>
+                    <b>Nylia Ballet Company: 2025 - 2026 Season</b>
                     <ul>
-                      <li>August 3rd, 2024 - June 20, 2025</li>
+                      <li>May 12th, 2025 - May 2nd, 2026</li>
                     </ul>
                     <b>Nylia Ballet Company Auditions</b>
                     <ul>
                       <li>
-                        August 3rd, 2024 at 1:30 pm - Nylia Ballet Academy
+                        April 27th, 2025 at 1:30 pm - Nylia Ballet Academy
                       </li>
                     </ul>
-                    <b>Dracula</b>
+                    <b>The Little Mermaid</b>
                     <ul>
-                      <li>August - October 2024</li>
-                    </ul>
-                    <b>Nylia Ballet Company Trainee Auditions</b>
-                    <ul>
-                      <li>
-                        October 26th, 2024 at 11:30 am - Nylia Ballet Academy
-                      </li>
+                      <li>June - September 2025</li>
                     </ul>
                     <b>Swan Lake</b>
                     <ul>
-                      <li>October 2024 - February 2025</li>
+                      <li>October 2025 - January 2026</li>
                     </ul>
-                    <b>Sleeping Beauty</b>
+                    <b>Alice in Wonderland</b>
                     <ul>
-                      <li>February - June 2025</li>
+                      <li>February - April 2026</li>
                     </ul>
                   </p>
                 </Accordion.Body>
@@ -280,49 +274,50 @@ function NBC() {
         </div>
       </div>
       <div className="main-img-bkg" id="auditions-nbc">
+        <hr></hr>
         <div className="main-box">
-          <h1>AUDITIONS</h1>
-          <h2>Join the Company</h2>
+          <h1>NYLIA BALLET COMPANY AUDITIONS</h1>
+          <h2>Join the Nylia Ballet Company!</h2>
           <p>
+            <br></br>
+            Join us for auditions! We are accepting dancers of all levels of
+            experience, from absolute beginner to advanced!
+          </p>
+          <p>
+            {" "}
+            <hr></hr>
             <br />
-            Nylia Ballet Company is thrilled to present Swan Lake this coming
-            February of 2025! Dancers will be considered for the Trainee
-            division of the Company at our Swan Lake Auditions, which will be at
-            Nylia Ballet Academy.
-            <br /> <br />
             <b>NYLIA BALLET COMPANY AUDITIONS</b>
             <br />
-            August 3rd, 2024
+            April 27, 2025
             <br />
-            1:30 - 2:30 pm
+            1:30 - 3:30 pm
             <br /> <br />
-            <b>NYLIA BALLET COMPANY TRAINEE AUDITIONS</b>
-            <br />
-            October 26th, 2024
-            <br />
-            11:30 am - 1:00 pm
-            <br /> <br />
+            <hr></hr>
             <b>AUDITION REQUIREMENTS</b>
             <br />
             <li>A $10 Company audition fee is due prior to the audition.</li>
             <br />
-            <NyliaButton
-              label={"Register for Company Auditions"}
-              link="https://form.jotform.com/241645987475170"
-            ></NyliaButton>
-            <br />
+          </p>
+
+          <NyliaButton
+            label={"Register for Company Auditions"}
+            link="https://form.jotform.com/241645277892165"
+          ></NyliaButton>
+        </div>
+        <hr></hr>
+        <div className="main-box">
+          <h1>YOUTH COMPANY AUDITIONS</h1>
+          <h2>Join the Nylia Ballet Youth Company!</h2>
+          <p>
+            <br /> <hr></hr>
             <b>NYLIA BALLET YOUTH COMPANY AUDITIONS</b>
             <br />
-            August 3rd, 2024
+            April 27, 2025
             <br />
-            10:30 am - 11:30 am
-            <br /> <br />
-            <b>NYLIA BALLET YOUTH COMPANY TRAINEE AUDITIONS</b>
             <br />
-            October 26th, 2024
-            <br />
-            10:00 am - 12:30 pm
-            <br /> <br />
+            11:00 am - 12:30 pm
+            <br /> <br /> <hr></hr>
             <b>AUDITION REQUIREMENTS</b>
             <br />
             <li>
@@ -340,6 +335,7 @@ function NBC() {
             link="https://form.jotform.com/241645277892165"
           ></NyliaButton>
         </div>
+        <hr></hr>
       </div>
       <div className="main-img-bkg" id="nybc-section">
         <div className="main-box">
@@ -507,33 +503,27 @@ function NBC() {
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
-                      <b>Nylia Ballet Youth Company: 2024 - 2025 Season</b>
+                      <b>Nylia Ballet Youth Company: 2025 - 2026 Season</b>
                       <ul>
-                        <li>August 3rd, 2024 - June 20, 2025</li>
+                        <li>May 12th, 2025 - May 2nd, 2026</li>
                       </ul>
                       <b>Nylia Ballet Youth Company Auditions</b>
                       <ul>
                         <li>
-                          August 3rd, 2024 at 10:30 am - Nylia Ballet Academy
+                          April 27th, 2025 at 11:00 am - Nylia Ballet Academy
                         </li>
                       </ul>
-                      <b>Dracula</b>
+                      <b>The Little Mermaid</b>
                       <ul>
-                        <li>August - October 2024</li>
-                      </ul>
-                      <b>Nylia Ballet Youth Company Trainee Auditions</b>
-                      <ul>
-                        <li>
-                          October 26th, 2024 at 10:00 am - Nylia Ballet Academy
-                        </li>
+                        <li>June - September 2025</li>
                       </ul>
                       <b>Swan Lake</b>
                       <ul>
-                        <li>October 2024 - February 2025</li>
+                        <li>October 2025 - January 2026</li>
                       </ul>
-                      <b>Sleeping Beauty</b>
+                      <b>Alice in Wonderland</b>
                       <ul>
-                        <li>February - June 2025</li>
+                        <li>February - April 2026</li>
                       </ul>
                     </p>
                   </Accordion.Body>

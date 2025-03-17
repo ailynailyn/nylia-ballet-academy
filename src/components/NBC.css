@@ -52,6 +52,10 @@
   background-position: center right;
 }
 
+#auditions-nbc .main-box p {
+  text-align: center;
+}
+
 #mission-section {
   background-image: -webkit-image-set(
     url("../assets/nbc/nbc-anahid-300.jpg") 1x,
