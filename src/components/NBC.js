@@ -269,7 +269,7 @@ function NBC() {
 
           <NyliaButton
             label={"Apply Now"}
-            link="https://form.jotform.com/241645987475170"
+            link="https://form.jotform.com/250844795279170"
           ></NyliaButton>
         </div>
       </div>
@@ -302,7 +302,7 @@ function NBC() {
 
           <NyliaButton
             label={"Register for Company Auditions"}
-            link="https://form.jotform.com/241645277892165"
+            link="https://form.jotform.com/250844795279170"
           ></NyliaButton>
         </div>
         <hr></hr>
@@ -332,7 +332,7 @@ function NBC() {
 
           <NyliaButton
             label={"Register for Youth Company Auditions"}
-            link="https://form.jotform.com/241645277892165"
+            link="https://form.jotform.com/250844484189165"
           ></NyliaButton>
         </div>
         <hr></hr>
@@ -533,7 +533,7 @@ function NBC() {
           </p>
           <NyliaButton
             label={"Apply Now"}
-            link="https://form.jotform.com/241645277892165"
+            link="https://form.jotform.com/250844484189165"
           ></NyliaButton>
         </div>
       </div>
