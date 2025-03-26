@@ -89,12 +89,9 @@ function NBC() {
             collaborate with other area performing arts and cultural groups,
             always centering educational outreach.
             <br /> <br />
-            Newly led by Artistic Director Grace McCoy, who has performed with
-            Tulsa Ballet and trained at Tulsa Ballet, The Kirov Academy, Boston
-            Ballet, Ellison Ballet, and the Marais Ballet School in Paris, the
-            El Paso-based Company instills impeccable technique through staple
-            classical ballets and new premieres of contemporary works during its
-            2024 - 2025 season.
+            The El Paso-based Company instills impeccable technique through
+            staple classical ballets and new premieres of contemporary works
+            during its 2024 - 2025 season.
             <br /> <br />
             Our inclusive approach to classical ballet is a response to the
             current and historic barriers to excellent dance training in the
