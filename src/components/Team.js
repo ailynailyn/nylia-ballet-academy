@@ -26,7 +26,7 @@ function Team() {
       and creating choreography at multiple studios throughout Texas, she
       returned to her native El Paso roots and founded Nylia Ballet
       Academy to provide an equal opportunity for anyone in the community
-      to pursue their dreams in dance. Ailyn is an ABT® Certified Teacher, who has successfully completed the ABT® Teacher Training Intensive in Pre-Primary through Level 3 of the ABT® National Training Curriculum.`,
+      to pursue their dreams in dance. Ailyn is an ABT® Certified Teacher, who has successfully completed the ABT® Teacher Training Intensive in Pre-Primary through Level 5 of the ABT® National Training Curriculum.`,
     },
 
     beck: {
