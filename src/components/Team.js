@@ -2,13 +2,13 @@ import { React } from "react";
 import TeamCard from "../components/teamCard/TeamCard";
 import Footer from "../components/Footer";
 import ailyn from "../assets/nbc/headshots/JPEG-2000/ailyn.png";
-import jazmine from "../assets/teamPages/jazmine.png";
-import tiffinyXL from "../assets/nbc/headshots/JPEG-2000/tiffiny.jpg";
 import luisaXL from "../assets/nbc/headshots/JPEG-2000/luisa.png";
 import anahidXL from "../assets/nbc/headshots/JPEG-2000/anahid.jpg";
 import graceXL from "../assets/nbc/headshots/JPEG-2000/grace.jpg";
 import beckXL from "../assets/nbc/headshots/JPEG-2000/beck.jpg";
 import claraXL from "../assets/nbc/headshots/JPEG-2000/clara2.png";
+import ABTLogo from "../assets/American_Ballet_Theatre_NTC_logo.png";
+
 import "./Team.css";
 import CardGroup from "react-bootstrap/CardGroup";
 
@@ -64,23 +64,6 @@ function Team() {
       position: "Instructor",
       description: `Clara Neufeld is a dance teacher, Pilates instructor, and choreographer passionate about connecting people to the joy of movement in all forms throughout El Paso, TX. Clara’s dance training began in classical ballet under the direction of Andrée Harper, instilling her with discipline, perseverance, and a drive for excellence. As an Eastwood HS Trooperette, Clara discovered her passion for teaching and choreographing.  These pursuits led her to Texas Christian University’s School for Classical & Contemporary Dance, where she studied under various dance merit and academic achievement scholarships, as a Hispanic Scholarship Fund Scholar, and part of the John V. Roach Honors College.  While at TCU, Clara performed as “Silver” in Jewels Pas de Quarte in The Sleeping Beauty (excerpts), Swan Lake (Act II), and in original works by Keith Saunders, Rubén Gerding, and Peter Pucci.  In May 2023, Clara received a BFA in Ballet and a BA in English with Honors Laureate Distinction, in addition to a 700-hour comprehensive Pilates Teaching Certificate.`,
     },
-    tiffiny: {
-      name: "TIFFINY STEVENS",
-      profileImg: tiffinyXL,
-      position: "Instructor - Nylia Ballet Youth Company",
-      description: `Tiffiny Stevens is a dance instructor and choreographer. She began her training under El Paso 
-      ballet legends, Andree Harper and Ingeborg Heuser. Tiffiny has attended summer intensives with 
-      American Ballet Theatre, Pacific Northwest Ballet, School of American Ballet and The Jillana 
-      School where she learned from Balanchine ballerina Jillana. She continued her training in New 
-      York at The Joffrey Ballet School, where she had the opportunity to tour with their concert group
-      and perform original works choreographed by Gerald Arpino, Robert Joffrey, Earl Mosely and 
-      Dwight Rhoden as well as featured roles in Swan Lake, Sleeping Beauty, The Nutcracker and 
-      Don Quixote. Tiffiny began teaching ballet in El Paso after an injury caused her to retire early 
-      from dance. Her students have had many successes of their own from being accepted into college
-      dance programs like The Boston Conservatory at Berklee, and summer and year-round ballet 
-      programs with Ballet Arizona, Complexions Contemporary Ballet, Joffrey Ballet, Ballet Austin, 
-      and American Ballet Theatre.`,
-    },
   };
 
   return (
@@ -93,6 +76,7 @@ function Team() {
             name={memberInfo.ailyn.name}
             position={memberInfo.ailyn.position}
             description={memberInfo.ailyn.description}
+            logo={ABTLogo}
           ></TeamCard>
           <TeamCard
             profileImg={memberInfo.beck.profileImg}
@@ -123,13 +107,6 @@ function Team() {
             name={memberInfo.clara.name}
             position={memberInfo.clara.position}
             description={memberInfo.clara.description}
-          ></TeamCard>
-
-          <TeamCard
-            profileImg={memberInfo.tiffiny.profileImg}
-            name={memberInfo.tiffiny.name}
-            position={memberInfo.tiffiny.position}
-            description={memberInfo.tiffiny.description}
           ></TeamCard>
         </CardGroup>
       </div>

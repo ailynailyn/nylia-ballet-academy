@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 
 import "./TeamCard.css";
 
-function TeamCard({ profileImg, name, position, description }) {
+function TeamCard({ profileImg, name, position, description, logo }) {
   return (
     <div className="TeamCard mx-auto">
       <Card>
@@ -10,6 +10,11 @@ function TeamCard({ profileImg, name, position, description }) {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
+          {logo && (
+            <div id="teamCardLogo">
+              <img src={logo}></img>
+            </div>
+          )}
         </Card.Body>
         <Card.Footer>
           <small>{position}</small>
