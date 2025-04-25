@@ -226,14 +226,14 @@ function UpcomingEvents() {
       note: "HOLIDAY",
     },
     {
-      date: "01/24/2026",
+      date: "01/17/2026",
       event: "Swan Lake",
       note: "SWAN LAKE",
       link: "/performances/swanlake2026",
       isLink: true,
     },
     {
-      date: "02/01/2026",
+      date: "01/25/2026",
       event: "Alice in Wonderland Auditions",
       note: "ALICE IN WONDERLAND",
       link: "/performances/aliceinwonderland2026",

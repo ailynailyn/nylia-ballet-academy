@@ -22,16 +22,16 @@ function QuickLinks() {
           <h1>QUICK LINKS</h1>
         </div>
         <div className="main-box">
-          <h1 id="highlightTitle">SWAN LAKE</h1>
+          <h1 id="highlightTitle">THE SLEEPING BEAUTY</h1>
           <br></br>
           <h5>
-            <b>FEBRUARY 1, 2025</b>
+            <b>MAY 8, 2025</b>
           </h5>
           <h5>7 pm at UTEP's Magoffin Auditorium</h5>
 
           <br></br>
-          <a href="https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F">
-            <NyliaButton label={"SWAN LAKE TICKETS"}></NyliaButton>
+          <a href="https://www.ticketmaster.com/sleeping-beauty-el-paso-texas-05-08-2025/event/0C006265ED5F32A6">
+            <NyliaButton label={"THE SLEEPING BEAUTY TICKETS"}></NyliaButton>
           </a>
         </div>
         <br></br>
