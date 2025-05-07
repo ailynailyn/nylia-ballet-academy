@@ -15,6 +15,7 @@ import castList from "../../assets/performances/SleepingBeauty2025/Sleeping Beau
 import rehearsalSchedule from "../../assets/performances/SleepingBeauty2025/SleepingBeautyRehearsalSchedule.png";
 import rehearsalReqs from "../../assets/performances/SleepingBeauty2025/SwanLake2024RehearsalReqs.png";
 import costumeReqs from "../../assets/performances/SleepingBeauty2025/The Sleeping Beauty 2025 - Costume Reqs.pdf";
+import program from "../../assets/performances/SleepingBeauty2025/The Sleeping Beauty 2025 Program.pdf";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
 
@@ -141,11 +142,13 @@ function SleepingBeauty2025() {
         showDate={showDate}
         headerDescription={headerDescription}
         auditionDate={auditionDate}
+        performanceWeek={true}
         perfSect2ButtonLink={perfSect2ButtonLink}
         perfSect2Images={perfSect2Images}
         importantLinks={importantLinks}
         eventCalendar={eventCalendar}
         handbookLink={handbook}
+        perfSect2PerformanceWeekButtonLink={program}
       />
       <Footer />
     </div>
