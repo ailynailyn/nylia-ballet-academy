@@ -117,11 +117,11 @@ function UpcomingEvents() {
       event: "Mom & Me Week",
       note: "SPECIAL EVENT",
     },
-    {
-      date: "05/26/2025",
-      event: "Memorial Day - NO CLASSES",
-      note: "HOLIDAY",
-    },
+    // {
+    //   date: "05/26/2025",
+    //   event: "Memorial Day - NO CLASSES",
+    //   note: "HOLIDAY",
+    // },
     {
       date: "06/04/2025 - 06/07/2025",
       event: "Observation Week",
