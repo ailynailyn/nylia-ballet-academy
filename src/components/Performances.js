@@ -80,7 +80,7 @@ import "./Performances.css";
 function Performances() {
   // CAROUSEL GALLERY: Date, Title, Subtitle, Caption, ImageSet (Upper carousel), cardImages (lower cards) Link
   // Date must be in "Month Day, Year" format
-  const activeIndex = 5;
+  const activeIndex = 6;
   const [index, setIndex] = useState(activeIndex);
 
   const handleSelect = (selectedIndex) => {

@@ -22,7 +22,7 @@ import PerformanceTemplate from "./templates/PerformanceTemplate";
 import "./SleepingBeauty2025.css";
 
 function SleepingBeauty2025() {
-  const status = "ACTIVE";
+  const status = "PAST";
   const showName = "Sleeping Beauty";
   const showDate = "May 8, 2025";
   const headerDescription = `Visit an enchanting world of princesses, fairy godmothers, and magical spells!`;
@@ -142,13 +142,13 @@ function SleepingBeauty2025() {
         showDate={showDate}
         headerDescription={headerDescription}
         auditionDate={auditionDate}
-        performanceWeek={true}
-        perfSect2ButtonLink={perfSect2ButtonLink}
+        // performanceWeek={true}
+        perfSect2ButtonLink={program}
         perfSect2Images={perfSect2Images}
-        importantLinks={importantLinks}
-        eventCalendar={eventCalendar}
+        // importantLinks={importantLinks}
+        // eventCalendar={eventCalendar}
         handbookLink={handbook}
-        perfSect2PerformanceWeekButtonLink={program}
+        // perfSect2PerformanceWeekButtonLink={program}
       />
       <Footer />
     </div>

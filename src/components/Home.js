@@ -63,36 +63,6 @@ function Home() {
           />
         </div>
       </div>
-      <div className="description">
-        <br></br>
-        <h3>NYLIA BALLET COMPANY PRESENTS</h3>
-        <h1>
-          <b>THE SLEEPING BEAUTY</b>
-        </h1>
-        <br></br>
-        <h3></h3>
-        <h3>May 8, 2025</h3>
-        <br></br>
-        <p>
-          We are thrilled to bring the classical ballet,{" "}
-          <i>The Sleeping Beauty</i>, to El Paso this spring! Enter a world of
-          princesses, enchantment & fairy tales with Princess Aurora, Carabosse,
-          the Fairies, and many more!
-          <br />
-          <br />
-          Take a look at <i>The Sleeping Beauty</i> page to find our handbook,
-          rehearsal information, purchase tickets and more!
-        </p>
-        <br></br>
-        <a
-          id="description-event-button"
-          href="https://www.ticketmaster.com/sleeping-beauty-el-paso-texas-05-08-2025/event/0C006265ED5F32A6"
-        >
-          <NyliaButton label={"GET TICKETS NOW"}></NyliaButton>
-        </a>
-        <br></br>
-        <br></br>
-      </div>
 
       <div className="description">
         <br></br>

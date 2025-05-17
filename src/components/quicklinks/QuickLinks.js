@@ -21,7 +21,7 @@ function QuickLinks() {
         <div className="main-title">
           <h1>QUICK LINKS</h1>
         </div>
-        <div className="main-box">
+        {/* <div className="main-box">
           <h1 id="highlightTitle">THE SLEEPING BEAUTY</h1>
           <br></br>
           <h5>
@@ -33,7 +33,7 @@ function QuickLinks() {
           <a href="https://www.ticketmaster.com/sleeping-beauty-el-paso-texas-05-08-2025/event/0C006265ED5F32A6">
             <NyliaButton label={"THE SLEEPING BEAUTY TICKETS"}></NyliaButton>
           </a>
-        </div>
+        </div> */}
         <br></br>
         <br></br>
         <div className="main-box">
