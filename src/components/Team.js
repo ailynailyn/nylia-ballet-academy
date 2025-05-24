@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import ailyn from "../assets/nbc/headshots/JPEG-2000/ailyn.png";
 import luisaXL from "../assets/nbc/headshots/JPEG-2000/luisa.png";
 import anahidXL from "../assets/nbc/headshots/JPEG-2000/anahid.jpg";
+import yocelynXL from "../assets/nbc/headshots/JPEG-2000/yocelyn.jpg";
 import graceXL from "../assets/nbc/headshots/JPEG-2000/grace.jpg";
 import beckXL from "../assets/nbc/headshots/JPEG-2000/beck.jpg";
 import claraXL from "../assets/nbc/headshots/JPEG-2000/clara2.png";
@@ -36,14 +37,6 @@ function Team() {
       description:
         "Beck, a proud El Paso native, is currently pursuing a BFA with a focus on Painting and a minor in Graphic Design at UTEP. Following high school, Beck was offered a soccer scholarship at Navarro College and also secured a prestigious local scholarship from El Paso. With a diverse background in various job fields, Beck has diligently honed their artistic skills while also making a name for themselves as a local vegan cook, actively seeking to expand their culinary expertise. Securing multiple scholarships and furthering their art techniques, Beck joined Nylia Ballet Academy as a Production Assistant, whose works include personally crafting the Cinderella set. In addition to serving as the house artist, they are a valuable member of the Nylia Dancewear team, contributing to the creation of stunning attire. Furthermore, Beck has attained a Technical Diploma in Medical Assistance and completed their phlebotomy certification through a Texas-accredited school, showcasing their versatility beyond artistic pursuits. Known for their multitude of talents and unwavering passion for art, Beck consistently brings a burst of creativity to Nylia Ballet's showcases.",
     },
-
-    grace: {
-      name: "GRACE MCCOY",
-      profileImg: graceXL,
-      position: "Artistic Director - Nylia Ballet Company",
-      description:
-        "Originally from Oklahoma, Grace is a retired dancer, choreographer, instructor, and fine artist. Trained at Tulsa Ballet, as well as The Kirov Academy, Boston Ballet, Ellison Ballet, and the Marais Ballet School in Paris, placing top 12 at YAGP in 2011 and 2012. Grace joined Tulsa Ballet in 2013 and during their time there performed works by many great choreographers including, Marcello Angelini, Ma Cong, Adam Hougland, Ben Stevenson, Paul Taylor, and Christopher Wheeldon. Upon retirement, they worked as Ballet Mistress for Academy of Performing Arts and has choreographed several full-length performance pieces including an original production of Alice in Wonderland and a Four Moons Ballet celebrating the five native ballerinas from Oklahoma. Grace has worked as a choreographer and instructor at multiple dance studios in the Pacific Northwest, and most recently was Ballet Mistress at Columbia Ballet School in South Carolina, coaching their students to first place awards at many competitions as well as having many graduates and receive contracts with ballet or contemporary companies including, Alvin Ailey, Boston Ballet, Ballet West, Sarasota Ballet, Cincinnati Ballet, and North Carolina School of the Arts. Grace's choreography has been showcased at YAGP finals, the DC Native American Smithsonian, and many performances around the US. Grace currently lives in El Paso, and is excited to be at Nylia Ballet. In addition to a dance career, Grace is currently an MFA candidate in Art Practice from the School of Visual Arts in New York City, has a BFA in Studio Art, is a 500-hour registered yoga teacher, a NASM certified personal trainer, and an NCSA certified strength and conditioning coach.",
-    },
     anahid: {
       name: "ANAHID AGUIRRE",
       profileImg: anahidXL,
@@ -63,6 +56,12 @@ function Team() {
       profileImg: claraXL,
       position: "Instructor",
       description: `Clara Neufeld is a dance teacher, Pilates instructor, and choreographer passionate about connecting people to the joy of movement in all forms throughout El Paso, TX. Clara’s dance training began in classical ballet under the direction of Andrée Harper, instilling her with discipline, perseverance, and a drive for excellence. As an Eastwood HS Trooperette, Clara discovered her passion for teaching and choreographing.  These pursuits led her to Texas Christian University’s School for Classical & Contemporary Dance, where she studied under various dance merit and academic achievement scholarships, as a Hispanic Scholarship Fund Scholar, and part of the John V. Roach Honors College.  While at TCU, Clara performed as “Silver” in Jewels Pas de Quarte in The Sleeping Beauty (excerpts), Swan Lake (Act II), and in original works by Keith Saunders, Rubén Gerding, and Peter Pucci.  In May 2023, Clara received a BFA in Ballet and a BA in English with Honors Laureate Distinction, in addition to a 700-hour comprehensive Pilates Teaching Certificate.`,
+    },
+    yocelyn: {
+      name: "YOCELYN SALCIDO",
+      profileImg: yocelynXL,
+      position: "Instructor",
+      description: ``,
     },
   };
 
@@ -84,12 +83,7 @@ function Team() {
             position={memberInfo.beck.position}
             description={memberInfo.beck.description}
           ></TeamCard>
-          <TeamCard
-            profileImg={memberInfo.grace.profileImg}
-            name={memberInfo.grace.name}
-            position={memberInfo.grace.position}
-            description={memberInfo.grace.description}
-          ></TeamCard>
+
           <TeamCard
             profileImg={memberInfo.anahid.profileImg}
             name={memberInfo.anahid.name}
@@ -107,6 +101,12 @@ function Team() {
             name={memberInfo.clara.name}
             position={memberInfo.clara.position}
             description={memberInfo.clara.description}
+          ></TeamCard>
+          <TeamCard
+            profileImg={memberInfo.yocelyn.profileImg}
+            name={memberInfo.yocelyn.name}
+            position={memberInfo.yocelyn.position}
+            description={memberInfo.yocelyn.description}
           ></TeamCard>
         </CardGroup>
       </div>
