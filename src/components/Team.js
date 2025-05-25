@@ -61,7 +61,7 @@ function Team() {
       name: "YOCELYN SALCIDO",
       profileImg: yocelynXL,
       position: "Instructor",
-      description: ``,
+      description: `Yocelyn is currently pursuing a BS in Neuroscience with a concentration in Biology on the pre-med track at the University of Texas at El Paso. Alongside her academic studies, she conducts undergraduate research with Cushing Laboratory and serves as a peer leader for General Chemistry II, where she supports fellow students in understanding complex concepts. Her passion for ballet began at the age of three under the guidance of Andrée Harper. Since 2023, she has trained at Nylia Ballet Academy and is a proud member of the Nylia Ballet Company. As a soloist she has performed leading roles such as Odette/Odile in Swan Lake, Cinderella, and the Lilac Fairy in The Sleeping Beauty. She is excited to be part of this incredible team and looks forward to sharing her love and dedication for the art of ballet with others.`,
     },
   };
 
