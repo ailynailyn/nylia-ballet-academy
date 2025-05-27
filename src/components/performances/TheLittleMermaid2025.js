@@ -3,7 +3,7 @@ import { React } from "react";
 import Footer from "../Footer";
 
 // Files used
-// import littleMermaidHandbook from "../../assets/nbc/Nylia Ballet Company Handbook 2024-2025.pdf";
+import littleMermaidHandbook from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaidHandbook2025.pdf";
 
 // IMAGES FOR PAGE
 import perfSect2ImgSm from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaidPoster-300.png";
@@ -20,7 +20,7 @@ function TheLittleMermaid2025() {
   const showName = "The Little Mermaid";
   const showDate = "2025";
   const headerDescription = `Dive into a world of sacrifice, love, and enchantment! Join the Nylia Ballet Company as we bring Hans Christian Andersen's timeless tale The Little Mermaid to life on stage. Witness the journey of a mermaid who dares to trade her voice for a chance at love, only to discover the true meaning of courage and selflessness.`;
-  // const handbook = littleMermaidHandbook;
+  const handbook = littleMermaidHandbook;
 
   const auditionDate = "Sunday, JUNE 8, 2025";
   // const perfSect2ButtonLink = "" TODO - Auditions Registry Link
@@ -41,6 +41,7 @@ function TheLittleMermaid2025() {
         auditionDate={auditionDate}
         // perfSect2ButtonLink={perfSect2ButtonLink}
         perfSect2Images={perfSect2Images}
+        handbookLink={handbook}
       />
       <Footer />
     </div>
