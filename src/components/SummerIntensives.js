@@ -43,8 +43,8 @@ function SummerIntensives() {
             <br></br>
           </p>
           <h3>
-            The deadline for all applications and fees is Saturday, July 13,
-            2024, at 2:00 pm MST.
+            The deadline for all applications and fees is Saturday, July 5,
+            2025, at 2:00 pm MST.
           </h3>
         </div>
       </div>
@@ -52,7 +52,7 @@ function SummerIntensives() {
       <div className="intensives-img-bkg">
         <div className="intensives-box">
           <h1>YOUTH INTENSIVE</h1>
-          <h2>JULY 15 - 19</h2>
+          <h2>JULY 7 - 11</h2>
           <NyliaButton label={"SCHEDULE"} link={youthSchedule}></NyliaButton>
           <p>
             <br />
@@ -70,14 +70,19 @@ function SummerIntensives() {
             <br />
             <b>PREREQUISITES</b>
             <br />
-            Ages 5+
+            Ages 4+
             <br />
             <br />
             <b>DATE & TIME</b>
             <br />
-            July 15 - 19
+            July 7 - 11
+            <br /> Monday - Friday <br />
             <br />
-            8:00 am - 2:00 pm
+            Level 1 (Ages 4-6) <br />
+            <i>8:00 am - 11:00 am</i>
+            <br /> <br />
+            Level 2 & 3 (Ages 7-18) <br />
+            <i>8:00 am - 2:00 pm</i>
             <br />
             <br />
             <b>COST</b>
@@ -88,13 +93,13 @@ function SummerIntensives() {
 
           <NyliaButton
             label={"Apply Now"}
-            link="https://form.jotform.com/241348049445156"
+            link="https://form.jotform.com/251485078446162"
           ></NyliaButton>
         </div>
       </div>
       <div className="intensives-box" id="adultIntensiveSection">
         <h1>ADULT INTENSIVE</h1>
-        <h2>July 15 - 19</h2>
+        <h2>July 7 - 11</h2>
         <NyliaButton label={"SCHEDULE"} link={adultSchedule}></NyliaButton>
 
         <img
@@ -124,7 +129,7 @@ function SummerIntensives() {
           <br />
           <b>DATE & TIME</b>
           <br />
-          July 15 - 19
+          July 7 - 11
           <br />
           5:00 pm - 8:30 pm
           <br />
@@ -136,7 +141,7 @@ function SummerIntensives() {
         </p>
         <NyliaButton
           label={"Apply Now"}
-          link="https://form.jotform.com/241351892390155"
+          link="https://form.jotform.com/251485106279158"
         ></NyliaButton>
       </div>
       <div className="intensives-img-bkg-2">
@@ -161,8 +166,8 @@ function SummerIntensives() {
             <br></br>
           </p>
           <h3>
-            The deadline for all applications and fees is Saturday, July 13,
-            2024, at 2:00 pm MST.
+            The deadline for all applications and fees is Saturday, July 5,
+            2025, at 2:00 pm MST.
           </h3>
         </div>
       </div>
