@@ -48,6 +48,14 @@ function Footer() {
               network="pinterest"
               bgColor="rgb(0, 0, 0, .3)"
               fgColor="white"
+              style={{ marginRight: "1rem" }}
+            />
+            <SocialIcon
+              url="https://www.youtube.com/@NyliaBalletCompany"
+              network="youtube"
+              bgColor="rgb(0, 0, 0, .3)"
+              fgColor="white"
+              style={{ marginRight: "1rem" }}
             />
           </div>
         </section>
