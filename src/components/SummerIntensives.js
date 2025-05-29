@@ -106,7 +106,7 @@ function SummerIntensives() {
           src={adultBalletSm}
           srcSet={`${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`}
           className="w-100 shadow-1-strong rounded mb-4"
-          alt="Adult ballett students for Nylia Ballet Academy"
+          alt="El Paso Ballet Nylia Ballet Academy School for Classical Ballet Adullt Ballet"
         />
         <p>
           <br />

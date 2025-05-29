@@ -266,7 +266,7 @@ function Performances() {
                   src={carouselItem.imageSet.sm}
                   srcSet={`${carouselItem.imageSet.sm} 300w, ${carouselItem.imageSet.md} 768w, ${carouselItem.imageSet.lg} 1280w, ${carouselItem.imageSet.xl} 2000w`}
                   className="w-100 shadow-1-strong rounded mb-4"
-                  alt="Adult ballet students for Nylia Ballet Academy"
+                  alt="El Paso Ballet Nylia Ballet Academy School for Classical Ballet performing in nylia ballet company productions"
                 />
                 <Carousel.Caption>
                   <h4>
@@ -320,7 +320,7 @@ function Performances() {
                       src={carouselItem.cardImages.sm}
                       srcSet={`${carouselItem.cardImages.sm} 300w, ${carouselItem.cardImages.md} 768w, ${carouselItem.cardImages.lg} 1280w, ${carouselItem.cardImages.xl} 2000w`}
                       className="w-100 shadow-1-strong rounded mb-4"
-                      alt="Ballerina posing in purple dresses"
+                      alt="El Paso Ballet Nylia Ballet Academy School for Classical Ballet performing in nylia ballet company productions"
                     />
                     <div class="perfGalleryImgOverlay">
                       <div class="perfGalleryImgText">

@@ -72,7 +72,7 @@ function NBC() {
               src={nbcCinRehearsalsSm}
               srcSet={`${nbcCinRehearsalsSm} 300w, ${nbcCinRehearsalsMd} 768w, ${nbcCinRehearsalsLg} 1280w, ${nbcCinRehearsalsXL} 2000w`}
               className="w-100 shadow-1-strong rounded mb-4"
-              alt="Adult ballett students for Nylia Ballet Academy"
+              alt="El Paso Ballet Nylia Ballet Academy School for Classical Ballet performing in nylia ballet company productions"
             />
           </div>
           <h1 id="highlightTitle">NYLIA BALLET COMPANY</h1>
@@ -341,7 +341,7 @@ function NBC() {
               src={nybcAlondraSm}
               srcSet={`${nybcAlondraSm} 300w, ${nybcAlondraMd} 768w, ${nybcAlondraLg} 1280w, ${nybcAlondraXL} 2000w`}
               className="w-100 shadow-1-strong rounded mb-4"
-              alt="Adult ballett students for Nylia Ballet Academy"
+              alt="El Paso Ballet Nylia Ballet Academy School for Classical Ballet performing in nylia ballet company productions"
             />
           </div>
           <h1 id="highlightTitle">NYLIA BALLET YOUTH COMPANY</h1>

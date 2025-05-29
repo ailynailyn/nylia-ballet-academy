@@ -548,7 +548,7 @@ function Classes() {
               <img
                 id="cur-class-image"
                 src={classInfo.preBallet1.classImg}
-                alt="El Paso dancers in Ballet class."
+                alt="El Paso Ballet Nylia Ballet Academy School for Classical Ballet dancers"
               ></img>
             </picture>
           </div>

@@ -6,7 +6,11 @@ function TeamCard({ profileImg, name, position, description, logo }) {
   return (
     <div className="TeamCard mx-auto">
       <Card>
-        <Card.Img variant="top" src={profileImg} />
+        <Card.Img
+          variant="top"
+          src={profileImg}
+          alt="El Paso Ballet Nylia Ballet Academy School for Classical Ballet"
+        />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
