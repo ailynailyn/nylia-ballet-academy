@@ -75,7 +75,7 @@ function Home() {
       <div className="description">
         <br></br>
         <h1>The Little Mermaid Auditions</h1>
-        <h4>Saturday, June 8, 2025</h4>
+        <h4>Sunday, June 8, 2025</h4>
         <p>
           Have you ever imagined dancing beneath the waves? Now’s your chance to
           bring that dream to life!
