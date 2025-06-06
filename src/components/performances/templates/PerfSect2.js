@@ -100,7 +100,7 @@ function PerfSect2({
               <br></br>
               <b>ADULT AUDITIONS</b>
               <br></br>
-              <b>11:30 PM:</b>{" "}
+              <b>11:30 AM:</b>{" "}
               <i>Check-in for all adult audition participants</i>
               <br></br>
               <b>12:00 PM:</b> <i>Beginner adults </i>
