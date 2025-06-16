@@ -78,15 +78,6 @@ import pointe2MdWebp from "../assets/classesPage/pointeII-768.webp";
 import pointe2LgWebp from "../assets/classesPage/pointeII-1280.webp";
 import pointe2XLWebp from "../assets/classesPage/pointeII-2000.webp";
 
-import pointe3Sm from "../assets/classesPage/pointeIII-300.JPG";
-import pointe3Md from "../assets/classesPage/pointeIII-768.JPG";
-import pointe3Lg from "../assets/classesPage/pointeIII-1280.JPG";
-import pointe3XL from "../assets/classesPage/pointeIII-2000.JPG";
-import pointe3SmWebp from "../assets/classesPage/pointeIII-300.webp";
-import pointe3MdWebp from "../assets/classesPage/pointeIII-768.webp";
-import pointe3LgWebp from "../assets/classesPage/pointeIII-1280.webp";
-import pointe3XLWebp from "../assets/classesPage/pointeIII-2000.webp";
-
 import begAdultBalletSm from "../assets/classesPage/begAdultBallet-300.jpg";
 import begAdultBalletMd from "../assets/classesPage/begAdultBallet-768.jpg";
 import begAdultBalletLg from "../assets/classesPage/begAdultBallet-1280.jpg";
@@ -297,9 +288,9 @@ function Classes() {
     pointe3: {
       classTitle: "POINTE III",
       classAges: "Placement by Evaluation",
-      classImg: pointe3Sm,
-      imgSet: `${pointe3Sm} 300w, ${pointe3Md} 768w, ${pointe3Lg} 1280w, ${pointe3XL} 2000w`,
-      webpSet: `${pointe3SmWebp} 300w, ${pointe3MdWebp} 768w, ${pointe3LgWebp} 1280w, ${pointe3XLWebp} 2000w`,
+      classImg: advPointeXL,
+      imgSet: `${advPointeSm} 300w, ${advPointeMd} 768w, ${advPointeLg} 1280w, ${advPointeXL} 2000w`,
+      webpSet: `${advPointeSmWebp} 300w, ${advPointeMdWebp} 768w, ${advPointeLgWebp} 1280w, ${advPointeXLWebp} 2000w`,
       classSched1: "FRIDAY",
       classSched2: "6:30 - 7:30 PM",
       classSched3: "",
@@ -317,7 +308,7 @@ function Classes() {
       imgSet: `${begAdultBalletSm} 300w, ${begAdultBalletMd} 768w, ${begAdultBalletLg} 1280w, ${begAdultBalletXL} 2000w`,
       webpSet: `${begAdultBalletSmWebp} 300w, ${begAdultBalletMdWebp} 768w, ${begAdultBalletLgWebp} 1280w, ${begAdultBalletXLWebp} 2000w`,
       classSched1: "MONDAY",
-      classSched2: "7:00 - 8:00 PM",
+      classSched2: "6:30 - 7:30 PM",
       classSched3: "TUESDAY & THURSDAY",
       classSched4: "7:00 - 8:00 PM",
       classSched5: "",
@@ -333,7 +324,7 @@ function Classes() {
       imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
       webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
       classSched1: "MONDAY",
-      classSched2: "7:00 - 8:00 PM",
+      classSched2: "6:30 - 7:30 PM",
       classSched3: "TUESDAY",
       classSched4: "5:30 - 7:00 PM",
       classSched5: "WEDNESDAY",
@@ -388,6 +379,22 @@ function Classes() {
       classSched6: "",
       classDesc:
         "Flexibility classes introduce various techniques of flexibility training as well as techniques that are especially designed to improve your range of movement and mobility. The focus of the class is to stretch and lengthen the muscles of the body, and to strengthen them to be able to better execute ballet technique or simply utilize in one’s own daily routine.",
+      classRgstr: dropInWlcm,
+    },
+    strength: {
+      classTitle: "STRENGTH FOR DANCERS",
+      classAges: "- All Ages -",
+      classImg: advPointeXL,
+      imgSet: `${advPointeXL} 300w, ${advPointeXL} 768w, ${advPointeXL} 1280w, ${advPointeXL} 2000w`,
+      webpSet: `${advPointeXL} 300w, ${advPointeXL} 768w, ${advPointeXL} 1280w, ${advPointeXL} 2000w`,
+      classSched1: "MONDAY",
+      classSched2: "5:30 PM - 6:30 PM",
+      classSched3: "",
+      classSched4: "",
+      classSched5: "",
+      classSched6: "",
+      classDesc:
+        "This class is designed to build strength, stability, and alignment for dancers of all backgrounds, with a foundation in classical ballet principles. Through focused exercises drawn from ballet, Pilates, and functional training, dancers will develop core control, muscular endurance, and injury-resistant technique. Emphasis is placed on correct placement, joint mobility, and the muscular support needed for both performance and longevity. Ideal for ballet dancers, contemporary movers, and performers seeking a deeper connection between strength and artistry.",
       classRgstr: dropInWlcm,
     },
   };
@@ -527,6 +534,12 @@ function Classes() {
                 onClick={() => setClassInfo("flexibility")}
               >
                 Flexibility
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("strength")}
+              >
+                Strength for Dancers
               </Dropdown.Item>
             </DropdownButton>
           </div>
@@ -698,6 +711,9 @@ function Classes() {
 
               <Button as="button" onClick={() => setClassInfo("flexibility")}>
                 Flexibility
+              </Button>
+              <Button as="button" onClick={() => setClassInfo("strength")}>
+                Strength for Dancers
               </Button>
             </ButtonGroup>
           </ButtonToolbar>
