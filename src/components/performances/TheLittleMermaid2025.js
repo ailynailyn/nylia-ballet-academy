@@ -5,6 +5,7 @@ import Footer from "../Footer";
 // Files used
 import littleMermaidHandbook from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaidHandbook2025.pdf";
 import littleMermaidRehearsalSchedule from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaid2025RehearsalSchedule.pdf";
+import littleMermaidRehearsalReqs from "../../assets/performances/TheLittleMermaid2025/LittleMermaid2025CostumeReqs.pdf";
 import littleMermaidCastList from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaid2025CastList.pdf";
 
 // IMAGES FOR PAGE
@@ -31,10 +32,10 @@ function TheLittleMermaid2025() {
       buttonLabel: "rehearsal schedule",
       buttonLink: littleMermaidRehearsalSchedule,
     },
-    // {
-    //   buttonLabel: "Rehearsal Attire",
-    //   buttonLink: rehearsalReqs,
-    // },
+    {
+      buttonLabel: "Rehearsal Attire",
+      buttonLink: littleMermaidRehearsalReqs,
+    },
     // { buttonLabel: "Costume Requirements", buttonLink: costumeReqs },
     // { buttonLabel: "communications", buttonLink: "" }, //todo
     // { buttonLabel: "volunteers", buttonLink: "" }, //todo
