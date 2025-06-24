@@ -131,7 +131,7 @@ function SummerIntensives() {
           <br />
           July 7 - 11
           <br />
-          5:00 pm - 8:30 pm
+          5:30 pm - 8:30 pm
           <br />
           <br />
           <b>COST</b>
