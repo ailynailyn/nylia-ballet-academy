@@ -5,8 +5,8 @@ import adultBalletMd from "../assets/summerIntensivesPage/claudia-and-linda-768.
 import adultBalletLg from "../assets/summerIntensivesPage/claudia-and-linda-1280.jpg";
 import adultBalletXL from "../assets/summerIntensivesPage/claudia-and-linda-2000.jpg";
 
-import youthSchedule from "../assets/summerIntensivesPage/YouthSI2024Schedule.pdf";
-import adultSchedule from "../assets/summerIntensivesPage/AdultSI2024Schedule.pdf";
+import youthSchedule from "../assets/summerIntensivesPage/YouthSI2025Schedule.pdf";
+import adultSchedule from "../assets/summerIntensivesPage/AdultSI2025Schedule.pdf";
 
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 import Footer from "../components/Footer";

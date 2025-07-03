@@ -74,34 +74,21 @@ function Home() {
 
       <div className="description">
         <br></br>
-        <h1>The Little Mermaid Auditions</h1>
-        <h4>Sunday, June 8, 2025</h4>
+        <h1>SUMMER INTENSIVES 2025</h1>
+        <h4>Monday, July 7 - Friday, July 11</h4>
         <p>
-          Have you ever imagined dancing beneath the waves? Now’s your chance to
-          bring that dream to life!
-          <br></br>
-          <br></br>
-          The Nylia Ballet Company is creating a completely original ballet
-          production of The Little Mermaid — inspired by the timeless Hans
-          Christian Andersen tale — and we’re looking for passionate performers
-          to join the very first cast.
-          <br></br>
-          <br></br>
-          Whether you’ve been dancing for years or you’ve never stepped into a
-          studio, you belong here. Open to dancers ages 4 and up. All experience
-          levels welcome — even total beginners! We’ll guide and train you every
-          step of the way.
-          <br></br>
-          <br></br>
-          This is more than a show — it’s a once-in-a-lifetime chance to create
-          something magical from the very beginning. Come be part of the story.
+          Immerse yourself in an enchanting week-long program that delves deep
+          into the the bold and fiery world of Don Quixote! Experience rigorous
+          training in classical ballet, refining your skills with classical
+          variations, pointe work, contemporary dance, improvisation techniques,
+          and flexibility exercises. This all-encompassing program is tailored
+          to help you elevate your dance training and reach new heights of
+          skill. Don't let this opportunity pass you by - join us and enrich
+          your dance journey!
         </p>{" "}
         <br></br>
-        <a
-          id="description-event-button"
-          href="/performances/thelittlemermaid2025"
-        >
-          <NyliaButton label={"the little mermaid"}></NyliaButton>
+        <a id="description-event-button" href="/summerintensives">
+          <NyliaButton label={"YOUTH & ADULT SUMMER INTENSIVES"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
