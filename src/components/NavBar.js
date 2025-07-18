@@ -50,6 +50,7 @@ function NavBar() {
     new RegExp(".*/performances/dracula2024/?$"),
     new RegExp(".*/performances/cinderella2024/?$"),
     new RegExp(".*/performances/swanlake2025/?$"),
+    new RegExp(".*/nyliaballetyouthcompany/?$"),
   ];
 
   var logoUsed = checkMatchInList(useLocation().pathname, whiteLogoPagesRegex) //()

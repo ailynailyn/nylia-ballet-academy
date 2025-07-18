@@ -81,6 +81,31 @@
   background-position: center;
 }
 
+#nbyc #mission-section {
+  background-image: -webkit-image-set(
+    url("../assets/nybc/sleepingBeautyFairies-300.jpg") 1x,
+    url("../assets/nybc/sleepingBeautyFairies-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/nybc/sleepingBeautyFairies-300.jpg") 1x,
+    url("../assets/nybc/sleepingBeautyFairies-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/nybc/sleepingBeautyFairies-300.jpg") 300w,
+    url("../assets/nybc/sleepingBeautyFairies-768.jpg") 768w,
+    url("../assets/nybc/sleepingBeautyFairies-1280.jpg") 1280w,
+    url("../assets/nybc/sleepingBeautyFairies-2000.jpg") 2000w
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  background-position: center;
+}
+
 #nbc-section,
 #nybc-section {
   background-color: rgba(0, 0, 0, 0.85);
@@ -92,6 +117,27 @@
 }
 
 .main-img-bkg-2 {
+  background-color: rgba(0, 0, 0, 0.85);
+
+  /* background-image: -webkit-image-set(
+    url("../assets/nbc/nbcClaraPurple-300.jpg") 1x,
+    url("../assets/nbc/nbcClaraPurple-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/nbc/nbcClaraPurple-300.jpg") 1x,
+    url("../assets/nbc/nbcClaraPurple-2000.jpg") 2x
+  );
+  background-image: image-set(
+    url("../assets/nbc/nbcClaraPurple-300.jpg") 300w,
+    url("../assets/nbc/nbcClaraPurple-768.jpg") 768w,
+    url("../assets/nbc/nbcClaraPurple-1280.jpg") 1280w,
+    url("../assets/nbc/nbcClaraPurple-2000.jpg") 2000w
+  ); */
+}
+
+#nbyc .main-img-bkg-2 {
+  /* background-color: rgba(0, 0, 0, 0.85); */
+
   background-image: -webkit-image-set(
     url("../assets/nbc/nbcClaraPurple-300.jpg") 1x,
     url("../assets/nbc/nbcClaraPurple-2000.jpg") 2x

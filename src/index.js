@@ -24,6 +24,7 @@ import SummerIntensives from "./components/SummerIntensives";
 import CompanyDancers from "./components/NBC/CompanyDancers";
 import QuickLinks from "./components/quicklinks/QuickLinks";
 import NBC from "./components/NBC";
+import NBYC from "./components/NBYC";
 import NotFound from "./components/PageNotFound.js";
 import "./index.css";
 
@@ -62,6 +63,7 @@ export default function App() {
           />
           <Route path="scholarships" element={<Scholarships />} />
           <Route path="nyliaballetcompany" element={<NBC />} />
+          <Route path="nyliaballetyouthcompany" element={<NBYC />} />
           <Route path="companydancers" element={<CompanyDancers />} />
           <Route path="summerintensives" element={<SummerIntensives />} />
           <Route path="quicklinks" element={<QuickLinks />} />

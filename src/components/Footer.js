@@ -108,7 +108,12 @@ function Footer() {
                 </h6>
                 <p>
                   <a href="/nyliaballetcompany" className="text-reset">
-                    NBC & NBYC
+                    NBC
+                  </a>
+                </p>
+                <p>
+                  <a href="/nyliaballetyouthcompany" className="text-reset">
+                    NBYC
                   </a>
                 </p>
                 <p>
