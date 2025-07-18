@@ -5,7 +5,7 @@ import ailyn from "../assets/nbc/headshots/JPEG-2000/ailyn.png";
 import luisaXL from "../assets/nbc/headshots/JPEG-2000/luisa.png";
 import anahidXL from "../assets/nbc/headshots/JPEG-2000/anahid.jpg";
 import yocelynXL from "../assets/nbc/headshots/JPEG-2000/yocelyn.jpg";
-import graceXL from "../assets/nbc/headshots/JPEG-2000/grace.jpg";
+import camilaXL from "../assets/nbc/headshots/JPEG-2000/camila.jpg";
 import beckXL from "../assets/nbc/headshots/JPEG-2000/beck.jpg";
 import claraXL from "../assets/nbc/headshots/JPEG-2000/clara2.png";
 import ABTLogo from "../assets/American_Ballet_Theatre_NTC_logo.png";
@@ -52,16 +52,23 @@ function Team() {
         "Luisa is a talented Corps de Ballet member with the Nylia Ballet Company and is currently pursuing a degree in Computer Science at EPCC. She has been training at Nylia Ballet Academy since its opening and is passionate about sharing the beauty of ballet with the El Paso community. Her love for the arts began long before ballet, with a background in musicals and theatre productions that ultimately led her to discover her true calling in dance. Luisa’s dedication to both her academic and artistic pursuits reflects her strong work ethic and her desire to inspire others through the power of movement and creativity.",
     },
     clara: {
-      name: "CLARA NEUFELD",
+      name: "CLARA FRAGA",
       profileImg: claraXL,
       position: "Instructor",
-      description: `Clara Neufeld is a dance teacher, Pilates instructor, and choreographer passionate about connecting people to the joy of movement in all forms throughout El Paso, TX. Clara’s dance training began in classical ballet under the direction of Andrée Harper, instilling her with discipline, perseverance, and a drive for excellence. As an Eastwood HS Trooperette, Clara discovered her passion for teaching and choreographing.  These pursuits led her to Texas Christian University’s School for Classical & Contemporary Dance, where she studied under various dance merit and academic achievement scholarships, as a Hispanic Scholarship Fund Scholar, and part of the John V. Roach Honors College.  While at TCU, Clara performed as “Silver” in Jewels Pas de Quarte in The Sleeping Beauty (excerpts), Swan Lake (Act II), and in original works by Keith Saunders, Rubén Gerding, and Peter Pucci.  In May 2023, Clara received a BFA in Ballet and a BA in English with Honors Laureate Distinction, in addition to a 700-hour comprehensive Pilates Teaching Certificate.`,
+      description: `Clara Fraga is a dance teacher, Pilates instructor, and choreographer passionate about connecting people to the joy of movement in all forms throughout El Paso, TX. Clara’s dance training began in classical ballet under the direction of Andrée Harper, instilling her with discipline, perseverance, and a drive for excellence. As an Eastwood HS Trooperette, Clara discovered her passion for teaching and choreographing.  These pursuits led her to Texas Christian University’s School for Classical & Contemporary Dance, where she studied under various dance merit and academic achievement scholarships, as a Hispanic Scholarship Fund Scholar, and part of the John V. Roach Honors College.  While at TCU, Clara performed as “Silver” in Jewels Pas de Quarte in The Sleeping Beauty (excerpts), Swan Lake (Act II), and in original works by Keith Saunders, Rubén Gerding, and Peter Pucci.  In May 2023, Clara received a BFA in Ballet and a BA in English with Honors Laureate Distinction, in addition to a 700-hour comprehensive Pilates Teaching Certificate.`,
     },
     yocelyn: {
       name: "YOCELYN SALCIDO",
       profileImg: yocelynXL,
       position: "Instructor",
       description: `Yocelyn is currently pursuing a BS in Neuroscience with a concentration in Biology on the pre-med track at the University of Texas at El Paso. Alongside her academic studies, she conducts undergraduate research with Cushing Laboratory and serves as a peer leader for General Chemistry II, where she supports fellow students in understanding complex concepts. Her passion for ballet began at the age of three under the guidance of Andrée Harper. Since 2023, she has trained at Nylia Ballet Academy and is a proud member of the Nylia Ballet Company. As a soloist she has performed leading roles such as Odette/Odile in Swan Lake, Cinderella, and the Lilac Fairy in The Sleeping Beauty. She is excited to be part of this incredible team and looks forward to sharing her love and dedication for the art of ballet with others.`,
+    },
+    camila: {
+      name: "LAURA CAMILA HELLMUTH",
+      profileImg: camilaXL,
+      position: "Instructor",
+      description:
+        "Laura Camila Hellmuth is a performing artist, teacher, and creative collaborator who hopes to inspire people to develop their individual talents of dance with proper ballet technique and free creative artistic expression. Graduating with a Bachelor of Fine Arts degree at the University of Texas in El Paso, her training has included ballet and other dance styles such as contemporary, modern, improvisation, hip-hop, and break dancing. Camila began her dance training under the instruction of Ms. McKenna and Miss Tena Vogel at The Dance Studio in Longview, Texas at the age of twelve; where she learned the discipline which has continued to shape her life and her love for movement and teaching.",
     },
   };
 
@@ -101,6 +108,12 @@ function Team() {
             name={memberInfo.clara.name}
             position={memberInfo.clara.position}
             description={memberInfo.clara.description}
+          ></TeamCard>
+          <TeamCard
+            profileImg={memberInfo.camila.profileImg}
+            name={memberInfo.camila.name}
+            position={memberInfo.camila.position}
+            description={memberInfo.camila.description}
           ></TeamCard>
           <TeamCard
             profileImg={memberInfo.yocelyn.profileImg}
