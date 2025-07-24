@@ -188,7 +188,7 @@ function UpcomingEvents() {
       isLink: true,
     },
     {
-      date: "09/27/2025",
+      date: "09/20/2025",
       event: "The Little Mermaid",
       note: "THE LITTLE MERMAID",
       link: "/performances/thelittlemermaid2025",
