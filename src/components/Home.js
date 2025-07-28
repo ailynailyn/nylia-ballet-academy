@@ -77,19 +77,24 @@ function Home() {
         <h1>THE LITTLE MERMAID</h1>
         <h4>Saturday, September 20th</h4>
         <p>
-          Dive into a world of sacrifice, love, and enchantment! Join the Nylia
-          Ballet Company as we bring Hans Christian Andersen's timeless tale The
-          Little Mermaid to life on stage in a brand new and original ballet.
-          Witness the journey of a mermaid who dares to trade her voice for a
-          chance at love, only to discover the true meaning of courage and
-          selflessness.
+          Journey beneath the waves in this deeply moving, original ballet
+          inspired by Hans Christian Andersen's classic tale. The Little Mermaid
+          follows a young mermaid's first glimpse of the human world, her daring
+          rescue of a prince, and the heartbreaking choice she makes for love.
+          Told through powerful choreography, haunting music, and rich visual
+          storytelling, this production brings the magic and emotion of the sea
+          to life on stage. As the Little Mermaid trades her voice for a chance
+          to walk among humans, her story unfolds with beauty, longing, and
+          unforgettable sacrifice. Brought to life by El Paso's own Nylia Ballet
+          Company, this is a locally created production you won't see anywhere
+          else.
         </p>{" "}
         <br></br>
         <a
           id="description-event-button"
-          href="/performances/thelittlemermaid2025"
+          href="https://www.ticketmaster.com/nylia-ballet-company-the-little-mermaid-el-paso-texas-09-20-2025/event/0C0062F8C11D2740"
         >
-          <NyliaButton label={"the little mermaid"}></NyliaButton>
+          <NyliaButton label={"TICKETS"}></NyliaButton>
         </a>
         <br></br>
         <br></br>

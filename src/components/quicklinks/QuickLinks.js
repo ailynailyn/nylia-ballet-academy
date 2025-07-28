@@ -21,52 +21,20 @@ function QuickLinks() {
         <div className="main-title">
           <h1>QUICK LINKS</h1>
         </div>
-        {/* <div className="main-box">
-          <h1 id="highlightTitle">THE SLEEPING BEAUTY</h1>
-          <br></br>
-          <h5>
-            <b>MAY 8, 2025</b>
-          </h5>
-          <h5>7 pm at UTEP's Magoffin Auditorium</h5>
-
-          <br></br>
-          <a href="https://www.ticketmaster.com/sleeping-beauty-el-paso-texas-05-08-2025/event/0C006265ED5F32A6">
-            <NyliaButton label={"THE SLEEPING BEAUTY TICKETS"}></NyliaButton>
-          </a>
-        </div> */}
         <div className="main-box">
-          <Accordion flush>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>
-                <b id="highlightTitle">SUMMER INTENSIVES 2025</b>
-              </Accordion.Header>
-              <Accordion.Body>
-                <a href="/summerintensives">
-                  <NyliaButton label={"LEARN MORe"}></NyliaButton>
-                </a>
-                <br />
-                <a href="https://form.jotform.com/251485078446162">
-                  <NyliaButton label={"YOUTH INTENSIVE"}></NyliaButton>
-                </a>
-                <br />
-                <a href="https://form.jotform.com/251485106279158">
-                  <NyliaButton label={"ADULT INTENSIVE"}></NyliaButton>
-                </a>
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-          {/* <h1 id="highlightTitle">YOUTH SUMMER INTENSIVE</h1>
+          <h1 id="highlightTitle">THE LITTLE MERMAID</h1>
           <br></br>
           <h5>
-            <b>MAY 8, 2025</b>
+            <b>SEPTEMBER 20, 2025</b>
           </h5>
-          <h5>7 pm at UTEP's Magoffin Auditorium</h5>
+          <h5>7 pm at the Abraham Chavez Theatre</h5>
 
           <br></br>
-          <a href="https://www.ticketmaster.com/sleeping-beauty-el-paso-texas-05-08-2025/event/0C006265ED5F32A6">
-            <NyliaButton label={"THE SLEEPING BEAUTY TICKETS"}></NyliaButton>
-          </a> */}
+          <a href="https://www.ticketmaster.com/nylia-ballet-company-the-little-mermaid-el-paso-texas-09-20-2025/event/0C0062F8C11D2740">
+            <NyliaButton label={"THE LITTLE MERMAID TICKETS"}></NyliaButton>
+          </a>
         </div>
+
         <br></br>
         <br></br>
         <div className="main-box">
