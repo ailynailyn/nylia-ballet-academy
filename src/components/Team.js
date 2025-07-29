@@ -2,7 +2,7 @@ import { React } from "react";
 import TeamCard from "../components/teamCard/TeamCard";
 import Footer from "../components/Footer";
 import ailyn from "../assets/nbc/headshots/JPEG-2000/ailyn.png";
-import luisaXL from "../assets/nbc/headshots/JPEG-2000/luisa.png";
+import luisaXL from "../assets/nbc/headshots/JPEG-2000/Luisa-bw.png";
 import anahidXL from "../assets/nbc/headshots/JPEG-2000/anahid.jpg";
 import yocelynXL from "../assets/nbc/headshots/JPEG-2000/yocelyn.jpg";
 import camilaXL from "../assets/nbc/headshots/JPEG-2000/camila.jpg";

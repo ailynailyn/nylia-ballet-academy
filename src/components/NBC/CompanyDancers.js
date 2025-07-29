@@ -10,57 +10,43 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-import zairaSm from "../../assets/nbc/headshots/JPEG-300/zaira.jpg";
-import zairaMd from "../../assets/nbc/headshots/JPEG-768/zaira.jpg";
-import zairaLg from "../../assets/nbc/headshots/JPEG-1280/zaira.jpg";
-import zairaXL from "../../assets/nbc/headshots/JPEG-2000/zaira.jpg";
+import zairaSm from "../../assets/nbc/headshots/JPEG-300/Zaira.png";
+import zairaMd from "../../assets/nbc/headshots/JPEG-768/Zaira.png";
+import zairaLg from "../../assets/nbc/headshots/JPEG-1280/Zaira.png";
+import zairaXL from "../../assets/nbc/headshots/JPEG-2000/Zaira.png";
+import stephanieSm from "../../assets/nbc/headshots/JPEG-300/Stephanie.png";
+import stephanieMd from "../../assets/nbc/headshots/JPEG-768/Stephanie.png";
+import stephanieLg from "../../assets/nbc/headshots/JPEG-1280/Stephanie.png";
+import stephanieXL from "../../assets/nbc/headshots/JPEG-2000/Stephanie.png";
+import virginiaSm from "../../assets/nbc/headshots/JPEG-300/Virginia.png";
+import virginiaMd from "../../assets/nbc/headshots/JPEG-768/Virginia.png";
+import virginiaLg from "../../assets/nbc/headshots/JPEG-1280/Virginia.png";
+import virginiaXL from "../../assets/nbc/headshots/JPEG-2000/Virginia.png";
+import yocelynSm from "../../assets/nbc/headshots/JPEG-300/Yocelyn.png";
+import yocelynMd from "../../assets/nbc/headshots/JPEG-768/Yocelyn.png";
+import yocelynLg from "../../assets/nbc/headshots/JPEG-1280/Yocelyn.png";
+import yocelynXL from "../../assets/nbc/headshots/JPEG-2000/Yocelyn.png";
+import anaCristinaSm from "../../assets/nbc/headshots/JPEG-300/AnaCristina.png";
+import anaCristinaMd from "../../assets/nbc/headshots/JPEG-768/AnaCristina.png";
+import anaCristinaLg from "../../assets/nbc/headshots/JPEG-1280/AnaCristina.png";
+import anaCristinaXL from "../../assets/nbc/headshots/JPEG-2000/AnaCristina.png";
 
-import tiffinySm from "../../assets/nbc/headshots/JPEG-300/tiffiny.jpg";
-import tiffinyMd from "../../assets/nbc/headshots/JPEG-768/tiffiny.jpg";
-import tiffinyLg from "../../assets/nbc/headshots/JPEG-1280/tiffiny.jpg";
-import tiffinyXL from "../../assets/nbc/headshots/JPEG-2000/tiffiny.jpg";
-import yocelynSm from "../../assets/nbc/headshots/JPEG-300/yocelyn.jpg";
-import yocelynMd from "../../assets/nbc/headshots/JPEG-768/yocelyn.jpg";
-import yocelynLg from "../../assets/nbc/headshots/JPEG-1280/yocelyn.jpg";
-import yocelynXL from "../../assets/nbc/headshots/JPEG-2000/yocelyn.jpg";
-import shelbySm from "../../assets/nbc/headshots/JPEG-300/shelby2.png";
-import shelbyMd from "../../assets/nbc/headshots/JPEG-768/shelby2.png";
-import shelbyLg from "../../assets/nbc/headshots/JPEG-1280/shelby2.png";
-import shelbyXL from "../../assets/nbc/headshots/JPEG-2000/shelby2.png";
-import melinaSm from "../../assets/nbc/headshots/JPEG-300/melina.png";
-import melinaMd from "../../assets/nbc/headshots/JPEG-768/melina.png";
-import melinaLg from "../../assets/nbc/headshots/JPEG-1280/melina.png";
-import melinaXL from "../../assets/nbc/headshots/JPEG-2000/melina.png";
-
-import isabelSm from "../../assets/nbc/headshots/JPEG-300/isabel.png";
-import isabelMd from "../../assets/nbc/headshots/JPEG-768/isabel.png";
-import isabelLg from "../../assets/nbc/headshots/JPEG-1280/isabel.png";
-import isabelXL from "../../assets/nbc/headshots/JPEG-2000/isabel.png";
-
-import camilaSm from "../../assets/nbc/headshots/JPEG-300/camila.jpg";
-import camilaMd from "../../assets/nbc/headshots/JPEG-768/camila.jpg";
-import camilaLg from "../../assets/nbc/headshots/JPEG-1280/camila.jpg";
-import camilaXL from "../../assets/nbc/headshots/JPEG-2000/camila.jpg";
-import anahidSm from "../../assets/nbc/headshots/JPEG-300/anahid.jpg";
-import anahidMd from "../../assets/nbc/headshots/JPEG-768/anahid.jpg";
-import anahidLg from "../../assets/nbc/headshots/JPEG-1280/anahid.jpg";
-import anahidXL from "../../assets/nbc/headshots/JPEG-2000/anahid.jpg";
-import rinaSm from "../../assets/nbc/headshots/JPEG-300/rina.jpg";
-import rinaMd from "../../assets/nbc/headshots/JPEG-768/rina.jpg";
-import rinaLg from "../../assets/nbc/headshots/JPEG-1280/rina.jpg";
-import rinaXL from "../../assets/nbc/headshots/JPEG-2000/rina.jpg";
+import camilaSm from "../../assets/nbc/headshots/JPEG-300/Camila.png";
+import camilaMd from "../../assets/nbc/headshots/JPEG-768/Camila.png";
+import camilaLg from "../../assets/nbc/headshots/JPEG-1280/Camila.png";
+import camilaXL from "../../assets/nbc/headshots/JPEG-2000/Camila.png";
+import anahidSm from "../../assets/nbc/headshots/JPEG-300/Anahid.png";
+import anahidMd from "../../assets/nbc/headshots/JPEG-768/Anahid.png";
+import anahidLg from "../../assets/nbc/headshots/JPEG-1280/Anahid.png";
+import anahidXL from "../../assets/nbc/headshots/JPEG-2000/Anahid.png";
 import beckSm from "../../assets/nbc/headshots/JPEG-300/beck.jpg";
 import beckMd from "../../assets/nbc/headshots/JPEG-768/beck.jpg";
 import beckLg from "../../assets/nbc/headshots/JPEG-1280/beck.jpg";
 import beckXL from "../../assets/nbc/headshots/JPEG-2000/beck.jpg";
-import luisaSm from "../../assets/nbc/headshots/JPEG-300/luisa.png";
-import luisaMd from "../../assets/nbc/headshots/JPEG-768/luisa.png";
-import luisaLg from "../../assets/nbc/headshots/JPEG-1280/luisa.png";
-import luisaXL from "../../assets/nbc/headshots/JPEG-2000/luisa.png";
-import luzSm from "../../assets/nbc/headshots/JPEG-300/luz.jpg";
-import luzMd from "../../assets/nbc/headshots/JPEG-768/luz.jpg";
-import luzLg from "../../assets/nbc/headshots/JPEG-1280/luz.jpg";
-import luzXL from "../../assets/nbc/headshots/JPEG-2000/luz.jpg";
+import luisaSm from "../../assets/nbc/headshots/JPEG-300/Luisa.png";
+import luisaMd from "../../assets/nbc/headshots/JPEG-768/Luisa.png";
+import luisaLg from "../../assets/nbc/headshots/JPEG-1280/Luisa.png";
+import luisaXL from "../../assets/nbc/headshots/JPEG-2000/Luisa.png";
 import logoXL from "../../assets/logos/Nylia Company Logos/2-cropped.png";
 
 import "./CompanyDancers.css";
@@ -100,25 +86,10 @@ function CompanyDancers() {
         <div className="companydancers-main-box" id="companydancers">
           <h1 id="highlightTitle">NYLIA BALLET COMPANY</h1>
           <h2>
-            <i>Soloists</i>
+            <i>Demi-Soloists</i>
           </h2>
           <div>
             <Row xs={1} sm={2} className="g-4">
-              <Col>
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src={tiffinySm}
-                    srcSet={`${tiffinySm} 300w, ${tiffinyMd} 768w, ${tiffinyLg} 1280w, ${tiffinyXL} 2000w`}
-                  />
-                  <Card.Body>
-                    <Card.Title>Tiffiny Stevens</Card.Title>
-                    <Card.Text>
-                      <i>Soloist</i>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
               <Col>
                 <Card>
                   <Card.Img
@@ -129,60 +100,11 @@ function CompanyDancers() {
                   <Card.Body>
                     <Card.Title>Yocelyn Salcido</Card.Title>
                     <Card.Text>
-                      <i>Soloist</i>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </div>
-          <br></br>
-          <h1 id="highlightTitle">NYLIA BALLET COMPANY</h1>
-          <h2>
-            <i>Demi-Soloists</i>
-          </h2>
-          <div>
-            <Row xs={1} sm={2} className="g-4">
-              <Col>
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src={shelbySm}
-                    srcSet={`${shelbySm} 300w, ${shelbyMd} 768w, ${shelbyLg} 1280w, ${shelbyXL} 2000w`}
-                  />
-                  <Card.Body>
-                    <Card.Title>Shelby Buxton</Card.Title>
-                    <Card.Text>
                       <i>Demi-Soloist</i>
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
-
-              <Col>
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src={isabelSm}
-                    srcSet={`${isabelSm} 300w, ${isabelMd} 768w, ${isabelLg} 1280w, ${isabelXL} 2000w`}
-                  />
-                  <Card.Body>
-                    <Card.Title>Isabel Robinson</Card.Title>
-                    <Card.Text>
-                      <i>Demi-Soloist</i>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </div>
-          <br></br>
-          <h1 id="highlightTitle">NYLIA BALLET COMPANY</h1>
-          <h2>
-            <i>Corps De Ballet</i>
-          </h2>
-          <div>
-            <Row xs={1} sm={2} className="g-4">
               <Col>
                 <Card>
                   <Card.Img
@@ -193,27 +115,22 @@ function CompanyDancers() {
                   <Card.Body>
                     <Card.Title>Anahid Aguirre</Card.Title>
                     <Card.Text>
-                      <i>Corps De Ballet</i>
+                      <i>Demi-Soloist</i>
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col>
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src={rinaSm}
-                    srcSet={`${rinaSm} 300w, ${rinaMd} 768w, ${rinaLg} 1280w, ${rinaXL} 2000w`}
-                  />
-                  <Card.Body>
-                    <Card.Title>Rina Alderete</Card.Title>
-                    <Card.Text>
-                      <i>Corps De Ballet</i>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
+            </Row>
+          </div>
+          <br></br>
 
+          <br></br>
+          <h1 id="highlightTitle">NYLIA BALLET COMPANY</h1>
+          <h2>
+            <i>Corps De Ballet</i>
+          </h2>
+          <div>
+            <Row xs={1} sm={2} className="g-4">
               <Col>
                 <Card>
                   <Card.Img
@@ -244,22 +161,6 @@ function CompanyDancers() {
                   </Card.Body>
                 </Card>
               </Col>
-
-              <Col>
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src={luzSm}
-                    srcSet={`${luzSm} 300w, ${luzMd} 768w, ${luzLg} 1280w, ${luzXL} 2000w`}
-                  />
-                  <Card.Body>
-                    <Card.Title>Luz Gonzalez</Card.Title>
-                    <Card.Text>
-                      <i>Corps De Ballet</i>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
             </Row>
           </div>
           <br></br>
@@ -284,15 +185,16 @@ function CompanyDancers() {
                   </Card.Body>
                 </Card>
               </Col>
+
               <Col>
                 <Card>
                   <Card.Img
                     variant="top"
-                    src={melinaSm}
-                    srcSet={`${melinaSm} 300w, ${melinaMd} 768w, ${melinaLg} 1280w, ${melinaXL} 2000w`}
+                    src={stephanieSm}
+                    srcSet={`${stephanieSm} 300w, ${stephanieMd} 768w, ${stephanieLg} 1280w, ${stephanieXL} 2000w`}
                   />
                   <Card.Body>
-                    <Card.Title>Melina Garcia</Card.Title>
+                    <Card.Title>Stephanie Lawler</Card.Title>
                     <Card.Text>
                       <i>Apprentice</i>
                     </Card.Text>
@@ -307,7 +209,37 @@ function CompanyDancers() {
                     srcSet={`${camilaSm} 300w, ${camilaMd} 768w, ${camilaLg} 1280w, ${camilaXL} 2000w`}
                   />
                   <Card.Body>
-                    <Card.Title>Camila Hellmuth</Card.Title>
+                    <Card.Title>Camila Montelongo</Card.Title>
+                    <Card.Text>
+                      <i>Apprentice</i>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col>
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src={anaCristinaSm}
+                    srcSet={`${anaCristinaSm} 300w, ${anaCristinaMd} 768w, ${anaCristinaLg} 1280w, ${anaCristinaXL} 2000w`}
+                  />
+                  <Card.Body>
+                    <Card.Title>Ana Cristina Muñetones</Card.Title>
+                    <Card.Text>
+                      <i>Apprentice</i>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col>
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src={virginiaSm}
+                    srcSet={`${virginiaSm} 300w, ${virginiaMd} 768w, ${virginiaLg} 1280w, ${virginiaXL} 2000w`}
+                  />
+                  <Card.Body>
+                    <Card.Title>Virginia Rodriguez</Card.Title>
                     <Card.Text>
                       <i>Apprentice</i>
                     </Card.Text>
