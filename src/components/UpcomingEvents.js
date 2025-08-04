@@ -195,7 +195,7 @@ function UpcomingEvents() {
       isLink: true,
     },
     {
-      date: "10/05/2025",
+      date: "09/28/2025",
       event: "Swan Lake Auditions",
       note: "SWAN LAKE",
       link: "/performances/swanlake2026",
