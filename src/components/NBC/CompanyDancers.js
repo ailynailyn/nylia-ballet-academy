@@ -43,10 +43,10 @@ import beckSm from "../../assets/nbc/headshots/JPEG-300/beck.jpg";
 import beckMd from "../../assets/nbc/headshots/JPEG-768/beck.jpg";
 import beckLg from "../../assets/nbc/headshots/JPEG-1280/beck.jpg";
 import beckXL from "../../assets/nbc/headshots/JPEG-2000/beck.jpg";
-import luisaSm from "../../assets/nbc/headshots/JPEG-300/Luisa.png";
-import luisaMd from "../../assets/nbc/headshots/JPEG-768/Luisa.png";
-import luisaLg from "../../assets/nbc/headshots/JPEG-1280/Luisa.png";
-import luisaXL from "../../assets/nbc/headshots/JPEG-2000/Luisa.png";
+import luisaSm from "../../assets/nbc/headshots/JPEG-300/luisa.png";
+import luisaMd from "../../assets/nbc/headshots/JPEG-768/luisa.png";
+import luisaLg from "../../assets/nbc/headshots/JPEG-1280/luisa.png";
+import luisaXL from "../../assets/nbc/headshots/JPEG-2000/luisa.png";
 import logoXL from "../../assets/logos/Nylia Company Logos/2-cropped.png";
 
 import "./CompanyDancers.css";
