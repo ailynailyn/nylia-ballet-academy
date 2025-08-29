@@ -117,6 +117,15 @@ import advPointeXLWebp from "../assets/classesPage/advancedPointe-2000.webp";
 import allAdultSm from "../assets/classesPage/AllLevels-300.jpg";
 import allAdultMd from "../assets/classesPage/AllLevels-2000.jpg";
 
+import contemporary1Sm from "../assets/classesPage/contemporary1-300.png";
+import contemporary1Md from "../assets/classesPage/contemporary1-768.png";
+import contemporary1Lg from "../assets/classesPage/contemporary1-1280.png";
+import contemporary1XL from "../assets/classesPage/contemporary1-2000.png";
+import contemporary2Sm from "../assets/classesPage/contemporary2-300.png";
+import contemporary2Md from "../assets/classesPage/contemporary2-768.png";
+import contemporary2Lg from "../assets/classesPage/contemporary2-1280.png";
+import contemporary2XL from "../assets/classesPage/contemporary2-2000.png";
+
 import flexibilitySm from "../assets/classesPage/ailynKeinaFold300.JPG";
 import flexibilityMd from "../assets/classesPage/ailynKeinaFold768.JPG";
 import flexibilityLg from "../assets/classesPage/ailynKeinaFold1280.JPG";
@@ -142,7 +151,7 @@ function Classes() {
   var classInfo = {
     preBallet1: {
       classTitle: "PRE-BALLET I",
-      classAges: "Ages 4",
+      classAges: "Ages 3-4",
       classImg: preBallet1Sm,
       imgSet: `${preBallet1Sm} 300w, ${preBallet1Md} 768w, ${preBallet1Lg} 1280w, ${preBallet1XL} 2000w`,
       webpSet: `${preBallet1SmWebp} 300w, ${preBallet1MdWebp} 768w, ${preBallet1LgWebp} 1280w, ${preBallet1XLWebp} 2000w`,
@@ -153,7 +162,7 @@ function Classes() {
       classSched5: "",
       classSched6: "",
       classDesc:
-        "Designed for 4 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
+        "Designed for 3-4 year olds. Students are introduced to ballet vocabulary and class etiquette, focusing on the development of coordination, strength, flexibility, and musicality during their early development stages. It is important to us to maintain a creative and accepting learning environment to keep our tiny dancers motivated and engaged in the art of ballet.",
       classRgstr: rgstrRqd,
     },
     preBallet2: {
@@ -307,10 +316,10 @@ function Classes() {
       classImg: begAdultBalletSm,
       imgSet: `${begAdultBalletSm} 300w, ${begAdultBalletMd} 768w, ${begAdultBalletLg} 1280w, ${begAdultBalletXL} 2000w`,
       webpSet: `${begAdultBalletSmWebp} 300w, ${begAdultBalletMdWebp} 768w, ${begAdultBalletLgWebp} 1280w, ${begAdultBalletXLWebp} 2000w`,
-      classSched1: "MONDAY",
-      classSched2: "6:30 - 7:30 PM",
-      classSched3: "TUESDAY & THURSDAY",
-      classSched4: "7:00 - 8:00 PM",
+      classSched1: "TUESDAY & THURSDAY",
+      classSched2: "7:00 - 8:00 PM",
+      classSched3: "",
+      classSched4: "",
       classSched5: "",
       classSched6: "",
       classDesc:
@@ -323,12 +332,12 @@ function Classes() {
       classImg: adultBalletSm,
       imgSet: `${adultBalletSm} 300w, ${adultBalletMd} 768w, ${adultBalletLg} 1280w, ${adultBalletXL} 2000w`,
       webpSet: `${adultBalletSmWebp} 300w, ${adultBalletMdWebp} 768w, ${adultBalletLgWebp} 1280w, ${adultBalletXLWebp} 2000w`,
-      classSched1: "MONDAY",
-      classSched2: "6:30 - 7:30 PM",
-      classSched3: "TUESDAY",
-      classSched4: "5:30 - 7:00 PM",
-      classSched5: "WEDNESDAY",
-      classSched6: "6:30 - 8:00 PM",
+      classSched1: "TUESDAY",
+      classSched2: "5:30 - 7:00 PM",
+      classSched3: "",
+      classSched4: "",
+      classSched5: "",
+      classSched6: "",
       classDesc:
         "This class is designed for intermediate ballet dancers. Participants will strengthen their ballet technique aimed to improve alignment and balance, strengthen muscles, and increase flexibility.",
       classRgstr: dropInWlcm,
@@ -372,21 +381,21 @@ function Classes() {
       imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
       webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
       classSched1: "WEDNESDAY",
-      classSched2: "5:30 PM - 6:30 PM",
-      classSched3: "SATURDAY",
-      classSched4: "11:00 AM - 12:00 PM",
+      classSched2: "11:00 AM - 12:00 PM",
+      classSched3: "",
+      classSched4: "",
       classSched5: "",
       classSched6: "",
       classDesc:
         "Flexibility classes introduce various techniques of flexibility training as well as techniques that are especially designed to improve your range of movement and mobility. The focus of the class is to stretch and lengthen the muscles of the body, and to strengthen them to be able to better execute ballet technique or simply utilize in one’s own daily routine.",
       classRgstr: dropInWlcm,
     },
-    strength: {
-      classTitle: "STRENGTH FOR DANCERS",
-      classAges: "- All Ages -",
-      classImg: advPointeXL,
-      imgSet: `${advPointeXL} 300w, ${advPointeXL} 768w, ${advPointeXL} 1280w, ${advPointeXL} 2000w`,
-      webpSet: `${advPointeXL} 300w, ${advPointeXL} 768w, ${advPointeXL} 1280w, ${advPointeXL} 2000w`,
+    contemporary1: {
+      classTitle: "CONTEMPORARY I",
+      classAges: "AGES 7-13",
+      classImg: contemporary1Sm,
+      imgSet: `${contemporary1Sm} 300w, ${contemporary1Md} 768w, ${contemporary1Lg} 1280w, ${contemporary1XL} 2000w`,
+      webpSet: `${contemporary1Sm} 300w, ${contemporary1Md} 768w, ${contemporary1Lg} 1280w, ${contemporary1XL} 2000w`,
       classSched1: "MONDAY",
       classSched2: "5:30 PM - 6:30 PM",
       classSched3: "",
@@ -394,9 +403,42 @@ function Classes() {
       classSched5: "",
       classSched6: "",
       classDesc:
-        "This class is designed to build strength, stability, and alignment for dancers of all backgrounds, with a foundation in classical ballet principles. Through focused exercises drawn from ballet, Pilates, and functional training, dancers will develop core control, muscular endurance, and injury-resistant technique. Emphasis is placed on correct placement, joint mobility, and the muscular support needed for both performance and longevity. Ideal for ballet dancers, contemporary movers, and performers seeking a deeper connection between strength and artistry.",
-      classRgstr: dropInWlcm,
+        "This class invites young dancers to begin exploring their inner creativity through the expressive language of contemporary dance. With a focus on developing body awareness, musicality, and storytelling through movement, students will be introduced to the unique fusion of ballet, modern, and improvisational techniques that define contemporary. This class encourages imaginative exploration and empowers each dancer to discover their own voice through movement. Improvisation exercises encourage confidence, individuality, and play, helping dancers begin to connect emotion with movement. As they build musicality, spatial awareness, and body control, students also gain a deeper understanding of how contemporary dance blends structure with freedom. Dancers will leave class feeling inspired, empowered, and more connected to their own artistic voice.",
+      classRgstr: rgstrRqd,
     },
+
+    contemporary2: {
+      classTitle: "CONTEMPORARY II",
+      classAges: "AGES 14+",
+      classImg: contemporary2Sm,
+      imgSet: `${contemporary2Sm} 300w, ${contemporary2Md} 768w, ${contemporary2Lg} 1280w, ${contemporary2XL} 2000w`,
+      webpSet: `${contemporary2Sm} 300w, ${contemporary2Md} 768w, ${contemporary2Lg} 1280w, ${contemporary2XL} 2000w`,
+      classSched1: "MONDAY",
+      classSched2: "6:30 PM - 7:30 PM",
+      classSched3: "",
+      classSched4: "",
+      classSched5: "",
+      classSched6: "",
+      classDesc:
+        "This class offers dancers the opportunity to dive deeper into the artistry of contemporary dance through technique, choreography, and collaborative dance with peers in the class. The power of conversation through dance will be introduced. Students will explore a wide range of movement influences, from ballet to modern, floor work to release technique, and will regularly engage in improvisational tasks designed to unlock personal movement style and deepen emotional expression. Emphasis is placed on using the body as a vessel for storytelling and developing an intuitive sense of musicality and dynamics. Beyond technique, dancers will cultivate resilience, creative risk-taking, and self-awareness, skills that enrich not only their dance practice, but their lives beyond the studio.",
+      classRgstr: rgstrRqd,
+    },
+    // strength: {
+    //   classTitle: "STRENGTH FOR DANCERS",
+    //   classAges: "- All Ages -",
+    //   classImg: advPointeXL,
+    //   imgSet: `${advPointeXL} 300w, ${advPointeXL} 768w, ${advPointeXL} 1280w, ${advPointeXL} 2000w`,
+    //   webpSet: `${advPointeXL} 300w, ${advPointeXL} 768w, ${advPointeXL} 1280w, ${advPointeXL} 2000w`,
+    //   classSched1: "MONDAY",
+    //   classSched2: "5:30 PM - 6:30 PM",
+    //   classSched3: "",
+    //   classSched4: "",
+    //   classSched5: "",
+    //   classSched6: "",
+    //   classDesc:
+    //     "This class is designed to build strength, stability, and alignment for dancers of all backgrounds, with a foundation in classical ballet principles. Through focused exercises drawn from ballet, Pilates, and functional training, dancers will develop core control, muscular endurance, and injury-resistant technique. Emphasis is placed on correct placement, joint mobility, and the muscular support needed for both performance and longevity. Ideal for ballet dancers, contemporary movers, and performers seeking a deeper connection between strength and artistry.",
+    //   classRgstr: dropInWlcm,
+    // },
   };
 
   const setClassInfo = (curClass) => {
@@ -537,9 +579,15 @@ function Classes() {
               </Dropdown.Item>
               <Dropdown.Item
                 as="button"
-                onClick={() => setClassInfo("strength")}
+                onClick={() => setClassInfo("contemporary1")}
               >
-                Strength for Dancers
+                Contemporary and Improv. I
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="button"
+                onClick={() => setClassInfo("contemporary2")}
+              >
+                Contemporary and Improv. II
               </Dropdown.Item>
             </DropdownButton>
           </div>
@@ -712,9 +760,26 @@ function Classes() {
               <Button as="button" onClick={() => setClassInfo("flexibility")}>
                 Flexibility
               </Button>
-              <Button as="button" onClick={() => setClassInfo("strength")}>
-                Strength for Dancers
-              </Button>
+              <DropdownButton
+                as={ButtonGroup}
+                title="Contemporary"
+                id="bg-vertical-dropdown-1"
+              >
+                <Dropdown.Item
+                  eventKey="1"
+                  as="button"
+                  onClick={() => setClassInfo("contemporary1")}
+                >
+                  Contemporary & Improv I
+                </Dropdown.Item>
+                <Dropdown.Item
+                  eventKey="2"
+                  as="button"
+                  onClick={() => setClassInfo("contemporary2")}
+                >
+                  Contemporary & Improv II
+                </Dropdown.Item>
+              </DropdownButton>
             </ButtonGroup>
           </ButtonToolbar>
           <p>
