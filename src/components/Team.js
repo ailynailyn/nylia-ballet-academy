@@ -44,6 +44,13 @@ function Team() {
       description:
         "Anahid Aguirre is a full-time dancer and professional nail artist, the proud owner of ADA Nail Salon, located right next to us! She began her dance journey at the age of 4 under the guidance of Andree Harper. Today, Anahid continues to pursue her passion for dance as a Corps de Ballet member with the Nylia Ballet Company. She has been part of Nylia Ballet since its inception, and is thrilled to contribute to the growth and artistry of the company. In addition to her dedication to dance, Anahid is also studying Architecture at EPCC, showcasing her multifaceted talents and strong work ethic. As a business owner and artist, she loves to share the beauty of ballet and nail artistry with others, inspiring those around her to find joy and creativity in the arts. Her mission is to inspire and uplift, just as she has been inspired by her mentors and fellow artists throughout her journey.",
     },
+    dariana: {
+      name: "DARIANA CARRASCO",
+      // profileImg: "",
+      position: "Instructor",
+      description:
+        "Dariana 	is a passionate movement artist and emerging creative who has been dancing since the age of 4. With years of experience in state and national dance competitions, she brings a deep appreciation for the transformative power of dance and performance. Currently pursuing a B.A. in Psychology with a minor in Communication Studies at UTEP, her academic journey reflects her lifelong passion for human connection, emotional expression, and the healing potential of the arts. Outside the studio, she works at a holistic women’s clinic where the integration of mind, body, and spirit - a philosophy that naturally extends into her teaching, is implemented. Dariana also hosts the Spotify podcast ‘ Because, I Love Me	,’ where she empowers listeners to cultivate joyful, balanced lifestyles rooted in self-love and authenticity. Her approach to contemporary dance encourages students to explore their inner creativity, connect to their bodies, and express themselves with confidence and freedom.",
+    },
     luisa: {
       name: "LUISA CUELLAR",
       profileImg: luisaXL,
@@ -51,24 +58,26 @@ function Team() {
       description:
         "Luisa is a talented Corps de Ballet member with the Nylia Ballet Company and is currently pursuing a degree in Computer Science at EPCC. She has been training at Nylia Ballet Academy since its opening and is passionate about sharing the beauty of ballet with the El Paso community. Her love for the arts began long before ballet, with a background in musicals and theatre productions that ultimately led her to discover her true calling in dance. Luisa’s dedication to both her academic and artistic pursuits reflects her strong work ethic and her desire to inspire others through the power of movement and creativity.",
     },
-    clara: {
-      name: "CLARA FRAGA",
-      profileImg: claraXL,
-      position: "Instructor",
-      description: `Clara Fraga is a dance teacher, Pilates instructor, and choreographer passionate about connecting people to the joy of movement in all forms throughout El Paso, TX. Clara’s dance training began in classical ballet under the direction of Andrée Harper, instilling her with discipline, perseverance, and a drive for excellence. As an Eastwood HS Trooperette, Clara discovered her passion for teaching and choreographing.  These pursuits led her to Texas Christian University’s School for Classical & Contemporary Dance, where she studied under various dance merit and academic achievement scholarships, as a Hispanic Scholarship Fund Scholar, and part of the John V. Roach Honors College.  While at TCU, Clara performed as “Silver” in Jewels Pas de Quarte in The Sleeping Beauty (excerpts), Swan Lake (Act II), and in original works by Keith Saunders, Rubén Gerding, and Peter Pucci.  In May 2023, Clara received a BFA in Ballet and a BA in English with Honors Laureate Distinction, in addition to a 700-hour comprehensive Pilates Teaching Certificate.`,
-    },
-    yocelyn: {
-      name: "YOCELYN SALCIDO",
-      profileImg: yocelynXL,
-      position: "Instructor",
-      description: `Yocelyn is currently pursuing a BS in Neuroscience with a concentration in Biology on the pre-med track at the University of Texas at El Paso. Alongside her academic studies, she conducts undergraduate research with Cushing Laboratory and serves as a peer leader for General Chemistry II, where she supports fellow students in understanding complex concepts. Her passion for ballet began at the age of three under the guidance of Andrée Harper. Since 2023, she has trained at Nylia Ballet Academy and is a proud member of the Nylia Ballet Company. As a soloist she has performed leading roles such as Odette/Odile in Swan Lake, Cinderella, and the Lilac Fairy in The Sleeping Beauty. She is excited to be part of this incredible team and looks forward to sharing her love and dedication for the art of ballet with others.`,
-    },
+
+    // yocelyn: {
+    //   name: "YOCELYN SALCIDO",
+    //   profileImg: yocelynXL,
+    //   position: "Instructor",
+    //   description: `Yocelyn is currently pursuing a BS in Neuroscience with a concentration in Biology on the pre-med track at the University of Texas at El Paso. Alongside her academic studies, she conducts undergraduate research with Cushing Laboratory and serves as a peer leader for General Chemistry II, where she supports fellow students in understanding complex concepts. Her passion for ballet began at the age of three under the guidance of Andrée Harper. Since 2023, she has trained at Nylia Ballet Academy and is a proud member of the Nylia Ballet Company. As a soloist she has performed leading roles such as Odette/Odile in Swan Lake, Cinderella, and the Lilac Fairy in The Sleeping Beauty. She is excited to be part of this incredible team and looks forward to sharing her love and dedication for the art of ballet with others.`,
+    // },
     camila: {
       name: "LAURA CAMILA HELLMUTH",
       profileImg: camilaXL,
       position: "Instructor",
       description:
         "Laura Camila Hellmuth is a performing artist, teacher, and creative collaborator who hopes to inspire people to develop their individual talents of dance with proper ballet technique and free creative artistic expression. Graduating with a Bachelor of Fine Arts degree at the University of Texas in El Paso, her training has included ballet and other dance styles such as contemporary, modern, improvisation, hip-hop, and break dancing. Camila began her dance training under the instruction of Ms. McKenna and Miss Tena Vogel at The Dance Studio in Longview, Texas at the age of twelve; where she learned the discipline which has continued to shape her life and her love for movement and teaching.",
+    },
+    mitzy: {
+      name: "MITZY LIRA",
+      profileImg: "",
+      position: "Instructor",
+      description:
+        "Mitzy Lira obtained her Bachelor of Fine Arts in Dance and Studio Art with a concentration in graphic design, and a minor in painting at The University of Texas at El Paso. During her time at The University of Texas at El Paso she worked as a graphic designer for the Department of Music at UTEP and was a historian officer and social media manager for Desert Dance. Besides training as a dancer, Mitzy gained experience as a choreographer and as a stage manager during her senior year of college. Furthermore, Mitzy is currently an art specialist teaching preschoolers, and is working as a freelance graphic designer and illustrator. As a Fronteriza she hopes to continue to create visual and performative art with both communities at the borderline. At Nylia Ballet Academy she is thankful for the opportunity to become an instructor who can support and inspire students to grow as dancers.",
     },
   };
 
@@ -98,17 +107,18 @@ function Team() {
             description={memberInfo.anahid.description}
           ></TeamCard>
           <TeamCard
+            profileImg={memberInfo.dariana.profileImg}
+            name={memberInfo.dariana.name}
+            position={memberInfo.dariana.position}
+            description={memberInfo.dariana.description}
+          ></TeamCard>
+          <TeamCard
             profileImg={memberInfo.luisa.profileImg}
             name={memberInfo.luisa.name}
             position={memberInfo.luisa.position}
             description={memberInfo.luisa.description}
           ></TeamCard>
-          <TeamCard
-            profileImg={memberInfo.clara.profileImg}
-            name={memberInfo.clara.name}
-            position={memberInfo.clara.position}
-            description={memberInfo.clara.description}
-          ></TeamCard>
+
           <TeamCard
             profileImg={memberInfo.camila.profileImg}
             name={memberInfo.camila.name}
@@ -116,10 +126,10 @@ function Team() {
             description={memberInfo.camila.description}
           ></TeamCard>
           <TeamCard
-            profileImg={memberInfo.yocelyn.profileImg}
-            name={memberInfo.yocelyn.name}
-            position={memberInfo.yocelyn.position}
-            description={memberInfo.yocelyn.description}
+            profileImg={memberInfo.mitzy.profileImg}
+            name={memberInfo.mitzy.name}
+            position={memberInfo.mitzy.position}
+            description={memberInfo.mitzy.description}
           ></TeamCard>
         </CardGroup>
       </div>
