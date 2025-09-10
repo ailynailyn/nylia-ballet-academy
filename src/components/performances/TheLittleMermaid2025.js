@@ -42,8 +42,8 @@ function TheLittleMermaid2025() {
   ];
 
   const auditionDate = "Sunday, JUNE 8, 2025";
-  const perfSect2ButtonLink =
-    "https://www.ticketmaster.com/nylia-ballet-company-the-little-mermaid-el-paso-texas-09-20-2025/event/0C0062F8C11D2740"; //TODO - Auditions Registry Link
+  // const perfSect2ButtonLink =
+  // ("https://www.ticketmaster.com/nylia-ballet-company-the-little-mermaid-el-paso-texas-09-20-2025/event/0C0062F8C11D2740"); //TODO - Auditions Registry Link
   const perfSect2Images = {
     sm: perfSect2ImgSm,
     md: perfSect2ImgMd,
@@ -59,7 +59,8 @@ function TheLittleMermaid2025() {
         showDate={showDate}
         headerDescription={headerDescription}
         auditionDate={auditionDate}
-        perfSect2ButtonLink={perfSect2ButtonLink}
+        // perfSect2ButtonLink={perfSect2ButtonLink}
+        // TODO: GO BACK AND UPDATE "RESERVE YOUR SEAT" LINK BACK. SINCE SELLING AT ACADEMY WILL TEMP UPDATE
         perfSect2Images={perfSect2Images}
         handbookLink={handbook}
         importantLinks={importantLinks}
