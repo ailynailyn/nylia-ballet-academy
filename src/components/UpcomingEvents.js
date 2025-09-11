@@ -233,14 +233,14 @@ function UpcomingEvents() {
       isLink: true,
     },
     {
-      date: "01/25/2026",
+      date: "02/01/2026",
       event: "Alice in Wonderland Auditions",
       note: "ALICE IN WONDERLAND",
       link: "/performances/aliceinwonderland2026",
       isLink: true,
     },
     {
-      date: "04/25/2026",
+      date: "06/27/2026",
       event: "Alice in Wonderland",
       note: "ALICE IN WONDERLAND",
       link: "/performances/aliceinwonderland2026",
