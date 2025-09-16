@@ -19,6 +19,7 @@ import Dracula2024 from "./components/performances/Dracula2024";
 import SwanLake2025 from "./components/performances/SwanLake2025";
 import SleepingBeauty2025 from "./components/performances/SleepingBeauty2025";
 import TheLittleMermaid2025 from "./components/performances/TheLittleMermaid2025";
+import SwanLake2026 from "./components/performances/SwanLake2026";
 import Scholarships from "./components/Scholarships";
 import SummerIntensives from "./components/SummerIntensives";
 import CompanyDancers from "./components/NBC/CompanyDancers";
@@ -61,6 +62,7 @@ export default function App() {
             path="performances/thelittlemermaid2025"
             element={<TheLittleMermaid2025 />}
           />
+          <Route path="performances/swanlake2026" element={<SwanLake2026 />} />
           <Route path="scholarships" element={<Scholarships />} />
           <Route path="nyliaballetcompany" element={<NBC />} />
           <Route path="nyliaballetyouthcompany" element={<NBYC />} />
