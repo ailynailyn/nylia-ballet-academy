@@ -7,6 +7,7 @@ import littleMermaidHandbook from "../../assets/performances/TheLittleMermaid202
 import littleMermaidRehearsalSchedule from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaid2025RehearsalSchedule.pdf";
 import littleMermaidRehearsalReqs from "../../assets/performances/TheLittleMermaid2025/LittleMermaid2025CostumeReqs.pdf";
 import littleMermaidCastList from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaid2025CastList.pdf";
+import program from "../../assets/performances/TheLittleMermaid2025/LittleMermaid2025Program.pdf";
 
 // IMAGES FOR PAGE
 import perfSect2ImgSm from "../../assets/performances/TheLittleMermaid2025/TheLittleMermaidPoster-300.png";
@@ -61,9 +62,12 @@ function TheLittleMermaid2025() {
         auditionDate={auditionDate}
         // perfSect2ButtonLink={perfSect2ButtonLink}
         // TODO: GO BACK AND UPDATE "RESERVE YOUR SEAT" LINK BACK. SINCE SELLING AT ACADEMY WILL TEMP UPDATE
+        // perfSect2ButtonLink={program} // comment back in when show is over.
         perfSect2Images={perfSect2Images}
         handbookLink={handbook}
         importantLinks={importantLinks}
+        performanceWeek={true} // change when show is over
+        perfSect2PerformanceWeekButtonLink={program}
       />
       <Footer />
     </div>
