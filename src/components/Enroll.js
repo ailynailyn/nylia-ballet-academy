@@ -417,7 +417,7 @@ function Enroll() {
                     Ready to take the first step into the world of classical
                     ballet? Schedule your free trial class with us and
                     experience our youth ballet training curriculum designed for
-                    dancers ages 7 and up. At Nylia Ballet Academy, we place
+                    dancers ages 8 and up. At Nylia Ballet Academy, we place
                     students in classes based on skill and experience—not just
                     age—to ensure the best learning environment for every
                     dancer.

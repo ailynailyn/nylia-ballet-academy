@@ -167,7 +167,7 @@ function Classes() {
     },
     preBallet2: {
       classTitle: "PRE-BALLET II",
-      classAges: "Age 5-6",
+      classAges: "Age 5-7",
       classImg: preBallet2Sm,
       imgSet: `${preBallet2Sm} 300w, ${preBallet2Md} 768w, ${preBallet2Lg} 1280w, ${preBallet2XL} 2000w`,
       webpSet: `${preBallet2SmWebp} 300w, ${preBallet2MdWebp} 768w, ${preBallet2LgWebp} 1280w, ${preBallet2XLWebp} 2000w`,
