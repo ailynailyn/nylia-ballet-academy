@@ -74,29 +74,23 @@ function Home() {
 
       <div className="description">
         <br></br>
-        <h1>THE LITTLE MERMAID</h1>
-        <h4>Sunday, September 21st</h4>
+        <h1>SWAN LAKE AUDITIONS</h1>
+        <h4>Sunday, September 28th</h4>
         <p>
-          Journey beneath the waves in this deeply moving, original ballet
-          inspired by Hans Christian Andersen's classic tale. The Little Mermaid
-          follows a young mermaid's first glimpse of the human world, her daring
-          rescue of a prince, and the heartbreaking choice she makes for love.
-          Told through powerful choreography, haunting music, and rich visual
-          storytelling, this production brings the magic and emotion of the sea
-          to life on stage. As the Little Mermaid trades her voice for a chance
-          to walk among humans, her story unfolds with beauty, longing, and
-          unforgettable sacrifice. Brought to life by El Paso's own Nylia Ballet
-          Company, this is a locally created production you won't see anywhere
-          else.
-          <br></br> <br></br>
-          Tickets available at Nylia Ballet Academy! Message us: <br></br>
-          (915) 478-7380
+          {" "}
+          <br></br>
+          Nylia Ballet Company is casting dancers ages 4+ for our upcoming
+          production of Swan Lake, the timeless story of love, mystery, and
+          transformation. From enchanted lakes to royal courts, this ballet
+          invites audiences into a world where grace meets power, and we want
+          you to help bring it to life! All backgrounds and experience levels
+          are welcome, from absolute beginners to advanced dancers. If you have
+          a passion for movement and storytelling, we’d love to see you at
+          auditions!
         </p>{" "}
         <br></br>
-        <a id="description-event-button">
-          <NyliaButton
-            label={"PURCHASE YOUR TICKETS AT NYLIA BALLET ACADEMY"}
-          ></NyliaButton>
+        <a id="description-event-button" href="/performances/swanlake2026">
+          <NyliaButton label={"SWAN LAKE AUDITIONS"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
