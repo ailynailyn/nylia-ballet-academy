@@ -17,7 +17,7 @@ import gallery4 from "../../assets/performances/SwanLake2025/gallery/4.png";
 import gallery5 from "../../assets/performances/SwanLake2025/gallery/5.png";
 import gallery6 from "../../assets/performances/SwanLake2025/gallery/6.png";
 
-import handbook from "../../assets/performances/SwanLake2025/Swan Lake Handbook 2024-2025.pdf";
+import handbook from "../../assets/performances/SwanLake2026/SwanLakeHandbook2025-2026.pdf";
 import castList from "../../assets/performances/SwanLake2025/SwanLakeCastList2024.pdf";
 import rehearsalAttire from "../../assets/performances/SwanLake2025/SwanLake24RehearsalReqs.png";
 import rehearsalSchedule from "../../assets/performances/SwanLake2025/Swan Lake Weekly Schedule 2024.pdf";
@@ -35,7 +35,6 @@ function SwanLake2026() {
   const auditionDate = "September 28, 2025";
   const headerDescription = `Immerse yourself in the enchanting love story of Swan Lake. Witness Prince Siegfried's fateful encounter with the Swan Queen, Odette, as he pledges his undying love and loyalty to her. However, a cruel curse by the evil sorcerer Baron von Rothbart only allows Odette to take human form at night. Only true love and unwavering fidelity can break this powerful spell.`;
 
-  // const handbook = handbook;
   const perfSect2ButtonLink =
     "https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F";
   const perfSect2Images = {
@@ -57,75 +56,75 @@ function SwanLake2026() {
   const eventCalendar = [
     {
       eventName: "Auditions",
-      date: "10/26/24",
+      date: "09/28/25",
       title: "Swan Lake Auditions",
-      subtitle: "October 26, 2024",
+      subtitle: "September 28, 2025",
       caption: "Auditions are held at Nylia Ballet Academy",
-      // buttonLink: "Register for Auditions.com",
-      // buttonLabel: "Register for Auditions",
+      buttonLink: "https://form.jotform.com/252658795021160",
+      buttonLabel: "Register for Auditions",
     },
     {
       eventName: "Rehearsals Begin",
-      date: "10/28/24",
+      date: "09/29/25",
       caption: "All rehearsals are held at Nylia Ballet Academy",
     },
     {
       eventName: "Costume Measurements",
-      date: "10/28/24",
+      date: "09/29/25",
       caption:
-        "Costume measurements will be taken during the dancer's rehearsal from October 28 - November 1.",
+        "Costume measurements will be taken during the dancer's rehearsal from September 29 - October 4.",
     },
     {
       eventName: "Rehearsal Attire Orders Due",
-      date: "11/04/24",
+      date: "10/18/25",
       caption:
         "Role-specific rehearsal attire orders are due. This includes rehearsal tutus, skirts, character shoes, and more. ",
     },
     {
       eventName: "Performance & Costume Fees Due",
-      date: "11/09/24",
+      date: "10/18/25",
       title: "Performance Fee & Costume Fees Due",
       caption: "Take a look at our handbook for detailed information!",
     },
     {
       eventName: "Rehearsal Attire Required",
-      date: "11/11/24",
+      date: "10/20/25",
       title: "Role-Specific Rehearsal Attire Required",
       caption:
         "All dancers must be wearing their designated rehearsal attire to all rehearsals. The rehearsal attire depends on their role in the production.",
     },
     {
       eventName: "Cast Photoshoot",
-      date: "11/11/24",
+      date: "11/16/25",
       title: "Swan Lake Cast Photoshoot",
       caption:
         "Picture packages can be purchased at the front desk. Make the beautiful memories last a lifetime!",
     },
     {
       eventName: "Full Run-Throughs (ALL CAST)",
-      date: "01/27/25",
+      date: "01/12/26",
       title: "Full Run-Throughs (ALL CAST)",
-      subtitle: "January 27 - 31",
+      subtitle: "January 12 - 16",
       caption:
         "All dancers will be rehearsing and doing full run-throughs of the show daily. Full details can be found in our Handbook.",
     },
     {
       eventName: "Dress Rehearsal",
-      date: "02/01/25",
+      date: "01/17/26",
       title: "Swan Lake Dress Rehearsal",
-      subtitle: "February 1",
+      subtitle: "January 17",
       caption:
         "Dress rehearsal will take place at UTEP's Magoffin Auditorium. Full details can be found in the Swan Lake Handbook.",
     },
     {
       eventName: "Nylia Ballet Company's Swan Lake",
-      date: "02/01/25",
+      date: "01/17/26",
       title: "Swan Lake",
-      subtitle: "February 1 at 7 pm",
+      subtitle: "January 17 at 7 pm",
       caption: "UTEP's Magoffin Auditorium",
-      buttonLink:
-        "https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F",
-      buttonLabel: "RESERVE YOUR SEATS",
+      // buttonLink:
+      //   "https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F",
+      // buttonLabel: "RESERVE YOUR SEATS",
     },
   ];
 
@@ -147,11 +146,11 @@ function SwanLake2026() {
         showDate={showDate}
         auditionDate={auditionDate}
         headerDescription={headerDescription}
-        handbookLink={""} //{handbook}
+        handbookLink={handbook}
         perfSect2ButtonLink={"https://form.jotform.com/252658795021160"}
         perfSect2Images={perfSect2Images}
         // importantLinks={importantLinks}
-        // eventCalendar={eventCalendar}
+        eventCalendar={eventCalendar}
         // galleryImages={galleryImages}
         performanceWeek={false}
       />
