@@ -23,7 +23,7 @@ import Accordion from "react-bootstrap/Accordion";
 import "./NBC.css";
 
 function NBC() {
-  // var element = ;
+  var jotformLink = "https://form.jotform.com/252658226936164";
 
   const goToSection = (sectionId) => {
     document.getElementById(sectionId).scrollIntoView(false);
@@ -250,6 +250,12 @@ function NBC() {
                     <ul>
                       <li>June - September 2025</li>
                     </ul>
+                    <b>Nylia Ballet Company Trainee Auditions</b>
+                    <ul>
+                      <li>
+                        September 28th, 2025 at 11:30 am - Nylia Ballet Academy
+                      </li>
+                    </ul>
                     <b>Swan Lake</b>
                     <ul>
                       <li>October 2025 - January 2026</li>
@@ -264,10 +270,7 @@ function NBC() {
             </Accordion>
           </div>
 
-          <NyliaButton
-            label={"Apply Now"}
-            link="https://form.jotform.com/250844795279170"
-          ></NyliaButton>
+          <NyliaButton label={"Apply Now"} link={jotformLink}></NyliaButton>
         </div>
       </div>
       <div className="main-img-bkg" id="auditions-nbc">
@@ -289,6 +292,13 @@ function NBC() {
             <br />
             1:30 - 3:30 pm
             <br /> <br />
+            <br />
+            <b>NYLIA BALLET COMPANY TRAINEE AUDITIONS</b>
+            <br />
+            September 28, 2025
+            <br />
+            11:30 am - 1:30 pm
+            <br /> <br />
             <hr></hr>
             <b>AUDITION REQUIREMENTS</b>
             <br />
@@ -298,7 +308,7 @@ function NBC() {
 
           <NyliaButton
             label={"Register for Company Auditions"}
-            link="https://form.jotform.com/250844795279170"
+            link={jotformLink}
           ></NyliaButton>
         </div>
       </div>
