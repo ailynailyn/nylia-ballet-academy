@@ -148,7 +148,7 @@ function SwanLake2026() {
         auditionDate={auditionDate}
         headerDescription={headerDescription}
         handbookLink={""} //{handbook}
-        // perfSect2ButtonLink={program}
+        perfSect2ButtonLink={"https://form.jotform.com/252658795021160"}
         perfSect2Images={perfSect2Images}
         // importantLinks={importantLinks}
         // eventCalendar={eventCalendar}

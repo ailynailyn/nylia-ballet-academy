@@ -20,7 +20,7 @@ import PerformanceTemplate from "./templates/PerformanceTemplate";
 import "./TheLittleMermaid2025.css";
 
 function TheLittleMermaid2025() {
-  const status = "ACTIVE";
+  const status = "PAST";
   const showName = "The Little Mermaid";
   const showDate = "2025";
   const headerDescription = `Dive into a world of sacrifice, love, and enchantment! Join the Nylia Ballet Company as we bring Hans Christian Andersen's timeless tale The Little Mermaid to life on stage. Witness the journey of a mermaid who dares to trade her voice for a chance at love, only to discover the true meaning of courage and selflessness.`;
@@ -61,12 +61,11 @@ function TheLittleMermaid2025() {
         headerDescription={headerDescription}
         auditionDate={auditionDate}
         // perfSect2ButtonLink={perfSect2ButtonLink}
-        // TODO: GO BACK AND UPDATE "RESERVE YOUR SEAT" LINK BACK. SINCE SELLING AT ACADEMY WILL TEMP UPDATE
         // perfSect2ButtonLink={program} // comment back in when show is over.
         perfSect2Images={perfSect2Images}
         handbookLink={handbook}
-        importantLinks={importantLinks}
-        performanceWeek={true} // change when show is over
+        // importantLinks={importantLinks}
+        performanceWeek={false} // change when show is over
         perfSect2PerformanceWeekButtonLink={program}
       />
       <Footer />

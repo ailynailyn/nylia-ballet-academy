@@ -44,8 +44,7 @@ function PerfSect2({
     status === "PAST"
       ? `${showName} PROGRAM`
       : status === "ACTIVE"
-      ? // ? `Reserve Your Seat`
-        `purchase your tickets at nylia ballet academy`
+      ? `Reserve Your Seat`
       : status === "UPCOMING"
       ? "Register for auditions"
       : "";
