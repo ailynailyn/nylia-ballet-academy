@@ -22,20 +22,23 @@ function QuickLinks() {
           <h1>QUICK LINKS</h1>
         </div>
         <div className="main-box">
-          <h1 id="highlightTitle">THE LITTLE MERMAID</h1>
+          <h1 id="highlightTitle">SWAN LAKE AUDITIONS</h1>
           <br></br>
           <h5>
-            <b>SEPTEMBER 21, 2025</b>
+            <b>SEPTEMBER 28, 2025</b>
           </h5>
           <h5>
-            Sunday at 7 pm<br></br> Monte Carlo Event Hall
+            This Sunday!<br></br>
+            <br></br>
+            <i>
+              Swan Lake is calling. All dancers, all levels, ages 4+. Step into
+              the story, your moment begins here.
+            </i>
           </h5>
 
           <br></br>
-          <a>
-            <NyliaButton
-              label={"Tickets available at Nylia Ballet Academy"}
-            ></NyliaButton>
+          <a href="/performances/swanlake2026">
+            <NyliaButton label={"Swan lake"}></NyliaButton>
           </a>
         </div>
 
