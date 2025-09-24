@@ -24,7 +24,7 @@ import Accordion from "react-bootstrap/Accordion";
 import "./NBC.css";
 
 function NBYC() {
-  // var element = ;
+  var jotformLink = "https://form.jotform.com/252657673602159";
 
   const goToSection = (sectionId) => {
     document.getElementById(sectionId).scrollIntoView(false);
@@ -246,6 +246,13 @@ function NBYC() {
                       <ul>
                         <li>June - September 2025</li>
                       </ul>
+                      <b>Nylia Ballet Youth Company Trainee Auditions</b>
+                      <ul>
+                        <li>
+                          September 28th, 2025 at 10:00 am - Nylia Ballet
+                          Academy
+                        </li>
+                      </ul>
                       <b>Swan Lake</b>
                       <ul>
                         <li>October 2025 - January 2026</li>
@@ -260,10 +267,7 @@ function NBYC() {
               </Accordion>
             </div>
           </p>
-          <NyliaButton
-            label={"Apply Now"}
-            link="https://form.jotform.com/250844484189165"
-          ></NyliaButton>
+          <NyliaButton label={"Apply Now"} link={jotformLink}></NyliaButton>
         </div>
       </div>
       <div className="main-img-bkg" id="auditions-nbc">
@@ -278,7 +282,14 @@ function NBYC() {
             <br />
             <br />
             11:00 am - 12:30 pm
-            <br /> <br /> <hr></hr>
+            <br /> <hr></hr>
+            <b>NYLIA BALLET YOUTH COMPANY TRAINEE AUDITIONS</b>
+            <br />
+            September 28, 2025
+            <br />
+            <br />
+            10:00 am - 12:30 pm
+            <hr></hr>
             <b>AUDITION REQUIREMENTS</b>
             <br />
             <li>
@@ -293,7 +304,7 @@ function NBYC() {
 
           <NyliaButton
             label={"Register for Youth Company Auditions"}
-            link="https://form.jotform.com/250844484189165"
+            link={jotformLink}
           ></NyliaButton>
         </div>
       </div>
