@@ -22,6 +22,7 @@ import TheLittleMermaid2025 from "./components/performances/TheLittleMermaid2025
 import SwanLake2026 from "./components/performances/SwanLake2026";
 import Scholarships from "./components/Scholarships";
 import SummerIntensives from "./components/SummerIntensives";
+import AuditionGuidelines from "./components/AuditionGuidelines";
 import CompanyDancers from "./components/NBC/CompanyDancers";
 import QuickLinks from "./components/quicklinks/QuickLinks";
 import NBC from "./components/NBC";
@@ -68,6 +69,7 @@ export default function App() {
           <Route path="nyliaballetyouthcompany" element={<NBYC />} />
           <Route path="companydancers" element={<CompanyDancers />} />
           <Route path="summerintensives" element={<SummerIntensives />} />
+          <Route path="auditionguidelines" element={<AuditionGuidelines />} />
           <Route path="quicklinks" element={<QuickLinks />} />
           <Route path="*" element={<NotFound />} />
         </Route>
