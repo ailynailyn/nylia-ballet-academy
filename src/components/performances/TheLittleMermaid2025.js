@@ -60,12 +60,11 @@ function TheLittleMermaid2025() {
         showDate={showDate}
         headerDescription={headerDescription}
         auditionDate={auditionDate}
-        // perfSect2ButtonLink={perfSect2ButtonLink}
-        // perfSect2ButtonLink={program} // comment back in when show is over.
+        perfSect2ButtonLink={program}
         perfSect2Images={perfSect2Images}
         handbookLink={handbook}
         // importantLinks={importantLinks}
-        performanceWeek={false} // change when show is over
+        performanceWeek={false}
         perfSect2PerformanceWeekButtonLink={program}
       />
       <Footer />
