@@ -75,15 +75,21 @@ function SwanLake2026() {
         "Costume measurements will be taken during the dancer's rehearsal from September 29 - October 4.",
     },
     {
+      eventName: "Performance Fee Due",
+      date: "10/11/25",
+      title: "Performance Fee Due",
+      caption: "Take a look at our handbook for detailed information!",
+    },
+    {
       eventName: "Rehearsal Attire Orders Due",
       date: "10/18/25",
       caption:
         "Role-specific rehearsal attire orders are due. This includes rehearsal tutus, skirts, character shoes, and more. ",
     },
     {
-      eventName: "Performance & Costume Fees Due",
+      eventName: "Costume Fees Due",
       date: "10/18/25",
-      title: "Performance Fee & Costume Fees Due",
+      title: "Costume Fees Due",
       caption: "Take a look at our handbook for detailed information!",
     },
     {
