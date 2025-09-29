@@ -19,7 +19,7 @@ import gallery6 from "../../assets/performances/SwanLake2025/gallery/6.png";
 
 import handbook from "../../assets/performances/SwanLake2026/SwanLakeHandbook2025-2026.pdf";
 import castList from "../../assets/performances/SwanLake2026/ SwanLake2025-2026CastList.pdf";
-// import rehearsalAttire from "../../assets/performances/SwanLake2025/SwanLake24RehearsalReqs.png";
+import rehearsalAttire from "../../assets/performances/SwanLake2026/SwanLake25-26RehearsalAttire.pdf";
 import rehearsalSchedule from "../../assets/performances/SwanLake2026/SwanLake2026RehearsalSchedule.pdf";
 // import costumeReqs from "../../assets/performances/SwanLake2025/SwanLake2024CostumeReqs.png";
 // import program from "../../assets/performances/SwanLake2025/Swan Lake Program 2025.pdf";
@@ -46,7 +46,7 @@ function SwanLake2026() {
 
   const importantLinks = [
     { buttonLabel: "Cast list", buttonLink: castList },
-    // { buttonLabel: "Rehearsal Attire", buttonLink: rehearsalAttire },
+    { buttonLabel: "Rehearsal Attire", buttonLink: rehearsalAttire },
     { buttonLabel: "rehearsal schedule", buttonLink: rehearsalSchedule },
     // { buttonLabel: "Costume Requirements", buttonLink: costumeReqs },
     // { buttonLabel: "communications", buttonLink: "" }, //todo
