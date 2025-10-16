@@ -381,9 +381,9 @@ function Classes() {
       imgSet: `${flexibilitySm} 300w, ${flexibilityMd} 768w, ${flexibilityLg} 1280w, ${flexibilityXL} 2000w`,
       webpSet: `${flexibilitySmWebp} 300w, ${flexibilityMdWebp} 768w, ${flexibilityLgWebp} 1280w, ${flexibilityXLWebp} 2000w`,
       classSched1: "FRIDAY",
-      classSched2: "11:00 AM - 12:00 PM",
-      classSched3: "",
-      classSched4: "",
+      classSched2: "5:00 PM - 6:00 PM",
+      classSched3: "SATURDAY",
+      classSched4: "11:00 AM - 12:00 PM",
       classSched5: "",
       classSched6: "",
       classDesc:

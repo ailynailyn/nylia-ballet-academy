@@ -72,7 +72,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="description">
+      {/* <div className="description">
         <br></br>
         <h1>SWAN LAKE AUDITIONS</h1>
         <h4>Sunday, September 28th</h4>
@@ -94,7 +94,7 @@ function Home() {
         </a>
         <br></br>
         <br></br>
-      </div>
+      </div> */}
 
       <div className="description">
         <br></br>
