@@ -135,7 +135,7 @@ import flexibilityMdWebp from "../assets/classesPage/ailynKeinaFold768.webp";
 import flexibilityLgWebp from "../assets/classesPage/ailynKeinaFold1280.webp";
 import flexibilityXLWebp from "../assets/classesPage/ailynKeinaFold2000.webp";
 
-import WeeklyCalendar from "../assets/classesPage/2024-2025 Weekly Schedule.png";
+import WeeklyCalendar from "../assets/classesPage/Weekly Schedule.png";
 import ClassDescriptionBrochure from "../assets/classesPage/Class Descriptions Brochure.pdf";
 
 import Dropdown from "react-bootstrap/Dropdown";
@@ -174,7 +174,7 @@ function Classes() {
       classSched1: "THURSDAY",
       classSched2: "5:30 - 6:30 PM",
       classSched3: "SATURDAY",
-      classSched4: "10:00 - 11:00 AM",
+      classSched4: "9:00 - 10:00 AM",
       classSched5: "",
       classSched6: "",
       classDesc:
@@ -365,7 +365,7 @@ function Classes() {
       imgSet: `${allAdultSm} 300w, ${allAdultMd} 768w, ${allAdultMd} 1280w, ${allAdultMd} 2000w`,
       webpSet: `${allAdultSm} 300w, ${allAdultMd} 768w, ${allAdultMd} 1280w, ${allAdultMd} 2000w`,
       classSched1: "SATURDAY",
-      classSched2: "12:00 - 1:30 PM",
+      classSched2: "11:00 - 12:30 PM",
       classSched3: "",
       classSched4: "",
       classSched5: "",
@@ -383,7 +383,7 @@ function Classes() {
       classSched1: "FRIDAY",
       classSched2: "5:00 PM - 6:00 PM",
       classSched3: "SATURDAY",
-      classSched4: "11:00 AM - 12:00 PM",
+      classSched4: "10:00 AM - 11:00 PM",
       classSched5: "",
       classSched6: "",
       classDesc:
