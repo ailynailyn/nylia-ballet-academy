@@ -22,22 +22,24 @@ function QuickLinks() {
           <h1>QUICK LINKS</h1>
         </div>
         <div className="main-box">
-          <h1 id="highlightTitle">SWAN LAKE AUDITIONS</h1>
+          <h1 id="highlightTitle">SWAN LAKE</h1>
           <br></br>
           <h5>
-            <b>SEPTEMBER 28, 2025</b>
+            <b>JANUARY 17, 2026</b>
           </h5>
           <h5>
-            This Sunday!<br></br>
+            7 pm at UTEP's Magoffin Auditorium<br></br>
             <br></br>
             <i>
-              Swan Lake is calling. All dancers, all levels, ages 4+. Step into
-              the story, your moment begins here.
+              The most beloved ballet of all time, Swan Lake makes its
+              highly-anticipated return to the El Paso-Juárez-Las Cruces
+              community! Reserve your seats now on TicketMaster or UTEP Box
+              Offices!
             </i>
           </h5>
 
           <br></br>
-          <a href="/performances/swanlake2026">
+          <a href="https://www.ticketmaster.com/swan-lake-el-paso-texas-01-17-2026/event/0C00635CB3AF5500">
             <NyliaButton label={"Swan lake"}></NyliaButton>
           </a>
         </div>
