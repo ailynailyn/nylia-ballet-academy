@@ -407,22 +407,22 @@ function Classes() {
       classRgstr: rgstrRqd,
     },
 
-    contemporary2: {
-      classTitle: "CONTEMPORARY II",
-      classAges: "AGES 14+",
-      classImg: contemporary2Sm,
-      imgSet: `${contemporary2Sm} 300w, ${contemporary2Md} 768w, ${contemporary2Lg} 1280w, ${contemporary2XL} 2000w`,
-      webpSet: `${contemporary2Sm} 300w, ${contemporary2Md} 768w, ${contemporary2Lg} 1280w, ${contemporary2XL} 2000w`,
-      classSched1: "MONDAY",
-      classSched2: "6:30 PM - 7:30 PM",
-      classSched3: "",
-      classSched4: "",
-      classSched5: "",
-      classSched6: "",
-      classDesc:
-        "This class offers dancers the opportunity to dive deeper into the artistry of contemporary dance through technique, choreography, and collaborative dance with peers in the class. The power of conversation through dance will be introduced. Students will explore a wide range of movement influences, from ballet to modern, floor work to release technique, and will regularly engage in improvisational tasks designed to unlock personal movement style and deepen emotional expression. Emphasis is placed on using the body as a vessel for storytelling and developing an intuitive sense of musicality and dynamics. Beyond technique, dancers will cultivate resilience, creative risk-taking, and self-awareness, skills that enrich not only their dance practice, but their lives beyond the studio.",
-      classRgstr: rgstrRqd,
-    },
+    // contemporary2: {
+    //   classTitle: "CONTEMPORARY II",
+    //   classAges: "AGES 14+",
+    //   classImg: contemporary2Sm,
+    //   imgSet: `${contemporary2Sm} 300w, ${contemporary2Md} 768w, ${contemporary2Lg} 1280w, ${contemporary2XL} 2000w`,
+    //   webpSet: `${contemporary2Sm} 300w, ${contemporary2Md} 768w, ${contemporary2Lg} 1280w, ${contemporary2XL} 2000w`,
+    //   classSched1: "MONDAY",
+    //   classSched2: "6:30 PM - 7:30 PM",
+    //   classSched3: "",
+    //   classSched4: "",
+    //   classSched5: "",
+    //   classSched6: "",
+    //   classDesc:
+    //     "This class offers dancers the opportunity to dive deeper into the artistry of contemporary dance through technique, choreography, and collaborative dance with peers in the class. The power of conversation through dance will be introduced. Students will explore a wide range of movement influences, from ballet to modern, floor work to release technique, and will regularly engage in improvisational tasks designed to unlock personal movement style and deepen emotional expression. Emphasis is placed on using the body as a vessel for storytelling and developing an intuitive sense of musicality and dynamics. Beyond technique, dancers will cultivate resilience, creative risk-taking, and self-awareness, skills that enrich not only their dance practice, but their lives beyond the studio.",
+    //   classRgstr: rgstrRqd,
+    // },
     // strength: {
     //   classTitle: "STRENGTH FOR DANCERS",
     //   classAges: "- All Ages -",
@@ -582,12 +582,6 @@ function Classes() {
                 onClick={() => setClassInfo("contemporary1")}
               >
                 Contemporary and Improv. I
-              </Dropdown.Item>
-              <Dropdown.Item
-                as="button"
-                onClick={() => setClassInfo("contemporary2")}
-              >
-                Contemporary and Improv. II
               </Dropdown.Item>
             </DropdownButton>
           </div>
@@ -771,13 +765,6 @@ function Classes() {
                   onClick={() => setClassInfo("contemporary1")}
                 >
                   Contemporary & Improv I
-                </Dropdown.Item>
-                <Dropdown.Item
-                  eventKey="2"
-                  as="button"
-                  onClick={() => setClassInfo("contemporary2")}
-                >
-                  Contemporary & Improv II
                 </Dropdown.Item>
               </DropdownButton>
             </ButtonGroup>
