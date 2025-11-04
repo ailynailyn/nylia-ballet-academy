@@ -72,29 +72,29 @@ function Home() {
         </div>
       </div>
 
-      {/* <div className="description">
+      <div className="description">
         <br></br>
-        <h1>SWAN LAKE AUDITIONS</h1>
-        <h4>Sunday, September 28th</h4>
+        <h1>SWAN LAKE</h1>
+        <h4>01.17.2025</h4>
         <p>
           {" "}
           <br></br>
-          Nylia Ballet Company is casting dancers ages 4+ for our upcoming
-          production of Swan Lake, the timeless story of love, mystery, and
-          transformation. From enchanted lakes to royal courts, this ballet
-          invites audiences into a world where grace meets power, and we want
-          you to help bring it to life! All backgrounds and experience levels
-          are welcome, from absolute beginners to advanced dancers. If you have
-          a passion for movement and storytelling, we’d love to see you at
-          auditions!
+          The most beloved ballet of all time, Swan Lake makes its
+          highly-anticipated return to the El Paso-Juárez-Las Cruces community!
+          Reserve your seats now on TicketMaster or UTEP Box Offices! <br></br>
+          <br></br>
+          <i>Saturday, January 17th at UTEP's Magoffin Auditorium</i> <br></br>
         </p>{" "}
         <br></br>
-        <a id="description-event-button" href="/performances/swanlake2026">
-          <NyliaButton label={"SWAN LAKE AUDITIONS"}></NyliaButton>
+        <a
+          id="description-event-button"
+          href="https://www.ticketmaster.com/swan-lake-el-paso-texas-01-17-2026/event/0C00635CB3AF5500"
+        >
+          <NyliaButton label={"SWAN LAKE"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
-      </div> */}
+      </div>
 
       <div className="description">
         <br></br>

@@ -1,13 +1,12 @@
 import { React } from "react";
 
 import Footer from "../Footer";
-// import littleMermaidHandbook from "../../assets/nbc/Nylia Ballet Company Handbook 2024-2025.pdf";
 
 // IMAGES FOR PAGE
-import perfSect2ImgSm from "../../assets/performances/SwanLake2026/SwanLake2026Auditions-300.png";
-import perfSect2ImgMd from "../../assets/performances/SwanLake2026/SwanLake2026Auditions-768.png";
-import perfSect2ImgLg from "../../assets/performances/SwanLake2026/SwanLake2026Auditions-1280.png";
-import perfSect2ImgXL from "../../assets/performances/SwanLake2026/SwanLake2026Auditions-2000.png";
+import perfSect2ImgSm from "../../assets/performances/SwanLake2026/SwanLake2026Poster-300.png";
+import perfSect2ImgMd from "../../assets/performances/SwanLake2026/SwanLake2026Poster-768.png";
+import perfSect2ImgLg from "../../assets/performances/SwanLake2026/SwanLake2026Poster-2000.png";
+import perfSect2ImgXL from "../../assets/performances/SwanLake2026/SwanLake2026Poster-2000.png";
 
 // Gallery Images
 import gallery1 from "../../assets/performances/SwanLake2025/gallery/1.png";
@@ -29,14 +28,14 @@ import PerformanceTemplate from "./templates/PerformanceTemplate";
 import "./SwanLake2026.css";
 
 function SwanLake2026() {
-  const status = "UPCOMING";
+  const status = "ACTIVE";
   const showName = "Swan Lake";
   const showDate = "January 17, 2026";
   const auditionDate = "September 28, 2025";
   const headerDescription = `Immerse yourself in the enchanting love story of Swan Lake. Witness Prince Siegfried's fateful encounter with the Swan Queen, Odette, as he pledges his undying love and loyalty to her. However, a cruel curse by the evil sorcerer Baron von Rothbart only allows Odette to take human form at night. Only true love and unwavering fidelity can break this powerful spell.`;
 
   const perfSect2ButtonLink =
-    "https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F";
+    "https://www.ticketmaster.com/swan-lake-el-paso-texas-01-17-2026/event/0C00635CB3AF5500";
   const perfSect2Images = {
     sm: perfSect2ImgSm,
     md: perfSect2ImgMd,
@@ -128,9 +127,8 @@ function SwanLake2026() {
       title: "Swan Lake",
       subtitle: "January 17 at 7 pm",
       caption: "UTEP's Magoffin Auditorium",
-      // buttonLink:
-      //   "https://www.ticketmaster.com/swan-lake-el-paso-texas-02-01-2025/event/0C00615EE1493D5F",
-      // buttonLabel: "RESERVE YOUR SEATS",
+      buttonLink: perfSect2ButtonLink,
+      buttonLabel: "RESERVE YOUR SEATS",
     },
   ];
 
@@ -153,7 +151,7 @@ function SwanLake2026() {
         auditionDate={auditionDate}
         headerDescription={headerDescription}
         handbookLink={handbook}
-        perfSect2ButtonLink={"https://form.jotform.com/252658795021160"}
+        perfSect2ButtonLink={perfSect2ButtonLink}
         perfSect2Images={perfSect2Images}
         importantLinks={importantLinks}
         eventCalendar={eventCalendar}
