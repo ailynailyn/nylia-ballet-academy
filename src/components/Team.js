@@ -55,7 +55,8 @@ function Team() {
       name: "MELANIE ELLIOTT",
       profileImg: "",
       position: "Instructor",
-      description: "",
+      description:
+        "Melanie is a performing arts enthusiast with a passion for dance and musical theatre. Starting from childhood, Melanie has trained and performed in styles such as ballet, jazz, contemporary, modern, hip hop, and pom, along with voice and acting. She has taught for the past 10 years in various capacities such as within multiple dance studios teaching all levels, as a high school performing arts tutor, with HTEDance in team leadership and training camps throughout Texas, and the El Paso Chihuahua’s Dance Team. She received her BFA in Dance Performance with a concentration in contemporary from The University of Texas at El Paso and is currently a graduate student at Pepperdine University pursing her MA in Psychology. Melanie hopes to continue to inspire others to pursue their passions and to find a love for movement and performance as she has.",
     },
     camila: {
       name: "LAURA CAMILA HELLMUTH",
@@ -71,13 +72,13 @@ function Team() {
       description:
         "Mitzy Lira obtained her Bachelor of Fine Arts in Dance and Studio Art with a concentration in graphic design, and a minor in painting at The University of Texas at El Paso. During her time at The University of Texas at El Paso she worked as a graphic designer for the Department of Music at UTEP and was a historian officer and social media manager for Desert Dance. Besides training as a dancer, Mitzy gained experience as a choreographer and as a stage manager during her senior year of college. Furthermore, Mitzy is currently an art specialist teaching preschoolers, and is working as a freelance graphic designer and illustrator. As a Fronteriza she hopes to continue to create visual and performative art with both communities at the borderline. At Nylia Ballet Academy she is thankful for the opportunity to become an instructor who can support and inspire students to grow as dancers.",
     },
-    aby: {
-      name: "ABY PEREA",
-      profileImg: "",
-      position: "Executive Assistant",
-      description:
-        "Aby is a multi-faceted artist and dancer. Drawn to music for as long as he can remember, his musical pursuit began at age 11 upon joining his middle school choir. As a teenager, he performed in musicals with El Paso’s Kids-N-Co.,  and later honed his music skills at the El Paso Conservatory of Music. He also studied voice under the renowned Michael Hernandez. After high school, Aby moved to Pasadena, California to nurture his artistry, earning a Bachelor's degree in Vocal Performance from Los Angeles College of Music in 2020. In 2021, he returned to El Paso to reconnect with his roots. He organized in local environmental justice campaigns and tutored high school choir students for EPISD for two years. He also continues to teach voice privately. In 2023, Aby began his dance journey by teaching himself K-Pop choreography. He went on to perform at local events with K-Pop dance team DREAM and continues to dance as a soloist. Aby is currently studying in the new Audio Engineering program at EPCC. He has begun producing his own music and wants to help develop other local artists. Aby is honored to uplift the Nylia community through creativity, collaboration, and care.",
-    },
+    // aby: {
+    //   name: "ABY PEREA",
+    //   profileImg: "",
+    //   position: "Executive Assistant",
+    //   description:
+    //     "Aby is a multi-faceted artist and dancer. Drawn to music for as long as he can remember, his musical pursuit began at age 11 upon joining his middle school choir. As a teenager, he performed in musicals with El Paso’s Kids-N-Co.,  and later honed his music skills at the El Paso Conservatory of Music. He also studied voice under the renowned Michael Hernandez. After high school, Aby moved to Pasadena, California to nurture his artistry, earning a Bachelor's degree in Vocal Performance from Los Angeles College of Music in 2020. In 2021, he returned to El Paso to reconnect with his roots. He organized in local environmental justice campaigns and tutored high school choir students for EPISD for two years. He also continues to teach voice privately. In 2023, Aby began his dance journey by teaching himself K-Pop choreography. He went on to perform at local events with K-Pop dance team DREAM and continues to dance as a soloist. Aby is currently studying in the new Audio Engineering program at EPCC. He has begun producing his own music and wants to help develop other local artists. Aby is honored to uplift the Nylia community through creativity, collaboration, and care.",
+    // },
   };
 
   return (
@@ -128,12 +129,6 @@ function Team() {
             name={memberInfo.mitzy.name}
             position={memberInfo.mitzy.position}
             description={memberInfo.mitzy.description}
-          ></TeamCard>
-          <TeamCard
-            profileImg={memberInfo.aby.profileImg}
-            name={memberInfo.aby.name}
-            position={memberInfo.aby.position}
-            description={memberInfo.aby.description}
           ></TeamCard>
         </CardGroup>
       </div>
