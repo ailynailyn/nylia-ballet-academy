@@ -20,11 +20,9 @@ function Team() {
     ailyn: {
       name: "AILYN AGUIRRE",
       profileImg: ailyn,
-      position: "Executive Director",
-      description: `Ailyn began her ballet training at eleven years old under Andrée
-      Harper and Ouisa Davis. After graduating from the University of
-      Texas in Austin, Ailyn became a Software Engineer. After teaching
-      and creating choreography at multiple studios throughout Texas, she
+      position: "Director",
+      description: `Ailyn began her ballet training at age eleven under Andrée Harper. After graduating from the University of Texas at Austin, she pursued a career in software engineering while teaching and choreographing throughout Texas.
+      She later
       returned to her native El Paso roots and founded Nylia Ballet
       Academy to provide an equal opportunity for anyone in the community
       to pursue their dreams in dance. Ailyn is an ABT® Certified Teacher, who has successfully completed the ABT® Teacher Training Intensive in Pre-Primary through Level 5 of the ABT® National Training Curriculum.`,
@@ -33,7 +31,7 @@ function Team() {
     beck: {
       name: "BECK CUELLAR",
       profileImg: beckXL,
-      position: "Executive Assistant & Production Assistant",
+      position: "Executive & Production Assistant",
       description:
         "Beck, a proud El Paso native, is currently pursuing a BFA with a focus on Painting and a minor in Graphic Design at UTEP. Following high school, Beck was offered a soccer scholarship at Navarro College and also secured a prestigious local scholarship from El Paso. With a diverse background in various job fields, Beck has diligently honed their artistic skills while also making a name for themselves as a local vegan cook, actively seeking to expand their culinary expertise. Securing multiple scholarships and furthering their art techniques, Beck joined Nylia Ballet Academy as a Production Assistant, whose works include personally crafting the Cinderella set. In addition to serving as the house artist, they are a valuable member of the Nylia Dancewear team, contributing to the creation of stunning attire. Furthermore, Beck has attained a Technical Diploma in Medical Assistance and completed their phlebotomy certification through a Texas-accredited school, showcasing their versatility beyond artistic pursuits. Known for their multitude of talents and unwavering passion for art, Beck consistently brings a burst of creativity to Nylia Ballet's showcases.",
     },
