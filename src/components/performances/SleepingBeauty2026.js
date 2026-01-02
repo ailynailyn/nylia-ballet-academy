@@ -7,11 +7,11 @@ import perfSect2ImgSm from "../../assets/performances/SleepingBeauty2026/2026Sle
 import perfSect2ImgMd from "../../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditionsDetails-768.png";
 import perfSect2ImgLg from "../../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditionsDetails-1280.png";
 import perfSect2ImgXL from "../../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditionsDetails-2000.png";
-import handbook from "../../assets/performances/SleepingBeauty2025/SleepingBeautyHandbook2025.pdf";
-import castList from "../../assets/performances/SleepingBeauty2025/Sleeping Beauty 2025 Cast List.pdf";
-import rehearsalSchedule from "../../assets/performances/SleepingBeauty2025/SleepingBeautyRehearsalSchedule.png";
-import rehearsalReqs from "../../assets/performances/SleepingBeauty2025/SwanLake2024RehearsalReqs.png";
-import costumeReqs from "../../assets/performances/SleepingBeauty2025/The Sleeping Beauty 2025 - Costume Reqs.pdf";
+// import handbook from "../../assets/performances/SleepingBeauty2025/SleepingBeautyHandbook2025.pdf";
+// import castList from "../../assets/performances/SleepingBeauty2025/Sleeping Beauty 2025 Cast List.pdf";
+// import rehearsalSchedule from "../../assets/performances/SleepingBeauty2025/SleepingBeautyRehearsalSchedule.png";
+// import rehearsalReqs from "../../assets/performances/SleepingBeauty2025/SwanLake2024RehearsalReqs.png";
+// import costumeReqs from "../../assets/performances/SleepingBeauty2025/The Sleeping Beauty 2025 - Costume Reqs.pdf";
 // import program from "../../assets/performances/SleepingBeauty2025/The Sleeping Beauty 2025 Program.pdf";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
@@ -36,21 +36,21 @@ function SleepingBeauty2026() {
     xl: perfSect2ImgXL,
   };
 
-  const importantLinks = [
-    { buttonLabel: "Cast list", buttonLink: castList },
+  // const importantLinks = [
+  //   { buttonLabel: "Cast list", buttonLink: castList },
 
-    {
-      buttonLabel: "rehearsal schedule",
-      buttonLink: rehearsalSchedule,
-    },
-    {
-      buttonLabel: "Rehearsal Attire",
-      buttonLink: rehearsalReqs,
-    },
-    { buttonLabel: "Costume Requirements", buttonLink: costumeReqs },
-    // { buttonLabel: "communications", buttonLink: "" }, //todo
-    // { buttonLabel: "volunteers", buttonLink: "" }, //todo
-  ];
+  //   {
+  //     buttonLabel: "rehearsal schedule",
+  //     buttonLink: rehearsalSchedule,
+  //   },
+  //   {
+  //     buttonLabel: "Rehearsal Attire",
+  //     buttonLink: rehearsalReqs,
+  //   },
+  //   { buttonLabel: "Costume Requirements", buttonLink: costumeReqs },
+  //   // { buttonLabel: "communications", buttonLink: "" }, //todo
+  //   // { buttonLabel: "volunteers", buttonLink: "" }, //todo
+  // ];
 
   const eventCalendar = [
     {
@@ -134,7 +134,7 @@ function SleepingBeauty2026() {
   ];
 
   return (
-    <div id="sleepingBeauty2025Div">
+    <div id="sleepingBeauty2026Div">
       <PerformanceTemplate
         status={status}
         showName={showName}
