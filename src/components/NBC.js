@@ -259,9 +259,9 @@ function NBC() {
                     <ul>
                       <li>October 2025 - January 2026</li>
                     </ul>
-                    <b>Alice in Wonderland</b>
+                    <b>The Sleeping Beauty</b>
                     <ul>
-                      <li>February - April 2026</li>
+                      <li>February - June 2026</li>
                     </ul>
                   </p>
                 </Accordion.Body>

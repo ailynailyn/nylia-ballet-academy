@@ -9,15 +9,15 @@ import Button from "react-bootstrap/Button";
 import NyliaButton from "./nyliaButton/NyliaButton.js";
 import Footer from "../components/Footer";
 
-// ALICE IN WONDERLAND
-import alice2026GallerySm from "../assets/performances/AliceInWonderland2026/AliceAndQueen-300.png";
-import alice2026GalleryMd from "../assets/performances/AliceInWonderland2026/AliceAndQueen-768.png";
-import alice2026GalleryLg from "../assets/performances/AliceInWonderland2026/AliceAndQueen-1280.png";
-import alice2026GalleryXl from "../assets/performances/AliceInWonderland2026/AliceAndQueen-2000.png";
-import alice2026Sm from "../assets/performances/AliceInWonderland2026/AliceAndQueen-300.png";
-import alice2026Md from "../assets/performances/AliceInWonderland2026/AliceAndQueen-768.png";
-import alice2026Lg from "../assets/performances/AliceInWonderland2026/AliceAndQueen-1280.png";
-import alice2026Xl from "../assets/performances/AliceInWonderland2026/AliceAndQueen-2000.png";
+// THE SLEEPING BEAUTY 2026
+import tsb2026GallerySm from "../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditions-300.png";
+import tsb2026GalleryMd from "../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditions-768.png";
+import tsb2026GalleryLg from "../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditions-1280.png";
+import tsb2026GalleryXl from "../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditions-2000.png";
+import tsb2026Sm from "../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditions-300.png";
+import tsb2026Md from "../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditions-768.png";
+import tsb2026Lg from "../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditions-1280.png";
+import tsb2026Xl from "../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditions-2000.png";
 
 // SWAN LAKE 2026
 import swanLake2026GallerySm from "../assets/performances/SwanLake2026/SwanLake-Duo-300.png";
@@ -89,21 +89,21 @@ function Performances() {
   const carouselGallery = [
     {
       date: `Summer 2026`,
-      title: `Alice in Wonderland`,
-      caption: `Join Nylia Ballet Company for a magical journey through *Alice in Wonderland*, where Alice encounters whimsical characters and unforgettable moments, brought to life with stunning choreography, costumes, and music.`,
+      title: `The Sleeping Beauty`,
+      caption: ``,
       imageSet: {
-        sm: alice2026GallerySm,
-        md: alice2026GalleryMd,
-        lg: alice2026GalleryLg,
-        xl: alice2026GalleryXl,
+        sm: tsb2026GallerySm,
+        md: tsb2026GalleryMd,
+        lg: tsb2026GalleryLg,
+        xl: tsb2026GalleryXl,
       },
       cardImages: {
-        sm: alice2026Sm,
-        md: alice2026Md,
-        lg: alice2026Lg,
-        xl: alice2026Xl,
+        sm: tsb2026Sm,
+        md: tsb2026Md,
+        lg: tsb2026Lg,
+        xl: tsb2026Xl,
       },
-      link: `/performances/aliceinwonderland2026`,
+      link: `/performances/thesleepingbeauty2026`,
     },
     {
       date: `Winter 2026`,

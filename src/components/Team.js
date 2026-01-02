@@ -42,13 +42,6 @@ function Team() {
       description:
         "Anahid Aguirre is a full-time dancer and professional nail artist, the proud owner of ADA Nail Salon, located right next to us! She began her dance journey at the age of 4 under the guidance of Andree Harper. Today, Anahid continues to pursue her passion for dance as a Corps de Ballet member with the Nylia Ballet Company. She has been part of Nylia Ballet since its inception, and is thrilled to contribute to the growth and artistry of the company. In addition to her dedication to dance, Anahid is also studying Architecture at EPCC, showcasing her multifaceted talents and strong work ethic. As a business owner and artist, she loves to share the beauty of ballet and nail artistry with others, inspiring those around her to find joy and creativity in the arts. Her mission is to inspire and uplift, just as she has been inspired by her mentors and fellow artists throughout her journey.",
     },
-    dariana: {
-      name: "DARIANA CARRASCO",
-      // profileImg: "",
-      position: "Instructor",
-      description:
-        "Dariana 	is a passionate movement artist and emerging creative who has been dancing since the age of 4. With years of experience in state and national dance competitions, she brings a deep appreciation for the transformative power of dance and performance. Currently pursuing a B.A. in Psychology with a minor in Communication Studies at UTEP, her academic journey reflects her lifelong passion for human connection, emotional expression, and the healing potential of the arts. Outside the studio, she works at a holistic women’s clinic where the integration of mind, body, and spirit - a philosophy that naturally extends into her teaching, is implemented. Dariana also hosts the Spotify podcast ‘ Because, I Love Me	,’ where she empowers listeners to cultivate joyful, balanced lifestyles rooted in self-love and authenticity. Her approach to contemporary dance encourages students to explore their inner creativity, connect to their bodies, and express themselves with confidence and freedom.",
-    },
     melanie: {
       name: "MELANIE ELLIOTT",
       profileImg: "",
@@ -70,13 +63,6 @@ function Team() {
       description:
         "Mitzy Lira obtained her Bachelor of Fine Arts in Dance and Studio Art with a concentration in graphic design, and a minor in painting at The University of Texas at El Paso. During her time at The University of Texas at El Paso she worked as a graphic designer for the Department of Music at UTEP and was a historian officer and social media manager for Desert Dance. Besides training as a dancer, Mitzy gained experience as a choreographer and as a stage manager during her senior year of college. Furthermore, Mitzy is currently an art specialist teaching preschoolers, and is working as a freelance graphic designer and illustrator. As a Fronteriza she hopes to continue to create visual and performative art with both communities at the borderline. At Nylia Ballet Academy she is thankful for the opportunity to become an instructor who can support and inspire students to grow as dancers.",
     },
-    // aby: {
-    //   name: "ABY PEREA",
-    //   profileImg: "",
-    //   position: "Executive Assistant",
-    //   description:
-    //     "Aby is a multi-faceted artist and dancer. Drawn to music for as long as he can remember, his musical pursuit began at age 11 upon joining his middle school choir. As a teenager, he performed in musicals with El Paso’s Kids-N-Co.,  and later honed his music skills at the El Paso Conservatory of Music. He also studied voice under the renowned Michael Hernandez. After high school, Aby moved to Pasadena, California to nurture his artistry, earning a Bachelor's degree in Vocal Performance from Los Angeles College of Music in 2020. In 2021, he returned to El Paso to reconnect with his roots. He organized in local environmental justice campaigns and tutored high school choir students for EPISD for two years. He also continues to teach voice privately. In 2023, Aby began his dance journey by teaching himself K-Pop choreography. He went on to perform at local events with K-Pop dance team DREAM and continues to dance as a soloist. Aby is currently studying in the new Audio Engineering program at EPCC. He has begun producing his own music and wants to help develop other local artists. Aby is honored to uplift the Nylia community through creativity, collaboration, and care.",
-    // },
   };
 
   return (
@@ -103,12 +89,6 @@ function Team() {
             name={memberInfo.anahid.name}
             position={memberInfo.anahid.position}
             description={memberInfo.anahid.description}
-          ></TeamCard>
-          <TeamCard
-            profileImg={memberInfo.dariana.profileImg}
-            name={memberInfo.dariana.name}
-            position={memberInfo.dariana.position}
-            description={memberInfo.dariana.description}
           ></TeamCard>
           <TeamCard
             profileImg={memberInfo.melanie.profileImg}

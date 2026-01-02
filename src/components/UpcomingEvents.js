@@ -234,16 +234,16 @@ function UpcomingEvents() {
     },
     {
       date: "02/01/2026",
-      event: "Alice in Wonderland Auditions",
-      note: "ALICE IN WONDERLAND",
-      link: "/performances/aliceinwonderland2026",
+      event: "The Sleeping Beauty Auditions",
+      note: "THE SLEEPING BEAUTY",
+      link: "/performances/thesleepingbeauty2026",
       isLink: true,
     },
     {
       date: "06/27/2026",
-      event: "Alice in Wonderland",
-      note: "ALICE IN WONDERLAND",
-      link: "/performances/aliceinwonderland2026",
+      event: "The Sleeping Beauty",
+      note: "THE SLEEPING BEAUTY",
+      link: "/performances/thesleepingbeauty2026",
       isLink: true,
     },
   ];

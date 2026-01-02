@@ -20,6 +20,7 @@ import SwanLake2025 from "./components/performances/SwanLake2025";
 import SleepingBeauty2025 from "./components/performances/SleepingBeauty2025";
 import TheLittleMermaid2025 from "./components/performances/TheLittleMermaid2025";
 import SwanLake2026 from "./components/performances/SwanLake2026";
+import SleepingBeauty2026 from "./components/performances/SleepingBeauty2026";
 import Scholarships from "./components/Scholarships";
 import SummerIntensives from "./components/SummerIntensives";
 import AuditionGuidelines from "./components/AuditionGuidelines";
@@ -64,6 +65,10 @@ export default function App() {
             element={<TheLittleMermaid2025 />}
           />
           <Route path="performances/swanlake2026" element={<SwanLake2026 />} />
+          <Route
+            path="performances/thesleepingbeauty2026"
+            element={<SleepingBeauty2026 />}
+          />
           <Route path="scholarships" element={<Scholarships />} />
           <Route path="nyliaballetcompany" element={<NBC />} />
           <Route path="nyliaballetyouthcompany" element={<NBYC />} />
