@@ -9,19 +9,19 @@ import perfSect2ImgLg from "../../assets/performances/SwanLake2026/SwanLake2026P
 import perfSect2ImgXL from "../../assets/performances/SwanLake2026/SwanLake2026Poster-2000.png";
 
 // Gallery Images
-import gallery1 from "../../assets/performances/SwanLake2025/gallery/1.png";
-import gallery2 from "../../assets/performances/SwanLake2025/gallery/2.png";
-import gallery3 from "../../assets/performances/SwanLake2025/gallery/3.png";
-import gallery4 from "../../assets/performances/SwanLake2025/gallery/4.png";
-import gallery5 from "../../assets/performances/SwanLake2025/gallery/5.png";
-import gallery6 from "../../assets/performances/SwanLake2025/gallery/6.png";
+// import gallery1 from "../../assets/performances/SwanLake2025/gallery/1.png";
+// import gallery2 from "../../assets/performances/SwanLake2025/gallery/2.png";
+// import gallery3 from "../../assets/performances/SwanLake2025/gallery/3.png";
+// import gallery4 from "../../assets/performances/SwanLake2025/gallery/4.png";
+// import gallery5 from "../../assets/performances/SwanLake2025/gallery/5.png";
+// import gallery6 from "../../assets/performances/SwanLake2025/gallery/6.png";
 
 import handbook from "../../assets/performances/SwanLake2026/SwanLakeHandbook2025-2026.pdf";
 import castList from "../../assets/performances/SwanLake2026/ SwanLake2025-2026CastList.pdf";
 import rehearsalAttire from "../../assets/performances/SwanLake2026/SwanLake25-26RehearsalAttire.pdf";
 import rehearsalSchedule from "../../assets/performances/SwanLake2026/SwanLake2026RehearsalSchedule.pdf";
 import costumeReqs from "../../assets/performances/SwanLake2026/SwanLake2026CostumeReqs.png";
-// import program from "../../assets/performances/SwanLake2025/Swan Lake Program 2025.pdf";
+import program from "../../assets/performances/SwanLake2026/SwanLake2026Program.pdf";
 
 import PerformanceTemplate from "./templates/PerformanceTemplate";
 
@@ -44,9 +44,9 @@ function SwanLake2026() {
   };
 
   const importantLinks = [
-    { buttonLabel: "Cast list", buttonLink: castList },
-    { buttonLabel: "Rehearsal Attire", buttonLink: rehearsalAttire },
-    { buttonLabel: "rehearsal schedule", buttonLink: rehearsalSchedule },
+    // { buttonLabel: "Cast list", buttonLink: castList },
+    // { buttonLabel: "Rehearsal Attire", buttonLink: rehearsalAttire },
+    // { buttonLabel: "rehearsal schedule", buttonLink: rehearsalSchedule },
     { buttonLabel: "Costume Requirements", buttonLink: costumeReqs },
     // { buttonLabel: "communications", buttonLink: "" }, //todo
     // { buttonLabel: "volunteers", buttonLink: "" }, //todo
@@ -133,14 +133,14 @@ function SwanLake2026() {
   ];
 
   // const galleryImages = [{ imageSrc: "", title: "title", caption: "caption" }];
-  const galleryImages = [
-    { imageSrc: gallery1 },
-    { imageSrc: gallery2 },
-    { imageSrc: gallery3 },
-    { imageSrc: gallery4 },
-    { imageSrc: gallery5 },
-    { imageSrc: gallery6 },
-  ];
+  // const galleryImages = [
+  //   { imageSrc: gallery1 },
+  //   { imageSrc: gallery2 },
+  //   { imageSrc: gallery3 },
+  //   { imageSrc: gallery4 },
+  //   { imageSrc: gallery5 },
+  //   { imageSrc: gallery6 },
+  // ];
 
   return (
     <div id="swanLake2026Div">
@@ -154,9 +154,10 @@ function SwanLake2026() {
         perfSect2ButtonLink={perfSect2ButtonLink}
         perfSect2Images={perfSect2Images}
         importantLinks={importantLinks}
-        eventCalendar={eventCalendar}
+        // eventCalendar={eventCalendar}
         // galleryImages={galleryImages}
-        performanceWeek={false}
+        performanceWeek={true}
+        perfSect2PerformanceWeekButtonLink={program}
       />
       <Footer />
     </div>
