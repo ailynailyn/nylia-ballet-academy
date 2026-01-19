@@ -74,23 +74,25 @@ function Home() {
 
       <div className="description">
         <br></br>
-        <h1>SWAN LAKE</h1>
-        <h4>01.17.2025</h4>
+        <h1>AUDITION FOR THE SLEEPING BEAUTY!</h1>
+        <h4>02.01.2026</h4>
         <p>
           {" "}
           <br></br>
-          The most beloved ballet of all time, Swan Lake makes its
-          highly-anticipated return to the El Paso-Juárez-Las Cruces community!
-          Reserve your seats now on TicketMaster or UTEP Box Offices! <br></br>
-          <br></br>
-          <i>Saturday, January 17th at UTEP's Magoffin Auditorium</i> <br></br>
+          Audition for The Sleeping Beauty, our second performance of this
+          timeless ballet, brought to life with Tchaikovsky’s unforgettable
+          music, breathtaking sets and costumes, and a world of magic, fairies,
+          and princesses. With more than 30 roles to be cast, this is a
+          beautiful opportunity to become part of an enchanting production and
+          share the stage in a truly magical performance with the Nylia Ballet
+          Company. <br></br>
         </p>{" "}
         <br></br>
         <a
           id="description-event-button"
-          href="https://www.ticketmaster.com/swan-lake-el-paso-texas-01-17-2026/event/0C00635CB3AF5500"
+          href="/performances/thesleepingbeauty2026"
         >
-          <NyliaButton label={"SWAN LAKE"}></NyliaButton>
+          <NyliaButton label={"THE SLEEPING BEAUTY"}></NyliaButton>
         </a>
         <br></br>
         <br></br>
