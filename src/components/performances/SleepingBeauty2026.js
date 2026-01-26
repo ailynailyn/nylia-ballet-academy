@@ -7,7 +7,7 @@ import perfSect2ImgSm from "../../assets/performances/SleepingBeauty2026/2026Sle
 import perfSect2ImgMd from "../../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditionsDetails-768.png";
 import perfSect2ImgLg from "../../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditionsDetails-1280.png";
 import perfSect2ImgXL from "../../assets/performances/SleepingBeauty2026/2026SleepingBeautyAuditionsDetails-2000.png";
-// import handbook from "../../assets/performances/SleepingBeauty2025/SleepingBeautyHandbook2025.pdf";
+import handbookLink from "../../assets/performances/SleepingBeauty2026/SleepingBeautyHandbook2026.pdf";
 // import castList from "../../assets/performances/SleepingBeauty2025/Sleeping Beauty 2025 Cast List.pdf";
 // import rehearsalSchedule from "../../assets/performances/SleepingBeauty2025/SleepingBeautyRehearsalSchedule.png";
 // import rehearsalReqs from "../../assets/performances/SleepingBeauty2025/SwanLake2024RehearsalReqs.png";
@@ -24,7 +24,7 @@ function SleepingBeauty2026() {
   const showDate = "June 27, 2026";
   const headerDescription = `Visit an enchanting world of princesses, fairy godmothers, and magical spells!`;
   const program = "";
-  const handbook = "";
+  const handbook = handbookLink;
 
   const auditionDate = "FEBRUARY 1, 2026";
   const perfSect2ButtonLink =
